@@ -34,6 +34,18 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
+if ($do === 'setkey') {
+    $k = (string) ($_GET['k'] ?? '');
+    if (! preg_match('~^base64:[A-Za-z0-9+/=]+$~', $k)) { exit("gecersiz key\n"); }
+    $envContent = (string) @file_get_contents("$repo/.env");
+    $envContent = preg_replace('/^APP_KEY=.*$/m', 'APP_KEY=' . $k, $envContent);
+    @file_put_contents("$repo/.env", $envContent);
+    if ($php2 = findbin(['/usr/local/bin/php', '/opt/cpanel/ea-php82/root/usr/bin/php', 'php'], 'PHP ')) {
+        echo @shell_exec("cd $repo && $php2 artisan config:clear 2>&1");
+        echo @shell_exec("cd $repo && $php2 artisan optimize:clear 2>&1");
+    }
+    exit("APP_KEY ayarlandi (yeni token = bu key)\n");
+}
 if ($do === 'debug') {
     $v = ($_GET['v'] ?? '1') === '1' ? 'true' : 'false';
     $envContent = (string) @file_get_contents("$repo/.env");
