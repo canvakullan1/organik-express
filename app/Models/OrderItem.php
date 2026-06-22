@@ -1,0 +1,31 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+class OrderItem extends Model
+{
+    protected $fillable = [
+        'order_id', 'product_id', 'variant_id', 'name', 'variant_name',
+        'unit', 'unit_price', 'quantity', 'line_total', 'is_weight_based',
+    ];
+
+    protected $casts = [
+        'unit_price' => 'decimal:2',
+        'quantity' => 'decimal:3',
+        'line_total' => 'decimal:2',
+        'is_weight_based' => 'boolean',
+    ];
+
+    public function order(): BelongsTo
+    {
+        return $this->belongsTo(Order::class);
+    }
+
+    public function product(): BelongsTo
+    {
+        return $this->belongsTo(Product::class);
+    }
+}

@@ -1,0 +1,201 @@
+@extends('layouts.storefront')
+
+@section('title', 'Ödeme — ' . app(\App\Settings\GeneralSettings::class)->site_name)
+
+@php($try = fn ($v) => '₺' . number_format((float) $v, 2, ',', '.'))
+
+@section('content')
+<div class="mx-auto max-w-6xl px-4 py-8"
+     x-data="{
+        payment: '{{ $methods->first()?->key() }}',
+        billingSame: true,
+        usePoints: false,
+        sub: {{ $pricing['subtotal'] }},
+        couponDiscount: {{ $pricing['coupon_discount'] }},
+        redeemable: {{ $pricing['redeemable'] }},
+        shipping: {{ $pricing['shipping'] }},
+        get loyalty() { return this.usePoints ? this.redeemable : 0 },
+        get total() { return Math.max(0, this.sub - this.couponDiscount - this.loyalty) + this.shipping },
+        fmt(v) { return '₺' + Number(v).toLocaleString('tr-TR', {minimumFractionDigits:2, maximumFractionDigits:2}) }
+     }">
+    <h1 class="font-display text-2xl sm:text-3xl font-700 text-bark mb-6">Ödeme</h1>
+
+    @if($errors->any())
+        <div class="mb-5 rounded-lg bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700">
+            {{ $errors->first() }}
+        </div>
+    @endif
+
+    <form method="POST" action="{{ route('checkout.store') }}" class="grid lg:grid-cols-3 gap-6">
+        @csrf
+        <div class="lg:col-span-2 space-y-5">
+
+            {{-- Teslimat adresi --}}
+            <section class="rounded-2xl border border-paper bg-white p-5">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="font-700 text-bark">1 · Teslimat Adresi</h2>
+                    <a href="{{ route('account.address.create', ['return' => 'checkout']) }}" class="text-sm font-600 text-leaf-700 hover:underline">+ Yeni adres</a>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-3">
+                    @foreach($addresses as $a)
+                        <label class="relative flex cursor-pointer rounded-xl border-2 p-4 transition has-[:checked]:border-leaf-500 has-[:checked]:bg-leaf-50/50 border-paper">
+                            <input type="radio" name="shipping_address_id" value="{{ $a->id }}" class="sr-only peer" {{ $a->id == $defaultAddressId ? 'checked' : '' }}>
+                            <div class="text-sm">
+                                <span class="font-700 text-bark">{{ $a->title }}</span>
+                                <p class="text-bark/70 mt-0.5">{{ $a->full_name }} · {{ $a->phone }}</p>
+                                <p class="text-bark/60 mt-1 leading-snug">{{ \Illuminate\Support\Str::limit($a->address, 60) }}, {{ $a->district }}/{{ $a->city }}</p>
+                            </div>
+                        </label>
+                    @endforeach
+                </div>
+                <label class="flex items-center gap-2 text-sm mt-4">
+                    <input type="checkbox" name="billing_same" value="1" x-model="billingSame" class="rounded border-paper text-leaf-600">
+                    Fatura adresim teslimat adresimle aynı
+                </label>
+                <div x-show="!billingSame" x-cloak class="mt-3">
+                    <label class="block text-sm font-600 mb-1.5">Fatura Adresi</label>
+                    <select name="billing_address_id" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
+                        <option value="">Seçin…</option>
+                        @foreach($addresses as $a)
+                            <option value="{{ $a->id }}">{{ $a->title }} — {{ $a->full_name }}</option>
+                        @endforeach
+                    </select>
+                </div>
+            </section>
+
+            {{-- Teslimat zamanı --}}
+            <section class="rounded-2xl border border-paper bg-white p-5">
+                <h2 class="font-700 text-bark mb-4">2 · Teslimat Zamanı</h2>
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-600 mb-1.5">Teslimat Günü</label>
+                        <select name="delivery_date" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
+                            @foreach($deliveryDates as $d)
+                                <option value="{{ $d->format('Y-m-d') }}">{{ $d->translatedFormat('d F Y, l') }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-600 mb-1.5">Zaman Aralığı</label>
+                        <select name="delivery_slot" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
+                            @foreach($deliverySlots as $slot)
+                                <option value="{{ $slot }}">{{ $slot }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <label class="block text-sm font-600 mb-1.5">Sipariş Notu <span class="font-400 text-bark/40">(opsiyonel)</span></label>
+                    <textarea name="note" rows="2" placeholder="Kapı kodu, teslimat tercihi…" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">{{ old('note') }}</textarea>
+                </div>
+            </section>
+
+            {{-- Ödeme yöntemi --}}
+            <section class="rounded-2xl border border-paper bg-white p-5">
+                <h2 class="font-700 text-bark mb-4">3 · Ödeme Yöntemi</h2>
+                @if($methods->isEmpty())
+                    <p class="text-sm text-red-600">Aktif ödeme yöntemi yok. Lütfen yönetici ile iletişime geçin.</p>
+                @endif
+                <div class="space-y-3">
+                    @foreach($methods as $m)
+                        <label class="block cursor-pointer rounded-xl border-2 p-4 transition has-[:checked]:border-leaf-500 has-[:checked]:bg-leaf-50/50 border-paper">
+                            <div class="flex items-center gap-3">
+                                <input type="radio" name="payment_method" value="{{ $m->key() }}" x-model="payment" class="text-leaf-600">
+                                <div>
+                                    <span class="font-700 text-bark">{{ $m->label() }}</span>
+                                    <p class="text-xs text-bark/60">{{ $m->description() }}</p>
+                                </div>
+                            </div>
+
+                            {{-- Test kartı alanı --}}
+                            @if($m->key() === 'test')
+                                <div x-show="payment === 'test'" x-cloak class="mt-3 pl-7">
+                                    <input name="card_number" value="4111 1111 1111 1111"
+                                           class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm tnum focus:border-leaf-400 focus:outline-none">
+                                    <p class="mt-1 text-xs text-bark/50">Demo: başarılı için 4111 1111 1111 1111</p>
+                                </div>
+                            @endif
+                            {{-- Havale bilgisi --}}
+                            @if($m->key() === 'bank_transfer')
+                                @php($c = app(\App\Settings\CheckoutSettings::class))
+                                <div x-show="payment === 'bank_transfer'" x-cloak class="mt-3 pl-7 text-sm text-bark/70">
+                                    <p>{{ $c->bank_name }} · {{ $c->bank_account_holder }}</p>
+                                    <p class="font-600">IBAN: {{ $c->bank_iban }}</p>
+                                    <p class="text-xs text-bark/50 mt-1">Sipariş sonrası bu bilgiler e-postanıza da gönderilir.</p>
+                                </div>
+                            @endif
+                            {{-- Kart (iyzico/paytr) yönlendirme notu --}}
+                            @if(in_array($m->key(), ['iyzico', 'paytr']))
+                                <div x-show="payment === '{{ $m->key() }}'" x-cloak class="mt-3 pl-7 text-xs text-bark/50">
+                                    Güvenli 3D Secure ödeme sayfasına yönlendirileceksiniz.
+                                </div>
+                            @endif
+                        </label>
+                    @endforeach
+                </div>
+            </section>
+
+            {{-- Sözleşmeler --}}
+            <section class="rounded-2xl border border-paper bg-white p-5">
+                <label class="flex items-start gap-2 text-sm text-bark/80">
+                    <input type="checkbox" name="agree" value="1" class="mt-0.5 rounded border-paper text-leaf-600">
+                    <span><a href="{{ url('/sayfa/mesafeli-satis-sozlesmesi') }}" target="_blank" class="text-leaf-700 hover:underline">Mesafeli Satış Sözleşmesi</a> ve <a href="{{ url('/sayfa/on-bilgilendirme-formu') }}" target="_blank" class="text-leaf-700 hover:underline">Ön Bilgilendirme Formu</a>'nu okudum, onaylıyorum.</span>
+                </label>
+                @error('agree')<p class="mt-2 text-xs text-red-600">{{ $message }}</p>@enderror
+            </section>
+        </div>
+
+        {{-- Özet --}}
+        <aside class="lg:col-span-1">
+            <div class="rounded-2xl border border-paper bg-white p-5 lg:sticky lg:top-44">
+                <h2 class="font-700 text-bark mb-4">Sipariş Özeti</h2>
+                <div class="space-y-3 max-h-64 overflow-y-auto">
+                    @foreach($items as $row)
+                        <div class="flex gap-3 text-sm">
+                            <div class="size-12 rounded-lg bg-paper bg-cover bg-center shrink-0" @if($row['cover']) style="background-image:url({{ $row['cover'] }})" @endif></div>
+                            <div class="flex-1 min-w-0">
+                                <p class="font-600 text-bark truncate">{{ $row['name'] }}</p>
+                                <p class="text-xs text-bark/50">{{ rtrim(rtrim(number_format($row['qty'],3,',','.'),'0'),',') }} × {{ $try($row['unit_price']) }}</p>
+                            </div>
+                            <span class="font-600 text-bark tnum">{{ $try($row['line_total']) }}</span>
+                        </div>
+                    @endforeach
+                </div>
+
+                {{-- Para puan kullanımı --}}
+                @if($pricing['redeemable'] > 0)
+                    <label class="mt-4 flex items-start gap-2 rounded-xl bg-leaf-50 border border-leaf-200 p-3 cursor-pointer">
+                        <input type="checkbox" x-model="usePoints" class="mt-0.5 rounded border-leaf-300 text-leaf-600">
+                        <span class="text-sm">
+                            <span class="font-600 text-leaf-800">Para puanımı kullan</span>
+                            <span class="block text-xs text-leaf-700/80">{{ number_format($pricing['redeemable'], 0, ',', '.') }} puan ({{ $try($pricing['redeemable']) }}) · bakiye: {{ number_format($loyaltyBalance, 0, ',', '.') }}</span>
+                        </span>
+                    </label>
+                @endif
+                <input type="hidden" name="loyalty_points" :value="loyalty">
+
+                <div class="mt-4 pt-4 border-t border-paper space-y-2 text-sm">
+                    <div class="flex justify-between"><span class="text-bark/60">Ara Toplam</span><span class="tnum">{{ $try($pricing['subtotal']) }}</span></div>
+                    @if($pricing['coupon'])
+                        <div class="flex justify-between text-leaf-700"><span>Kupon ({{ $pricing['coupon']->code }})</span><span class="tnum">-{{ $try($pricing['coupon_discount']) }}</span></div>
+                    @endif
+                    <div class="flex justify-between text-leaf-700" x-show="usePoints" x-cloak><span>Para Puan</span><span class="tnum" x-text="'-' + fmt(loyalty)"></span></div>
+                    <div class="flex justify-between"><span class="text-bark/60">Kargo</span>
+                        <span class="tnum">{{ $pricing['shipping'] > 0 ? $try($pricing['shipping']) : 'Ücretsiz' }}</span>
+                    </div>
+                    @if($pricing['shipping'] > 0)
+                        <p class="text-xs text-leaf-700">{{ $try($threshold - $pricing['subtotal']) }} daha ekle, kargo bedava!</p>
+                    @endif
+                    <div class="flex justify-between pt-2 border-t border-paper">
+                        <span class="font-700 text-bark">Toplam</span>
+                        <span class="font-700 text-lg text-leaf-700 tnum" x-text="fmt(total)">{{ $try($pricing['grand_total']) }}</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-leaf w-full !rounded-lg mt-5">Siparişi Tamamla</button>
+                <p class="mt-3 text-center text-xs text-bark/40">256-bit SSL ile güvenli ödeme · KDV dahil fiyatlar</p>
+            </div>
+        </aside>
+    </form>
+</div>
+@endsection

@@ -1,0 +1,119 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/*
+| Organik Ürün — Tasarım Sistemi (Tailwind v4 CSS-first)
+| Palet: yaprak yeşili (marka) + kil/toprak aksanı + krem kâğıt zemin + koyu kabuk metin.
+| Tipografi: Fraunces (başlık, sıcak serif) + Plus Jakarta Sans (gövde).
+*/
+@theme {
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Fraunces', ui-serif, Georgia, serif;
+
+    /* Yaprak yeşili — marka rengi */
+    --color-leaf-50: #f1f8f0;
+    --color-leaf-100: #ddeeda;
+    --color-leaf-200: #bcddb7;
+    --color-leaf-300: #90c489;
+    --color-leaf-400: #63a85b;
+    --color-leaf-500: #438c3c;
+    --color-leaf-600: #316f2c;
+    --color-leaf-700: #285825;
+    --color-leaf-800: #234621;
+    --color-leaf-900: #1f3a1e;
+    --color-leaf-950: #0d1f0d;
+
+    /* Kil / toprak — sıcak aksan */
+    --color-clay-50: #fbf6f1;
+    --color-clay-100: #f4e7da;
+    --color-clay-200: #e8ceb5;
+    --color-clay-300: #daad87;
+    --color-clay-400: #cd8a5c;
+    --color-clay-500: #c2703f;
+    --color-clay-600: #b45a34;
+    --color-clay-700: #96452d;
+    --color-clay-800: #7a392b;
+    --color-clay-900: #643124;
+    --color-clay-950: #351711;
+
+    /* Zemin & metin — market tarzı: beyaz ana zemin, nötr açık gri yüzeyler */
+    --color-cream: #f4f7f2;   /* çok hafif yeşil-gri yüzey (bölüm/kart arkası) */
+    --color-paper: #e7ebe5;   /* nötr açık kenarlık/ayraç */
+    --color-bark: #1f2a23;    /* koyu metin */
+}
+
+@layer base {
+    [x-cloak] {
+        display: none !important;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #ffffff;
+        color: var(--color-bark);
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+
+    h1, h2, h3, .font-display {
+        font-family: var(--font-display);
+        font-optical-sizing: auto;
+        letter-spacing: -0.015em;
+    }
+
+    ::selection {
+        background-color: var(--color-leaf-200);
+        color: var(--color-leaf-950);
+    }
+
+    /* Fiyat ve sayısal alanlar hizalı dursun */
+    .tnum {
+        font-variant-numeric: tabular-nums;
+        font-feature-settings: 'tnum';
+    }
+}
+
+@layer components {
+    .btn-leaf {
+        @apply inline-flex items-center justify-center gap-2 rounded-xl bg-leaf-600 px-5 py-2.5
+               font-semibold text-white shadow-sm transition-all duration-200
+               hover:bg-leaf-700 hover:shadow active:scale-[0.98]
+               focus:outline-none focus-visible:ring-2 focus-visible:ring-leaf-400 focus-visible:ring-offset-2;
+    }
+
+    .btn-ghost {
+        @apply inline-flex items-center justify-center gap-2 rounded-xl border border-paper bg-white px-5 py-2.5
+               font-semibold text-bark transition-all duration-200
+               hover:border-leaf-300 hover:text-leaf-800 hover:shadow-sm
+               focus:outline-none focus-visible:ring-2 focus-visible:ring-leaf-300 focus-visible:ring-offset-2;
+    }
+
+    .chip {
+        @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold;
+    }
+
+    /* Premium kart: ince kenarlık + yumuşak gölge, hover'da hafif yükselme */
+    .card-lift {
+        @apply transition-all duration-300;
+        box-shadow: 0 1px 2px rgb(28 35 30 / 0.04);
+    }
+    .card-lift:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px -8px rgb(28 35 30 / 0.14), 0 2px 6px rgb(28 35 30 / 0.05);
+    }
+
+    /* Görsel gelene kadar premium yer tutucu yüzeyi */
+    .media-placeholder {
+        background:
+            radial-gradient(circle at 30% 20%, rgb(255 255 255 / 0.7), transparent 50%),
+            linear-gradient(160deg, var(--color-cream), var(--color-paper));
+    }
+}
