@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8A9A2B"/><stop offset="1" stop-color="#55611C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="620" fill="url(#bg)"/>
+  <rect width="1600" height="620" fill="url(#glow)"/>
+  <!-- bokeh -->
+  <g fill="#ffffff"><circle cx="1500" cy="90" r="9" opacity="0.25"/><circle cx="1380" cy="60" r="6" opacity="0.18"/><circle cx="1240" cy="120" r="5" opacity="0.15"/><circle cx="1560" cy="300" r="7" opacity="0.2"/></g>
+  <!-- taze ürün kümesi (sag) -->
+  <g transform="translate(1140 350)">
+    <ellipse cx="120" cy="160" rx="430" ry="120" fill="#000000" opacity="0.10"/>
+    <!-- yaprak yatak -->
+    <g fill="#ffffff" opacity="0.16">
+      <path d="M-120 70 C -180 0 -120 -90 -20 -70 C -60 -10 -80 50 -120 70 Z"/>
+      <path d="M300 60 C 370 0 340 -100 230 -90 C 280 -20 290 30 300 60 Z"/>
+    </g>
+    <!-- domates -->
+    <circle cx="40" cy="40" r="95" fill="#ffffff" opacity="0.95"/>
+    <path d="M40 -55 q -6 -18 -28 -22 q 4 22 28 22 z" fill="#ffffff" opacity="0.7"/>
+    <!-- elma -->
+    <circle cx="200" cy="70" r="78" fill="#ffffff" opacity="0.85"/>
+    <!-- limon/portakal -->
+    <circle cx="-70" cy="95" r="64" fill="#ffffff" opacity="0.8"/>
+    <!-- üzüm benekleri -->
+    <g fill="#ffffff" opacity="0.7"><circle cx="270" cy="-30" r="26"/><circle cx="312" cy="-8" r="26"/><circle cx="252" cy="6" r="26"/><circle cx="294" cy="28" r="26"/></g>
+    <!-- yaprak vurgusu -->
+    <path d="M120 -90 C 200 -150 300 -130 300 -130 C 270 -60 200 -50 120 -90 Z" fill="#ffffff" opacity="0.6"/>
+  </g>
+</svg>

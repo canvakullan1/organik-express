@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <circle cx="120" cy="120" r="110" fill="none" stroke="#1e7274" stroke-width="8"/>
+  <circle cx="120" cy="120" r="92" fill="#1e7274" opacity="0.08"/>
+  <path d="M95 122 l18 18 l34 -40" fill="none" stroke="#1e7274" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="120" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e7274">HELAL</text>
+</svg>
