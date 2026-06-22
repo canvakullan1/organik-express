@@ -35,11 +35,19 @@ if ($do === 'log') {
     exit(implode("\n", array_slice($lines, -$n)));
 }
 if ($do === 'deltest') {
-    // Yalnızca test e-postalı siparişleri sil (deneme.com / test.com)
-    $php2 = findbin(['/usr/local/bin/php', '/opt/cpanel/ea-php82/root/usr/bin/php', 'php'], 'PHP ');
-    $code = "\$ords=App\\\\Models\\\\Order::where('contact_email','like','%deneme.com')->orWhere('contact_email','like','%@test.com')->get();foreach(\$ords as \$o){\$o->items()->delete();\$o->payments()->delete();\$o->delete();}echo 'silinen:'.\$ords->count();";
-    echo @shell_exec("cd $repo && $php2 artisan tinker --execute=" . escapeshellarg($code) . " 2>&1");
-    exit("\n");
+    // Laravel'i bootstrap edip test siparişlerini Eloquent ile sil
+    require "$repo/vendor/autoload.php";
+    $app = require "$repo/bootstrap/app.php";
+    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+    $ords = \App\Models\Order::where('contact_email', 'like', '%deneme.com')
+        ->orWhere('contact_email', 'like', '%@test.com')->get();
+    $ids = $ords->pluck('id')->all();
+    foreach ($ords as $o) {
+        $o->items()->delete();
+        $o->payments()->delete();
+        $o->delete();
+    }
+    exit('silinen test siparisi: ' . count($ids) . ' (id: ' . implode(',', $ids) . ")\n");
 }
 if ($do === 'setkey') {
     $k = (string) ($_GET['k'] ?? '');
