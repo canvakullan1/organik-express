@@ -1,16 +1,26 @@
 <?php
-// Geçici operasyon ucu. Token = .env'deki APP_KEY (repoda gizli değil).
-$env = @file_get_contents('/home/organikexpress/repositories/site/.env');
+// Operasyon ucu. Token = .env'deki APP_KEY (repoda gizli değil).
+$repo = '/home/organikexpress/repositories/site';
+$docroot = '/home/organikexpress/public_html';
+$publicStorage = $docroot . '/storage';
+
+$env = @file_get_contents($repo . '/.env');
 preg_match('/APP_KEY=(.*)/', (string) $env, $m);
 $secret = trim($m[1] ?? '');
 if ($secret === '' || ($_GET['token'] ?? '') !== $secret) { http_response_code(403); exit('forbidden'); }
 
 header('Content-Type: text/plain; charset=utf-8');
-set_time_limit(120);
-
-$repo = '/home/organikexpress/repositories/site';
+set_time_limit(300);
 $log = "$repo/storage/logs/laravel.log";
 $do = $_GET['do'] ?? '';
+
+if (! function_exists('shell_exec')) { exit("shell_exec KAPALI\n"); }
+function findbin($cands, $needle) {
+    foreach ($cands as $c) { $v = @shell_exec("$c --version 2>&1"); if ($v && stripos($v, $needle) !== false) return $c; }
+    return null;
+}
+$git = findbin(['git', '/usr/bin/git', '/usr/local/cpanel/3rdparty/bin/git', '/opt/cpanel/git/bin/git', '/usr/local/bin/git'], 'git version');
+$php = findbin(['/usr/local/bin/php', '/opt/cpanel/ea-php82/root/usr/bin/php', '/opt/cpanel/ea-php83/root/usr/bin/php', 'php'], 'PHP ');
 
 if ($do === 'errmsg') {
     if (! file_exists($log)) { exit("log yok\n"); }
@@ -25,11 +35,42 @@ if ($do === 'log') {
     exit(implode("\n", array_slice($lines, -$n)));
 }
 if ($do === 'lsimg') {
-    $doc = '/home/organikexpress/public_html';
-    echo "public_html/storage link: " . (is_link("$doc/storage") ? readlink("$doc/storage") : (is_dir("$doc/storage") ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
-    echo "link uzerinden banners/photo-1.jpg: " . (file_exists("$doc/storage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
-    echo "repo'da banners/photo-1.jpg: " . (file_exists("$repo/storage/app/public/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
-    echo "repo banners listesi:\n" . @shell_exec("ls -1 $repo/storage/app/public/banners 2>&1");
+    echo "public_html/storage: " . (is_link($publicStorage) ? 'symlink->' . readlink($publicStorage) : (is_dir($publicStorage) ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
+    echo "banners/photo-1.jpg: " . (file_exists("$publicStorage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
+    echo "icindekiler: " . @shell_exec("ls -1 $publicStorage 2>&1");
     exit;
 }
-exit("ops: ?do=errmsg | ?do=log&n=N | ?do=lsimg\n");
+if ($do === 'deploy') {
+    if (! $git) { exit("git bulunamadi\n"); }
+    echo "git=$git php=$php\n";
+    echo @shell_exec("cd $repo && $git fetch origin main 2>&1");
+    echo @shell_exec("cd $repo && $git reset --hard origin/main 2>&1");
+    echo "HEAD: " . @shell_exec("cd $repo && $git rev-parse --short HEAD 2>&1");
+
+    // .env'e PUBLIC_DISK_ROOT ekle (yoksa) — yuklemeler public_html/storage'a gitsin
+    if (strpos((string) @file_get_contents("$repo/.env"), 'PUBLIC_DISK_ROOT') === false) {
+        @file_put_contents("$repo/.env", "\nPUBLIC_DISK_ROOT=$publicStorage\n", FILE_APPEND);
+        echo ".env: PUBLIC_DISK_ROOT eklendi\n";
+    }
+
+    if ($php) {
+        echo @shell_exec("cd $repo && $php artisan migrate --force 2>&1");
+        echo @shell_exec("cd $repo && $php artisan optimize:clear 2>&1");
+    }
+
+    // public/ -> public_html (build, htaccess, favicon...)
+    echo @shell_exec("cp -R $repo/public/. $docroot/ 2>&1");
+
+    // index.php'yi repo konumunu isaret eden baslatici yap
+    file_put_contents("$docroot/index.php", "<?php use Illuminate\\Foundation\\Application; use Illuminate\\Http\\Request; define('LARAVEL_START',microtime(true)); \$b='$repo'; if(file_exists(\$mm=\$b.'/storage/framework/maintenance.php'))require \$mm; require \$b.'/vendor/autoload.php'; (require_once \$b.'/bootstrap/app.php')->handleRequest(Request::capture());\n");
+
+    // STORAGE: symlink calismadigi icin GERCEK klasor + commit'li gorselleri kopyala
+    @shell_exec("rm -rf $publicStorage 2>&1");          // varsa symlink/eski klasoru kaldir
+    @mkdir($publicStorage, 0755, true);
+    echo @shell_exec("cp -R $repo/storage/app/public/. $publicStorage/ 2>&1");
+    @shell_exec("rm -f $publicStorage/.gitignore 2>&1");
+
+    echo "\nDEPLOY OK\n";
+    exit;
+}
+exit("ops: ?do=deploy | ?do=log&n=N | ?do=errmsg | ?do=lsimg\n");

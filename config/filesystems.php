@@ -40,7 +40,9 @@ return [
 
         'public' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
+            // Paylaşımlı hosting'de Apache symlink takip etmediği için yüklemeler
+            // doğrudan public_html altına (PUBLIC_DISK_ROOT) yazılır; yereldeyse varsayılan.
+            'root' => env('PUBLIC_DISK_ROOT', storage_path('app/public')),
             'url' => rtrim(env('APP_URL', 'http://localhost'), '/').'/storage',
             'visibility' => 'public',
             'throw' => false,
