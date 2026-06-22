@@ -9,14 +9,22 @@ use App\Settings\LoyaltySettings;
 
 class LoyaltyService
 {
-    public function balance(User $user): float
+    public function balance(?User $user): float
     {
+        if (! $user) {
+            return 0; // misafir
+        }
+
         return round((float) $user->loyaltyTransactions()->sum('points'), 2);
     }
 
     /** Bu sepet için kullanılabilecek en yüksek puan. */
-    public function maxRedeemable(User $user, float $subtotal): float
+    public function maxRedeemable(?User $user, float $subtotal): float
     {
+        if (! $user) {
+            return 0; // misafir puan kullanamaz
+        }
+
         $s = app(LoyaltySettings::class);
         if (! $s->enabled) {
             return 0;

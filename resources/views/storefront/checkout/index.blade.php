@@ -32,35 +32,98 @@
 
             {{-- Teslimat adresi --}}
             <section class="rounded-2xl border border-paper bg-white p-5">
-                <div class="flex items-center justify-between mb-4">
-                    <h2 class="font-700 text-bark">1 · Teslimat Adresi</h2>
-                    <a href="{{ route('account.address.create', ['return' => 'checkout']) }}" class="text-sm font-600 text-leaf-700 hover:underline">+ Yeni adres</a>
-                </div>
-                <div class="grid sm:grid-cols-2 gap-3">
-                    @foreach($addresses as $a)
-                        <label class="relative flex cursor-pointer rounded-xl border-2 p-4 transition has-[:checked]:border-leaf-500 has-[:checked]:bg-leaf-50/50 border-paper">
-                            <input type="radio" name="shipping_address_id" value="{{ $a->id }}" class="sr-only peer" {{ $a->id == $defaultAddressId ? 'checked' : '' }}>
-                            <div class="text-sm">
-                                <span class="font-700 text-bark">{{ $a->title }}</span>
-                                <p class="text-bark/70 mt-0.5">{{ $a->full_name }} · {{ $a->phone }}</p>
-                                <p class="text-bark/60 mt-1 leading-snug">{{ \Illuminate\Support\Str::limit($a->address, 60) }}, {{ $a->district }}/{{ $a->city }}</p>
-                            </div>
-                        </label>
-                    @endforeach
-                </div>
-                <label class="flex items-center gap-2 text-sm mt-4">
-                    <input type="checkbox" name="billing_same" value="1" x-model="billingSame" class="rounded border-paper text-leaf-600">
-                    Fatura adresim teslimat adresimle aynı
-                </label>
-                <div x-show="!billingSame" x-cloak class="mt-3">
-                    <label class="block text-sm font-600 mb-1.5">Fatura Adresi</label>
-                    <select name="billing_address_id" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
-                        <option value="">Seçin…</option>
+                @if($guest)
+                    {{-- ÜYELİKSİZ (MİSAFİR) ALIŞVERİŞ --}}
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="font-700 text-bark">1 · İletişim &amp; Teslimat Bilgileri</h2>
+                        <span class="text-sm text-bark/55">Üye misin? <a href="{{ route('login', ['return' => 'checkout']) }}" class="font-600 text-leaf-700 hover:underline">Giriş yap</a></span>
+                    </div>
+
+                    @if($errors->any())
+                        <div class="mb-4 rounded-lg bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700">
+                            Lütfen işaretli alanları kontrol edin.
+                        </div>
+                    @endif
+
+                    <div class="grid sm:grid-cols-2 gap-3">
+                        <div class="sm:col-span-2">
+                            <label class="block text-sm font-600 mb-1.5">E-posta <span class="text-red-500">*</span></label>
+                            <input type="email" name="guest_email" value="{{ old('guest_email') }}" required placeholder="ornek@eposta.com"
+                                   class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                            <p class="mt-1 text-xs text-bark/45">Sipariş bilgileri bu adrese gönderilir.</p>
+                            @error('guest_email')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
+                        </div>
+                        <div>
+                            <label class="block text-sm font-600 mb-1.5">Ad <span class="text-red-500">*</span></label>
+                            <input type="text" name="first_name" value="{{ old('first_name') }}" required class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                            @error('first_name')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
+                        </div>
+                        <div>
+                            <label class="block text-sm font-600 mb-1.5">Soyad <span class="text-red-500">*</span></label>
+                            <input type="text" name="last_name" value="{{ old('last_name') }}" required class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                            @error('last_name')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
+                        </div>
+                        <div>
+                            <label class="block text-sm font-600 mb-1.5">Telefon <span class="text-red-500">*</span></label>
+                            <input type="tel" name="phone" value="{{ old('phone') }}" required placeholder="05XX XXX XX XX" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                            @error('phone')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
+                        </div>
+                        <div>
+                            <label class="block text-sm font-600 mb-1.5">Posta Kodu</label>
+                            <input type="text" name="postal_code" value="{{ old('postal_code') }}" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-600 mb-1.5">İl <span class="text-red-500">*</span></label>
+                            <input type="text" name="city" value="{{ old('city') }}" required class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                            @error('city')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
+                        </div>
+                        <div>
+                            <label class="block text-sm font-600 mb-1.5">İlçe <span class="text-red-500">*</span></label>
+                            <input type="text" name="district" value="{{ old('district') }}" required class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                            @error('district')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label class="block text-sm font-600 mb-1.5">Mahalle</label>
+                            <input type="text" name="neighborhood" value="{{ old('neighborhood') }}" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label class="block text-sm font-600 mb-1.5">Açık Adres <span class="text-red-500">*</span></label>
+                            <textarea name="address" rows="2" required placeholder="Cadde, sokak, bina/daire no…" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">{{ old('address') }}</textarea>
+                            @error('address')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
+                        </div>
+                    </div>
+                @else
+                    {{-- ÜYE: adres defteri --}}
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="font-700 text-bark">1 · Teslimat Adresi</h2>
+                        <a href="{{ route('account.address.create', ['return' => 'checkout']) }}" class="text-sm font-600 text-leaf-700 hover:underline">+ Yeni adres</a>
+                    </div>
+                    <div class="grid sm:grid-cols-2 gap-3">
                         @foreach($addresses as $a)
-                            <option value="{{ $a->id }}">{{ $a->title }} — {{ $a->full_name }}</option>
+                            <label class="relative flex cursor-pointer rounded-xl border-2 p-4 transition has-[:checked]:border-leaf-500 has-[:checked]:bg-leaf-50/50 border-paper">
+                                <input type="radio" name="shipping_address_id" value="{{ $a->id }}" class="sr-only peer" {{ $a->id == $defaultAddressId ? 'checked' : '' }}>
+                                <div class="text-sm">
+                                    <span class="font-700 text-bark">{{ $a->title }}</span>
+                                    <p class="text-bark/70 mt-0.5">{{ $a->full_name }} · {{ $a->phone }}</p>
+                                    <p class="text-bark/60 mt-1 leading-snug">{{ \Illuminate\Support\Str::limit($a->address, 60) }}, {{ $a->district }}/{{ $a->city }}</p>
+                                </div>
+                            </label>
                         @endforeach
-                    </select>
-                </div>
+                    </div>
+                    <label class="flex items-center gap-2 text-sm mt-4">
+                        <input type="checkbox" name="billing_same" value="1" x-model="billingSame" class="rounded border-paper text-leaf-600">
+                        Fatura adresim teslimat adresimle aynı
+                    </label>
+                    <div x-show="!billingSame" x-cloak class="mt-3">
+                        <label class="block text-sm font-600 mb-1.5">Fatura Adresi</label>
+                        <select name="billing_address_id" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
+                            <option value="">Seçin…</option>
+                            @foreach($addresses as $a)
+                                <option value="{{ $a->id }}">{{ $a->title }} — {{ $a->full_name }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                @endif
             </section>
 
             {{-- Teslimat zamanı --}}

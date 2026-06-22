@@ -129,11 +129,11 @@ Route::middleware('auth')->group(function () {
 
         // Para Puanım
         Route::get('/hesabim/para-puanim', [AccountController::class, 'loyalty'])->name('account.loyalty');
-
-        // Checkout / Ödeme
-        Route::get('/odeme', [CheckoutController::class, 'index'])->name('checkout.index');
-        Route::post('/odeme', [CheckoutController::class, 'store'])->name('checkout.store');
-        Route::match(['get', 'post'], '/odeme/geri-donus/{gatewayKey}', [CheckoutController::class, 'callback'])->name('checkout.callback');
-        Route::get('/odeme/sonuc/{order}', [CheckoutController::class, 'success'])->name('checkout.success');
     });
 });
+
+// Checkout / Ödeme — üyeliksiz (misafir) alışverişe açık
+Route::get('/odeme', [CheckoutController::class, 'index'])->name('checkout.index');
+Route::post('/odeme', [CheckoutController::class, 'store'])->name('checkout.store');
+Route::match(['get', 'post'], '/odeme/geri-donus/{gatewayKey}', [CheckoutController::class, 'callback'])->name('checkout.callback');
+Route::get('/odeme/sonuc/{order}', [CheckoutController::class, 'success'])->name('checkout.success');

@@ -40,8 +40,10 @@ class CheckoutController extends Controller
         }
 
         $user = auth()->user();
-        $addresses = $user->addresses()->get();
-        if ($addresses->isEmpty()) {
+        $guest = ! $user;
+
+        $addresses = $user ? $user->addresses()->get() : collect();
+        if ($user && $addresses->isEmpty()) {
             return redirect()->route('account.address.create', ['return' => 'checkout'])
                 ->with('success', 'Devam etmek için bir teslimat adresi ekleyin.');
         }
@@ -51,12 +53,13 @@ class CheckoutController extends Controller
         $dates = collect(range(0, 6))->map(fn ($i) => now()->addDays($checkout->delivery_lead_days + $i));
 
         return view('storefront.checkout.index', [
+            'guest' => $guest,
             'items' => $this->cart->lines(),
             'pricing' => $pricing,
             'threshold' => (float) app(GeneralSettings::class)->free_shipping_threshold,
             'loyaltyBalance' => $this->loyalty->balance($user),
             'addresses' => $addresses,
-            'defaultAddressId' => optional($addresses->firstWhere('is_default', true))->id ?? $addresses->first()->id,
+            'defaultAddressId' => optional($addresses->firstWhere('is_default', true))->id ?? optional($addresses->first())->id,
             'methods' => $this->payments->available(),
             'deliveryDates' => $dates,
             'deliverySlots' => $checkout->delivery_slots,
@@ -70,30 +73,73 @@ class CheckoutController extends Controller
         }
 
         $available = $this->payments->available()->map->key()->all();
+        $user = auth()->user();
 
-        $data = $request->validate([
-            'shipping_address_id' => ['required', 'integer'],
-            'billing_same' => ['boolean'],
-            'billing_address_id' => ['nullable', 'integer', 'required_if:billing_same,0'],
+        $commonMessages = [
+            'payment_method.required' => 'Ödeme yöntemi seçin.',
+            'payment_method.in' => 'Geçersiz ödeme yöntemi.',
+            'agree.accepted' => 'Mesafeli satış ve ön bilgilendirme sözleşmelerini onaylamalısınız.',
+        ];
+        $commonRules = [
             'delivery_date' => ['nullable', 'date'],
             'delivery_slot' => ['nullable', 'string'],
             'payment_method' => ['required', 'string', 'in:' . implode(',', $available)],
             'note' => ['nullable', 'string', 'max:500'],
             'agree' => ['accepted'],
             'card_number' => ['nullable', 'string'],
-            'loyalty_points' => ['nullable', 'numeric', 'min:0'],
-        ], [
-            'shipping_address_id.required' => 'Teslimat adresi seçin.',
-            'payment_method.required' => 'Ödeme yöntemi seçin.',
-            'payment_method.in' => 'Geçersiz ödeme yöntemi.',
-            'agree.accepted' => 'Mesafeli satış ve ön bilgilendirme sözleşmelerini onaylamalısınız.',
-        ]);
+        ];
 
-        $user = auth()->user();
-        $shipping = $user->addresses()->findOrFail($data['shipping_address_id']);
-        $billing = $request->boolean('billing_same', true)
-            ? $shipping
-            : $user->addresses()->findOrFail($data['billing_address_id']);
+        $guestEmail = null;
+        $loyaltyPoints = 0.0;
+
+        if ($user) {
+            // Üye: adres defterinden
+            $data = $request->validate($commonRules + [
+                'shipping_address_id' => ['required', 'integer'],
+                'billing_same' => ['boolean'],
+                'billing_address_id' => ['nullable', 'integer', 'required_if:billing_same,0'],
+                'loyalty_points' => ['nullable', 'numeric', 'min:0'],
+            ], $commonMessages + ['shipping_address_id.required' => 'Teslimat adresi seçin.']);
+
+            $shipping = $user->addresses()->findOrFail($data['shipping_address_id']);
+            $billing = $request->boolean('billing_same', true)
+                ? $shipping
+                : $user->addresses()->findOrFail($data['billing_address_id']);
+            $loyaltyPoints = (float) ($data['loyalty_points'] ?? 0);
+        } else {
+            // Misafir: formdan adres (kaydedilmez, yalnız sipariş için)
+            $data = $request->validate($commonRules + [
+                'guest_email' => ['required', 'email:rfc', 'max:255'],
+                'first_name' => ['required', 'string', 'max:100'],
+                'last_name' => ['required', 'string', 'max:100'],
+                'phone' => ['required', 'string', 'max:30'],
+                'city' => ['required', 'string', 'max:100'],
+                'district' => ['required', 'string', 'max:100'],
+                'neighborhood' => ['nullable', 'string', 'max:150'],
+                'address' => ['required', 'string', 'max:500'],
+                'postal_code' => ['nullable', 'string', 'max:20'],
+            ], $commonMessages + [
+                'guest_email.required' => 'E-posta adresinizi girin.',
+                'first_name.required' => 'Adınızı girin.',
+                'phone.required' => 'Telefon numaranızı girin.',
+                'address.required' => 'Açık adresinizi girin.',
+            ]);
+
+            $shipping = new Address([
+                'title' => 'Teslimat',
+                'is_corporate' => false,
+                'first_name' => $data['first_name'],
+                'last_name' => $data['last_name'],
+                'phone' => $data['phone'],
+                'city' => $data['city'],
+                'district' => $data['district'],
+                'neighborhood' => $data['neighborhood'] ?? null,
+                'address' => $data['address'],
+                'postal_code' => $data['postal_code'] ?? null,
+            ]);
+            $billing = $shipping;
+            $guestEmail = $data['guest_email'];
+        }
 
         $order = $this->orders->placeFromCart(
             $user,
@@ -102,8 +148,14 @@ class CheckoutController extends Controller
             $data['payment_method'],
             ['date' => $data['delivery_date'] ?? null, 'slot' => $data['delivery_slot'] ?? null],
             $data['note'] ?? null,
-            (float) ($data['loyalty_points'] ?? 0),
+            $loyaltyPoints,
+            $guestEmail,
         );
+
+        // Misafir siparişine sonuç sayfasında erişebilmek için oturuma yaz
+        if (! $user) {
+            $request->session()->push('guest_orders', $order->id);
+        }
 
         $gateway = $this->payments->get($data['payment_method']);
         $result = $gateway->charge($order, $request->only('card_number'));
@@ -158,7 +210,9 @@ class CheckoutController extends Controller
 
     public function success(Order $order)
     {
-        abort_unless($order->user_id === auth()->id(), 403);
+        $owns = (auth()->check() && $order->user_id === auth()->id())
+            || in_array($order->id, (array) session('guest_orders', []), true);
+        abort_unless($owns, 403);
 
         return view('storefront.checkout.success', ['order' => $order->load('items')]);
     }

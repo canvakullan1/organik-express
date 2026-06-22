@@ -44,7 +44,7 @@ class OrderService
      *
      * @return array{subtotal:float,coupon:?\App\Models\Coupon,coupon_discount:float,loyalty_used:float,shipping:float,discount_total:float,grand_total:float,redeemable:float}
      */
-    public function pricing(User $user, string $paymentMethod, float $loyaltyRequested = 0): array
+    public function pricing(?User $user, string $paymentMethod, float $loyaltyRequested = 0): array
     {
         // Ara toplam tüm satırlardan (varyant + kutu); kupon kapsamı yalnız ürün satırları.
         $subtotal = round((float) $this->cart->lines()->sum('line_total'), 2);
@@ -86,15 +86,16 @@ class OrderService
     }
 
     public function placeFromCart(
-        User $user,
+        ?User $user,
         Address $shipping,
         Address $billing,
         string $paymentMethod,
         array $delivery = [],
         ?string $note = null,
         float $loyaltyRequested = 0,
+        ?string $guestEmail = null,
     ): Order {
-        return DB::transaction(function () use ($user, $shipping, $billing, $paymentMethod, $delivery, $note, $loyaltyRequested) {
+        return DB::transaction(function () use ($user, $shipping, $billing, $paymentMethod, $delivery, $note, $loyaltyRequested, $guestEmail) {
             $lines = $this->cart->lines();
             if ($lines->isEmpty()) {
                 throw new \RuntimeException('Sepetiniz boş.');
@@ -109,7 +110,7 @@ class OrderService
 
             $order = Order::create([
                 'order_number' => Order::generateNumber(),
-                'user_id' => $user->id,
+                'user_id' => $user?->id,
                 'status' => OrderStatus::AwaitingPayment,
                 'payment_status' => PaymentStatus::Pending,
                 'payment_method' => $methodValue,
@@ -121,7 +122,7 @@ class OrderService
                 'loyalty_used' => $p['loyalty_used'],
                 'grand_total' => $p['grand_total'],
                 'currency' => 'TRY',
-                'contact_email' => $user->email,
+                'contact_email' => $user?->email ?? $guestEmail,
                 'contact_phone' => $shipping->phone,
                 'shipping_address' => $shipping->toSnapshot(),
                 'billing_address' => $billing->toSnapshot(),
