@@ -177,11 +177,7 @@ class CartController extends Controller
             'value' => $this->cart->subtotal(),
         ]);
 
-        if (! auth()->check()) {
-            return redirect()->guest(route('login'))
-                ->with('success', 'Ödemeye devam etmek için giriş yapın veya üye olun.');
-        }
-
+        // Üyeliksiz (misafir) alışveriş açık — giriş zorunlu değil.
         return redirect()->route('checkout.index');
     }
 }
