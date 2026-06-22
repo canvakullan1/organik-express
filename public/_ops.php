@@ -34,6 +34,22 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
+if ($do === 'debug') {
+    $v = ($_GET['v'] ?? '1') === '1' ? 'true' : 'false';
+    $envContent = (string) @file_get_contents("$repo/.env");
+    $envContent = preg_replace('/^APP_DEBUG=.*$/m', "APP_DEBUG=$v", $envContent);
+    @file_put_contents("$repo/.env", $envContent);
+    if ($php = findbin(['/usr/local/bin/php', '/opt/cpanel/ea-php82/root/usr/bin/php', 'php'], 'PHP ')) {
+        echo @shell_exec("cd $repo && $php artisan config:clear 2>&1");
+    }
+    exit("APP_DEBUG=$v ayarlandi\n");
+}
+if ($do === 'phperr') {
+    foreach (["$repo/error_log", "$repo/public/error_log", '/home/organikexpress/public_html/error_log'] as $e) {
+        if (file_exists($e)) { echo "== $e ==\n"; echo implode("\n", array_slice(file($e, FILE_IGNORE_NEW_LINES), -25)) . "\n"; }
+    }
+    exit("(php error_log tarandi)\n");
+}
 if ($do === 'lsimg') {
     echo "public_html/storage: " . (is_link($publicStorage) ? 'symlink->' . readlink($publicStorage) : (is_dir($publicStorage) ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
     echo "banners/photo-1.jpg: " . (file_exists("$publicStorage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
