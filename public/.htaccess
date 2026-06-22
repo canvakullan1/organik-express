@@ -1,7 +1,10 @@
+# storage/ sembolik linkinin Apache tarafından takip edilebilmesi için (görseller)
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
+
+    Options +FollowSymLinks
 
     RewriteEngine On
 

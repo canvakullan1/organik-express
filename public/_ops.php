@@ -24,4 +24,12 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
-exit("ops: ?do=errmsg | ?do=log&n=N\n");
+if ($do === 'lsimg') {
+    $doc = '/home/organikexpress/public_html';
+    echo "public_html/storage link: " . (is_link("$doc/storage") ? readlink("$doc/storage") : (is_dir("$doc/storage") ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
+    echo "link uzerinden banners/photo-1.jpg: " . (file_exists("$doc/storage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
+    echo "repo'da banners/photo-1.jpg: " . (file_exists("$repo/storage/app/public/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
+    echo "repo banners listesi:\n" . @shell_exec("ls -1 $repo/storage/app/public/banners 2>&1");
+    exit;
+}
+exit("ops: ?do=errmsg | ?do=log&n=N | ?do=lsimg\n");
