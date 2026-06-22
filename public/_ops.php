@@ -34,33 +34,6 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
-if ($do === 'deltest') {
-    // Laravel'i bootstrap edip test siparişlerini Eloquent ile sil
-    require "$repo/vendor/autoload.php";
-    $app = require "$repo/bootstrap/app.php";
-    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
-    $ords = \App\Models\Order::where('contact_email', 'like', '%deneme.com')
-        ->orWhere('contact_email', 'like', '%@test.com')->get();
-    $ids = $ords->pluck('id')->all();
-    foreach ($ords as $o) {
-        $o->items()->delete();
-        $o->payments()->delete();
-        $o->delete();
-    }
-    exit('silinen test siparisi: ' . count($ids) . ' (id: ' . implode(',', $ids) . ")\n");
-}
-if ($do === 'setkey') {
-    $k = (string) ($_GET['k'] ?? '');
-    if (! preg_match('~^base64:[A-Za-z0-9+/=]+$~', $k)) { exit("gecersiz key\n"); }
-    $envContent = (string) @file_get_contents("$repo/.env");
-    $envContent = preg_replace('/^APP_KEY=.*$/m', 'APP_KEY=' . $k, $envContent);
-    @file_put_contents("$repo/.env", $envContent);
-    if ($php2 = findbin(['/usr/local/bin/php', '/opt/cpanel/ea-php82/root/usr/bin/php', 'php'], 'PHP ')) {
-        echo @shell_exec("cd $repo && $php2 artisan config:clear 2>&1");
-        echo @shell_exec("cd $repo && $php2 artisan optimize:clear 2>&1");
-    }
-    exit("APP_KEY ayarlandi (yeni token = bu key)\n");
-}
 if ($do === 'debug') {
     $v = ($_GET['v'] ?? '1') === '1' ? 'true' : 'false';
     $envContent = (string) @file_get_contents("$repo/.env");
@@ -112,6 +85,9 @@ if ($do === 'deploy') {
     @mkdir($publicStorage, 0755, true);
     echo @shell_exec("cp -R $repo/storage/app/public/. $publicStorage/ 2>&1");
     @shell_exec("rm -f $publicStorage/.gitignore 2>&1");
+
+    // Eski tek-seferlik deploy ucunu kaldir (artik _ops.php kullaniliyor)
+    @shell_exec("rm -f $docroot/_fix.php 2>&1");
 
     echo "\nDEPLOY OK\n";
     exit;
