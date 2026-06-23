@@ -16,7 +16,7 @@
         </div>
         <form method="POST" action="{{ route('logout') }}">
             @csrf
-            <button type="submit" class="btn-ghost !rounded-lg">Çıkış Yap</button>
+            <button type="submit" class="btn-ghost !rounded-full">Çıkış Yap</button>
         </form>
     </div>
 

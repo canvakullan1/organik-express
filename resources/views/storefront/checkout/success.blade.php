@@ -38,8 +38,8 @@
     </div>
 
     <div class="flex gap-3 mt-5">
-        <a href="{{ route('account.order.show', $order) }}" class="btn-leaf flex-1 !rounded-lg">Sipariş Detayı</a>
-        <a href="{{ route('home') }}" class="btn-ghost flex-1 !rounded-lg">Alışverişe Devam</a>
+        <a href="{{ route('account.order.show', $order) }}" class="btn-leaf flex-1 !rounded-full">Sipariş Detayı</a>
+        <a href="{{ route('home') }}" class="btn-ghost flex-1 !rounded-full">Alışverişe Devam</a>
     </div>
 </div>
 @endsection

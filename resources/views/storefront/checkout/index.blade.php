@@ -276,7 +276,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn-leaf w-full !rounded-lg mt-5">Siparişi Tamamla</button>
+                <button type="submit" class="btn-leaf w-full !rounded-full mt-5">Siparişi Tamamla</button>
                 <p class="mt-3 text-center text-xs text-bark/40">256-bit SSL ile güvenli ödeme · KDV dahil fiyatlar</p>
             </div>
         </aside>

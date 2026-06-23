@@ -99,7 +99,7 @@
                             <form action="{{ route('cart.coupon.apply') }}" method="POST" class="flex gap-2">
                                 @csrf
                                 <input name="code" placeholder="Kupon kodu" class="flex-1 rounded-lg border border-paper bg-cream/50 px-3 py-2 text-sm uppercase focus:border-leaf-400 focus:outline-none">
-                                <button class="rounded-lg bg-leaf-600 px-4 text-sm font-600 text-white hover:bg-leaf-700">Uygula</button>
+                                <button class="rounded-full bg-leaf-600 px-4 text-sm font-600 text-white hover:bg-leaf-700">Uygula</button>
                             </form>
                             @error('coupon')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
                         @endif

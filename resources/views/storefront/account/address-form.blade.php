@@ -108,7 +108,7 @@
             Varsayılan adres olsun
         </label>
 
-        <button type="submit" class="btn-leaf w-full !rounded-lg">{{ $address->exists ? 'Güncelle' : 'Adresi Kaydet' }}</button>
+        <button type="submit" class="btn-leaf w-full !rounded-full">{{ $address->exists ? 'Güncelle' : 'Adresi Kaydet' }}</button>
     </form>
 </div>
 @endsection

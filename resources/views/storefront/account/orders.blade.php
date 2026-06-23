@@ -11,7 +11,7 @@
     @if($orders->isEmpty())
         <div class="rounded-2xl border border-dashed border-leaf-200 bg-white p-10 text-center">
             <p class="text-bark/60">Henüz siparişin yok.</p>
-            <a href="{{ route('home') }}" class="btn-leaf !rounded-lg mt-4">Alışverişe başla</a>
+            <a href="{{ route('home') }}" class="btn-leaf !rounded-full mt-4">Alışverişe başla</a>
         </div>
     @else
         <div class="space-y-3">

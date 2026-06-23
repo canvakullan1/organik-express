@@ -204,7 +204,7 @@
             @if($wa)
                 <a target="_blank" rel="noopener nofollow"
                    :href="'https://wa.me/{{ $wa }}?text=' + encodeURIComponent('Merhaba, ' + @js($product->name) + ' (' + current.name + ') ürününden ' + qty + ' adet sipariş vermek istiyorum.\n' + @js(url()->current()))"
-                   class="group relative mt-3 flex items-center justify-center gap-3 overflow-hidden rounded-xl px-5 py-3.5
+                   class="group relative mt-3 flex items-center justify-center gap-3 overflow-hidden rounded-full px-5 py-3.5
                           text-white font-700 shadow-[0_8px_22px_-6px_rgba(37,211,102,0.55)] transition-all duration-200
                           hover:shadow-[0_12px_28px_-6px_rgba(37,211,102,0.7)] hover:-translate-y-0.5 active:scale-[0.99]"
                    style="background:linear-gradient(135deg,#25D366 0%,#1ebe5d 60%,#12a350 100%);">

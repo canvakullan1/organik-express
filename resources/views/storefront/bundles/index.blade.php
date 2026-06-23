@@ -48,7 +48,7 @@
                             <form action="{{ route('cart.addBundle') }}" method="POST">
                                 @csrf
                                 <input type="hidden" name="bundle_id" value="{{ $bundle->id }}">
-                                <button class="rounded-lg bg-leaf-600 px-4 py-2 text-sm font-700 text-white hover:bg-leaf-700 transition">Sepete Ekle</button>
+                                <button class="rounded-full bg-leaf-600 px-4 py-2 text-sm font-700 text-white hover:bg-leaf-700 transition">Sepete Ekle</button>
                             </form>
                         </div>
                     </div>

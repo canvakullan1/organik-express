@@ -9,13 +9,13 @@
             <a href="{{ route('account.index') }}" class="text-sm text-bark/50 hover:text-leaf-700">← Hesabım</a>
             <h1 class="font-display text-2xl font-700 text-bark mt-1">Adreslerim</h1>
         </div>
-        <a href="{{ route('account.address.create') }}" class="btn-leaf !rounded-lg">+ Yeni Adres</a>
+        <a href="{{ route('account.address.create') }}" class="btn-leaf !rounded-full">+ Yeni Adres</a>
     </div>
 
     @if($addresses->isEmpty())
         <div class="rounded-2xl border border-dashed border-leaf-200 bg-white p-10 text-center">
             <p class="text-bark/60">Henüz kayıtlı adresin yok.</p>
-            <a href="{{ route('account.address.create') }}" class="btn-leaf !rounded-lg mt-4">İlk adresini ekle</a>
+            <a href="{{ route('account.address.create') }}" class="btn-leaf !rounded-full mt-4">İlk adresini ekle</a>
         </div>
     @else
         <div class="grid sm:grid-cols-2 gap-4">

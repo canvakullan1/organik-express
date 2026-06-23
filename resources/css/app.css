@@ -83,17 +83,23 @@
 
 @layer components {
     .btn-leaf {
-        @apply inline-flex items-center justify-center gap-2 rounded-xl bg-leaf-600 px-5 py-2.5
-               font-semibold text-white shadow-sm transition-all duration-200
+        @apply inline-flex items-center justify-center gap-2 rounded-full bg-leaf-600 px-6 py-2.5
+               font-semibold leading-none text-white shadow-sm transition-all duration-200
                hover:bg-leaf-700 hover:shadow active:scale-[0.98]
                focus:outline-none focus-visible:ring-2 focus-visible:ring-leaf-400 focus-visible:ring-offset-2;
     }
 
     .btn-ghost {
-        @apply inline-flex items-center justify-center gap-2 rounded-xl border border-paper bg-white px-5 py-2.5
-               font-semibold text-bark transition-all duration-200
+        @apply inline-flex items-center justify-center gap-2 rounded-full border border-paper bg-white px-6 py-2.5
+               font-semibold leading-none text-bark transition-all duration-200
                hover:border-leaf-300 hover:text-leaf-800 hover:shadow-sm
                focus:outline-none focus-visible:ring-2 focus-visible:ring-leaf-300 focus-visible:ring-offset-2;
+    }
+
+    /* Buton içi ikonlar dikey ortalı ve daralmasın (kayma olmasın) */
+    .btn-leaf svg,
+    .btn-ghost svg {
+        @apply block shrink-0;
     }
 
     .chip {
