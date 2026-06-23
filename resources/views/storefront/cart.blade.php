@@ -50,9 +50,6 @@
                                 <div>
                                     <a href="{{ $item['url'] }}" class="font-600 text-bark hover:text-leaf-700 line-clamp-1">{{ $item['name'] }}</a>
                                     <p class="text-xs text-bark/50 mt-0.5">@if($item['type'] === 'bundle')<span class="text-leaf-700 font-600">Hazır Kutu</span> · @endif{{ $item['sub'] }}</p>
-                                    @if($item['is_weight_based'])
-                                        <p class="text-[11px] text-clay-600 mt-1">≈ Tahmini tutar · tartım sonrası kesinleşir</p>
-                                    @endif
                                 </div>
                                 <form action="{{ route('cart.remove') }}" method="POST">
                                     @csrf @method('DELETE')
@@ -121,10 +118,6 @@
                         <span class="font-display text-2xl font-700 text-leaf-800 tnum">₺{{ number_format(max(0, $subtotal - $couponDiscount), 2, ',', '.') }}</span>
                     </div>
                     <p class="text-xs text-bark/40 mt-1">KDV dahil · puan kullanımı ödeme adımında</p>
-
-                    @if($hasWeightBased)
-                        <p class="mt-3 text-[11px] text-clay-600 leading-relaxed">Sepetinizde ağırlık bazlı ürün var. Tutar tartım sonrası güncellenebilir.</p>
-                    @endif
 
                     <a href="{{ route('cart.checkout') }}" class="btn-leaf w-full mt-5">
                         Ödemeye Geç

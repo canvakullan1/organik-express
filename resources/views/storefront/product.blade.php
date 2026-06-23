@@ -144,14 +144,6 @@
                 </div>
             @endif
 
-            {{-- Ağırlık bazlı uyarı --}}
-            <template x-if="current.weight">
-                <div class="mt-4 flex items-start gap-2 rounded-xl bg-clay-50 border border-clay-200 p-3 text-sm text-clay-800">
-                    <svg class="size-5 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"/></svg>
-                    <span>Bu ürün ağırlık bazlıdır. Gösterilen tutar tahminîdir; kesin tutar tartım sonrası güncellenebilir.</span>
-                </div>
-            </template>
-
             {{-- Stok --}}
             <p class="mt-4 text-sm flex items-center gap-2">
                 <template x-if="inStock">

@@ -62,10 +62,6 @@
         <div class="mt-auto pt-3">
             <x-price :price="$variant?->price" :compare="$variant?->compare_at_price" />
 
-            @if($variant?->is_weight_based)
-                <p class="mt-1 text-[11px] text-bark/45">Tutar tartım sonrası kesinleşir</p>
-            @endif
-
             @if($variant)
                 <form action="{{ route('cart.add') }}" method="POST" class="mt-3"
                       @submit.prevent="
