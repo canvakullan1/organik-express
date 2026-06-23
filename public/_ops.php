@@ -34,42 +34,6 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
-if ($do === 'deltest') {
-    require "$repo/vendor/autoload.php";
-    $app = require "$repo/bootstrap/app.php";
-    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
-    $ords = \App\Models\Order::where('contact_email', 'like', '%deneme.com')
-        ->orWhere('contact_email', 'like', '%@test.com')->get();
-    $ids = $ords->pluck('id')->all();
-    foreach ($ords as $o) { $o->items()->delete(); $o->payments()->delete(); $o->delete(); }
-    exit('silinen test siparisi: ' . count($ids) . ' (id: ' . implode(',', $ids) . ")\n");
-}
-if ($do === 'lastorder') {
-    require "$repo/vendor/autoload.php";
-    $app = require "$repo/bootstrap/app.php";
-    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
-    $o = \App\Models\Order::latest('id')->first();
-    if (! $o) { exit("siparis yok\n"); }
-    $ship = (array) $o->shipping_address;
-    exit("id:{$o->id} email:{$o->contact_email} sehir:" . ($ship['city'] ?? '?') .
-        " | subtotal:{$o->subtotal} early_discount:{$o->early_discount} discount_total:{$o->discount_total} grand_total:{$o->grand_total} delivery:{$o->delivery_date}\n");
-}
-if ($do === 'debug') {
-    $v = ($_GET['v'] ?? '1') === '1' ? 'true' : 'false';
-    $envContent = (string) @file_get_contents("$repo/.env");
-    $envContent = preg_replace('/^APP_DEBUG=.*$/m', "APP_DEBUG=$v", $envContent);
-    @file_put_contents("$repo/.env", $envContent);
-    if ($php = findbin(['/usr/local/bin/php', '/opt/cpanel/ea-php82/root/usr/bin/php', 'php'], 'PHP ')) {
-        echo @shell_exec("cd $repo && $php artisan config:clear 2>&1");
-    }
-    exit("APP_DEBUG=$v ayarlandi\n");
-}
-if ($do === 'phperr') {
-    foreach (["$repo/error_log", "$repo/public/error_log", '/home/organikexpress/public_html/error_log'] as $e) {
-        if (file_exists($e)) { echo "== $e ==\n"; echo implode("\n", array_slice(file($e, FILE_IGNORE_NEW_LINES), -25)) . "\n"; }
-    }
-    exit("(php error_log tarandi)\n");
-}
 if ($do === 'lsimg') {
     echo "public_html/storage: " . (is_link($publicStorage) ? 'symlink->' . readlink($publicStorage) : (is_dir($publicStorage) ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
     echo "banners/photo-1.jpg: " . (file_exists("$publicStorage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
