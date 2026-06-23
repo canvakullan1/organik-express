@@ -81,7 +81,14 @@ if ($do === 'deploy') {
     // Eski tek-seferlik deploy ucunu kaldir (artik _ops.php kullaniliyor)
     @shell_exec("rm -f $docroot/_fix.php 2>&1");
 
+    // Opcache'i sifirla (web SAPI'de eski derlenmis view/php bytecode kalmasin)
+    if (function_exists('opcache_reset')) { @opcache_reset(); echo "opcache reset\n"; }
+
     echo "\nDEPLOY OK\n";
     exit;
+}
+if ($do === 'opcache') {
+    $ok = function_exists('opcache_reset') ? @opcache_reset() : null;
+    exit('opcache_reset: ' . var_export($ok, true) . "\n");
 }
 exit("ops: ?do=deploy | ?do=log&n=N | ?do=errmsg | ?do=lsimg\n");
