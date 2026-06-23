@@ -64,6 +64,16 @@ if ($do === 'deploy') {
     if ($php) {
         echo @shell_exec("cd $repo && $php artisan migrate --force 2>&1");
         echo @shell_exec("cd $repo && $php artisan optimize:clear 2>&1");
+        // View'ları yeniden derle (taze .php dosyaları diske yazılır)
+        echo @shell_exec("cd $repo && $php artisan view:cache 2>&1");
+    }
+
+    // Web SAPI opcache: derlenmiş view + uygulama PHP'lerini tek tek geçersiz kıl
+    // (opcache_reset kapalıysa bile opcache_invalidate genelde açıktır).
+    if (function_exists('opcache_invalidate')) {
+        foreach (glob("$repo/storage/framework/views/*.php") ?: [] as $f) { @opcache_invalidate($f, true); }
+        foreach (glob("$repo/bootstrap/cache/*.php") ?: [] as $f) { @opcache_invalidate($f, true); }
+        echo "opcache view/bootstrap invalidated\n";
     }
 
     // public/ -> public_html (build, htaccess, favicon...)
