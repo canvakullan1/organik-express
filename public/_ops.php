@@ -42,6 +42,15 @@ if ($do === 'ext') {
     echo 'PHP: ' . PHP_VERSION . "\n";
     exit;
 }
+if ($do === 'deltest') {
+    require "$repo/vendor/autoload.php";
+    $app = require "$repo/bootstrap/app.php";
+    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+    $ords = \App\Models\Order::where('contact_email', 'like', '%deneme.com')->orWhere('contact_email', 'like', '%@test.com')->get();
+    $ids = $ords->pluck('id')->all();
+    foreach ($ords as $o) { $o->items()->delete(); $o->payments()->delete(); $o->delete(); }
+    exit('silinen: ' . count($ids) . ' (' . implode(',', $ids) . ")\n");
+}
 if ($do === 'lsimg') {
     echo "public_html/storage: " . (is_link($publicStorage) ? 'symlink->' . readlink($publicStorage) : (is_dir($publicStorage) ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
     echo "banners/photo-1.jpg: " . (file_exists("$publicStorage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";

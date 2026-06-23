@@ -19,6 +19,7 @@ use App\Settings\CheckoutSettings;
 use App\Settings\GeneralSettings;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\URL;
 
 class CheckoutController extends Controller
 {
@@ -216,9 +217,11 @@ class CheckoutController extends Controller
         return redirect()->route('checkout.index')->withErrors(['payment' => $result->message ?? 'Ödeme tamamlanamadı.']);
     }
 
-    public function success(Order $order)
+    public function success(Request $request, Order $order)
     {
-        $owns = (auth()->check() && $order->user_id === auth()->id())
+        // İmzalı URL (session'dan bağımsız), üyelik veya misafir oturumu ile erişim
+        $owns = $request->hasValidSignature()
+            || (auth()->check() && $order->user_id === auth()->id())
             || in_array($order->id, (array) session('guest_orders', []), true);
         abort_unless($owns, 403);
 
@@ -227,12 +230,18 @@ class CheckoutController extends Controller
 
     /* ---------------- yardımcılar ---------------- */
 
+    /** Session'dan bağımsız çalışan imzalı sipariş-sonucu URL'i (6 saat geçerli). */
+    private function successUrl(Order $order): string
+    {
+        return URL::temporarySignedRoute('checkout.success', now()->addHours(6), $order);
+    }
+
     private function finalizePaid(Order $order)
     {
         $this->finalizer->markPaidAndFinalize($order);
         $this->cleanup();
 
-        return redirect()->route('checkout.success', $order);
+        return redirect()->to($this->successUrl($order));
     }
 
     private function finalizePending(Order $order)
@@ -240,7 +249,7 @@ class CheckoutController extends Controller
         $this->finalizer->finalizePending($order);
         $this->cleanup();
 
-        return redirect()->route('checkout.success', $order);
+        return redirect()->to($this->successUrl($order));
     }
 
     private function redirectToGateway(Order $order, string $url)
