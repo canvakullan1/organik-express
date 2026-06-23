@@ -34,6 +34,16 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
+if ($do === 'deltest') {
+    require "$repo/vendor/autoload.php";
+    $app = require "$repo/bootstrap/app.php";
+    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+    $ords = \App\Models\Order::where('contact_email', 'like', '%deneme.com')
+        ->orWhere('contact_email', 'like', '%@test.com')->get();
+    $ids = $ords->pluck('id')->all();
+    foreach ($ords as $o) { $o->items()->delete(); $o->payments()->delete(); $o->delete(); }
+    exit('silinen test siparisi: ' . count($ids) . ' (id: ' . implode(',', $ids) . ")\n");
+}
 if ($do === 'lastorder') {
     require "$repo/vendor/autoload.php";
     $app = require "$repo/bootstrap/app.php";
