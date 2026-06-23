@@ -62,7 +62,9 @@
     {{-- Renkli KPI kartları --}}
     <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
         @foreach($heroCards as [$label, $value, $grad, $sub, $delta, $iconPath, $hex])
-            @php([$dTxt, $dUp] = $trendBadge($delta))
+            @php
+                [$dTxt, $dUp] = $trendBadge($delta);
+            @endphp
             <div class="relative overflow-hidden rounded-2xl p-5 text-white shadow-lg transition-transform duration-200 hover:-translate-y-0.5"
                  style="background:{{ $grad }}; box-shadow:0 10px 30px -10px {{ $hex }}80;">
                 {{-- dekoratif daireler --}}
