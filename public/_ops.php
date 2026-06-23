@@ -34,6 +34,14 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
+if ($do === 'ext') {
+    $need = ['fileinfo', 'intl', 'gd', 'exif', 'mbstring', 'zip', 'bcmath', 'curl', 'openssl', 'pdo_mysql', 'fileinfo', 'iconv', 'dom'];
+    foreach (array_unique($need) as $e) {
+        echo str_pad($e, 12) . (extension_loaded($e) ? 'ACIK' : 'KAPALI <<<') . "\n";
+    }
+    echo 'PHP: ' . PHP_VERSION . "\n";
+    exit;
+}
 if ($do === 'lsimg') {
     echo "public_html/storage: " . (is_link($publicStorage) ? 'symlink->' . readlink($publicStorage) : (is_dir($publicStorage) ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
     echo "banners/photo-1.jpg: " . (file_exists("$publicStorage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
