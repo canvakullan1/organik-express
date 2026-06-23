@@ -77,9 +77,9 @@ class MenuItemResource extends Resource
                 Tables\Columns\TextColumn::make('label')->label('Etiket')->searchable()
                     ->description(fn (MenuItem $r) => $r->parent ? '↳ ' . $r->parent->label : null),
                 Tables\Columns\TextColumn::make('location')->label('Konum')->badge()
-                    ->formatStateUsing(fn ($s) => $s === 'footer' ? 'Footer' : 'Header'),
+                    ->formatStateUsing(fn ($state) => $state === 'footer' ? 'Footer' : 'Header'),
                 Tables\Columns\TextColumn::make('type')->label('Tür')
-                    ->formatStateUsing(fn ($s) => MenuItem::TYPES[$s] ?? $s),
+                    ->formatStateUsing(fn ($state) => MenuItem::TYPES[$state] ?? $state),
                 Tables\Columns\IconColumn::make('is_active')->label('Aktif')->boolean(),
             ])
             ->defaultSort('sort_order')

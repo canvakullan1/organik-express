@@ -71,7 +71,7 @@ class CouponResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('code')->label('Kod')->searchable()->weight('bold')->copyable(),
-                Tables\Columns\TextColumn::make('type')->label('Tip')->formatStateUsing(fn ($s) => $s?->getLabel())->badge(),
+                Tables\Columns\TextColumn::make('type')->label('Tip')->formatStateUsing(fn ($state) => $state?->getLabel())->badge(),
                 Tables\Columns\TextColumn::make('value')->label('Değer')
                     ->formatStateUsing(fn ($state, Coupon $r) => $r->type === DiscountType::Percent ? "%{$state}" : '₺' . number_format($state, 2, ',', '.')),
                 Tables\Columns\TextColumn::make('used_count')->label('Kullanım')

@@ -130,7 +130,7 @@ class OrderResource extends Resource
                 Infolists\Components\TextEntry::make('order_number')->label('Sipariş No')->weight('bold'),
                 Infolists\Components\TextEntry::make('status')->label('Durum')->badge(),
                 Infolists\Components\TextEntry::make('payment_status')->label('Ödeme')->badge(),
-                Infolists\Components\TextEntry::make('payment_method')->label('Yöntem')->formatStateUsing(fn ($s) => $s?->getLabel()),
+                Infolists\Components\TextEntry::make('payment_method')->label('Yöntem')->formatStateUsing(fn ($state) => $state?->getLabel()),
                 Infolists\Components\TextEntry::make('grand_total')->label('Tutar')->money('TRY'),
                 Infolists\Components\TextEntry::make('created_at')->label('Tarih')->dateTime('d.m.Y H:i'),
             ])->columns(3),

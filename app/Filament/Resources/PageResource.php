@@ -93,7 +93,7 @@ class PageResource extends Resource
                 Tables\Columns\IconColumn::make('is_published')->label('Yayında')->boolean(),
                 Tables\Columns\IconColumn::make('show_in_footer')->label('Footer')->boolean(),
                 Tables\Columns\TextColumn::make('footer_group')->label('Grup')
-                    ->formatStateUsing(fn (?string $s) => Page::FOOTER_GROUPS[$s] ?? '—')->badge(),
+                    ->formatStateUsing(fn (?string $state) => Page::FOOTER_GROUPS[$state] ?? '—')->badge(),
                 Tables\Columns\TextColumn::make('updated_at')->label('Güncelleme')->dateTime('d.m.Y H:i')->sortable(),
             ])
             ->defaultSort('sort_order')
