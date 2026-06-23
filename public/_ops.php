@@ -34,6 +34,16 @@ if ($do === 'log') {
     $lines = file($log, FILE_IGNORE_NEW_LINES);
     exit(implode("\n", array_slice($lines, -$n)));
 }
+if ($do === 'lastorder') {
+    require "$repo/vendor/autoload.php";
+    $app = require "$repo/bootstrap/app.php";
+    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+    $o = \App\Models\Order::latest('id')->first();
+    if (! $o) { exit("siparis yok\n"); }
+    $ship = (array) $o->shipping_address;
+    exit("id:{$o->id} email:{$o->contact_email} sehir:" . ($ship['city'] ?? '?') .
+        " | subtotal:{$o->subtotal} early_discount:{$o->early_discount} discount_total:{$o->discount_total} grand_total:{$o->grand_total} delivery:{$o->delivery_date}\n");
+}
 if ($do === 'debug') {
     $v = ($_GET['v'] ?? '1') === '1' ? 'true' : 'false';
     $envContent = (string) @file_get_contents("$repo/.env");
