@@ -63,6 +63,10 @@ class CheckoutController extends Controller
             'methods' => $this->payments->available(),
             'deliveryDates' => $dates,
             'deliverySlots' => $checkout->delivery_slots,
+            // Erken sipariş indirimi (teslimat bölgeleri + yarın teslim → %)
+            'deliveryZoneCities' => array_values((array) $checkout->delivery_zone_cities),
+            'earlyPct' => (int) $checkout->early_order_discount_percent,
+            'earlyDate' => now()->addDay()->format('Y-m-d'),
         ]);
     }
 
@@ -141,6 +145,9 @@ class CheckoutController extends Controller
             $guestEmail = $data['guest_email'];
         }
 
+        // Erken sipariş indirimi: adres teslimat bölgesinde + teslim tarihi yarın ise
+        $earlyPct = $this->orders->earlyDiscountPercent($shipping->city, $data['delivery_date'] ?? null);
+
         $order = $this->orders->placeFromCart(
             $user,
             $shipping,
@@ -150,6 +157,7 @@ class CheckoutController extends Controller
             $data['note'] ?? null,
             $loyaltyPoints,
             $guestEmail,
+            $earlyPct,
         );
 
         // Misafir siparişine sonuç sayfasında erişebilmek için oturuma yaz

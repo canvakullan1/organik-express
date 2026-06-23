@@ -14,8 +14,17 @@
         couponDiscount: {{ $pricing['coupon_discount'] }},
         redeemable: {{ $pricing['redeemable'] }},
         shipping: {{ $pricing['shipping'] }},
+        zoneCities: @js($deliveryZoneCities),
+        earlyPct: {{ $earlyPct }},
+        earlyDate: '{{ $earlyDate }}',
+        shipCity: @js($guest ? old('city', '') : (optional($addresses->firstWhere('id', $defaultAddressId))->city ?? optional($addresses->first())->city ?? '')),
+        deliveryDate: '{{ optional($deliveryDates->first())->format('Y-m-d') }}',
+        norm(s) { const m={'İ':'i','I':'i','ı':'i','Ş':'s','ş':'s','Ğ':'g','ğ':'g','Ü':'u','ü':'u','Ö':'o','ö':'o','Ç':'c','ç':'c'}; return (s||'').replace(/[İIıŞşĞğÜüÖöÇç]/g, c => m[c]).trim().toLowerCase(); },
+        get inZone() { return this.zoneCities.map(c => this.norm(c)).includes(this.norm(this.shipCity)); },
+        get earlyEligible() { return this.earlyPct > 0 && this.inZone && this.deliveryDate === this.earlyDate; },
+        get earlyDiscount() { return this.earlyEligible ? Math.round(this.sub * this.earlyPct) / 100 : 0 },
         get loyalty() { return this.usePoints ? this.redeemable : 0 },
-        get total() { return Math.max(0, this.sub - this.couponDiscount - this.loyalty) + this.shipping },
+        get total() { return Math.max(0, this.sub - this.couponDiscount - this.loyalty - this.earlyDiscount) + this.shipping },
         fmt(v) { return '₺' + Number(v).toLocaleString('tr-TR', {minimumFractionDigits:2, maximumFractionDigits:2}) }
      }">
     <h1 class="font-display text-2xl sm:text-3xl font-700 text-bark mb-6">Ödeme</h1>
@@ -74,7 +83,7 @@
                         </div>
                         <div>
                             <label class="block text-sm font-600 mb-1.5">İl <span class="text-red-500">*</span></label>
-                            <input type="text" name="city" value="{{ old('city') }}" required class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
+                            <input type="text" name="city" value="{{ old('city') }}" required x-model="shipCity" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm focus:ring-2 focus:ring-leaf-300">
                             @error('city')<p class="mt-1 text-xs text-red-600">{{ $message }}</p>@enderror
                         </div>
                         <div>
@@ -101,7 +110,7 @@
                     <div class="grid sm:grid-cols-2 gap-3">
                         @foreach($addresses as $a)
                             <label class="relative flex cursor-pointer rounded-xl border-2 p-4 transition has-[:checked]:border-leaf-500 has-[:checked]:bg-leaf-50/50 border-paper">
-                                <input type="radio" name="shipping_address_id" value="{{ $a->id }}" class="sr-only peer" {{ $a->id == $defaultAddressId ? 'checked' : '' }}>
+                                <input type="radio" name="shipping_address_id" value="{{ $a->id }}" class="sr-only peer" {{ $a->id == $defaultAddressId ? 'checked' : '' }} @change="shipCity = @js($a->city)">
                                 <div class="text-sm">
                                     <span class="font-700 text-bark">{{ $a->title }}</span>
                                     <p class="text-bark/70 mt-0.5">{{ $a->full_name }} · {{ $a->phone }}</p>
@@ -132,7 +141,7 @@
                 <div class="grid sm:grid-cols-2 gap-4">
                     <div>
                         <label class="block text-sm font-600 mb-1.5">Teslimat Günü</label>
-                        <select name="delivery_date" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
+                        <select name="delivery_date" x-model="deliveryDate" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
                             @foreach($deliveryDates as $d)
                                 <option value="{{ $d->format('Y-m-d') }}">{{ $d->translatedFormat('d F Y, l') }}</option>
                             @endforeach
@@ -147,6 +156,17 @@
                         </select>
                     </div>
                 </div>
+                @if($earlyPct > 0)
+                    {{-- Erken sipariş indirimi ipucu --}}
+                    <div x-show="earlyEligible" x-cloak class="mt-3 flex items-center gap-2 rounded-lg bg-clay-50 border border-clay-200 px-3 py-2.5 text-sm text-clay-800">
+                        <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>
+                        <span><strong>%<span x-text="earlyPct"></span> erken sipariş indirimi</strong> uygulandı — sepet özetinde görebilirsiniz.</span>
+                    </div>
+                    <div x-show="inZone && !earlyEligible" x-cloak class="mt-3 flex items-center gap-2 rounded-lg bg-leaf-50 border border-leaf-200 px-3 py-2.5 text-sm text-leaf-800">
+                        <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/></svg>
+                        <span>En yakın teslim gününü (yarın) seçerseniz <strong>%<span x-text="earlyPct"></span> indirim</strong> kazanırsınız!</span>
+                    </div>
+                @endif
                 <div class="mt-4">
                     <label class="block text-sm font-600 mb-1.5">Sipariş Notu <span class="font-400 text-bark/40">(opsiyonel)</span></label>
                     <textarea name="note" rows="2" placeholder="Kapı kodu, teslimat tercihi…" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">{{ old('note') }}</textarea>
@@ -243,6 +263,7 @@
                         <div class="flex justify-between text-leaf-700"><span>Kupon ({{ $pricing['coupon']->code }})</span><span class="tnum">-{{ $try($pricing['coupon_discount']) }}</span></div>
                     @endif
                     <div class="flex justify-between text-leaf-700" x-show="usePoints" x-cloak><span>Para Puan</span><span class="tnum" x-text="'-' + fmt(loyalty)"></span></div>
+                    <div class="flex justify-between text-clay-600 font-600" x-show="earlyDiscount > 0" x-cloak><span>Erken Sipariş İndirimi (%<span x-text="earlyPct"></span>)</span><span class="tnum" x-text="'-' + fmt(earlyDiscount)"></span></div>
                     <div class="flex justify-between"><span class="text-bark/60">Kargo</span>
                         <span class="tnum">{{ $pricing['shipping'] > 0 ? $try($pricing['shipping']) : 'Ücretsiz' }}</span>
                     </div>

@@ -44,7 +44,44 @@ class OrderService
      *
      * @return array{subtotal:float,coupon:?\App\Models\Coupon,coupon_discount:float,loyalty_used:float,shipping:float,discount_total:float,grand_total:float,redeemable:float}
      */
-    public function pricing(?User $user, string $paymentMethod, float $loyaltyRequested = 0): array
+    /**
+     * Erken sipariş indirimi yüzdesi: adres teslimat bölgesindeyse VE teslim tarihi
+     * siparişten 1 gün sonrası (yarın) ise yapılandırılmış yüzde; aksi halde 0.
+     */
+    public function earlyDiscountPercent(?string $city, $deliveryDate): int
+    {
+        $s = app(\App\Settings\CheckoutSettings::class);
+        $pct = (int) ($s->early_order_discount_percent ?? 0);
+        if ($pct <= 0 || ! $city || ! $deliveryDate) {
+            return 0;
+        }
+
+        // Şehir bir teslimat bölgesi mi — Türkçe karakterleri ASCII'ye indirip karşılaştır
+        // (sunucu ile istemcinin AYNI normalize ettiğinden emin olmak için).
+        $norm = function ($v) {
+            $v = strtr((string) $v, [
+                'İ' => 'i', 'I' => 'i', 'ı' => 'i', 'Ş' => 's', 'ş' => 's', 'Ğ' => 'g', 'ğ' => 'g',
+                'Ü' => 'u', 'ü' => 'u', 'Ö' => 'o', 'ö' => 'o', 'Ç' => 'c', 'ç' => 'c',
+            ]);
+
+            return mb_strtolower(trim($v), 'UTF-8');
+        };
+        $zones = array_map($norm, (array) ($s->delivery_zone_cities ?? []));
+        if (! in_array($norm($city), $zones, true)) {
+            return 0;
+        }
+
+        // Teslim tarihi yarın mı (sipariş bugünden 1 gün önce verilmiş sayılır)
+        try {
+            $d = \Illuminate\Support\Carbon::parse($deliveryDate)->startOfDay();
+        } catch (\Throwable $e) {
+            return 0;
+        }
+
+        return $d->equalTo(now()->addDay()->startOfDay()) ? $pct : 0;
+    }
+
+    public function pricing(?User $user, string $paymentMethod, float $loyaltyRequested = 0, int $earlyPct = 0): array
     {
         // Ara toplam tüm satırlardan (varyant + kutu); kupon kapsamı yalnız ürün satırları.
         $subtotal = round((float) $this->cart->lines()->sum('line_total'), 2);
@@ -69,7 +106,10 @@ class OrderService
         $redeemable = $this->loyalty->maxRedeemable($user, $afterCoupon);
         $loyaltyUsed = round(min(max(0, $loyaltyRequested), $redeemable), 2);
 
-        $discountTotal = round($couponDiscount + $loyaltyUsed, 2);
+        // Erken sipariş indirimi (ara toplam üzerinden)
+        $earlyDiscount = $earlyPct > 0 ? round($subtotal * $earlyPct / 100, 2) : 0.0;
+
+        $discountTotal = round($couponDiscount + $loyaltyUsed + $earlyDiscount, 2);
         $shipping = $this->shippingCost($subtotal, $paymentMethod);
         $grand = round(max(0, $subtotal - $discountTotal) + $shipping, 2);
 
@@ -78,6 +118,8 @@ class OrderService
             'coupon' => $coupon,
             'coupon_discount' => $couponDiscount,
             'loyalty_used' => $loyaltyUsed,
+            'early_discount' => $earlyDiscount,
+            'early_pct' => $earlyPct,
             'redeemable' => $redeemable,
             'shipping' => $shipping,
             'discount_total' => $discountTotal,
@@ -94,14 +136,15 @@ class OrderService
         ?string $note = null,
         float $loyaltyRequested = 0,
         ?string $guestEmail = null,
+        int $earlyPct = 0,
     ): Order {
-        return DB::transaction(function () use ($user, $shipping, $billing, $paymentMethod, $delivery, $note, $loyaltyRequested, $guestEmail) {
+        return DB::transaction(function () use ($user, $shipping, $billing, $paymentMethod, $delivery, $note, $loyaltyRequested, $guestEmail, $earlyPct) {
             $lines = $this->cart->lines();
             if ($lines->isEmpty()) {
                 throw new \RuntimeException('Sepetiniz boş.');
             }
 
-            $p = $this->pricing($user, $paymentMethod, $loyaltyRequested);
+            $p = $this->pricing($user, $paymentMethod, $loyaltyRequested, $earlyPct);
             $attr = (array) session('attribution', []);
 
             // Gateway anahtarını (iyzico/paytr/test/bank_transfer) PaymentMethod enum'una çevir.
@@ -120,6 +163,7 @@ class OrderService
                 'coupon_code' => $p['coupon']?->code,
                 'coupon_discount' => $p['coupon_discount'],
                 'loyalty_used' => $p['loyalty_used'],
+                'early_discount' => $p['early_discount'],
                 'grand_total' => $p['grand_total'],
                 'currency' => 'TRY',
                 'contact_email' => $user?->email ?? $guestEmail,

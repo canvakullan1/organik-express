@@ -15,7 +15,7 @@ class Order extends Model
     protected $fillable = [
         'order_number', 'user_id', 'status', 'payment_status', 'payment_method',
         'subtotal', 'shipping_cost', 'discount_total', 'grand_total', 'currency',
-        'coupon_code', 'coupon_discount', 'loyalty_used', 'loyalty_earned',
+        'coupon_code', 'coupon_discount', 'loyalty_used', 'loyalty_earned', 'early_discount',
         'contact_email', 'contact_phone', 'shipping_address', 'billing_address',
         'delivery_date', 'delivery_slot', 'customer_note',
         'agreed_distance_sale', 'agreed_preinfo',
@@ -34,6 +34,7 @@ class Order extends Model
         'coupon_discount' => 'decimal:2',
         'loyalty_used' => 'decimal:2',
         'loyalty_earned' => 'decimal:2',
+        'early_discount' => 'decimal:2',
         'grand_total' => 'decimal:2',
         'delivery_date' => 'date',
         'agreed_distance_sale' => 'boolean',

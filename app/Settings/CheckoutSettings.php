@@ -20,6 +20,11 @@ class CheckoutSettings extends Settings
     /** @var array<int, string> */
     public array $delivery_slots;           // zaman aralıkları
 
+    // Teslimat bölgeleri (elden teslim yapılan + erken sipariş indirimi geçerli şehirler)
+    /** @var array<int, string> */
+    public array $delivery_zone_cities;
+    public int $early_order_discount_percent;   // teslim gününden 1 gün önce → bu % indirim
+
     public static function group(): string
     {
         return 'checkout';

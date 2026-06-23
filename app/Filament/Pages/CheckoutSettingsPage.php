@@ -44,6 +44,18 @@ class CheckoutSettingsPage extends SettingsPage
                 Forms\Components\TagsInput::make('delivery_slots')->label('Zaman Aralıkları')
                     ->placeholder('09:00 - 12:00')->columnSpanFull(),
             ])->columns(2),
+
+            Forms\Components\Section::make('Erken Sipariş İndirimi')
+                ->description('Teslimat bölgesindeki adreslere, teslim gününden 1 gün önce (yarına) verilen siparişlere otomatik indirim.')
+                ->schema([
+                    Forms\Components\TagsInput::make('delivery_zone_cities')->label('Teslimat Bölgesi Şehirleri')
+                        ->placeholder('İstanbul')
+                        ->helperText('Elden teslim yapılan + indirim geçerli şehirler. Diğer iller kargoyla gider, indirim almaz.')
+                        ->columnSpanFull(),
+                    Forms\Components\TextInput::make('early_order_discount_percent')->label('İndirim Oranı (%)')
+                        ->numeric()->minValue(0)->maxValue(100)->required()
+                        ->helperText('Teslim gününden 1 gün önce sipariş → bu oranda indirim. 0 = kapalı.'),
+                ])->columns(2),
         ]);
     }
 }
