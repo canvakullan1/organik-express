@@ -200,7 +200,7 @@
                             @endif
                             {{-- Havale bilgisi --}}
                             @if($m->key() === 'bank_transfer')
-                                @php($c = app(\App\Settings\CheckoutSettings::class))
+                                @php($c = app(\App\Settings\PaymentSettings::class))
                                 <div x-show="payment === 'bank_transfer'" x-cloak class="mt-3 pl-7 text-sm text-bark/70">
                                     <p>{{ $c->bank_name }} · {{ $c->bank_account_holder }}</p>
                                     <p class="font-600">IBAN: {{ $c->bank_iban }}</p>

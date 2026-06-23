@@ -16,7 +16,7 @@
             @if($order->payment_method?->value === 'bank_transfer')
                 <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:14px;margin:14px 0;">
                     <strong>Havale/EFT ile ödeme bekleniyor.</strong><br>
-                    @php($c = app(\App\Settings\CheckoutSettings::class))
+                    @php($c = app(\App\Settings\PaymentSettings::class))
                     {{ $c->bank_name }} · {{ $c->bank_account_holder }}<br>
                     IBAN: <strong>{{ $c->bank_iban }}</strong><br>
                     Açıklama: <strong>{{ $order->order_number }}</strong>

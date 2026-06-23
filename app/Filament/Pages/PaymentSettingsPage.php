@@ -25,11 +25,19 @@ class PaymentSettingsPage extends SettingsPage
     {
         return $form->schema([
             Forms\Components\Section::make('Temel Yöntemler')->schema([
-                Forms\Components\Toggle::make('bank_transfer_enabled')->label('Havale / EFT'),
+                Forms\Components\Toggle::make('bank_transfer_enabled')->label('Havale / EFT')->live(),
                 Forms\Components\Toggle::make('test_gateway_enabled')
                     ->label('Test Kartı (Demo)')
                     ->helperText('Yerel test için. Canlıda kapatın.'),
             ])->columns(2),
+
+            Forms\Components\Section::make('Havale / EFT Banka Bilgileri')
+                ->description('Müşteriye ödeme sayfasında ve sipariş e-postasında gösterilir.')
+                ->schema([
+                    Forms\Components\TextInput::make('bank_name')->label('Banka')->placeholder('Örn. Ziraat Bankası'),
+                    Forms\Components\TextInput::make('bank_account_holder')->label('Hesap Sahibi')->placeholder('Şirket / kişi adı'),
+                    Forms\Components\TextInput::make('bank_iban')->label('IBAN')->placeholder('TR00 0000 0000 0000 0000 0000 00')->columnSpanFull(),
+                ])->columns(2)->collapsed(fn (Forms\Get $get) => ! $get('bank_transfer_enabled')),
 
             Forms\Components\Section::make('iyzico')
                 ->description('iyzico panelinizden alacağınız API anahtarları (şifreli saklanır).')

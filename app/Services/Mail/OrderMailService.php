@@ -188,7 +188,7 @@ class OrderMailService
             return '';
         }
 
-        $c = app(CheckoutSettings::class);
+        $c = app(\App\Settings\PaymentSettings::class);
 
         return '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:16px 0;background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;">'
             . '<tr><td style="padding:16px 18px;font-size:14px;color:#7c2d12;line-height:1.7;">'

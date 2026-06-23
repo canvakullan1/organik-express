@@ -10,11 +10,6 @@ class CheckoutSettings extends Settings
     public bool $cash_on_delivery_enabled;
     public float $cash_on_delivery_fee;
 
-    // Havale / EFT bilgileri
-    public ?string $bank_name;
-    public ?string $bank_account_holder;
-    public ?string $bank_iban;
-
     // Teslimat
     public int $delivery_lead_days;         // en erken teslim = bugün + N gün
     /** @var array<int, string> */

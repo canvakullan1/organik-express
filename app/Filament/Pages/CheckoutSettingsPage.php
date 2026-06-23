@@ -32,12 +32,6 @@ class CheckoutSettingsPage extends SettingsPage
                 Forms\Components\TextInput::make('cash_on_delivery_fee')->label('Kapıda Ödeme Ücreti (₺)')->numeric(),
             ])->columns(3),
 
-            Forms\Components\Section::make('Havale / EFT Bilgileri')->schema([
-                Forms\Components\TextInput::make('bank_name')->label('Banka'),
-                Forms\Components\TextInput::make('bank_account_holder')->label('Hesap Sahibi'),
-                Forms\Components\TextInput::make('bank_iban')->label('IBAN')->columnSpanFull(),
-            ])->columns(2),
-
             Forms\Components\Section::make('Teslimat')->schema([
                 Forms\Components\TextInput::make('delivery_lead_days')->label('En Erken Teslimat (gün sonra)')
                     ->numeric()->required()->helperText('0 = bugün, 1 = yarın'),

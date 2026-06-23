@@ -34,7 +34,7 @@
             <h2 class="font-700 text-bark mb-2">Ödeme</h2>
             <p class="text-bark/80">{{ $order->payment_method?->getLabel() }}</p>
             @if($order->payment_method?->value === 'bank_transfer' && ! $order->isPaid())
-                @php($c = app(\App\Settings\CheckoutSettings::class))
+                @php($c = app(\App\Settings\PaymentSettings::class))
                 <div class="mt-2 text-bark/70">
                     <p>{{ $c->bank_name }} · IBAN: {{ $c->bank_iban }}</p>
                     <p class="text-xs text-clay-700 mt-1">Açıklama: {{ $order->order_number }}</p>

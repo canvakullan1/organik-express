@@ -33,7 +33,7 @@ class BankTransferGateway implements PaymentGateway
 
     public function description(): string
     {
-        $bank = app(CheckoutSettings::class);
+        $bank = app(PaymentSettings::class);
 
         return 'Sipariş sonrası IBAN bilgilerimize ödeme yaparak siparişinizi tamamlayın.'
             . ($bank->bank_name ? ' (' . $bank->bank_name . ')' : '');

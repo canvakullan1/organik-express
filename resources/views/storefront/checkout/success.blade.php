@@ -14,7 +14,7 @@
         <p class="mt-1"><span class="chip" style="background:#0001">{{ $order->status->getLabel() }}</span></p>
 
         @if($order->payment_method?->value === 'bank_transfer')
-            @php($c = app(\App\Settings\CheckoutSettings::class))
+            @php($c = app(\App\Settings\PaymentSettings::class))
             <div class="mt-5 rounded-xl bg-clay-50 border border-clay-200 p-4 text-left text-sm">
                 <p class="font-700 text-clay-800 mb-1">Havale/EFT ile ödeme bekleniyor</p>
                 <p class="text-clay-800/80">{{ $c->bank_name }} · {{ $c->bank_account_holder }}</p>

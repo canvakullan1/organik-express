@@ -9,6 +9,11 @@ class PaymentSettings extends Settings
     public bool $bank_transfer_enabled;
     public bool $test_gateway_enabled;     // demo kart (yerel test)
 
+    // Havale / EFT banka bilgileri (müşteriye gösterilir + sipariş mailine yazılır)
+    public ?string $bank_name;
+    public ?string $bank_account_holder;
+    public ?string $bank_iban;
+
     // iyzico
     public bool $iyzico_enabled;
     public bool $iyzico_sandbox;
