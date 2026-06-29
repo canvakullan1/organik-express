@@ -129,6 +129,8 @@ class ImportOrganikgiller extends Command
                     'sku' => $src['sku'] ?? null,
                     'short_description' => $p['short_description'] ?? null,
                     'description' => $p['description'] ?? null,
+                    'storage_info' => $p['storage_info'] ?? null,
+                    'ingredients' => $p['ingredients'] ?? null,
                     'meta_title' => $p['meta_title'] ?? null,
                     'meta_description' => $p['meta_description'] ?? null,
                     'tax_rate' => $p['tax_rate'] ?? 1,
