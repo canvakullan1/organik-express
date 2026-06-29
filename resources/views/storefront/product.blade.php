@@ -175,9 +175,14 @@
                     @csrf
                     <input type="hidden" name="variant_id" :value="current.id">
                     <input type="hidden" name="qty" :value="qty">
-                    <button type="submit" :disabled="!inStock" class="btn-leaf w-full h-full text-base disabled:opacity-50 disabled:cursor-not-allowed">
-                        <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272"/></svg>
-                        Sepete Ekle
+                    <button type="submit" :disabled="!inStock || adding"
+                            class="btn-leaf w-full h-full text-base transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                            :class="added ? '!bg-leaf-600' : ''">
+                        {{-- sepet ikonu (normal) --}}
+                        <svg x-show="!added" class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272"/></svg>
+                        {{-- onay ikonu (eklendi) --}}
+                        <svg x-show="added" x-cloak class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="2.4" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>
+                        <span x-text="adding ? 'Ekleniyor…' : (added ? 'Sepete Eklendi' : 'Sepete Ekle')">Sepete Ekle</span>
                     </button>
                 </form>
 
@@ -330,14 +335,30 @@
         return {
             variants,
             qty: 1,
+            adding: false,
+            added: false,
+            _t: null,
             current: variants[0] ?? { id: null, price: 0, compare: null, stock: 0, track: false, weight: false },
             get inStock() { return !this.current.track || this.current.stock > 0; },
             select(idx) { this.current = this.variants[idx]; this.qty = 1; },
             formatPrice(v) { return new Intl.NumberFormat('tr-TR', { style:'currency', currency:'TRY' }).format(v); },
             addToCart(form) {
+                if (!this.inStock || this.adding) return;
+                this.adding = true;
                 fetch(form.action, { method:'POST', headers:{'X-CSRF-TOKEN':'{{ csrf_token() }}','Accept':'application/json'}, body:new FormData(form) })
-                    .then(r => r.json())
-                    .then(d => { window.dispatchEvent(new CustomEvent('cart-updated', { detail:d.count })); window.location.href = '{{ route('cart.index') }}'; });
+                    .then(r => r.ok ? r.json() : Promise.reject(r))
+                    .then(d => {
+                        this.adding = false;
+                        this.added = true;
+                        window.dispatchEvent(new CustomEvent('cart-updated', { detail: d.count }));
+                        window.dispatchEvent(new CustomEvent('toast', { detail: d.message || 'Ürün sepete eklendi.' }));
+                        clearTimeout(this._t);
+                        this._t = setTimeout(() => { this.added = false; }, 2200);
+                    })
+                    .catch(() => {
+                        this.adding = false;
+                        window.dispatchEvent(new CustomEvent('toast', { detail: 'Bir hata oluştu, lütfen tekrar deneyin.' }));
+                    });
             },
         }
     }
