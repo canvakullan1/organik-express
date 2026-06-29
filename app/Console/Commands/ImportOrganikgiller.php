@@ -26,7 +26,7 @@ use Illuminate\Support\Str;
  */
 class ImportOrganikgiller extends Command
 {
-    protected $signature = 'import:organikgiller {--skip-images} {--only=} {--status=active}';
+    protected $signature = 'import:organikgiller {--skip-images} {--only=} {--status=active} {--limit=0}';
 
     protected $description = 'organikgiller.com kataloğunu SEO içerikli olarak içe aktarır';
 
@@ -96,6 +96,9 @@ class ImportOrganikgiller extends Command
 
         // 2) Ürünler
         $created = $updated = $missing = $imgCount = 0;
+        $limit = (int) $this->option('limit'); // bu çağrıda kaç ürünün görseli indirilsin (0 = sınırsız)
+        $imgProducts = 0; // bu çağrıda görseli indirilen ürün sayısı
+        $remaining = 0;   // hâlâ görselsiz ürün sayısı
 
         foreach ($catalog['products'] ?? [] as $p) {
             if ($only && ! in_array($p['source_slug'], $only, true)) {
@@ -143,18 +146,27 @@ class ImportOrganikgiller extends Command
                 ],
             );
 
-            // Görseller
+            // Görseller — sadece görseli olmayan ürünler için, parti limiti dahilinde
             if (! $this->option('skip-images') && $product->images()->count() === 0) {
-                foreach (array_slice($src['images'] ?? [], 0, 4) as $idx => $url) {
-                    $stored = $this->downloadImage($disk, $url, $p['slug'], $idx);
-                    if ($stored) {
-                        ProductImage::create([
-                            'product_id' => $product->id,
-                            'path' => $stored,
-                            'alt' => $p['name'],
-                            'sort_order' => $idx,
-                        ]);
-                        $imgCount++;
+                if ($limit && $imgProducts >= $limit) {
+                    $remaining++; // bu çağrının limiti doldu, sonraki çağrıya kaldı
+                } else {
+                    $got = false;
+                    foreach (array_slice($src['images'] ?? [], 0, 4) as $idx => $url) {
+                        $stored = $this->downloadImage($disk, $url, $p['slug'], $idx);
+                        if ($stored) {
+                            ProductImage::create([
+                                'product_id' => $product->id,
+                                'path' => $stored,
+                                'alt' => $p['name'],
+                                'sort_order' => $idx,
+                            ]);
+                            $imgCount++;
+                            $got = true;
+                        }
+                    }
+                    if ($got) {
+                        $imgProducts++;
                     }
                 }
             }
@@ -162,7 +174,7 @@ class ImportOrganikgiller extends Command
             $existed ? $updated++ : $created++;
         }
 
-        $this->info("Ürün: {$created} yeni, {$updated} güncellendi, {$missing} eksik. Görsel indirildi: {$imgCount}.");
+        $this->info("Ürün: {$created} yeni, {$updated} güncellendi, {$missing} eksik. Görsel indirildi: {$imgCount}. Kalan görselsiz: {$remaining}.");
 
         return self::SUCCESS;
     }
