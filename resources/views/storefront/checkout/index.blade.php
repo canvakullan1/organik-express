@@ -164,7 +164,7 @@
                     </div>
                     <div x-show="inZone && !earlyEligible" x-cloak class="mt-3 flex items-center gap-2 rounded-lg bg-leaf-50 border border-leaf-200 px-3 py-2.5 text-sm text-leaf-800">
                         <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/></svg>
-                        <span>En yakın teslim gününü (yarın) seçerseniz <strong>%<span x-text="earlyPct"></span> indirim</strong> kazanırsınız!</span>
+                        <span>En erken teslim gününü seçerseniz <strong>%<span x-text="earlyPct"></span> indirim</strong> kazanırsınız!</span>
                     </div>
                 @endif
                 <div class="mt-4">

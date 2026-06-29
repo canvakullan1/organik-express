@@ -71,14 +71,17 @@ class OrderService
             return 0;
         }
 
-        // Teslim tarihi yarın mı (sipariş bugünden 1 gün önce verilmiş sayılır)
+        // Teslim tarihi, en erken seçilebilir teslim günü mü?
+        // delivery_lead_days kaç olursa olsun "en yakın teslim"i seçen müşteriye indirim uygulanır.
         try {
             $d = \Illuminate\Support\Carbon::parse($deliveryDate)->startOfDay();
         } catch (\Throwable $e) {
             return 0;
         }
 
-        return $d->equalTo(now()->addDay()->startOfDay()) ? $pct : 0;
+        $earliest = now()->addDays(max(1, (int) $s->delivery_lead_days))->startOfDay();
+
+        return $d->equalTo($earliest) ? $pct : 0;
     }
 
     public function pricing(?User $user, string $paymentMethod, float $loyaltyRequested = 0, int $earlyPct = 0): array

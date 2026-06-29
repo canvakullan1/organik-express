@@ -67,7 +67,8 @@ class CheckoutController extends Controller
             // Erken sipariş indirimi (teslimat bölgeleri + yarın teslim → %)
             'deliveryZoneCities' => array_values((array) $checkout->delivery_zone_cities),
             'earlyPct' => (int) $checkout->early_order_discount_percent,
-            'earlyDate' => now()->addDay()->format('Y-m-d'),
+            // İndirim, en erken seçilebilir teslim tarihini (listenin ilki) seçen müşteriye uygulanır.
+            'earlyDate' => $dates->first()->format('Y-m-d'),
         ]);
     }
 
