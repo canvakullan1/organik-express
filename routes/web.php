@@ -129,6 +129,14 @@ Route::middleware('auth')->group(function () {
 
         // Para Puanım
         Route::get('/hesabim/para-puanim', [AccountController::class, 'loyalty'])->name('account.loyalty');
+
+        // Bilgilerim
+        Route::get('/hesabim/bilgilerim', [AccountController::class, 'profile'])->name('account.profile');
+        Route::put('/hesabim/bilgilerim', [AccountController::class, 'updateProfile'])->name('account.profile.update');
+
+        // İletişim İzinleri
+        Route::get('/hesabim/iletisim-izinleri', [AccountController::class, 'preferences'])->name('account.preferences');
+        Route::put('/hesabim/iletisim-izinleri', [AccountController::class, 'updatePreferences'])->name('account.preferences.update');
     });
 });
 

@@ -24,6 +24,8 @@ class User extends Authenticatable implements FilamentUser, MustVerifyEmail
         'role',
         'phone',
         'is_active',
+        'accepts_marketing_email',
+        'accepts_sms',
     ];
 
     protected $hidden = [
@@ -38,6 +40,8 @@ class User extends Authenticatable implements FilamentUser, MustVerifyEmail
             'password' => 'hashed',
             'role' => UserRole::class,
             'is_active' => 'boolean',
+            'accepts_marketing_email' => 'boolean',
+            'accepts_sms' => 'boolean',
         ];
     }
 
