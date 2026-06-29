@@ -74,6 +74,15 @@ class SetupCatalogSite extends Command
             $order++;
         }
 
+        // 1b) Bilinen 23 kategori (6 üst + 17 alt) dışındaki eski/demo kategorileri pasifleştir
+        $known = array_keys($this->groups);
+        foreach ($this->groups as [$name, $childSlugs]) {
+            $known = array_merge($known, $childSlugs);
+        }
+        $catOff = Category::whereNotIn('slug', $known)
+            ->where(fn ($q) => $q->where('is_active', true)->orWhere('show_in_menu', true))
+            ->update(['is_active' => false, 'show_in_menu' => false]);
+
         // 2) Kategori görselleri — temsilci ürün görselinden
         $imgSet = 0;
         foreach (Category::all() as $cat) {
@@ -163,6 +172,7 @@ class SetupCatalogSite extends Command
         $menuCount = MenuItem::where('location', 'header')->count();
 
         $this->info('Üst kategori: ' . count($this->groups) . ' hazır.');
+        $this->info("Pasifleştirilen eski/demo kategori: {$catOff}");
         $this->info("Kategori görseli atanan: {$imgSet}");
         $this->info("Öne çıkan ürün: {$fCount} | Mevsim ürünü: {$sCount}");
         $this->info("Düzenlenen hero banner: {$bannerFix}");
