@@ -61,6 +61,16 @@ if ($do === 'import_og') {
     echo @shell_exec("cd $repo && $php artisan import:organikgiller$flags 2>&1");
     exit;
 }
+if ($do === 'cleanup_test') {
+    // Yalnızca deneme ürünü temizleme komutu (sabit).
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(600);
+    $flags = '';
+    if (($_GET['dryrun'] ?? '') === '1') { $flags .= ' --dry-run'; }
+    if (($_GET['force'] ?? '') === '1') { $flags .= ' --force'; }
+    echo @shell_exec("cd $repo && $php artisan products:cleanup-test$flags 2>&1");
+    exit;
+}
 if ($do === 'deploy') {
     if (! $git) { exit("git bulunamadi\n"); }
     echo "git=$git php=$php\n";
