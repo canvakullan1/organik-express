@@ -16,10 +16,11 @@
       "name": "Organik Böğürtlen Reçeli 280 gr",
       "slug": "organik-bogurtlen-receli-280-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "280 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Böğürtlen Reçeli 280 gr | Yoğun Meyveli",
-      "short_description": "Yoğun meyve oranıyla geleneksel kazanda pişirilen organik böğürtlen reçeli; 280 gramlık kavanozda.",
-      "meta_description": "Organik böğürtlen reçeli. Yoğun meyveli, katkısız. 280 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Organik böğürtlenlerin geleneksel yöntemle kıvamına gelene kadar pişirilmesiyle hazırlanan reçel. Yoğun meyve oranı ve doğal aromasıyla kahvaltıların gözdesi.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+      "meta_title": "Organik Böğürtlen Reçeli 280 gr | Yoğun Meyveli & Katkısız",
+      "short_description": "Yoğun meyve oranıyla geleneksel kazanda pişirilen organik böğürtlen reçeli. Koruyucusuz; 280 gramlık kavanozda.",
+      "meta_description": "Organik böğürtlen reçeli. Yoğun meyveli, koruyucusuz. 280 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Serin yerde saklayın; açıldıktan sonra buzdolabına kaldırın. Temiz ve kuru kaşık kullanın.",
+      "description": "<p>Organik böğürtlenlerin geleneksel yöntemle kıvamına gelene kadar pişirilmesiyle hazırlanan reçel. Yoğun meyve oranı ve doğal aromasıyla kahvaltıların gözdesi.</p><ul><li><strong>Yoğun meyve oranı</strong>, geleneksel kazan</li><li>Yapay renklendirici ve koruyucu <strong>içermez</strong></li><li>Doğal böğürtlen aroması</li><li>Kahvaltı ve tatlıya uygun</li></ul><p><strong>Servis önerisi:</strong> Kahvaltıda tereyağıyla ekmeğe sürün, yoğurt üstüne ya da kek dolgusunda kullanın.</p>"
     },
     {
       "source_slug": "organikgiller-organik-tahin-300-gr",
@@ -27,10 +28,11 @@
       "name": "Organik Tahin 300 gr",
       "slug": "organik-tahin-300-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Tahin 300 gr | Susamdan",
-      "short_description": "Kavrulmuş organik susamdan öğütülen saf tahin; pekmezle ya da tatlılarda 300 gramlık kavanozda.",
-      "meta_description": "Organik tahin. Saf susamdan, katkısız. 300 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Kavrulmuş organik susamın öğütülmesiyle elde edilen saf tahin. Pekmezle karıştırarak kahvaltıda ya da tatlı ve helva yapımında kullanılır.</p><p>Şeker ve katkı maddesi içermez; doğal yağ ayrışması olabilir, karıştırarak tüketin.</p>"
+      "meta_title": "Organik Tahin 300 gr | Kavrulmuş Susamdan & Saf",
+      "short_description": "Kavrulmuş organik susamdan öğütülen saf tahin. Şekersiz; pekmezle ya da tatlılarda 300 gramlık kavanozda.",
+      "meta_description": "Organik tahin. Saf susamdan, şekersiz, katkısız. 300 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Serin ve kuru yerde saklayın. Doğal yağ ayrışması olabilir; tüketmeden önce karıştırın.",
+      "description": "<p>Kavrulmuş organik susamın öğütülmesiyle elde edilen saf tahin. Pekmezle karıştırarak kahvaltıda ya da tatlı ve helva yapımında kullanılan, kalsiyum açısından zengin bir besin.</p><ul><li><strong>%100 kavrulmuş susam</strong></li><li>Şeker ve katkı maddesi <strong>içermez</strong></li><li>Kalsiyum açısından <strong>zengin</strong></li><li>Kahvaltı ve tatlıya uygun</li></ul><p><strong>Servis önerisi:</strong> Pekmezle karıştırıp kahvaltıda, helva ve tahinli kurabiyede ya da salata sosunda kullanın.</p>"
     },
     {
       "source_slug": "organik-dut-özü-300-gr",
@@ -38,10 +40,11 @@
       "name": "Organik Dut Özü 300 gr",
       "slug": "organik-dut-ozu-300-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Dut Özü 300 gr | Şeker İlavesiz",
-      "short_description": "Dutun kaynatılarak yoğunlaştırılmasıyla elde edilen şeker ilavesiz organik dut özü; 300 gramlık kavanozda.",
-      "meta_description": "Organik dut özü. Şeker ilavesiz, doğal ve katkısız. 300 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Organik dutun yavaşça kaynatılıp yoğunlaştırılmasıyla elde edilen doğal dut özü. Kahvaltıda, tahinle ya da tatlılarda doğal tatlandırıcı olarak kullanılır.</p><p>İlave şeker ve katkı maddesi içermez.</p>"
+      "meta_title": "Organik Dut Özü 300 gr | Şeker İlavesiz & Doğal Tatlandırıcı",
+      "short_description": "Dutun kaynatılarak yoğunlaştırılmasıyla elde edilen şeker ilavesiz organik dut özü. 300 gramlık kavanozda.",
+      "meta_description": "Organik dut özü. Şeker ilavesiz, doğal, katkısız. 300 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Serin yerde saklayın; açıldıktan sonra buzdolabına kaldırın. Temiz ve kuru kaşık kullanın.",
+      "description": "<p>Organik dutun yavaşça kaynatılıp yoğunlaştırılmasıyla elde edilen doğal dut özü. Kahvaltıda, tahinle ya da tatlılarda rafine şekere alternatif, doğal bir tatlandırıcı.</p><ul><li><strong>İlave şeker içermez</strong></li><li>Dutun kaynatılmasıyla, <strong>doğal yoğunlaştırma</strong></li><li>Demir açısından <strong>değerli</strong></li><li>Tahinle harika uyum</li></ul><p><strong>Servis önerisi:</strong> Tahinle karıştırıp kahvaltıda, sütlü içeceklerde ya da tatlılarda doğal tatlandırıcı olarak kullanın.</p>"
     },
     {
       "source_slug": "organikgiller-organik-ham-kakao-tozu-100-gr",
@@ -49,10 +52,11 @@
       "name": "Organik Ham Kakao Tozu 100 gr",
       "slug": "organik-ham-kakao-tozu-100-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "100 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Ham Kakao Tozu 100 gr | Şekersiz",
-      "short_description": "Yüksek antioksidanlı, şekersiz organik ham kakao tozu; smoothie, süt ve tatlı için 100 gramlık pakette.",
-      "meta_description": "Organik ham kakao tozu. Şekersiz, antioksidan zengini ve katkısız. 100 gr paket kapınıza gelsin.",
-      "description": "<p>Düşük sıcaklıkta işlenen, antioksidan açısından zengin organik ham kakao tozu. Smoothie'ye, süte ve tatlılara katılarak yoğun kakao aroması verir.</p><p>Şeker ve katkı maddesi içermez.</p>"
+      "meta_title": "Organik Ham Kakao Tozu 100 gr | Şekersiz & Antioksidan",
+      "short_description": "Yüksek antioksidanlı, şekersiz organik ham kakao tozu. Smoothie, süt ve tatlı için 100 gramlık pakette.",
+      "meta_description": "Organik ham kakao tozu. Şekersiz, antioksidan zengini, katkısız. 100 gr paket kapınıza gelsin.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı kapta saklayın.",
+      "description": "<p>Düşük sıcaklıkta işlenen, antioksidan açısından zengin organik ham kakao tozu. Smoothie'ye, süte ve tatlılara katılarak yoğun, şekersiz kakao aroması verir.</p><ul><li><strong>Ham işleme</strong>, antioksidan korunmuş</li><li>Şeker ve katkı maddesi <strong>içermez</strong></li><li>Yoğun <strong>kakao aroması</strong></li><li>Smoothie, süt ve tatlıya uygun</li></ul><p><strong>Servis önerisi:</strong> Süt ve smoothie'ye katın, şekersiz sıcak çikolata yapın ya da tatlı ve keklerde kullanın.</p>"
     }
   ]
 }

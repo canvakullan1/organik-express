@@ -16,10 +16,11 @@
       "name": "Organik Domates (kg)",
       "slug": "organik-domates",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Domates kg | Mevsiminde Tarladan",
-      "short_description": "Mevsiminde dalında olgunlaşan, aromalı organik domates; salata ve yemekler için kilogram bazında.",
-      "meta_description": "Organik domates. Dalında olgunlaşmış, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Organik tarımla, dalında olgunlaşana kadar bekletilerek hasat edilen aromalı domates. Salatada, yemekte ve sosta gerçek domates lezzeti verir.</p><p>Zirai ilaç ve sentetik gübre kullanılmadan yetiştirilir; taze olarak gönderilir.</p>"
+      "meta_title": "Organik Domates kg | Dalında Olgunlaşmış & Aromalı",
+      "short_description": "Mevsiminde dalında olgunlaşan, aromalı organik domates. Salata ve yemekler için kilogram bazında.",
+      "meta_description": "Organik domates. Dalında olgunlaşmış, aromalı, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Oda sıcaklığında, doğrudan güneş almayan yerde saklayın. Aromasını korumak için buzdolabına koymamanız önerilir.",
+      "description": "<p>Organik tarımla, dalında olgunlaşana kadar bekletilerek hasat edilen aromalı domates. Salatada, yemekte ve sosta gerçek domates lezzetini sofranıza taşır.</p><ul><li>Dalında olgunlaşan, <strong>yoğun aroma</strong></li><li><strong>Sentetik gübre ve zirai ilaç kullanılmadan</strong></li><li>Salata, yemek ve sosa <strong>uygun</strong></li><li>Mevsiminde hasat, taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Salatalarda çiğ, menemen ve yemeklerde pişmiş olarak ya da ev yapımı sos ve salça için kullanın.</p>"
     },
     {
       "source_slug": "organik-kokteyl-domates-kg",
@@ -27,10 +28,11 @@
       "name": "Organik Kokteyl Domates (kg)",
       "slug": "organik-kokteyl-domates",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Kokteyl Domates kg | Salatalık",
-      "short_description": "Küçük taneli, tatlı aromalı organik kokteyl domates; salata ve atıştırmalık için kilogram bazında.",
-      "meta_description": "Organik kokteyl domates. Tatlı aromalı, küçük taneli ve katkısız. Mevsiminde taze kapınıza gelsin.",
-      "description": "<p>Küçük taneli ve tatlı aromasıyla öne çıkan organik kokteyl domates. Salatada, kahvaltıda ve atıştırmalık olarak taze tüketime uygundur.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Kokteyl Domates kg | Tatlı & Salatalık",
+      "short_description": "Küçük taneli, tatlı aromalı organik kokteyl domates. Salata ve atıştırmalık için kilogram bazında.",
+      "meta_description": "Organik kokteyl domates. Tatlı aromalı, küçük taneli, katkısız. Mevsiminde taze kapınıza gelsin.",
+      "storage_info": "Oda sıcaklığında, güneş almayan yerde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>Küçük taneli ve tatlı aromasıyla öne çıkan organik kokteyl domates. Salatada, kahvaltıda ve atıştırmalık olarak taze tüketime uygundur.</p><ul><li><strong>Tatlı aroma</strong>, küçük diri taneler</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata ve atıştırmalık için <strong>ideal</strong></li><li>Mevsiminde hasat, taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Salatalarda bütün, kahvaltı tabağında ya da fırınlanmış meze olarak değerlendirin.</p>"
     },
     {
       "source_slug": "organik-dolmalık-biber-kg",
@@ -39,9 +41,10 @@
       "slug": "organik-dolmalik-biber",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
       "meta_title": "Organik Dolmalık Biber kg | Etli & Diri",
-      "short_description": "Etli ve diri yapısıyla dolmalık organik biber; dolma ve fırın için kilogram bazında.",
-      "meta_description": "Organik dolmalık biber. Etli, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Etli ve diri yapısıyla dolma ve fırın yemekleri için ideal organik dolmalık biber. Doğal aroması yemeklere tatlı bir derinlik katar.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "short_description": "Etli ve diri yapısıyla dolmalık organik biber. Dolma ve fırın için kilogram bazında.",
+      "meta_description": "Organik dolmalık biber. Etli, diri, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>Etli ve diri yapısıyla dolma ve fırın yemekleri için ideal organik dolmalık biber. Doğal aroması yemeklere tatlı bir derinlik katar.</p><ul><li><strong>Etli ve diri</strong>, dolmaya uygun yapı</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Dolma, fırın ve sote için <strong>ideal</strong></li><li>Doğal, tatlımsı aroma</li></ul><p><strong>Kullanım önerisi:</strong> Zeytinyağlı ya da etli dolma yapın, fırında közleyin veya doğrayıp yemeklere ekleyin.</p>"
     },
     {
       "source_slug": "organik-kapya-biber-kg",
@@ -50,9 +53,10 @@
       "slug": "organik-kapya-biber",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
       "meta_title": "Organik Kapya Biber kg | Tatlı & Etli",
-      "short_description": "Tatlı ve etli yapısıyla közleme ve kavurmaya uygun organik kapya biber; kilogram bazında.",
-      "meta_description": "Organik kapya biber. Tatlı, etli ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Tatlı aroması ve etli yapısıyla közlemede, kavurmada ve sosta öne çıkan organik kapya biber. Doğal şekerleri sayesinde dolgun bir lezzet verir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "short_description": "Tatlı ve etli yapısıyla közleme ve kavurmaya uygun organik kapya biber. Kilogram bazında.",
+      "meta_description": "Organik kapya biber. Tatlı, etli, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>Tatlı aroması ve etli yapısıyla közlemede, kavurmada ve sosta öne çıkan organik kapya biber. Doğal şekerleri sayesinde dolgun bir lezzet verir.</p><ul><li><strong>Tatlı ve etli</strong>, közlemelik yapı</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Köz, kavurma ve sosa <strong>ideal</strong></li><li>Doğal şekerleriyle dolgun tat</li></ul><p><strong>Kullanım önerisi:</strong> Közleyip meze yapın, kavurmalarda ve ev yapımı sos-salçada kullanın.</p>"
     },
     {
       "source_slug": "organik-köy-biber-kg",
@@ -60,10 +64,11 @@
       "name": "Organik Köy Biber (kg)",
       "slug": "organik-koy-biber",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Köy Biber kg | Aromalı Çarliston",
-      "short_description": "İnce kabuklu, aromalı organik köy (çarliston) biber; kızartma ve yemekler için kilogram bazında.",
-      "meta_description": "Organik köy biber. İnce kabuklu, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>İnce kabuğu ve yoğun aromasıyla kızartmalık organik köy biber. Tavada ve yemeklerde doğal bir tat verir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Köy Biber kg | İnce Kabuklu & Aromalı",
+      "short_description": "İnce kabuklu, aromalı organik köy (çarliston) biber. Kızartma ve yemekler için kilogram bazında.",
+      "meta_description": "Organik köy biber. İnce kabuklu, aromalı, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>İnce kabuğu ve yoğun aromasıyla kızartmalık organik köy biber. Tavada ve yemeklerde doğal, ferah bir tat verir.</p><ul><li><strong>İnce kabuk</strong>, kızartmalık yapı</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Kızartma ve yemeklere <strong>uygun</strong></li><li>Yoğun, doğal aroma</li></ul><p><strong>Kullanım önerisi:</strong> Tavada kızartıp yoğurtla servis edin ya da yemeklere doğrayarak ekleyin.</p>"
     },
     {
       "source_slug": "organik-sivri-biber-kg",
@@ -72,9 +77,10 @@
       "slug": "organik-sivri-biber",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
       "meta_title": "Organik Sivri Biber kg | İnce & Aromalı",
-      "short_description": "İnce yapılı, hafif acımsı aromalı organik sivri biber; salata ve kızartma için kilogram bazında.",
-      "meta_description": "Organik sivri biber. İnce, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>İnce yapısı ve hafif acımsı aromasıyla salatalık ve kızartmalık organik sivri biber. Yemeklere taze bir karakter katar.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "short_description": "İnce yapılı, hafif acımsı aromalı organik sivri biber. Salata ve kızartma için kilogram bazında.",
+      "meta_description": "Organik sivri biber. İnce, aromalı, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>İnce yapısı ve hafif acımsı aromasıyla salatalık ve kızartmalık organik sivri biber. Yemeklere taze, ferah bir karakter katar.</p><ul><li><strong>İnce yapı</strong>, hafif acımsı aroma</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata ve kızartmaya <strong>uygun</strong></li><li>Yemeklere taze karakter</li></ul><p><strong>Kullanım önerisi:</strong> Çiğ olarak yemek yanında, tavada kızartılmış ya da yemeklere doğranmış olarak kullanın.</p>"
     },
     {
       "source_slug": "organik-tatlı-kıl-biber-kg",
@@ -82,10 +88,11 @@
       "name": "Organik Tatlı Kıl Biber (kg)",
       "slug": "organik-tatli-kil-biber",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Tatlı Kıl Biber kg | İnce Aromalı",
-      "short_description": "İnce uzun, tatlı aromalı organik kıl biber; kızartma ve sote için kilogram bazında.",
-      "meta_description": "Organik tatlı kıl biber. İnce, tatlı aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>İnce uzun yapısı ve tatlı aromasıyla kızartma ve sotelere uygun organik kıl biber. Doğal lezzetiyle yemekleri tamamlar.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Tatlı Kıl Biber kg | İnce & Tatlı Aromalı",
+      "short_description": "İnce uzun, tatlı aromalı organik kıl biber. Kızartma ve sote için kilogram bazında.",
+      "meta_description": "Organik tatlı kıl biber. İnce, tatlı aromalı, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>İnce uzun yapısı ve tatlı aromasıyla kızartma ve sotelere uygun organik kıl biber. Doğal lezzetiyle yemekleri tamamlar.</p><ul><li><strong>İnce uzun</strong>, tatlı aromalı</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Kızartma ve soteye <strong>uygun</strong></li><li>Acısız, dengeli tat</li></ul><p><strong>Kullanım önerisi:</strong> Tavada kızartıp yemek yanında servis edin ya da sotelerde kullanın.</p>"
     },
     {
       "source_slug": "organik-sakız-kabak-kg-kopyası",
@@ -93,10 +100,11 @@
       "name": "Organik Patlıcan (kg)",
       "slug": "organik-patlican",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Patlıcan kg | Közleme & Kızartma",
-      "short_description": "İnce kabuklu, az çekirdekli organik patlıcan; közleme, kızartma ve yemekler için kilogram bazında.",
-      "meta_description": "Organik patlıcan. İnce kabuklu, az çekirdekli ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>İnce kabuğu ve az çekirdekli yapısıyla közlemelik organik patlıcan. Kızartmada, yemekte ve közlemede doğal aroma verir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Patlıcan kg | İnce Kabuklu & Az Çekirdekli",
+      "short_description": "İnce kabuklu, az çekirdekli organik patlıcan. Közleme, kızartma ve yemekler için kilogram bazında.",
+      "meta_description": "Organik patlıcan. İnce kabuklu, az çekirdekli, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>İnce kabuğu ve az çekirdekli yapısıyla közlemelik organik patlıcan. Kızartmada, yemekte ve közlemede doğal, dumanlı bir aroma verir.</p><ul><li><strong>İnce kabuk</strong>, az çekirdek</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Köz, kızartma ve yemeğe <strong>uygun</strong></li><li>Acılaşmayan, dengeli yapı</li></ul><p><strong>Kullanım önerisi:</strong> Közleyip patlıcan salatası, kızartıp yoğurtlu meze ya da karnıyarık ve musakka yapın.</p>"
     },
     {
       "source_slug": "organik-sakız-kabak-kg",
@@ -104,10 +112,11 @@
       "name": "Organik Sakız Kabak (kg)",
       "slug": "organik-sakiz-kabak",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Sakız Kabak kg | İnce Kabuklu",
-      "short_description": "İnce kabuklu, yumuşak organik sakız kabak; zeytinyağlı ve kızartma için kilogram bazında.",
-      "meta_description": "Organik sakız kabak. İnce kabuklu, yumuşak ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>İnce kabuğu ve yumuşak dokusuyla organik sakız kabak. Zeytinyağlı yemeklerde, kızartmada ve mücverlerde idealdir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Sakız Kabak kg | İnce Kabuklu & Yumuşak",
+      "short_description": "İnce kabuklu, yumuşak organik sakız kabak. Zeytinyağlı ve kızartma için kilogram bazında.",
+      "meta_description": "Organik sakız kabak. İnce kabuklu, yumuşak, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>İnce kabuğu ve yumuşak dokusuyla organik sakız kabak. Zeytinyağlı yemeklerde, kızartmada ve mücverlerde doğal lezzetini korur.</p><ul><li><strong>İnce kabuk</strong>, yumuşak doku</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Zeytinyağlı, kızartma ve mücvere <strong>uygun</strong></li><li>Mevsiminde hasat, taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Mücver, zeytinyağlı kabak ya da fırında sebze olarak değerlendirin.</p>"
     },
     {
       "source_slug": "organik-patates-kg",
@@ -115,10 +124,11 @@
       "name": "Organik Patates (kg)",
       "slug": "organik-patates",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Patates kg | Çok Amaçlı",
-      "short_description": "Haşlama, fırın ve kızartmaya uygun çok amaçlı organik patates; kilogram bazında.",
-      "meta_description": "Organik patates. Çok amaçlı, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Haşlama, fırın, püre ve kızartmaya uygun çok amaçlı organik patates. Doğal nişastasıyla her tarifte dengeli bir sonuç verir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Patates kg | Çok Amaçlı & Doğal",
+      "short_description": "Haşlama, fırın ve kızartmaya uygun çok amaçlı organik patates. Kilogram bazında.",
+      "meta_description": "Organik patates. Çok amaçlı, doğal, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Serin, karanlık ve havadar bir yerde saklayın. Işık alırsa yeşermemesi için kağıt torbada tutun.",
+      "description": "<p>Haşlama, fırın, püre ve kızartmaya uygun çok amaçlı organik patates. Doğal nişastasıyla her tarifte dengeli bir sonuç verir.</p><ul><li><strong>Çok amaçlı</strong>: haşlama, fırın, kızartma</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Dengeli nişasta, <strong>her tarife</strong> uygun</li><li>Doğal, katkısız</li></ul><p><strong>Kullanım önerisi:</strong> Fırında, püre olarak, haşlama yemeklerde ya da ev yapımı patates kızartmasında kullanın.</p>"
     },
     {
       "source_slug": "organik-kırmızı-patates-kg",
@@ -126,10 +136,11 @@
       "name": "Organik Kırmızı Patates (kg)",
       "slug": "organik-kirmizi-patates",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Kırmızı Patates kg | Fırınlık",
-      "short_description": "Diri etli, fırın ve haşlamaya uygun organik kırmızı patates; kilogram bazında.",
-      "meta_description": "Organik kırmızı patates. Diri etli, fırınlık ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Diri eti ve dengeli nişastasıyla fırın ve haşlamada dağılmayan organik kırmızı patates. Yemeklerde formunu korur.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Kırmızı Patates kg | Diri Etli & Fırınlık",
+      "short_description": "Diri etli, fırın ve haşlamada dağılmayan organik kırmızı patates. Kilogram bazında.",
+      "meta_description": "Organik kırmızı patates. Diri etli, fırınlık, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Serin, karanlık ve havadar bir yerde saklayın. Işıktan korumak için kağıt torbada tutun.",
+      "description": "<p>Diri eti ve dengeli nişastasıyla fırın ve haşlamada dağılmayan organik kırmızı patates. Yemeklerde formunu koruduğu için salata ve fırın tariflerinde idealdir.</p><ul><li><strong>Diri etli</strong>, dağılmaz</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Fırın ve haşlamaya <strong>ideal</strong></li><li>Patates salatasına uygun</li></ul><p><strong>Kullanım önerisi:</strong> Fırında dilimleyerek, patates salatasında ya da haşlama yemeklerde kullanın.</p>"
     },
     {
       "source_slug": "organik-havuç-kg",
@@ -138,9 +149,10 @@
       "slug": "organik-havuc",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
       "meta_title": "Organik Havuç kg | Tatlı & Diri",
-      "short_description": "Tatlı ve diri organik havuç; salata, yemek ve taze sıkım için kilogram bazında.",
-      "meta_description": "Organik havuç. Tatlı, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Doğal şekeri yüksek, diri organik havuç. Salatada, yemekte ve taze sıkım sularda çok yönlü kullanılır.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "short_description": "Tatlı ve diri organik havuç. Salata, yemek ve taze sıkım için kilogram bazında.",
+      "meta_description": "Organik havuç. Tatlı, diri, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde, yaprakları koparılmış halde saklayın. Bir hafta kadar tazeliğini korur.",
+      "description": "<p>Doğal şekeri yüksek, diri organik havuç. Salatada, yemekte ve taze sıkım sularda çok yönlü kullanılan, beta-karoten açısından zengin bir kök sebze.</p><ul><li><strong>Tatlı ve diri</strong>, doğal şeker</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata, yemek ve sıkıma <strong>uygun</strong></li><li>Beta-karoten kaynağı</li></ul><p><strong>Kullanım önerisi:</strong> Rendeleyip salatada, yemeklerde ya da taze sıkım havuç suyunda değerlendirin.</p>"
     },
     {
       "source_slug": "organik-mor-havuç-kg",
@@ -148,10 +160,11 @@
       "name": "Organik Mor Havuç (kg)",
       "slug": "organik-mor-havuc",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Mor Havuç kg | Şalgam & Salata",
-      "short_description": "Antioksidan zengini organik mor havuç; şalgam, salgam suyu ve salata için kilogram bazında.",
-      "meta_description": "Organik mor havuç. Antioksidan zengini, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Koyu rengini veren antosiyaninlerle antioksidan açısından zengin organik mor havuç. Şalgam suyunda, salatada ve turşuda kullanılır.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Mor Havuç kg | Antioksidan & Şalgamlık",
+      "short_description": "Antioksidan açısından zengin organik mor havuç. Şalgam, salata ve turşu için kilogram bazında.",
+      "meta_description": "Organik mor havuç. Antioksidan zengini, doğal, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Bir hafta kadar tazeliğini korur.",
+      "description": "<p>Koyu rengini veren antosiyaninlerle antioksidan açısından zengin organik mor havuç. Şalgam suyunda, salatada ve turşuda renk ve değer katar.</p><ul><li><strong>Antosiyanin</strong> ile antioksidan zengini</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Şalgam, salata ve turşuya <strong>uygun</strong></li><li>Doğal koyu mor renk</li></ul><p><strong>Kullanım önerisi:</strong> Şalgam suyunda, turşuda ya da rendeleyip salatalarda kullanın.</p>"
     },
     {
       "source_slug": "organik-kırmızı-pancar-kg",
@@ -159,10 +172,11 @@
       "name": "Organik Kırmızı Pancar (kg)",
       "slug": "organik-kirmizi-pancar",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Kırmızı Pancar kg | Detoks Dostu",
-      "short_description": "Yoğun renkli, toprak aromalı organik kırmızı pancar; haşlama, salata ve taze sıkım için kilogram bazında.",
-      "meta_description": "Organik kırmızı pancar. Yoğun renkli, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Yoğun rengi ve toprak aromasıyla organik kırmızı pancar. Haşlanarak salatada, közlenerek ya da taze sıkım sularda değerlendirilir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Kırmızı Pancar kg | Detoks Dostu & Yoğun Renkli",
+      "short_description": "Yoğun renkli, toprak aromalı organik kırmızı pancar. Haşlama, salata ve taze sıkım için kilogram bazında.",
+      "meta_description": "Organik kırmızı pancar. Yoğun renkli, doğal, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Yaprakları varsa ayırarak muhafaza edin.",
+      "description": "<p>Yoğun rengi ve toprak aromasıyla organik kırmızı pancar. Haşlanarak salatada, közlenerek ya da taze sıkım sularda değerlendirilen besleyici bir kök sebze.</p><ul><li><strong>Yoğun renk</strong>, toprak aroması</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Haşlama, salata ve sıkıma <strong>uygun</strong></li><li>Detoks içeceklerinin gözdesi</li></ul><p><strong>Kullanım önerisi:</strong> Haşlayıp salatada, elma-havuçla taze sıkım suda ya da közleyerek kullanın.</p>"
     },
     {
       "source_slug": "organik-kuru-soğan-kg",
@@ -170,10 +184,11 @@
       "name": "Organik Kuru Soğan (kg)",
       "slug": "organik-kuru-sogan",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Kuru Soğan kg | Yemeklik",
-      "short_description": "Yemeklerin temeli organik kuru soğan; sote, yemek ve sos için kilogram bazında.",
-      "meta_description": "Organik kuru soğan. Yemeklik, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Yemeklerin vazgeçilmez temeli organik kuru soğan. Sotede, sosta ve sebze yemeklerinde dengeli bir tatlılık verir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Kuru Soğan kg | Yemeklik & Aromalı",
+      "short_description": "Yemeklerin temeli organik kuru soğan. Sote, yemek ve sos için kilogram bazında.",
+      "meta_description": "Organik kuru soğan. Yemeklik, doğal, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Serin, kuru ve havadar bir yerde, ağ veya file içinde saklayın. Nemden uzak tutun.",
+      "description": "<p>Yemeklerin vazgeçilmez temeli organik kuru soğan. Sotede, sosta ve sebze yemeklerinde dengeli bir tatlılık ve aroma verir.</p><ul><li><strong>Yemeklik</strong>, dengeli aroma</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Sote, sos ve yemeğe <strong>temel</strong></li><li>Uzun ömürlü saklama</li></ul><p><strong>Kullanım önerisi:</strong> Tüm sıcak yemeklerin temelinde, soslarda ve közlemede kullanın.</p>"
     },
     {
       "source_slug": "organik-kırmızı-kuru-soğan-kg",
@@ -181,10 +196,11 @@
       "name": "Organik Kırmızı Kuru Soğan (kg)",
       "slug": "organik-kirmizi-kuru-sogan",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Kırmızı Kuru Soğan kg | Salatalık",
-      "short_description": "Hafif tatlı, salatalık organik kırmızı kuru soğan; salata ve meze için kilogram bazında.",
-      "meta_description": "Organik kırmızı kuru soğan. Hafif tatlı, salatalık ve katkısız. Mevsiminde taze kapınıza gelsin.",
-      "description": "<p>Hafif tatlı aroması ve canlı rengiyle salatalık organik kırmızı soğan. Salatalarda ve mezelerde çiğ olarak öne çıkar.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Kırmızı Kuru Soğan kg | Salatalık & Hafif Tatlı",
+      "short_description": "Hafif tatlı, salatalık organik kırmızı kuru soğan. Salata ve meze için kilogram bazında.",
+      "meta_description": "Organik kırmızı kuru soğan. Hafif tatlı, salatalık, katkısız. Mevsiminde taze kapınıza gelsin.",
+      "storage_info": "Serin, kuru ve havadar bir yerde saklayın. Nemden uzak tutun.",
+      "description": "<p>Hafif tatlı aroması ve canlı rengiyle salatalık organik kırmızı soğan. Salatalarda ve mezelerde çiğ olarak öne çıkar.</p><ul><li><strong>Hafif tatlı</strong>, salatalık</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata ve mezeye <strong>uygun</strong></li><li>Canlı kırmızı renk</li></ul><p><strong>Kullanım önerisi:</strong> Halka doğrayıp salatalarda, piyazda ve sumakla mezelerde kullanın.</p>"
     },
     {
       "source_slug": "organik-taze-soğan-bağ",
@@ -192,10 +208,11 @@
       "name": "Organik Taze Soğan (Bağ)",
       "slug": "organik-taze-sogan",
       "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Taze Soğan | Bağ",
-      "short_description": "Taptaze, aromalı organik taze soğan; salata ve kahvaltı için bağ halinde.",
-      "meta_description": "Organik taze soğan. Taptaze, aromalı ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
-      "description": "<p>Taptaze ve aromalı organik taze soğan. Salatada, kahvaltıda ve yemeklerde ferah bir tat verir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+      "meta_title": "Organik Taze Soğan | Bağ & Aromalı",
+      "short_description": "Taptaze, aromalı organik taze soğan. Salata ve kahvaltı için bağ halinde.",
+      "meta_description": "Organik taze soğan. Taptaze, aromalı, katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde, kökleri nemli bir beze sarılı saklayın. Birkaç gün içinde tüketin.",
+      "description": "<p>Taptaze ve aromalı organik taze soğan. Salatada, kahvaltıda ve yemeklerde ferah, hafif keskin bir tat verir.</p><ul><li><strong>Taptaze</strong>, ferah aroma</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata, kahvaltı ve yemeğe <strong>uygun</strong></li><li>Bağ halinde taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Doğrayıp salatalarda, kahvaltıda ya da yumurtalı yemeklerde kullanın.</p>"
     },
     {
       "source_slug": "organik-sarımsak-kg",
@@ -203,10 +220,11 @@
       "name": "Organik Sarımsak 250 gr",
       "slug": "organik-sarimsak-250-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Sarımsak 250 gr | Aromalı Yerli",
-      "short_description": "Yoğun aromalı, küçük dişli organik sarımsak; yemek ve sos için 250 gramlık pakette.",
-      "meta_description": "Organik sarımsak. Yoğun aromalı, yerli ve katkısız. 250 gr taze paket kapınıza gelsin.",
-      "description": "<p>Yoğun aroması ve küçük dişli yapısıyla yerli organik sarımsak. Yemeklerde, soslarda ve turşuda doğal bir lezzet derinliği katar.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Sarımsak 250 gr | Yerli & Yoğun Aromalı",
+      "short_description": "Yoğun aromalı, küçük dişli yerli organik sarımsak. Yemek ve sos için 250 gramlık pakette.",
+      "meta_description": "Organik sarımsak. Yoğun aromalı, yerli, katkısız. 250 gr taze paket kapınıza gelsin.",
+      "storage_info": "Serin, kuru ve havadar bir yerde saklayın. Nemden uzak tutun.",
+      "description": "<p>Yoğun aroması ve küçük dişli yapısıyla yerli organik sarımsak. Yemeklerde, soslarda ve turşuda doğal bir lezzet derinliği ve karakter katar.</p><ul><li><strong>Yerli</strong>, yoğun aromalı</li><li><strong>Sentetik gübre kullanılmadan</strong> yetiştirilir</li><li>Yemek, sos ve turşuya <strong>uygun</strong></li><li>Küçük dişli, aromatik</li></ul><p><strong>Kullanım önerisi:</strong> Yemeklerde, ev yapımı soslarda, cacıkta ve turşuda kullanın.</p>"
     },
     {
       "source_slug": "organik-hıyar-kg",
@@ -215,9 +233,10 @@
       "slug": "organik-salatalik-hiyar",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
       "meta_title": "Organik Salatalık kg | Çıtır & Aromalı",
-      "short_description": "Çıtır ve aromalı organik salatalık; salata, kahvaltı ve atıştırmalık için kilogram bazında.",
-      "meta_description": "Organik salatalık (hıyar). Çıtır, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Çıtır dokusu ve ferah aromasıyla organik salatalık. Salatada, kahvaltıda ve atıştırmalık olarak taze tüketime uygundur.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+      "short_description": "Çıtır ve aromalı organik salatalık. Salata, kahvaltı ve atıştırmalık için kilogram bazında.",
+      "meta_description": "Organik salatalık (hıyar). Çıtır, aromalı, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>Çıtır dokusu ve ferah aromasıyla organik salatalık. Salatada, kahvaltıda ve atıştırmalık olarak taze, serinletici bir seçenek.</p><ul><li><strong>Çıtır</strong>, ferah aroma</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata, kahvaltı ve cacığa <strong>uygun</strong></li><li>Düşük kalorili, serinletici</li></ul><p><strong>Kullanım önerisi:</strong> Salatalarda, cacıkta ya da kahvaltıda çiğ olarak tüketin.</p>"
     },
     {
       "source_slug": "organik-fasulye-kg",
@@ -226,9 +245,10 @@
       "slug": "organik-taze-fasulye",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
       "meta_title": "Organik Taze Fasulye kg | Etli & Diri",
-      "short_description": "Etli ve diri organik taze fasulye; zeytinyağlı ve etli yemekler için kilogram bazında.",
-      "meta_description": "Organik taze fasulye. Etli, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Etli ve diri yapısıyla organik taze fasulye. Zeytinyağlı, etli ve sebzeli yemeklerde doğal aromasını korur.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "short_description": "Etli ve diri organik taze fasulye. Zeytinyağlı ve etli yemekler için kilogram bazında.",
+      "meta_description": "Organik taze fasulye. Etli, diri, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>Etli ve diri yapısıyla organik taze fasulye. Zeytinyağlı, etli ve sebzeli yemeklerde doğal aromasını ve dokusunu korur.</p><ul><li><strong>Etli ve diri</strong>, lifli yapı</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Zeytinyağlı ve etli yemeğe <strong>uygun</strong></li><li>Mevsiminde hasat, taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Zeytinyağlı fasulye, etli taze fasulye ya da haşlayıp salatada kullanın.</p>"
     },
     {
       "source_slug": "organik-semizotu-kg",
@@ -236,10 +256,11 @@
       "name": "Organik Semizotu (kg)",
       "slug": "organik-semizotu",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Semizotu kg | Omega-3 Zengini",
-      "short_description": "Taze ve sulu organik semizotu; yoğurtlu, zeytinyağlı ve salata için kilogram bazında.",
-      "meta_description": "Organik semizotu. Taze, sulu ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
-      "description": "<p>Sulu yaprakları ve hafif mayhoş tadıyla organik semizotu. Yoğurtlu yemekte, salatada ve zeytinyağlı tariflerde değerlendirilir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+      "meta_title": "Organik Semizotu kg | Omega-3 Zengini & Taze",
+      "short_description": "Taze ve sulu organik semizotu. Yoğurtlu, zeytinyağlı ve salata için kilogram bazında.",
+      "meta_description": "Organik semizotu. Taze, sulu, katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Taze olduğundan 1-2 gün içinde tüketin.",
+      "description": "<p>Sulu yaprakları ve hafif mayhoş tadıyla organik semizotu. Bitkisel omega-3 kaynağı olarak yoğurtlu yemekte, salatada ve zeytinyağlı tariflerde değerlendirilir.</p><ul><li>Bitkisel <strong>omega-3</strong> kaynağı</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Yoğurtlu, zeytinyağlı ve salataya <strong>uygun</strong></li><li>Sulu, hafif mayhoş yaprak</li></ul><p><strong>Kullanım önerisi:</strong> Yoğurtlu semizotu, zeytinyağlı yemek ya da salatada çiğ olarak kullanın.</p>"
     },
     {
       "source_slug": "organik-marul-bağ",
@@ -247,10 +268,11 @@
       "name": "Organik Marul (Bağ)",
       "slug": "organik-marul",
       "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Marul | Çıtır Yapraklı",
-      "short_description": "Çıtır yapraklı, taze organik marul; salata ve sandviç için bağ halinde.",
-      "meta_description": "Organik marul. Çıtır yapraklı, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
-      "description": "<p>Çıtır yaprakları ve ferah tadıyla organik marul. Salatalarda ve sandviçlerde taze bir doku katar.</p><p>Organik tarımla yetiştirilir; taze olarak gönderilir.</p>"
+      "meta_title": "Organik Marul | Çıtır Yapraklı & Taze",
+      "short_description": "Çıtır yapraklı, taze organik marul. Salata ve sandviç için bağ halinde.",
+      "meta_description": "Organik marul. Çıtır yapraklı, taze, katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde, nemli bir beze sarılı saklayın. Birkaç gün içinde tüketin.",
+      "description": "<p>Çıtır yaprakları ve ferah tadıyla organik marul. Salatalarda ve sandviçlerde taze, hafif bir doku katar.</p><ul><li><strong>Çıtır yapraklı</strong>, ferah</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata ve sandviçe <strong>uygun</strong></li><li>Bağ halinde taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Salatalarda, sandviç ve dürümlerde taze yaprak olarak kullanın.</p>"
     },
     {
       "source_slug": "organik-kıvırcık-adt",
@@ -258,10 +280,11 @@
       "name": "Organik Kıvırcık Salata (Adet)",
       "slug": "organik-kivircik-salata",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Kıvırcık Salata | Taze Yapraklı",
-      "short_description": "Yumuşak kıvrımlı yaprakları olan taze organik kıvırcık salata; baş halinde.",
-      "meta_description": "Organik kıvırcık salata. Taze, yumuşak yapraklı ve katkısız. Baş halinde taze kapınıza gelsin.",
-      "description": "<p>Yumuşak ve kıvrımlı yapraklarıyla organik kıvırcık salata. Salataların ve sandviçlerin taze tamamlayıcısı.</p><p>Organik tarımla yetiştirilir; baş halinde taze gönderilir.</p>"
+      "meta_title": "Organik Kıvırcık Salata | Taze & Yumuşak Yapraklı",
+      "short_description": "Yumuşak kıvrımlı yaprakları olan taze organik kıvırcık salata. Baş halinde.",
+      "meta_description": "Organik kıvırcık salata. Taze, yumuşak yapraklı, katkısız. Baş halinde taze kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde, nemli bir beze sarılı saklayın. Birkaç gün içinde tüketin.",
+      "description": "<p>Yumuşak ve kıvrımlı yapraklarıyla organik kıvırcık salata. Salataların ve sandviçlerin taze, hafif tamamlayıcısı.</p><ul><li><strong>Yumuşak kıvrımlı</strong> yapraklar</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata ve sandviçe <strong>uygun</strong></li><li>Baş halinde taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Yapraklarını ayırıp salatalarda, burger ve sandviçlerde kullanın.</p>"
     },
     {
       "source_slug": "organik-roka-bağ",
@@ -269,10 +292,11 @@
       "name": "Organik Roka (Bağ)",
       "slug": "organik-roka",
       "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Roka | Aromalı Yeşillik",
-      "short_description": "Keskin ve aromalı organik roka; salata, balık ve pizza yanına bağ halinde.",
-      "meta_description": "Organik roka. Aromalı, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
-      "description": "<p>Keskin ve aromatik tadıyla organik roka. Salatalarda, balık yanında ve pizzada karakterli bir lezzet verir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+      "meta_title": "Organik Roka | Keskin Aromalı Yeşillik",
+      "short_description": "Keskin ve aromalı organik roka. Salata, balık ve pizza yanına bağ halinde.",
+      "meta_description": "Organik roka. Aromalı, taze, katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde, nemli bir beze sarılı saklayın. 1-2 gün içinde tüketin.",
+      "description": "<p>Keskin ve aromatik tadıyla organik roka. Salatalarda, balık yanında ve pizzada karakterli, ferah bir lezzet verir.</p><ul><li><strong>Keskin aromatik</strong> tat</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata, balık ve pizzaya <strong>uygun</strong></li><li>Bağ halinde taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Salatalarda, balık yanında ya da pizza üzerine taze serperek kullanın.</p>"
     },
     {
       "source_slug": "organik-maydanoz-bağ",
@@ -280,10 +304,11 @@
       "name": "Organik Maydanoz (Bağ)",
       "slug": "organik-maydanoz",
       "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Maydanoz | Taptaze",
-      "short_description": "Taptaze ve aromalı organik maydanoz; salata, yemek ve garnitür için bağ halinde.",
-      "meta_description": "Organik maydanoz. Taptaze, aromalı ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
-      "description": "<p>Taptaze ve aromatik organik maydanoz. Salatalara, yemeklere ve garnitürlere ferah bir tat katar.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+      "meta_title": "Organik Maydanoz | Taptaze & Aromalı",
+      "short_description": "Taptaze ve aromalı organik maydanoz. Salata, yemek ve garnitür için bağ halinde.",
+      "meta_description": "Organik maydanoz. Taptaze, aromalı, katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde, sapları suda ya da nemli beze sarılı saklayın. Birkaç gün içinde tüketin.",
+      "description": "<p>Taptaze ve aromatik organik maydanoz. Salatalara, yemeklere ve garnitürlere ferah, C vitamini açısından zengin bir tat katar.</p><ul><li><strong>Taptaze</strong>, yoğun aroma</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Salata, yemek ve garnitüre <strong>uygun</strong></li><li>C vitamini kaynağı</li></ul><p><strong>Kullanım önerisi:</strong> Salatalarda, köfte harcında ve yemeklerin üzerine doğrayarak kullanın.</p>"
     },
     {
       "source_slug": "organik-dereotu-bağ",
@@ -291,10 +316,11 @@
       "name": "Organik Dereotu (Bağ)",
       "slug": "organik-dereotu",
       "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Dereotu | Aromalı Yeşillik",
-      "short_description": "Yoğun aromalı taze organik dereotu; zeytinyağlı, salata ve balık için bağ halinde.",
-      "meta_description": "Organik dereotu. Aromalı, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
-      "description": "<p>Yoğun aroması ve ince yapraklarıyla organik dereotu. Zeytinyağlılarda, salatada ve balıkta belirgin bir tat verir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+      "meta_title": "Organik Dereotu | Yoğun Aromalı Yeşillik",
+      "short_description": "Yoğun aromalı taze organik dereotu. Zeytinyağlı, salata ve balık için bağ halinde.",
+      "meta_description": "Organik dereotu. Aromalı, taze, katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde, nemli beze sarılı saklayın. Birkaç gün içinde tüketin.",
+      "description": "<p>Yoğun aroması ve ince yapraklarıyla organik dereotu. Zeytinyağlılarda, salatada ve balıkta belirgin, ferah bir tat verir.</p><ul><li><strong>Yoğun aroma</strong>, ince yapraklı</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Zeytinyağlı, salata ve balığa <strong>uygun</strong></li><li>Bağ halinde taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Zeytinyağlı enginar ve bakla, cacık ya da balık yemeklerinde kullanın.</p>"
     },
     {
       "source_slug": "organik-pazı-bağ",
@@ -302,10 +328,11 @@
       "name": "Organik Pazı (Bağ)",
       "slug": "organik-pazi",
       "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Pazı | Yeşil Yapraklı",
-      "short_description": "Geniş yapraklı, besleyici organik pazı; kavurma, sarma ve yemekler için bağ halinde.",
-      "meta_description": "Organik pazı. Geniş yapraklı, besleyici ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
-      "description": "<p>Geniş yaprakları ve besleyici yapısıyla organik pazı. Kavurmada, sarmada ve sebze yemeklerinde kullanılır.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+      "meta_title": "Organik Pazı | Geniş Yapraklı & Besleyici",
+      "short_description": "Geniş yapraklı, besleyici organik pazı. Kavurma, sarma ve yemekler için bağ halinde.",
+      "meta_description": "Organik pazı. Geniş yapraklı, besleyici, katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>Geniş yaprakları ve besleyici yapısıyla organik pazı. Kavurmada, sarmada ve sebze yemeklerinde demir ve vitamin açısından zengin bir seçenek.</p><ul><li><strong>Geniş yapraklı</strong>, besleyici</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Kavurma, sarma ve yemeğe <strong>uygun</strong></li><li>Demir ve vitamin kaynağı</li></ul><p><strong>Kullanım önerisi:</strong> Zeytinyağında kavurun, sarma yapın ya da börek harcında kullanın.</p>"
     },
     {
       "source_slug": "organik-kale-bağ",
@@ -313,10 +340,11 @@
       "name": "Organik Kara Lahana (Kale) (Bağ)",
       "slug": "organik-kale-kara-lahana",
       "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Kale (Kara Lahana) | Süper Besin",
-      "short_description": "Besin değeri yüksek organik kale (kara lahana); smoothie, salata ve yemek için bağ halinde.",
-      "meta_description": "Organik kale (kara lahana). Besleyici, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
-      "description": "<p>Yüksek besin değeriyle bilinen organik kale (kara lahana). Smoothie, salata ve sebze yemeklerinde değerlendirilir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+      "meta_title": "Organik Kale (Kara Lahana) | Süper Besin & Smoothie",
+      "short_description": "Besin değeri yüksek organik kale (kara lahana). Smoothie, salata ve yemek için bağ halinde.",
+      "meta_description": "Organik kale (kara lahana). Besleyici, taze, katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde taze tüketin.",
+      "description": "<p>Yüksek besin değeriyle bilinen, vitamin ve antioksidan açısından zengin organik kale (kara lahana). Smoothie, salata ve sebze yemeklerinde sağlıklı bir tercih.</p><ul><li><strong>Süper besin</strong>, vitamin ve antioksidan</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Smoothie, salata ve yemeğe <strong>uygun</strong></li><li>Bağ halinde taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Yeşil smoothie'de, kale cipsi olarak fırınlayarak ya da salatada kullanın.</p>"
     },
     {
       "source_slug": "organik-soyulmamış-enginar-adt",
@@ -324,10 +352,11 @@
       "name": "Organik Soyulmamış Enginar (Adet)",
       "slug": "organik-soyulmamis-enginar",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Soyulmamış Enginar | Taze Bütün",
-      "short_description": "Bütün haliyle taze organik enginar; kendiniz ayıklamak isteyenler için soyulmamış adet.",
-      "meta_description": "Organik soyulmamış enginar. Taze, bütün ve katkısız. Adet olarak taze kapınıza gelsin.",
-      "description": "<p>Bütün haliyle, yaprakları üzerinde taze organik enginar. Kendiniz ayıklayıp zeytinyağlı pişirmek için idealdir.</p><p>Organik tarımla yetiştirilir; taze olarak gönderilir.</p>"
+      "meta_title": "Organik Soyulmamış Enginar | Taze & Bütün",
+      "short_description": "Bütün haliyle taze organik enginar. Kendiniz ayıklamak isteyenler için soyulmamış adet.",
+      "meta_description": "Organik soyulmamış enginar. Taze, bütün, katkısız. Adet olarak taze kapınıza gelsin.",
+      "storage_info": "Buzdolabının sebzeliğinde saklayın. Birkaç gün içinde ayıklayıp pişirin.",
+      "description": "<p>Bütün haliyle, yaprakları üzerinde taze organik enginar. Kendiniz ayıklayıp zeytinyağlı pişirmek isteyenler için doğal, taze bir seçenek.</p><ul><li><strong>Bütün ve taze</strong>, yaprakları üzerinde</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Zeytinyağlı pişirmeye <strong>uygun</strong></li><li>Mevsiminde hasat, taze gönderim</li></ul><p><strong>Kullanım önerisi:</strong> Limonlu suda ayıklayıp zeytinyağlı enginar olarak pişirin.</p>"
     },
     {
       "source_slug": "organik-soyulmuş-enginar-adt",
@@ -335,10 +364,11 @@
       "name": "Organik Soyulmuş Enginar (Adet)",
       "slug": "organik-soyulmus-enginar",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Soyulmuş Enginar | Pişirmeye Hazır",
-      "short_description": "Ayıklanmış, pişirmeye hazır organik enginar; pratik zeytinyağlı için soyulmuş adet.",
-      "meta_description": "Organik soyulmuş enginar. Ayıklanmış, pratik ve katkısız. Adet olarak taze kapınıza gelsin.",
-      "description": "<p>Ayıklanıp pişirmeye hazır hale getirilmiş organik enginar göbeği. Pratik bir şekilde zeytinyağlı enginar hazırlamanızı sağlar.</p><p>Organik tarımla yetiştirilir; taze olarak gönderilir.</p>"
+      "meta_title": "Organik Soyulmuş Enginar | Pişirmeye Hazır & Pratik",
+      "short_description": "Ayıklanmış, pişirmeye hazır organik enginar. Pratik zeytinyağlı için soyulmuş adet.",
+      "meta_description": "Organik soyulmuş enginar. Ayıklanmış, pratik, katkısız. Adet olarak taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında, kararmaması için limonlu suda saklayın. 1-2 gün içinde pişirin.",
+      "description": "<p>Ayıklanıp pişirmeye hazır hale getirilmiş organik enginar göbeği. Uğraşmadan, pratik bir şekilde zeytinyağlı enginar hazırlamanızı sağlar.</p><ul><li><strong>Ayıklanmış</strong>, pişirmeye hazır</li><li><strong>Zirai ilaç kullanılmadan</strong> yetiştirilir</li><li>Pratik <strong>zeytinyağlı</strong> için</li><li>Zaman kazandıran hazırlık</li></ul><p><strong>Kullanım önerisi:</strong> Bezelye ve havuçla zeytinyağlı enginar pişirin ya da fırında değerlendirin.</p>"
     }
   ]
 }

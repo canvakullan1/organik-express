@@ -16,10 +16,11 @@
       "name": "Organik Siyezli Ekmek 600 gr",
       "slug": "organik-siyezli-ekmek-600-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "600 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Siyezli Ekmek 600 gr | Ekşi Maya",
-      "short_description": "Atalık siyez buğdayından ekşi mayayla yapılan organik ekmek; 600 gramlık somun.",
+      "meta_title": "Organik Siyezli Ekmek 600 gr | Atalık Buğday & Ekşi Maya",
+      "short_description": "Atalık siyez buğdayından ekşi mayayla yapılan organik ekmek. Katkısız; 600 gramlık taze somun.",
       "meta_description": "Organik siyezli ekmek. Atalık buğday, ekşi maya, katkısız. 600 gr taze somun kapınıza gelsin.",
-      "description": "<p>Atalık siyez buğdayı ununun doğal ekşi mayayla mayalanmasıyla yapılan organik ekmek. Yoğun aroması ve dolgun dokusuyla geleneksel bir lezzet.</p><p>Katkı maddesi ve hamur geliştirici içermez; taze gönderilir.</p>"
+      "storage_info": "Oda sıcaklığında bez torbada saklayın. Uzun süre için dilimleyip derin dondurucuda muhafaza edebilirsiniz.",
+      "description": "<p>Atalık siyez buğdayı ununun doğal ekşi mayayla mayalanmasıyla yapılan organik ekmek. Yoğun aroması, dolgun dokusu ve geleneksel üretimiyle besleyici bir seçenek.</p><ul><li><strong>Atalık siyez buğdayı</strong> unundan</li><li><strong>Doğal ekşi maya</strong>, uzun fermantasyon</li><li>Hamur geliştirici ve katkı <strong>içermez</strong></li><li>Yoğun aroma, dolgun doku</li></ul><p><strong>Saklama & servis:</strong> Taze tüketin ya da dilimleyip dondurun; tost ve kahvaltıda değerlendirin.</p>"
     },
     {
       "source_slug": "organik-siyezli-sandviç-ekmeği-400-gr",
@@ -27,10 +28,11 @@
       "name": "Organik Siyezli Sandviç Ekmeği 400 gr",
       "slug": "organik-siyezli-sandvic-ekmegi-400-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Siyezli Sandviç Ekmeği 400 gr",
-      "short_description": "Atalık siyez buğdayından yapılan, sandviçe uygun yumuşak organik ekmek; 400 gramlık pakette.",
+      "meta_title": "Organik Siyezli Sandviç Ekmeği 400 gr | Atalık Buğday",
+      "short_description": "Atalık siyez buğdayından yapılan, sandviçe uygun yumuşak organik ekmek. Katkısız; 400 gramlık pakette.",
       "meta_description": "Organik siyezli sandviç ekmeği. Atalık buğday, katkısız. 400 gr taze paket kapınıza gelsin.",
-      "description": "<p>Atalık siyez buğdayından yapılan, sandviç ve tost için uygun yumuşak dokulu organik ekmek. Besleyici tahıl yapısıyla pratik öğünlerin sağlıklı seçeneği.</p><p>Katkı maddesi içermez; taze gönderilir.</p>"
+      "storage_info": "Oda sıcaklığında ağzı kapalı saklayın. Uzun süre için dondurabilirsiniz.",
+      "description": "<p>Atalık siyez buğdayından yapılan, sandviç ve tost için uygun yumuşak dokulu organik ekmek. Besleyici tahıl yapısıyla pratik öğünlerin sağlıklı seçeneği.</p><ul><li><strong>Atalık siyez buğdayı</strong> unundan</li><li>Yumuşak, <strong>sandviçe uygun</strong> doku</li><li>Hamur geliştirici ve katkı <strong>içermez</strong></li><li>Pratik öğünler için</li></ul><p><strong>Servis önerisi:</strong> Sandviç, tost ve hamburger ekmeği olarak kullanın.</p>"
     },
     {
       "source_slug": "organik-çavdarlı-tam-buğday-ekmeği-500-gr",
@@ -38,10 +40,11 @@
       "name": "Organik Çavdarlı Tam Buğday Ekmeği 500 gr",
       "slug": "organik-cavdarli-tam-bugday-ekmegi-500-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Çavdarlı Tam Buğday Ekmeği 500 gr",
-      "short_description": "Çavdar ve tam buğday unundan ekşi mayayla yapılan lifli organik ekmek; 500 gramlık somun.",
+      "meta_title": "Organik Çavdarlı Tam Buğday Ekmeği 500 gr | Lifli & Ekşi Maya",
+      "short_description": "Çavdar ve tam buğday unundan ekşi mayayla yapılan lifli organik ekmek. Katkısız; 500 gramlık somun.",
       "meta_description": "Organik çavdarlı tam buğday ekmeği. Lifli, ekşi maya, katkısız. 500 gr taze somun.",
-      "description": "<p>Çavdar ve tam buğday unundan, doğal ekşi mayayla yapılan lif açısından zengin organik ekmek. Tok tutan yapısı ve yoğun aromasıyla dengeli beslenmeye uygundur.</p><p>Katkı maddesi ve hamur geliştirici içermez; taze gönderilir.</p>"
+      "storage_info": "Oda sıcaklığında bez torbada saklayın. Uzun süre için dilimleyip dondurabilirsiniz.",
+      "description": "<p>Çavdar ve tam buğday unundan, doğal ekşi mayayla yapılan lif açısından zengin organik ekmek. Tok tutan yapısı ve yoğun aromasıyla dengeli beslenmeye uygundur.</p><ul><li><strong>Çavdar + tam buğday</strong>, yüksek lif</li><li><strong>Doğal ekşi maya</strong></li><li>Hamur geliştirici ve katkı <strong>içermez</strong></li><li>Tok tutan, dengeli</li></ul><p><strong>Servis önerisi:</strong> Kahvaltıda, tost ve sandviçte ya da çorba yanında tüketin.</p>"
     },
     {
       "source_slug": "organik-sarı-somun-ekmeği-500-gr",
@@ -49,10 +52,11 @@
       "name": "Organik Sarı Somun Ekmeği 500 gr",
       "slug": "organik-sari-somun-ekmegi-500-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Sarı Somun Ekmeği 500 gr | Günlük",
-      "short_description": "Organik undan yapılan, yumuşak içli günlük organik sarı somun ekmeği; 500 gramlık somun.",
-      "meta_description": "Organik sarı somun ekmeği. Yumuşak, günlük ve katkısız. 500 gr taze somun kapınıza gelsin.",
-      "description": "<p>Organik undan yapılan, yumuşak içi ve ince kabuğuyla günlük tüketime uygun sarı somun ekmeği. Her öğüne uyum sağlayan klasik bir seçenek.</p><p>Katkı maddesi içermez; taze gönderilir.</p>"
+      "meta_title": "Organik Sarı Somun Ekmeği 500 gr | Günlük & Yumuşak",
+      "short_description": "Organik undan yapılan, yumuşak içli günlük organik sarı somun ekmeği. Katkısız; 500 gramlık somun.",
+      "meta_description": "Organik sarı somun ekmeği. Yumuşak, günlük, katkısız. 500 gr taze somun kapınıza gelsin.",
+      "storage_info": "Oda sıcaklığında ağzı kapalı saklayın. Uzun süre için dondurabilirsiniz.",
+      "description": "<p>Organik undan yapılan, yumuşak içi ve ince kabuğuyla günlük tüketime uygun sarı somun ekmeği. Her öğüne uyum sağlayan klasik, doğal bir seçenek.</p><ul><li>Organik undan, <strong>günlük ekmek</strong></li><li>Yumuşak iç, <strong>ince kabuk</strong></li><li>Hamur geliştirici ve katkı <strong>içermez</strong></li><li>Her öğüne uygun</li></ul><p><strong>Servis önerisi:</strong> Kahvaltıda, yemek yanında ve sandviçte günlük ekmek olarak kullanın.</p>"
     },
     {
       "source_slug": "organik-hamburger-ekmeği-400-gr",
@@ -60,10 +64,11 @@
       "name": "Organik Hamburger Ekmeği 400 gr",
       "slug": "organik-hamburger-ekmegi-400-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Hamburger Ekmeği 400 gr | Susamlı",
-      "short_description": "Organik undan yapılan yumuşak, susamlı organik hamburger ekmeği; ev burgerleri için pakette.",
-      "meta_description": "Organik hamburger ekmeği. Yumuşak, susamlı ve katkısız. 400 gr taze paket kapınıza gelsin.",
-      "description": "<p>Organik undan yapılan, yumuşak dokulu ve susamlı hamburger ekmeği. Ev yapımı burgerler için ideal; katkı maddesi içermez.</p><p>Taze olarak gönderilir; dilerseniz buzlukta saklayabilirsiniz.</p>"
+      "meta_title": "Organik Hamburger Ekmeği 400 gr | Susamlı & Yumuşak",
+      "short_description": "Organik undan yapılan yumuşak, susamlı organik hamburger ekmeği. Ev burgerleri için pakette.",
+      "meta_description": "Organik hamburger ekmeği. Yumuşak, susamlı, katkısız. 400 gr taze paket kapınıza gelsin.",
+      "storage_info": "Oda sıcaklığında ağzı kapalı saklayın. Uzun süre için dondurabilir, kullanmadan önce ısıtabilirsiniz.",
+      "description": "<p>Organik undan yapılan, yumuşak dokulu ve susamlı hamburger ekmeği. Ev yapımı burgerler için ideal; katkı maddesi ve hamur geliştirici içermez.</p><ul><li>Organik undan, <strong>susamlı</strong></li><li>Yumuşak, <strong>burger için ideal</strong></li><li>Hamur geliştirici ve katkı <strong>içermez</strong></li><li>Dondurulabilir</li></ul><p><strong>Servis önerisi:</strong> İçini hafifçe kızartıp ev yapımı köfte/burger ile hazırlayın.</p>"
     }
   ]
 }

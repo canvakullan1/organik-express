@@ -16,10 +16,11 @@
       "name": "Organik Yumurta 10'lu",
       "slug": "organik-yumurta-10-lu",
       "unit": "paket", "unit_amount": 1, "variant_name": "10'lu", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Yumurta 10'lu | Gezen Tavuk",
-      "short_description": "Doğal yemle beslenen gezen tavuklardan organik yumurta; pratik 10'lu viyolde.",
-      "meta_description": "Organik yumurta 10'lu. Gezen tavuk, doğal yem ve katkısız. Taze olarak kapınıza gelsin.",
-      "description": "<p>Açık alanda gezen ve doğal yemle beslenen tavuklardan elde edilen organik yumurta. Dolgun sarısı ve doğal lezzetiyle kahvaltıların temel besini.</p><p>Antibiyotik ve hormon kullanılmadan üretilir; taze gönderilir.</p>"
+      "meta_title": "Organik Yumurta 10'lu | Gezen Tavuk & Antibiyotiksiz",
+      "short_description": "Doğal yemle beslenen gezen tavuklardan organik yumurta. Antibiyotiksiz; pratik 10'lu viyolde.",
+      "meta_description": "Organik yumurta 10'lu. Gezen tavuk, doğal yem, antibiyotiksiz. Taze olarak kapınıza gelsin.",
+      "storage_info": "Buzdolabında, sivri ucu aşağı gelecek şekilde saklayın. Yıkamadan, kullanmadan hemen önce yıkayarak tüketin.",
+      "description": "<p>Açık alanda gezen ve doğal yemle beslenen tavuklardan elde edilen organik yumurta. Dolgun sarısı ve doğal lezzetiyle kahvaltıların temel, besleyici besini.</p><ul><li>Açık alanda <strong>gezen tavuklardan</strong></li><li><strong>Antibiyotik ve hormon kullanılmadan</strong></li><li>Dolgun sarı, <strong>doğal lezzet</strong></li><li>Pratik 10'lu viyol</li></ul><p><strong>Kullanım önerisi:</strong> Kahvaltıda, omlet ve menemende ya da hamur işlerinde kullanın.</p>"
     },
     {
       "source_slug": "organik-yumurta-30-lu",
@@ -27,10 +28,11 @@
       "name": "Organik Yumurta 30'lu",
       "slug": "organik-yumurta-30-lu",
       "unit": "paket", "unit_amount": 1, "variant_name": "30'lu", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Yumurta 30'lu | Aile Boyu",
-      "short_description": "Doğal yemle beslenen gezen tavuklardan organik yumurta; aile boyu 30'lu viyolde.",
-      "meta_description": "Organik yumurta 30'lu. Gezen tavuk, doğal yem ve katkısız. Aile boyu taze kapınıza gelsin.",
-      "description": "<p>Açık alanda gezen ve doğal yemle beslenen tavuklardan elde edilen organik yumurta. Sık tüketen haneler için ekonomik 30'lu viyol.</p><p>Antibiyotik ve hormon kullanılmadan üretilir; taze gönderilir.</p>"
+      "meta_title": "Organik Yumurta 30'lu | Aile Boyu & Gezen Tavuk",
+      "short_description": "Doğal yemle beslenen gezen tavuklardan organik yumurta. Antibiyotiksiz; aile boyu 30'lu viyolde.",
+      "meta_description": "Organik yumurta 30'lu. Gezen tavuk, doğal yem, antibiyotiksiz. Aile boyu taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında, sivri ucu aşağı gelecek şekilde saklayın. Yıkamadan, kullanmadan hemen önce yıkayarak tüketin.",
+      "description": "<p>Açık alanda gezen ve doğal yemle beslenen tavuklardan elde edilen organik yumurta. Sık tüketen haneler için ekonomik 30'lu viyol boyu.</p><ul><li>Açık alanda <strong>gezen tavuklardan</strong></li><li><strong>Antibiyotik ve hormon kullanılmadan</strong></li><li>Dolgun sarı, <strong>doğal lezzet</strong></li><li>Ekonomik aile boyu 30'lu</li></ul><p><strong>Kullanım önerisi:</strong> Kahvaltıda, omlet ve menemende ya da hamur işlerinde bolca kullanın.</p>"
     }
   ]
 }

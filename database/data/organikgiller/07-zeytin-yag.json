@@ -16,10 +16,11 @@
       "name": "Organik Sızma Zeytinyağı 5 lt",
       "slug": "organik-sizma-zeytinyagi-5-lt",
       "unit": "paket", "unit_amount": 1, "variant_name": "5 lt", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Sızma Zeytinyağı 5 lt | Soğuk Sıkım",
-      "short_description": "Soğuk sıkım, düşük asitli organik sızma zeytinyağı; yemek ve salata için 5 litrelik teneke.",
+      "meta_title": "Organik Sızma Zeytinyağı 5 lt | Soğuk Sıkım & Düşük Asit",
+      "short_description": "Soğuk sıkım, düşük asitli organik natürel sızma zeytinyağı. Yemek ve salata için ekonomik 5 litrelik teneke.",
       "meta_description": "Organik sızma zeytinyağı. Soğuk sıkım, düşük asit, katkısız. 5 lt teneke kapınıza gelsin.",
-      "description": "<p>Organik zeytinlerden soğuk sıkımla elde edilen, düşük asitli natürel sızma zeytinyağı. Salatalarda çiğ olarak ve yemeklerde doğal aromasıyla öne çıkar.</p><p>Rafine edilmeden, katkı maddesi kullanılmadan üretilir; ekonomik 5 litrelik teneke ambalajda.</p>"
+      "storage_info": "Işık almayan, serin bir yerde, ağzı kapalı saklayın. Soğukta donması doğaldır, oda sıcaklığında eski haline döner.",
+      "description": "<p>Organik zeytinlerden soğuk sıkımla elde edilen, düşük asitli natürel sızma zeytinyağı. Salatalarda çiğ olarak ve yemeklerde doğal, meyvemsi aromasıyla öne çıkar.</p><ul><li><strong>Soğuk sıkım</strong>, natürel sızma</li><li><strong>Düşük asitli</strong>, rafine edilmemiş</li><li>Organik zeytinlerden, <strong>katkısız</strong></li><li>Ekonomik 5 litrelik teneke</li></ul><p><strong>Kullanım önerisi:</strong> Salatalarda çiğ gezdirerek, kahvaltıda ve yemeklerde kullanın; kızartmadan çok soğuk kullanımda aromasını korur.</p>"
     },
     {
       "source_slug": "organikgiller-organik-siyah-zeytin-salamura-700-gr",
@@ -28,9 +29,10 @@
       "slug": "organik-siyah-zeytin-salamura-700-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "700 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Siyah Zeytin Salamura 700 gr | Kahvaltılık",
-      "short_description": "Doğal salamurada olgunlaştırılan organik siyah zeytin; kahvaltılık 700 gramlık pakette.",
-      "meta_description": "Organik siyah zeytin salamura. Doğal, kahvaltılık ve katkısız. 700 gr paket kapınıza gelsin.",
-      "description": "<p>Doğal salamurada bekletilerek olgunlaştırılan organik siyah zeytin. Kahvaltıların dengeli tuzlu, dolgun aromalı klasiği.</p><p>Renklendirici ve katkı maddesi içermez.</p>"
+      "short_description": "Doğal salamurada olgunlaştırılan organik siyah zeytin. Renklendiricisiz; kahvaltılık 700 gramlık pakette.",
+      "meta_description": "Organik siyah zeytin salamura. Doğal, kahvaltılık, renklendiricisiz. 700 gr paket kapınıza gelsin.",
+      "storage_info": "Buzdolabında, kendi salamura suyunda saklayın. Zeytinlerin suyun altında kalmasına dikkat edin.",
+      "description": "<p>Doğal salamurada bekletilerek olgunlaştırılan organik siyah zeytin. Kahvaltıların dengeli tuzlu, dolgun aromalı klasiği.</p><ul><li><strong>Doğal salamura</strong>, olgun siyah zeytin</li><li>Renklendirici ve <strong>katkı içermez</strong></li><li>Dengeli tuz, <strong>dolgun aroma</strong></li><li>Kahvaltı ve mezeye uygun</li></ul><p><strong>Servis önerisi:</strong> Kahvaltıda zeytinyağı ve kekikle, ya da ezmesini yaparak tüketin.</p>"
     },
     {
       "source_slug": "organikgiller-organik-zeytin-güneşte-kurutma-650-gr",
@@ -39,9 +41,10 @@
       "slug": "organik-siyah-zeytin-guneste-kurutma-650-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "650 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Güneşte Kurutma Zeytin 650 gr | Yoğun Aroma",
-      "short_description": "Güneşte doğal kurutulan, yoğun aromalı organik siyah zeytin; 650 gramlık pakette.",
-      "meta_description": "Organik güneşte kurutma siyah zeytin. Yoğun aromalı, doğal ve katkısız. 650 gr paket.",
-      "description": "<p>Güneşte doğal yöntemle kurutulan, kırışık dokulu ve yoğun aromalı organik siyah zeytin. Sofralık olarak ve mezelerde tercih edilir.</p><p>Renklendirici ve katkı maddesi içermez.</p>"
+      "short_description": "Güneşte doğal kurutulan, yoğun aromalı organik siyah zeytin. Kırışık dokulu; 650 gramlık pakette.",
+      "meta_description": "Organik güneşte kurutma siyah zeytin. Yoğun aromalı, doğal, katkısız. 650 gr paket.",
+      "storage_info": "Serin yerde, ağzı kapalı kapta saklayın. Üzerine bir miktar zeytinyağı ekleyerek muhafaza edebilirsiniz.",
+      "description": "<p>Güneşte doğal yöntemle kurutulan, kırışık dokulu ve yoğun aromalı organik siyah zeytin. Sofralık olarak ve mezelerde tercih edilen, karakterli bir lezzet.</p><ul><li><strong>Güneşte kurutma</strong>, kırışık doku</li><li>Yoğun, <strong>konsantre aroma</strong></li><li>Renklendirici ve katkı <strong>içermez</strong></li><li>Sofralık ve mezelik</li></ul><p><strong>Servis önerisi:</strong> Zeytinyağı, sarımsak ve kekikle marine ederek kahvaltıda servis edin.</p>"
     },
     {
       "source_slug": "organikgiller-organik-yeşil-zeytin-çizik-600-gr",
@@ -49,10 +52,11 @@
       "name": "Organik Yeşil Zeytin (Çizik) 600 gr",
       "slug": "organik-yesil-zeytin-cizik-600-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "600 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Çizik Yeşil Zeytin 600 gr | Kahvaltılık",
-      "short_description": "Çizik kırma yöntemiyle hazırlanan organik yeşil zeytin; kahvaltılık 600 gramlık pakette.",
-      "meta_description": "Organik çizik yeşil zeytin. Doğal, kahvaltılık ve katkısız. 600 gr paket kapınıza gelsin.",
-      "description": "<p>Çizik kırma yöntemiyle hazırlanan, diri ve aromalı organik yeşil zeytin. Sarımsak ve baharatlarla harika uyum sağlayan kahvaltılık bir seçenek.</p><p>Renklendirici ve katkı maddesi içermez.</p>"
+      "meta_title": "Organik Çizik Yeşil Zeytin 600 gr | Kahvaltılık & Diri",
+      "short_description": "Çizik kırma yöntemiyle hazırlanan diri organik yeşil zeytin. Kahvaltılık 600 gramlık pakette.",
+      "meta_description": "Organik çizik yeşil zeytin. Doğal, kahvaltılık, katkısız. 600 gr paket kapınıza gelsin.",
+      "storage_info": "Buzdolabında, kendi salamura suyunda saklayın. Zeytinlerin suyun altında kalmasına dikkat edin.",
+      "description": "<p>Çizik kırma yöntemiyle hazırlanan, diri ve aromalı organik yeşil zeytin. Sarımsak ve baharatlarla harika uyum sağlayan, çıtır bir kahvaltılık.</p><ul><li><strong>Çizik kırma</strong>, diri tane</li><li>Organik, <strong>renklendiricisiz</strong></li><li>Baharatla marine edilebilir</li><li>Kahvaltı ve mezeye uygun</li></ul><p><strong>Servis önerisi:</strong> Limon, sarımsak ve kekikle marine ederek kahvaltıda servis edin.</p>"
     },
     {
       "source_slug": "organikgiller-organik-ayçiçek-yağı-1-lt",
@@ -60,10 +64,11 @@
       "name": "Organik Ayçiçek Yağı 1 lt",
       "slug": "organik-aycicek-yagi-1-lt",
       "unit": "paket", "unit_amount": 1, "variant_name": "1 lt", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Ayçiçek Yağı 1 lt | Doğal",
-      "short_description": "Organik ayçiçeğinden elde edilen, hafif tatlı organik ayçiçek yağı; kızartma ve yemek için 1 litrelik şişede.",
-      "meta_description": "Organik ayçiçek yağı. Doğal, hafif ve katkısız. 1 lt şişe kapınıza gelsin.",
-      "description": "<p>Organik ayçiçeğinden elde edilen, nötr ve hafif aromalı bitkisel yağ. Kızartma, pişirme ve hamur işlerinde çok yönlü kullanılır.</p><p>Katkı maddesi içermez.</p>"
+      "meta_title": "Organik Ayçiçek Yağı 1 lt | Doğal & Çok Amaçlı",
+      "short_description": "Organik ayçiçeğinden elde edilen, hafif aromalı organik ayçiçek yağı. Kızartma ve yemek için 1 litrelik şişede.",
+      "meta_description": "Organik ayçiçek yağı. Doğal, hafif, katkısız. 1 lt şişe kapınıza gelsin.",
+      "storage_info": "Işık almayan, serin bir yerde, ağzı kapalı saklayın.",
+      "description": "<p>Organik ayçiçeğinden elde edilen, nötr ve hafif aromalı bitkisel yağ. Kızartma, pişirme ve hamur işlerinde çok yönlü kullanılan günlük bir mutfak yağı.</p><ul><li>Organik ayçiçeğinden, <strong>doğal</strong></li><li>Nötr, <strong>hafif aroma</strong></li><li>Kızartma ve hamura <strong>uygun</strong></li><li>Katkı maddesi içermez</li></ul><p><strong>Kullanım önerisi:</strong> Kızartmalarda, kek ve hamur işlerinde ya da yemeklerde günlük yağ olarak kullanın.</p>"
     },
     {
       "source_slug": "organik-hindistan-cevizi-yağı-150-gr",
@@ -71,10 +76,11 @@
       "name": "Organik Hindistan Cevizi Yağı 150 gr",
       "slug": "organik-hindistan-cevizi-yagi-150-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "150 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Hindistan Cevizi Yağı 150 gr | Çok Amaçlı",
-      "short_description": "Mutfakta ve cilt bakımında kullanılabilen organik hindistan cevizi yağı; 150 gramlık kavanozda.",
-      "meta_description": "Organik hindistan cevizi yağı. Çok amaçlı, doğal ve katkısız. 150 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Soğuk pres organik hindistan cevizi yağı. Tatlılarda, kahvaltıda ve kavurmada kullanılabildiği gibi cilt ve saç bakımında da değerlendirilir.</p><p>Rafine edilmeden üretilir; katkı maddesi içermez.</p>"
+      "meta_title": "Organik Hindistan Cevizi Yağı 150 gr | Soğuk Pres & Çok Amaçlı",
+      "short_description": "Mutfakta ve cilt-saç bakımında kullanılabilen soğuk pres organik hindistan cevizi yağı. 150 gramlık kavanozda.",
+      "meta_description": "Organik hindistan cevizi yağı. Çok amaçlı, soğuk pres, katkısız. 150 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Oda sıcaklığında saklayın. 24°C altında katılaşması doğaldır; ısınınca sıvılaşır.",
+      "description": "<p>Soğuk pres organik hindistan cevizi yağı. Tatlılarda, kahvaltıda ve kavurmada kullanılabildiği gibi cilt ve saç bakımında da değerlendirilen çok amaçlı bir yağ.</p><ul><li><strong>Soğuk pres</strong>, rafine edilmemiş</li><li>Mutfak ve <strong>bakım</strong> için çok amaçlı</li><li>Doğal hindistan cevizi aroması</li><li>Katkı maddesi içermez</li></ul><p><strong>Kullanım önerisi:</strong> Tatlı ve smoothie'ye katın, kavurmada kullanın ya da cilt ve saç bakımında değerlendirin.</p>"
     },
     {
       "source_slug": "organik-hindistan-cevizi-yağı-150gr",
@@ -82,10 +88,11 @@
       "name": "Organik Hindistan Cevizi Yağı (Ekonomik) 150 gr",
       "slug": "organik-hindistan-cevizi-yagi-ekonomik-150-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "150 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Hindistan Cevizi Yağı 150 gr | Ekonomik",
-      "short_description": "Mutfak ve bakım için çok amaçlı organik hindistan cevizi yağı; ekonomik 150 gramlık kavanozda.",
-      "meta_description": "Organik hindistan cevizi yağı. Ekonomik boy, doğal ve katkısız. 150 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Soğuk pres organik hindistan cevizi yağı. Mutfakta tatlı ve kahvaltıda; cilt ve saç bakımında çok yönlü kullanılan ekonomik bir seçenek.</p><p>Rafine edilmeden üretilir; katkı maddesi içermez.</p>"
+      "meta_title": "Organik Hindistan Cevizi Yağı 150 gr | Ekonomik & Çok Amaçlı",
+      "short_description": "Mutfak ve bakım için çok amaçlı soğuk pres organik hindistan cevizi yağı. Ekonomik 150 gramlık kavanozda.",
+      "meta_description": "Organik hindistan cevizi yağı. Ekonomik boy, soğuk pres, katkısız. 150 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Oda sıcaklığında saklayın. 24°C altında katılaşması doğaldır; ısınınca sıvılaşır.",
+      "description": "<p>Soğuk pres organik hindistan cevizi yağı. Mutfakta tatlı ve kahvaltıda; cilt ve saç bakımında çok yönlü kullanılan, ekonomik boy bir seçenek.</p><ul><li><strong>Soğuk pres</strong>, ekonomik boy</li><li>Mutfak ve <strong>bakım</strong> için çok amaçlı</li><li>Doğal hindistan cevizi aroması</li><li>Katkı maddesi içermez</li></ul><p><strong>Kullanım önerisi:</strong> Tatlılarda, kahvaltıda ve cilt-saç bakımında günlük olarak kullanın.</p>"
     },
     {
       "source_slug": "organikgiller-organik-çörek-otu-yağı-250-ml",
@@ -93,10 +100,11 @@
       "name": "Organik Çörek Otu Yağı 250 ml",
       "slug": "organik-corek-otu-yagi-250-ml",
       "unit": "paket", "unit_amount": 1, "variant_name": "250 ml", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Çörek Otu Yağı 250 ml | Soğuk Pres",
-      "short_description": "Soğuk presle elde edilen organik çörek otu yağı; günlük takviye için 250 ml şişede.",
-      "meta_description": "Organik çörek otu yağı. Soğuk pres, saf ve katkısız. 250 ml şişe kapınıza gelsin.",
-      "description": "<p>Çörek otu tohumlarının soğuk preslenmesiyle elde edilen saf organik çörek otu yağı. Geleneksel olarak günlük takviye amacıyla kullanılır.</p><p>Karışım ve katkı maddesi içermez; serin ve ışıksız yerde saklanmalıdır.</p>"
+      "meta_title": "Organik Çörek Otu Yağı 250 ml | Soğuk Pres & Saf",
+      "short_description": "Soğuk presle elde edilen saf organik çörek otu yağı. Günlük takviye için 250 ml şişede.",
+      "meta_description": "Organik çörek otu yağı. Soğuk pres, saf, katkısız. 250 ml şişe kapınıza gelsin.",
+      "storage_info": "Işık almayan, serin bir yerde, ağzı kapalı saklayın. Açıldıktan sonra serin yerde muhafaza edin.",
+      "description": "<p>Çörek otu tohumlarının soğuk preslenmesiyle elde edilen saf organik çörek otu yağı. Geleneksel olarak günlük takviye amacıyla kullanılan, karışımsız bir yağ.</p><ul><li><strong>Soğuk pres</strong>, %100 saf</li><li>Karışım ve <strong>katkı içermez</strong></li><li>Geleneksel günlük takviye</li><li>Yoğun, karakteristik aroma</li></ul><p><strong>Kullanım önerisi:</strong> Günde bir tatlı kaşığı sade ya da balla karıştırarak tüketebilirsiniz; serin yerde saklayın.</p>"
     }
   ]
 }

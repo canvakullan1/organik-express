@@ -16,10 +16,11 @@
       "name": "Organik Humus 240 gr",
       "slug": "organik-humus-240-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "240 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Humus 240 gr | Nohut & Tahin",
-      "short_description": "Organik nohut ve tahinden hazırlanan kremamsı humus; meze ve atıştırmalık için 240 gramlık kasede.",
-      "meta_description": "Organik humus. Nohut ve tahinden, doğal ve katkısız. 240 gr kase kapınıza gelsin.",
-      "description": "<p>Organik nohut, tahin ve zeytinyağıyla hazırlanan kremamsı humus. Ekmek ya da sebzelerle meze olarak ve atıştırmalık olarak servis edilir.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+      "meta_title": "Organik Humus 240 gr | Nohut & Tahin, Kremamsı",
+      "short_description": "Organik nohut ve tahinden hazırlanan kremamsı humus. Meze ve atıştırmalık için 240 gramlık kasede.",
+      "meta_description": "Organik humus. Nohut ve tahinden, doğal, katkısız. 240 gr kase kapınıza gelsin.",
+      "storage_info": "Buzdolabında saklayın ve açıldıktan sonra 2-3 gün içinde tüketin. Temiz ve kuru kaşık kullanın.",
+      "description": "<p>Organik nohut, tahin ve zeytinyağıyla hazırlanan kremamsı humus. Ekmek ya da sebzelerle meze olarak ve sağlıklı bir atıştırmalık olarak servis edilir.</p><ul><li><strong>Nohut + tahin</strong>, kremamsı doku</li><li>Bitkisel protein <strong>kaynağı</strong></li><li>Katkı maddesi ve koruyucu <strong>içermez</strong></li><li>Meze ve atıştırmalık</li></ul><p><strong>Servis önerisi:</strong> Üzerine zeytinyağı ve pul biber gezdirip ekmek, lavaş ya da sebze çubuklarıyla servis edin.</p>"
     },
     {
       "source_slug": "organik-şakşuka-250-gr",
@@ -28,9 +29,10 @@
       "slug": "organik-saksuka-250-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Şakşuka 250 gr | Zeytinyağlı Meze",
-      "short_description": "Patlıcan, biber ve domatesle hazırlanan zeytinyağlı organik şakşuka; meze için 250 gramlık kasede.",
-      "meta_description": "Organik şakşuka. Zeytinyağlı, doğal ve katkısız. 250 gr kase kapınıza gelsin.",
-      "description": "<p>Patlıcan, biber ve domatesin zeytinyağında pişirilmesiyle hazırlanan geleneksel şakşuka. Soğuk meze olarak ya da ana yemek yanında servis edilir.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+      "short_description": "Patlıcan, biber ve domatesle hazırlanan zeytinyağlı organik şakşuka. Meze için 250 gramlık kasede.",
+      "meta_description": "Organik şakşuka. Zeytinyağlı, doğal, katkısız. 250 gr kase kapınıza gelsin.",
+      "storage_info": "Buzdolabında saklayın ve açıldıktan sonra 2-3 gün içinde tüketin. Temiz ve kuru kaşık kullanın.",
+      "description": "<p>Patlıcan, biber ve domatesin zeytinyağında pişirilmesiyle hazırlanan geleneksel şakşuka. Soğuk meze olarak ya da ana yemek yanında servis edilen pratik bir lezzet.</p><ul><li><strong>Patlıcan, biber, domates</strong>, zeytinyağlı</li><li>Geleneksel tarif, <strong>pratik</strong></li><li>Katkı maddesi ve koruyucu <strong>içermez</strong></li><li>Soğuk meze olarak servis</li></ul><p><strong>Servis önerisi:</strong> Üzerine sarımsaklı yoğurt gezdirip ekmekle meze olarak ya da et yanında servis edin.</p>"
     },
     {
       "source_slug": "organik-mantar-sote-330-gr",
@@ -38,10 +40,11 @@
       "name": "Organik Mantar Sote 330 gr",
       "slug": "organik-mantar-sote-330-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "330 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Mantar Sote 330 gr | Pratik Yemek",
-      "short_description": "Tereyağı ve baharatlarla sotelenen organik mantar; pratik ana yemek için 330 gramlık kavanozda.",
-      "meta_description": "Organik mantar sote. Pratik, doğal ve katkısız. 330 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Organik mantarların tereyağı ve baharatlarla sotelenmesiyle hazırlanan pratik yemek. Isıtıp makarna yanında ya da kahvaltıda servis edebilirsiniz.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+      "meta_title": "Organik Mantar Sote 330 gr | Pratik Ana Yemek",
+      "short_description": "Tereyağı ve baharatlarla sotelenen organik mantar. Pratik ana yemek için 330 gramlık kavanozda.",
+      "meta_description": "Organik mantar sote. Pratik, doğal, katkısız. 330 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Buzdolabında saklayın ve açıldıktan sonra 2-3 gün içinde tüketin. Temiz ve kuru kaşık kullanın.",
+      "description": "<p>Organik mantarların tereyağı ve baharatlarla sotelenmesiyle hazırlanan pratik yemek. Isıtıp makarna yanında ya da kahvaltıda servis edebileceğiniz lezzetli bir seçenek.</p><ul><li><strong>Tereyağında sotelenmiş</strong> organik mantar</li><li>Pratik, <strong>ısıtıp servise hazır</strong></li><li>Katkı maddesi ve koruyucu <strong>içermez</strong></li><li>Makarna ve kahvaltıya uygun</li></ul><p><strong>Servis önerisi:</strong> Tavada ısıtıp makarna üstünde, kahvaltıda ya da tost içinde kullanın.</p>"
     },
     {
       "source_slug": "organik-ekşili-köfte-340-gr",
@@ -50,9 +53,10 @@
       "slug": "organik-eksili-kofte-340-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "340 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Ekşili Köfte 340 gr | Pratik Ana Yemek",
-      "short_description": "Ekşili sosuyla hazırlanan organik köfte yemeği; ısıtıp servise hazır 340 gramlık kavanozda.",
-      "meta_description": "Organik ekşili köfte. Pratik, doğal ve katkısız. 340 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Organik malzemelerle hazırlanan, mayhoş ekşili sosuyla servise hazır köfte yemeği. Pişirme telaşı olmadan ısıtıp sofraya getirebilirsiniz.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+      "short_description": "Ekşili sosuyla hazırlanan organik köfte yemeği. Isıtıp servise hazır 340 gramlık kavanozda.",
+      "meta_description": "Organik ekşili köfte. Pratik, doğal, katkısız. 340 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Buzdolabında saklayın ve açıldıktan sonra 2-3 gün içinde tüketin. Temiz ve kuru kaşık kullanın.",
+      "description": "<p>Organik malzemelerle hazırlanan, mayhoş ekşili sosuyla servise hazır köfte yemeği. Pişirme telaşı olmadan ısıtıp sofraya getirebileceğiniz doyurucu bir ana yemek.</p><ul><li>Organik malzemelerle, <strong>ekşili sos</strong></li><li>Pratik, <strong>ısıtıp servise hazır</strong></li><li>Katkı maddesi ve koruyucu <strong>içermez</strong></li><li>Doyurucu ana yemek</li></ul><p><strong>Servis önerisi:</strong> Tencerede ısıtıp pilav ya da taze ekmek yanında servis edin.</p>"
     },
     {
       "source_slug": "organik-orman-kebabı-310-gr",
@@ -61,9 +65,10 @@
       "slug": "organik-orman-kebabi-310-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "310 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Orman Kebabı 310 gr | Etli & Sebzeli",
-      "short_description": "Et ve sebzelerle hazırlanan organik orman kebabı; ısıtıp servise hazır 310 gramlık kavanozda.",
-      "meta_description": "Organik orman kebabı. Etli, sebzeli ve katkısız. 310 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Organik et ve mevsim sebzeleriyle hazırlanan, servise hazır orman kebabı. Pratik bir şekilde ısıtıp pilav ya da ekmek yanında sunabilirsiniz.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+      "short_description": "Et ve sebzelerle hazırlanan organik orman kebabı. Isıtıp servise hazır 310 gramlık kavanozda.",
+      "meta_description": "Organik orman kebabı. Etli, sebzeli, katkısız. 310 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Buzdolabında saklayın ve açıldıktan sonra 2-3 gün içinde tüketin. Temiz ve kuru kaşık kullanın.",
+      "description": "<p>Organik et ve mevsim sebzeleriyle hazırlanan, servise hazır orman kebabı. Pratik bir şekilde ısıtıp pilav ya da ekmek yanında sunabileceğiniz doyurucu bir yemek.</p><ul><li><strong>Et + mevsim sebzeleri</strong></li><li>Pratik, <strong>ısıtıp servise hazır</strong></li><li>Katkı maddesi ve koruyucu <strong>içermez</strong></li><li>Doyurucu ana yemek</li></ul><p><strong>Servis önerisi:</strong> Tencerede ısıtıp pilav ya da taze ekmek yanında servis edin.</p>"
     }
   ]
 }

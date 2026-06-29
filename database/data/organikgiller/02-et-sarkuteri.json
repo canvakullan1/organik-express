@@ -5,7 +5,7 @@
       "name": "Et & Şarküteri",
       "sort_order": 2,
       "meta_title": "Organik Et & Şarküteri | Dana, Tavuk, Sucuk, Kavurma",
-      "meta_description": "Organik beslenen hayvanlardan dana, tavuk ve oğlak eti; sucuk, kavurma, sosis ve pastırma. Katkısız şarküteri ürünleri soğuk zincirle kapınızda.",
+      "meta_description": "Organik beslenen hayvanlardan dana, tavuk ve oğlak eti; sucuk, kavurma, sosis ve pastırma. Hormonsuz, katkısız şarküteri soğuk zincirle kapınızda.",
       "description": "<p>Organik ve doğal yöntemlerle yetiştirilen hayvanlardan elde edilen dana, tavuk ve oğlak eti ile katkısız şarküteri ürünleri. Tüm ürünler soğuk zincir korunarak taze gönderilir.</p>"
     }
   ],
@@ -16,10 +16,11 @@
       "name": "Organik Bütün Tavuk (Adet)",
       "slug": "organik-butun-tavuk",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Bütün Tavuk | Doğal Yemle Beslenen",
-      "short_description": "Doğal yemle, antibiyotiksiz yetiştirilen organik bütün tavuk; fırın ve haşlama için bütün halde.",
-      "meta_description": "Organik bütün tavuk. Doğal yemle beslenen, antibiyotiksiz ve katkısız. Soğuk zincirle taze kapınıza gelsin.",
-      "description": "<p>Doğal yemle ve açık alanda, antibiyotik kullanılmadan yetiştirilen organik tavuk. Fırında, haşlamada ya da çorbada tam bir lezzet sunar.</p><p>Soğuk zincir korunarak taze olarak gönderilir; hormon ve katkı maddesi içermez.</p>"
+      "meta_title": "Organik Bütün Tavuk | Antibiyotiksiz & Doğal Yemle",
+      "short_description": "Açık alanda gezen, doğal yemle ve antibiyotiksiz yetiştirilen organik bütün tavuk. Fırın ve haşlama için bütün halde.",
+      "meta_description": "Organik bütün tavuk. Doğal yemle beslenen, antibiyotiksiz, hormonsuz. Soğuk zincirle taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Hemen tüketmeyecekseniz derin dondurucuda muhafaza edin.",
+      "description": "<p>Açık alanda gezen, doğal yemle ve antibiyotik kullanılmadan yetiştirilen organik tavuk. Fırında, haşlamada ya da çorbada dolgun ve gerçek bir tavuk lezzeti sunar.</p><ul><li><strong>Antibiyotik ve hormon kullanılmadan</strong> yetiştirilir</li><li>Açık alanda gezen, <strong>doğal yemle</strong> beslenen</li><li>Yapay katkı ve enjeksiyon <strong>içermez</strong></li><li>Fırın, haşlama ve çorbaya <strong>uygun</strong></li></ul><p><strong>Servis önerisi:</strong> Sebzelerle fırında pişirin ya da haşlayıp çorba ve pilav üstü olarak değerlendirin. Soğuk zincir korunarak taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-dana-kangal-sucuk-250-gr",
@@ -27,10 +28,11 @@
       "name": "Organik Dana Kangal Sucuk 250 gr",
       "slug": "organik-dana-kangal-sucuk-250-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Dana Kangal Sucuk 250 gr | Baharatlı",
-      "short_description": "Geleneksel baharatlarla yoğrulup kurutulan organik dana kangal sucuk; kahvaltı ve ızgaralık 250 gramlık pakette.",
-      "meta_description": "Organik dana kangal sucuk. Baharatlı, doğal kurutma ve katkısız. 250 gr taze paket kapınıza gelsin.",
-      "description": "<p>Organik dana etinden, geleneksel baharatlarla yoğrularak hazırlanan ve doğal yöntemle kurutulan kangal sucuk. Kahvaltıda ve ızgarada yoğun aromasıyla öne çıkar.</p><p>Renklendirici ve katkı maddesi içermez; gerçek sucuk lezzetini sofranıza taşır.</p>"
+      "meta_title": "Organik Dana Kangal Sucuk 250 gr | Baharatlı & Katkısız",
+      "short_description": "Geleneksel baharatlarla yoğrulup doğal kurutulan organik dana kangal sucuk. Renklendiricisiz; kahvaltı ve ızgaralık 250 gramlık pakette.",
+      "meta_description": "Organik dana kangal sucuk. Baharatlı, doğal kurutma, renklendiricisiz. 250 gr taze paket kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayın. Ambalajı açıldıktan sonra kapalı bir kapta tutarak 1-2 hafta içinde tüketin.",
+      "description": "<p>Organik dana etinden, geleneksel baharatlarla yoğrularak hazırlanan ve doğal yöntemle kurutulan kangal sucuk. Kahvaltıda ve ızgarada karakteristik, yoğun aromasıyla öne çıkar.</p><ul><li><strong>Organik dana etinden</strong>, geleneksel baharatlarla</li><li>Doğal kurutma, <strong>renklendirici içermez</strong></li><li>Soya ve dolgu <strong>katmadan</strong></li><li>Kahvaltı ve ızgara için ideal</li></ul><p><strong>Servis önerisi:</strong> Tavada veya ızgarada kızartıp yumurtayla kahvaltıda, sucuklu pide ve menemende kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-dana-kavurma-150-gr",
@@ -38,10 +40,11 @@
       "name": "Organik Dana Kavurma 150 gr",
       "slug": "organik-dana-kavurma-150-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "150 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Dana Kavurma 150 gr | Kendi Yağında",
-      "short_description": "Kendi yağında uzun süre pişirilen organik dana kavurma; kahvaltı ve yemekler için pratik 150 gramlık kavanozda.",
-      "meta_description": "Organik dana kavurma. Kendi yağında pişmiş, katkısız ve pratik. 150 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Organik dana etinin kendi yağında ağır ateşte pişirilmesiyle hazırlanan geleneksel kavurma. Kahvaltıda yumurtayla ya da yemeklerde pratik bir lezzet katkısı sağlar.</p><p>Katkı maddesi içermez; uzun süre dayanan doğal bir et ürünüdür.</p>"
+      "meta_title": "Organik Dana Kavurma 150 gr | Kendi Yağında & Pratik",
+      "short_description": "Kendi yağında ağır ateşte pişirilen organik dana kavurma. Katkısız ve uzun ömürlü; pratik 150 gramlık kavanozda.",
+      "meta_description": "Organik dana kavurma. Kendi yağında pişmiş, katkısız, pratik. 150 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Kapalı ağzıyla serin yerde saklayın; açıldıktan sonra buzdolabına kaldırın ve birkaç gün içinde tüketin.",
+      "description": "<p>Organik dana etinin kendi yağında ağır ateşte uzun süre pişirilmesiyle hazırlanan geleneksel kavurma. Kahvaltıda yumurtayla ya da yemeklerde pratik bir lezzet katkısı sağlar.</p><ul><li><strong>Kendi yağında</strong>, ağır ateşte pişirme</li><li>Organik dana etinden, <strong>katkısız</strong></li><li>Pratik ve <strong>uzun ömürlü</strong></li><li>Kahvaltıdan yemeğe çok yönlü</li></ul><p><strong>Servis önerisi:</strong> Tavada ısıtıp yumurtayla kahvaltıda, pilav üstü ya da kuru fasulye yanında kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-dana-kuşbaşı-500-gr",
@@ -50,9 +53,10 @@
       "slug": "organik-dana-kusbasi-500-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Dana Kuşbaşı 500 gr | Güveç & Sote",
-      "short_description": "Sote, güveç ve kebap için doğranmış organik dana kuşbaşı; doğal beslenen danadan 500 gramlık pakette.",
-      "meta_description": "Organik dana kuşbaşı. Sote ve güveç için, doğal beslenen danadan, katkısız. 500 gr taze paket.",
-      "description": "<p>Doğal yöntemlerle yetiştirilen danadan, sote ve güveçlik olarak doğranmış kuşbaşı et. Yavaş pişirmeye uygun, lezzetli ve besleyici bir seçenek.</p><p>Hormon ve katkı maddesi içermez; soğuk zincirle taze gönderilir.</p>"
+      "short_description": "Sote, güveç ve kebap için doğranmış organik dana kuşbaşı. Doğal beslenen danadan, hormonsuz; 500 gramlık pakette.",
+      "meta_description": "Organik dana kuşbaşı. Sote ve güveç için, doğal beslenen danadan, hormonsuz. 500 gr taze paket.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Doğal yöntemlerle yetiştirilen danadan, sote ve güveçlik olarak doğranmış kuşbaşı et. Yavaş pişirmeye uygun yapısıyla lezzetli, besleyici bir ana yemek temeli.</p><ul><li><strong>Hormon ve antibiyotik kullanılmadan</strong> yetiştirilen danadan</li><li>Sote, güveç ve kebaba <strong>uygun</strong></li><li>Yavaş pişirmede <strong>yumuşar</strong></li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Soğanla kavurup güveç, sote ya da etli sebze yemeği yapın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-dana-kıyma-500-gr",
@@ -61,9 +65,10 @@
       "slug": "organik-dana-kiyma-500-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Dana Kıyma 500 gr | Köfte & Yemeklik",
-      "short_description": "Köfte, dolma ve yemekler için taze çekilmiş organik dana kıyma; doğal beslenen danadan 500 gramlık pakette.",
-      "meta_description": "Organik dana kıyma. Taze çekim, doğal beslenen danadan ve katkısız. 500 gr taze paket kapınıza gelsin.",
-      "description": "<p>Doğal beslenen danadan taze çekilen kıyma. Köfte, dolma, makarna sosu ve sebze yemeklerinde çok yönlü kullanım sunar.</p><p>Hormon ve katkı maddesi içermez; soğuk zincirle taze olarak gönderilir.</p>"
+      "short_description": "Köfte, dolma ve yemekler için taze çekilmiş organik dana kıyma. Doğal beslenen danadan, hormonsuz; 500 gramlık pakette.",
+      "meta_description": "Organik dana kıyma. Taze çekim, doğal beslenen danadan, hormonsuz. 500 gr taze paket kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp aynı gün veya ertesi gün pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Doğal beslenen danadan taze çekilen kıyma. Köfte, dolma, makarna sosu ve sebze yemeklerinde çok yönlü kullanım sunan, yüksek proteinli bir temel malzeme.</p><ul><li><strong>Taze çekim</strong>, doğal beslenen danadan</li><li>Hormon ve antibiyotik <strong>kullanılmadan</strong></li><li>Köfte, dolma ve sos için <strong>ideal</strong></li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Köfte, içli köfte, dolma harcı ve makarna sosunda kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-dana-pastırma-120-gr",
@@ -71,10 +76,11 @@
       "name": "Organik Dana Pastırma 120 gr",
       "slug": "organik-dana-pastirma-120-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "120 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Dana Pastırma 120 gr | Çemenli",
-      "short_description": "Çemenle kaplanıp kurutulan geleneksel organik dana pastırma; ince dilimli 120 gramlık pakette.",
-      "meta_description": "Organik dana pastırma. Çemenli, doğal kurutma ve katkısız. 120 gr ince dilim paket kapınıza gelsin.",
-      "description": "<p>Organik dana etinin çemenle kaplanıp doğal yöntemle kurutulmasıyla hazırlanan geleneksel pastırma. Kahvaltıda, kavurmada ve mezelerde yoğun aroma verir.</p><p>Renklendirici ve katkı maddesi içermez; ince dilimlenmiş olarak gelir.</p>"
+      "meta_title": "Organik Dana Pastırma 120 gr | Çemenli & İnce Dilim",
+      "short_description": "Çemenle kaplanıp doğal kurutulan geleneksel organik dana pastırma. İnce dilimli, katkısız; 120 gramlık pakette.",
+      "meta_description": "Organik dana pastırma. Çemenli, doğal kurutma, katkısız. 120 gr ince dilim paket kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayın. Yoğun aromalı olduğundan kapalı bir kapta tutmanız önerilir.",
+      "description": "<p>Organik dana etinin çemenle kaplanıp doğal yöntemle kurutulmasıyla hazırlanan geleneksel pastırma. Kahvaltıda, kavurmada ve mezelerde yoğun, baharatlı aromasıyla öne çıkar.</p><ul><li><strong>Çemenli</strong>, geleneksel doğal kurutma</li><li>Organik dana etinden, <strong>renklendiricisiz</strong></li><li>İnce dilimli, <strong>kullanıma hazır</strong></li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Kahvaltıda çiğ olarak, pastırmalı yumurtada ya da kuru fasulye üstünde kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-dana-salam-75-gr",
@@ -83,9 +89,10 @@
       "slug": "organik-dana-salam-75-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "75 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Dana Salam 75 gr | Katkısız Şarküteri",
-      "short_description": "Katkısız üretilen, dilimlenmiş organik dana salam; sandviç ve kahvaltı için pratik 75 gramlık pakette.",
-      "meta_description": "Organik dana salam. Katkısız, dilimli ve pratik. 75 gr taze paket soğuk zincirle kapınıza gelsin.",
-      "description": "<p>Organik dana etinden, renklendirici ve katkı maddesi kullanılmadan üretilen dilimli salam. Sandviç, tost ve kahvaltılar için pratik bir seçenek.</p><p>Soğuk zincir korunarak taze olarak gönderilir.</p>"
+      "short_description": "Renklendirici ve katkı kullanılmadan üretilen, dilimlenmiş organik dana salam. Sandviç ve kahvaltı için pratik 75 gramlık pakette.",
+      "meta_description": "Organik dana salam. Katkısız, dilimli, pratik. 75 gr taze paket soğuk zincirle kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de, açıldıktan sonra kapalı kapta saklayın ve birkaç gün içinde tüketin.",
+      "description": "<p>Organik dana etinden, renklendirici ve katkı maddesi kullanılmadan üretilen dilimli salam. Sandviç, tost ve kahvaltılar için pratik, güvenli bir şarküteri seçeneği.</p><ul><li>Organik dana etinden, <strong>renklendiricisiz</strong></li><li>Dilimli, <strong>kullanıma hazır</strong></li><li>Yapay katkı ve dolgu <strong>içermez</strong></li><li>Sandviç ve tost için pratik</li></ul><p><strong>Servis önerisi:</strong> Tost, sandviç ve kahvaltı tabağında kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-dana-sosis-250-gr",
@@ -93,10 +100,11 @@
       "name": "Organik Dana Sosis 250 gr",
       "slug": "organik-dana-sosis-250-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Dana Sosis 250 gr | Katkısız",
-      "short_description": "Katkısız üretilen organik dana sosis; kahvaltı ve atıştırmalıklar için 250 gramlık pakette.",
-      "meta_description": "Organik dana sosis. Katkısız, doğal ve pratik. 250 gr taze paket soğuk zincirle kapınıza gelsin.",
-      "description": "<p>Organik dana etinden, katkı maddesi ve renklendirici kullanılmadan üretilen sosis. Kahvaltıda, tavada ya da ızgarada hızlı ve lezzetli bir seçenek.</p><p>Soğuk zincirle taze olarak gönderilir; çocukların da severek tükettiği bir üründür.</p>"
+      "meta_title": "Organik Dana Sosis 250 gr | Katkısız & Çocuk Dostu",
+      "short_description": "Renklendirici ve katkı kullanılmadan üretilen organik dana sosis. Kahvaltı ve atıştırmalık için 250 gramlık pakette.",
+      "meta_description": "Organik dana sosis. Katkısız, doğal, çocuk dostu. 250 gr taze paket soğuk zincirle kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayın; uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Organik dana etinden, katkı maddesi ve renklendirici kullanılmadan üretilen sosis. Kahvaltıda, tavada ya da ızgarada hızlı, lezzetli ve çocukların severek tükettiği bir seçenek.</p><ul><li>Organik dana etinden, <strong>renklendiricisiz</strong></li><li>Yapay katkı ve dolgu <strong>içermez</strong></li><li><strong>Çocuk dostu</strong>, pratik</li><li>Kahvaltı ve atıştırmalık için</li></ul><p><strong>Servis önerisi:</strong> Tavada veya ızgarada kızartıp kahvaltıda, sosisli yumurtada ya da atıştırmalık olarak servis edin. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-organik-dana-sucuk-300-gr",
@@ -105,9 +113,10 @@
       "slug": "organik-dana-sucuk-300-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
       "meta_title": "Organik Dana Sucuk 300 gr | Geleneksel Fermente",
-      "short_description": "Geleneksel baharatlarla fermente edilen organik dana sucuk; kahvaltı ve ızgaralık 300 gramlık pakette.",
-      "meta_description": "Organik dana sucuk. Fermente, baharatlı ve katkısız. 300 gr taze paket kapınıza gelsin.",
-      "description": "<p>Organik dana etinden, geleneksel baharatlarla yoğrulup fermente edilen sucuk. Kahvaltıda ve ızgarada karakteristik aromasıyla öne çıkar.</p><p>Renklendirici ve katkı maddesi içermez; gerçek fermente sucuk lezzeti sunar.</p>"
+      "short_description": "Geleneksel baharatlarla fermente edilen organik dana sucuk. Renklendiricisiz; kahvaltı ve ızgaralık 300 gramlık pakette.",
+      "meta_description": "Organik dana sucuk. Fermente, baharatlı, renklendiricisiz. 300 gr taze paket kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayın. Ambalajı açıldıktan sonra kapalı kapta tutarak 1-2 hafta içinde tüketin.",
+      "description": "<p>Organik dana etinden, geleneksel baharatlarla yoğrulup doğal yöntemle fermente edilen sucuk. Kahvaltıda ve ızgarada karakteristik, yoğun aromasıyla öne çıkar.</p><ul><li><strong>Geleneksel fermantasyon</strong>, baharatlı</li><li>Organik dana etinden, <strong>renklendiricisiz</strong></li><li>Soya ve dolgu <strong>katmadan</strong></li><li>Kahvaltı ve ızgara için ideal</li></ul><p><strong>Servis önerisi:</strong> Tavada kızartıp kahvaltıda, menemende ve sucuklu pidede kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-tavuk-baget-500-gr",
@@ -115,10 +124,11 @@
       "name": "Organik Tavuk Baget (kg)",
       "slug": "organik-tavuk-baget",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Tavuk Baget | Doğal Yemle Beslenen",
-      "short_description": "Doğal yemle, antibiyotiksiz yetiştirilen organik tavuk baget; fırın ve ızgara için kilogram bazında.",
-      "meta_description": "Organik tavuk baget. Doğal yemle beslenen, antibiyotiksiz ve katkısız. Soğuk zincirle taze kapınıza gelsin.",
-      "description": "<p>Doğal yemle ve açık alanda, antibiyotik kullanılmadan yetiştirilen organik tavuğun baget kısmı. Fırında ve ızgarada sulu, lezzetli bir sonuç verir.</p><p>Hormon ve katkı maddesi içermez; soğuk zincir korunarak taze gönderilir.</p>"
+      "meta_title": "Organik Tavuk Baget kg | Antibiyotiksiz & Sulu",
+      "short_description": "Doğal yemle ve antibiyotiksiz yetiştirilen organik tavuk baget. Fırın ve ızgara için kilogram bazında.",
+      "meta_description": "Organik tavuk baget. Doğal yemle beslenen, antibiyotiksiz, hormonsuz. Soğuk zincirle taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Açık alanda gezen, doğal yemle ve antibiyotik kullanılmadan yetiştirilen organik tavuğun baget kısmı. Fırında ve ızgarada sulu, lezzetli bir sonuç verir.</p><ul><li><strong>Antibiyotik ve hormon kullanılmadan</strong> yetiştirilir</li><li>Doğal yemle beslenen, <strong>açık alan</strong></li><li>Fırın ve ızgarada <strong>sulu kalır</strong></li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Baharatlayıp fırında ya da ızgarada pişirin; çocuk menülerine de uygundur. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-tavuk-bonfile-500-gr",
@@ -126,10 +136,11 @@
       "name": "Organik Tavuk Bonfile (kg)",
       "slug": "organik-tavuk-bonfile",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Tavuk Bonfile | Yağsız Göğüs Eti",
-      "short_description": "Doğal yemle beslenen tavuğun yağsız göğüs bonfilesi; ızgara ve sote için kilogram bazında.",
-      "meta_description": "Organik tavuk bonfile. Yağsız göğüs eti, doğal beslenen tavuktan, katkısız. Soğuk zincirle taze.",
-      "description": "<p>Doğal yemle beslenen organik tavuğun yağsız göğüs bonfilesi. Izgara, sote ve salatalar için yüksek proteinli, hafif bir seçenek.</p><p>Hormon ve katkı maddesi içermez; soğuk zincirle taze olarak gönderilir.</p>"
+      "meta_title": "Organik Tavuk Bonfile kg | Yağsız Göğüs Eti",
+      "short_description": "Doğal yemle beslenen tavuğun yağsız göğüs bonfilesi. Yüksek proteinli ve hormonsuz; ızgara ve sote için kilogram bazında.",
+      "meta_description": "Organik tavuk bonfile. Yağsız göğüs eti, doğal beslenen tavuktan, hormonsuz. Soğuk zincirle taze.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Doğal yemle ve antibiyotiksiz yetiştirilen organik tavuğun yağsız göğüs bonfilesi. Izgara, sote ve salatalar için yüksek proteinli, hafif bir seçenek.</p><ul><li><strong>Yağsız</strong>, yüksek protein</li><li>Antibiyotik ve hormon <strong>kullanılmadan</strong></li><li>Izgara, sote ve salataya <strong>uygun</strong></li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Izgarada veya tavada pişirip salata ve sote tariflerinde kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-tavuk-kalçalı-but-adt",
@@ -137,10 +148,11 @@
       "name": "Organik Tavuk Kalçalı But (kg)",
       "slug": "organik-tavuk-kalcali-but",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Tavuk Kalçalı But | Sulu & Lezzetli",
-      "short_description": "Doğal yemle beslenen tavuğun kalçalı but kısmı; fırın ve haşlama için kilogram bazında.",
-      "meta_description": "Organik tavuk kalçalı but. Doğal beslenen tavuktan, sulu ve katkısız. Soğuk zincirle taze kapınıza gelsin.",
-      "description": "<p>Doğal yemle yetiştirilen organik tavuğun kalçalı but kısmı. Yağ dengesi sayesinde fırında ve haşlamada sulu, dolgun bir lezzet verir.</p><p>Hormon ve katkı maddesi içermez; soğuk zincir korunarak gönderilir.</p>"
+      "meta_title": "Organik Tavuk Kalçalı But kg | Sulu & Lezzetli",
+      "short_description": "Doğal yemle beslenen tavuğun kalçalı but kısmı. Hormonsuz; fırın ve haşlama için kilogram bazında.",
+      "meta_description": "Organik tavuk kalçalı but. Doğal beslenen tavuktan, sulu, hormonsuz. Soğuk zincirle taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Doğal yemle ve antibiyotiksiz yetiştirilen organik tavuğun kalçalı but kısmı. Yağ dengesi sayesinde fırında ve haşlamada sulu, dolgun bir lezzet verir.</p><ul><li><strong>Sulu ve lezzetli</strong>, dengeli yağ</li><li>Antibiyotik ve hormon <strong>kullanılmadan</strong></li><li>Fırın ve haşlamaya <strong>uygun</strong></li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Baharatlayıp fırında pişirin ya da haşlayıp pilav üstü olarak kullanın. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-tavuk-kanat-750-gr",
@@ -148,10 +160,11 @@
       "name": "Organik Tavuk Kanat (kg)",
       "slug": "organik-tavuk-kanat",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Tavuk Kanat | Izgara & Fırın",
-      "short_description": "Doğal yemle beslenen tavuğun kanat kısmı; ızgara ve fırın için kilogram bazında.",
-      "meta_description": "Organik tavuk kanat. Doğal beslenen tavuktan, ızgaralık ve katkısız. Soğuk zincirle taze kapınıza gelsin.",
-      "description": "<p>Doğal yemle yetiştirilen organik tavuğun kanat kısmı. Izgarada ve fırında çıtır, lezzetli bir atıştırmalık olarak öne çıkar.</p><p>Hormon ve katkı maddesi içermez; soğuk zincirle taze gönderilir.</p>"
+      "meta_title": "Organik Tavuk Kanat kg | Izgara & Fırın",
+      "short_description": "Doğal yemle beslenen tavuğun kanat kısmı. Hormonsuz; ızgara ve fırın için kilogram bazında.",
+      "meta_description": "Organik tavuk kanat. Doğal beslenen tavuktan, ızgaralık, hormonsuz. Soğuk zincirle taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Doğal yemle ve antibiyotiksiz yetiştirilen organik tavuğun kanat kısmı. Izgarada ve fırında çıtır, lezzetli bir atıştırmalık olarak öne çıkar.</p><ul><li><strong>Izgaralık</strong>, fırında çıtırlaşır</li><li>Antibiyotik ve hormon <strong>kullanılmadan</strong></li><li>Doğal yemle beslenen tavuktan</li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Baharatlı sosa bulayıp fırında ya da ızgarada kızartın; parti ve atıştırmalık için idealdir. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-tavuk-pirzola-500-gr",
@@ -159,10 +172,11 @@
       "name": "Organik Tavuk Pirzola (kg)",
       "slug": "organik-tavuk-pirzola",
       "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Tavuk Pirzola | Izgaralık",
-      "short_description": "Doğal yemle beslenen tavuğun pirzola kısmı; ızgara ve tava için kilogram bazında.",
-      "meta_description": "Organik tavuk pirzola. Doğal beslenen tavuktan, ızgaralık ve katkısız. Soğuk zincirle taze kapınıza gelsin.",
-      "description": "<p>Doğal yemle yetiştirilen organik tavuğun pirzola kısmı. Izgarada ve tavada pratik, lezzetli bir ana yemek seçeneği.</p><p>Hormon ve katkı maddesi içermez; soğuk zincirle taze olarak gönderilir.</p>"
+      "meta_title": "Organik Tavuk Pirzola kg | Izgaralık & Pratik",
+      "short_description": "Doğal yemle beslenen tavuğun pirzola kısmı. Hormonsuz; ızgara ve tava için kilogram bazında.",
+      "meta_description": "Organik tavuk pirzola. Doğal beslenen tavuktan, ızgaralık, hormonsuz. Soğuk zincirle taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Doğal yemle ve antibiyotiksiz yetiştirilen organik tavuğun pirzola kısmı. Izgarada ve tavada pratik, lezzetli bir ana yemek seçeneği.</p><ul><li><strong>Izgaralık</strong>, pratik ana yemek</li><li>Antibiyotik ve hormon <strong>kullanılmadan</strong></li><li>Doğal yemle beslenen tavuktan</li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Baharatlayıp ızgarada ya da tavada pişirin; salata ve garnitürle servis edin. Soğuk zincirle taze gönderilir.</p>"
     },
     {
       "source_slug": "organik-yarım-tavuk-adt",
@@ -170,10 +184,11 @@
       "name": "Organik Yarım Tavuk (Adet)",
       "slug": "organik-yarim-tavuk",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": true, "tax_rate": 1,
-      "meta_title": "Organik Yarım Tavuk | Doğal Yemle Beslenen",
-      "short_description": "Doğal yemle, antibiyotiksiz yetiştirilen organik yarım tavuk; pratik porsiyon için bütünün yarısı.",
-      "meta_description": "Organik yarım tavuk. Doğal beslenen, antibiyotiksiz ve katkısız. Soğuk zincirle taze kapınıza gelsin.",
-      "description": "<p>Doğal yemle ve açık alanda yetiştirilen organik tavuğun yarım porsiyonu. Küçük haneler ve pratik pişirme için ideal bir seçenek.</p><p>Hormon ve katkı maddesi içermez; soğuk zincir korunarak taze gönderilir.</p>"
+      "meta_title": "Organik Yarım Tavuk | Antibiyotiksiz & Pratik Porsiyon",
+      "short_description": "Doğal yemle ve antibiyotiksiz yetiştirilen organik yarım tavuk. Küçük haneler için pratik porsiyon.",
+      "meta_description": "Organik yarım tavuk. Doğal beslenen, antibiyotiksiz, hormonsuz. Soğuk zincirle taze kapınıza gelsin.",
+      "storage_info": "Buzdolabında 0-4°C'de saklayıp 1-2 gün içinde pişirin. Uzun süre için derin dondurucuda muhafaza edin.",
+      "description": "<p>Açık alanda gezen, doğal yemle ve antibiyotiksiz yetiştirilen organik tavuğun yarım porsiyonu. Küçük haneler ve pratik pişirme için ideal, doğal bir seçenek.</p><ul><li><strong>Pratik porsiyon</strong>, küçük haneler için</li><li>Antibiyotik ve hormon <strong>kullanılmadan</strong></li><li>Doğal yemle beslenen, açık alan</li><li>Yapay katkı <strong>içermez</strong></li></ul><p><strong>Servis önerisi:</strong> Sebzelerle fırında pişirin ya da ızgarada değerlendirin. Soğuk zincir korunarak taze gönderilir.</p>"
     },
     {
       "source_slug": "oğlak-kavurma-300-gr",
@@ -181,10 +196,11 @@
       "name": "Organik Oğlak Kavurma 300 gr",
       "slug": "organik-oglak-kavurma-300-gr",
       "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Oğlak Kavurma 300 gr | Kendi Yağında",
-      "short_description": "Kendi yağında ağır ateşte pişirilen organik oğlak kavurma; yöresel lezzet 300 gramlık kavanozda.",
-      "meta_description": "Organik oğlak kavurma. Kendi yağında pişmiş, yöresel ve katkısız. 300 gr kavanoz kapınıza gelsin.",
-      "description": "<p>Doğal beslenen oğlağın etinin kendi yağında ağır ateşte pişirilmesiyle hazırlanan yöresel kavurma. Yoğun aroması ve yumuşak dokusuyla özel sofraların lezzeti.</p><p>Katkı maddesi içermez; uzun süre dayanan geleneksel bir et ürünüdür.</p>"
+      "meta_title": "Organik Oğlak Kavurma 300 gr | Kendi Yağında & Yöresel",
+      "short_description": "Kendi yağında ağır ateşte pişirilen organik oğlak kavurma. Yöresel ve katkısız; 300 gramlık kavanozda.",
+      "meta_description": "Organik oğlak kavurma. Kendi yağında pişmiş, yöresel, katkısız. 300 gr kavanoz kapınıza gelsin.",
+      "storage_info": "Kapalı ağzıyla serin yerde saklayın; açıldıktan sonra buzdolabına kaldırın ve birkaç gün içinde tüketin.",
+      "description": "<p>Doğal beslenen oğlağın etinin kendi yağında ağır ateşte pişirilmesiyle hazırlanan yöresel kavurma. Yoğun aroması ve yumuşak dokusuyla özel sofraların lezzeti.</p><ul><li><strong>Kendi yağında</strong>, ağır ateşte pişirme</li><li>Doğal beslenen oğlaktan, <strong>katkısız</strong></li><li>Yöresel, <strong>yoğun aroma</strong></li><li>Uzun ömürlü, pratik</li></ul><p><strong>Servis önerisi:</strong> Tavada ısıtıp pilav üstü, yumurtayla kahvaltıda ya da meze olarak servis edin. Soğuk zincirle taze gönderilir.</p>"
     }
   ]
 }

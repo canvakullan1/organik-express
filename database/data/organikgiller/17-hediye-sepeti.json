@@ -16,10 +16,11 @@
       "name": "Organik Meyve Sepeti",
       "slug": "organik-meyve-sepeti",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Sepet", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik Meyve Sepeti | Mevsim Meyveleri",
-      "short_description": "Mevsimin organik meyvelerinden özenle hazırlanan taze meyve sepeti; hediye ve özel günler için.",
-      "meta_description": "Organik meyve sepeti. Mevsim meyveleriyle, taze ve doğal. Hediye için kapıya teslim.",
-      "description": "<p>Mevsimin en taze organik meyvelerinden özenle hazırlanan zengin meyve sepeti. Doğum günü, geçmiş olsun ve özel günler için doğal ve sağlıklı bir hediye.</p><p>İçerik mevsime göre seçilir; şık sunumuyla doğrudan adrese gönderilir.</p>"
+      "meta_title": "Organik Meyve Sepeti | Mevsim Meyveleri & Hediyelik",
+      "short_description": "Mevsimin organik meyvelerinden özenle hazırlanan taze meyve sepeti. Hediye ve özel günler için.",
+      "meta_description": "Organik meyve sepeti. Mevsim meyveleriyle, taze, doğal. Hediye için kapıya teslim.",
+      "storage_info": "Teslimat sonrası meyveleri buzdolabında ya da serin bir yerde saklayın; mümkün olan en kısa sürede tüketin.",
+      "description": "<p>Mevsimin en taze organik meyvelerinden özenle hazırlanan zengin meyve sepeti. Doğum günü, geçmiş olsun ve özel günler için doğal, sağlıklı ve şık bir hediye alternatifi.</p><ul><li><strong>Mevsim organik meyveleri</strong> ile</li><li>Özenli ve <strong>şık sunum</strong></li><li>Doğal, <strong>sağlıklı hediye</strong></li><li>Doğrudan adrese teslim</li></ul><p><strong>Not:</strong> İçerik mevsime göre seçilir; özel gün notu eklemek isterseniz sipariş sırasında belirtebilirsiniz.</p>"
     },
     {
       "source_slug": "organik-ilk-lokma-paketi",
@@ -27,10 +28,11 @@
       "name": "Organik İlk Lokma Sepeti",
       "slug": "organik-ilk-lokma-sepeti",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Sepet", "is_weight_based": false, "tax_rate": 1,
-      "meta_title": "Organik İlk Lokma Sepeti | Bebek İçin Doğal",
+      "meta_title": "Organik İlk Lokma Sepeti | Bebek İçin Doğal Hediye",
       "short_description": "Ek gıdaya geçen bebekler için seçilmiş organik ürünlerden hazırlanan ilk lokma sepeti.",
       "meta_description": "Organik ilk lokma sepeti. Bebekler için doğal ürünlerle, özenli. Hediye için kapıya teslim.",
-      "description": "<p>Ek gıdaya geçiş döneminde bebekler için seçilmiş organik ürünlerden özenle hazırlanan ilk lokma sepeti. Yeni doğan ziyaretleri ve hediyeler için anlamlı bir seçenek.</p><p>İçerik doğal ve katkısız ürünlerden oluşur; şık sunumuyla adrese gönderilir.</p>"
+      "storage_info": "İçindeki ürünlerin saklama koşullarına uyun; taze ürünleri buzdolabında muhafaza edin.",
+      "description": "<p>Ek gıdaya geçiş döneminde bebekler için seçilmiş organik ürünlerden özenle hazırlanan ilk lokma sepeti. Yeni doğan ziyaretleri ve hediyeler için anlamlı, doğal bir seçenek.</p><ul><li>Bebek ek gıdasına uygun <strong>organik ürünler</strong></li><li>Katkısız, <strong>özenle seçilmiş</strong> içerik</li><li>Yeni doğan ve hediye için <strong>anlamlı</strong></li><li>Şık sunumla adrese teslim</li></ul><p><strong>Not:</strong> İçerik doğal ve katkısız ürünlerden oluşur; hediye notu eklemek isterseniz sipariş sırasında belirtebilirsiniz.</p>"
     }
   ]
 }

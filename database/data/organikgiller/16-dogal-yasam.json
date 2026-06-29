@@ -16,10 +16,11 @@
       "name": "Wave Doğal Bulaşık Makinesi Deterjanı 1.183 lt",
       "slug": "wave-dogal-bulasik-makinesi-deterjani-1183-lt",
       "unit": "paket", "unit_amount": 1, "variant_name": "1.183 lt", "is_weight_based": false, "tax_rate": 20,
-      "meta_title": "Wave Doğal Bulaşık Makinesi Deterjanı 1.183 lt",
-      "short_description": "Bitkisel içerikli, çevre dostu doğal bulaşık makinesi deterjanı; 1.183 litrelik şişede.",
+      "meta_title": "Wave Doğal Bulaşık Makinesi Deterjanı 1.183 lt | Bitkisel",
+      "short_description": "Bitkisel içerikli, çevre dostu doğal bulaşık makinesi deterjanı. Yoğun formül; 1.183 litrelik şişede.",
       "meta_description": "Wave doğal bulaşık makinesi deterjanı. Bitkisel içerikli, çevre dostu. 1.183 lt şişe kapınıza gelsin.",
-      "description": "<p>Bitkisel bazlı içeriğiyle bulaşıkları etkili temizleyen, çevre dostu doğal bulaşık makinesi deterjanı. Sert kimyasallardan kaçınanlar için pratik bir seçenek.</p><p>Yoğun formülüyle ekonomik kullanım sağlar.</p>"
+      "storage_info": "Çocukların ulaşamayacağı, serin ve kuru bir yerde, ağzı kapalı saklayın.",
+      "description": "<p>Bitkisel bazlı içeriğiyle bulaşıkları etkili temizleyen, çevre dostu doğal bulaşık makinesi deterjanı. Sert kimyasallardan kaçınanlar için yoğun ve ekonomik bir seçenek.</p><ul><li><strong>Bitkisel bazlı</strong> içerik</li><li>Çevre dostu, <strong>yoğun formül</strong></li><li>Sert kimyasallardan <strong>kaçınır</strong></li><li>Ekonomik kullanım</li></ul><p><strong>Kullanım önerisi:</strong> Makine haznesine önerilen ölçüde dozajlayın; çok kirli bulaşıklarda miktarı artırın.</p>"
     },
     {
       "source_slug": "wave-doğal-bulaşık-makinası-deterjanı-1-183-lt-kopyası",
@@ -27,10 +28,11 @@
       "name": "Bitkisel Bulaşık Makinesi Jel Deterjanı 1 lt",
       "slug": "bitkisel-bulasik-makinesi-jel-deterjani-1-lt",
       "unit": "paket", "unit_amount": 1, "variant_name": "1 lt", "is_weight_based": false, "tax_rate": 20,
-      "meta_title": "Bitkisel Bulaşık Makinesi Jel Deterjanı 1 lt",
-      "short_description": "Bitkisel içerikli, jel formda doğal bulaşık makinesi deterjanı; 1 litrelik şişede.",
+      "meta_title": "Bitkisel Bulaşık Makinesi Jel Deterjanı 1 lt | Doğal İçerikli",
+      "short_description": "Bitkisel içerikli, jel formda doğal bulaşık makinesi deterjanı. Çevre dostu; 1 litrelik şişede.",
       "meta_description": "Bitkisel bulaşık makinesi jel deterjanı. Doğal içerikli, çevre dostu. 1 lt şişe kapınıza gelsin.",
-      "description": "<p>Bitkisel içerikli jel formülüyle bulaşıkları nazikçe temizleyen doğal bulaşık makinesi deterjanı. Çevre dostu yapısıyla günlük kullanıma uygundur.</p><p>Sert kimyasallardan kaçınanlar için pratik bir seçenek.</p>"
+      "storage_info": "Çocukların ulaşamayacağı, serin ve kuru bir yerde, ağzı kapalı saklayın.",
+      "description": "<p>Bitkisel içerikli jel formülüyle bulaşıkları nazikçe temizleyen doğal bulaşık makinesi deterjanı. Çevre dostu yapısıyla günlük kullanıma uygun bir seçenek.</p><ul><li><strong>Bitkisel içerikli</strong> jel formül</li><li>Çevre dostu, <strong>günlük kullanım</strong></li><li>Sert kimyasallardan <strong>kaçınır</strong></li><li>Pratik dozajlama</li></ul><p><strong>Kullanım önerisi:</strong> Makine haznesine önerilen ölçüde jel dozajlayıp programı başlatın.</p>"
     },
     {
       "source_slug": "organik-sıvı-el-sabunu-epure-1-lt",
@@ -38,10 +40,11 @@
       "name": "Organik Sıvı El Sabunu (Epure) 1 lt",
       "slug": "organik-sivi-el-sabunu-epure-1-lt",
       "unit": "paket", "unit_amount": 1, "variant_name": "1 lt", "is_weight_based": false, "tax_rate": 20,
-      "meta_title": "Organik Sıvı El Sabunu Epure 1 lt | Bitkisel",
-      "short_description": "Bitkisel içerikli, cildi kurutmayan organik sıvı el sabunu; ekonomik 1 litrelik şişede.",
+      "meta_title": "Organik Sıvı El Sabunu Epure 1 lt | Bitkisel & Nazik",
+      "short_description": "Bitkisel içerikli, cildi kurutmayan organik sıvı el sabunu. Ekonomik 1 litrelik şişede.",
       "meta_description": "Organik sıvı el sabunu Epure. Bitkisel içerikli, nazik. 1 lt şişe kapınıza gelsin.",
-      "description": "<p>Bitkisel içerikleriyle elleri temizlerken cildi kurutmayan organik sıvı el sabunu. Günlük sık kullanım için 1 litrelik ekonomik şişede.</p><p>Sert kimyasallardan kaçınanlar için nazik bir seçenek.</p>"
+      "storage_info": "Serin ve kuru bir yerde, ağzı kapalı saklayın.",
+      "description": "<p>Bitkisel içerikleriyle elleri temizlerken cildi kurutmayan organik sıvı el sabunu. Günlük sık kullanım için 1 litrelik ekonomik, doldurmaya uygun şişede.</p><ul><li><strong>Bitkisel içerik</strong>, cildi kurutmaz</li><li>Günlük sık kullanıma <strong>uygun</strong></li><li>Sert kimyasallardan <strong>kaçınır</strong></li><li>Ekonomik 1 lt doldurma boyu</li></ul><p><strong>Kullanım önerisi:</strong> Pompalı şişeleri bu ürünle doldurarak ekonomik kullanın.</p>"
     },
     {
       "source_slug": "su-kabağı-lambası-adt",
@@ -49,10 +52,11 @@
       "name": "Su Kabağı Lambası (Adet)",
       "slug": "su-kabagi-lambasi",
       "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": false, "tax_rate": 20,
-      "meta_title": "Su Kabağı Lambası | El Yapımı Dekor",
-      "short_description": "Doğal su kabağının el işçiliğiyle oyulmasıyla yapılan dekoratif su kabağı lambası; her biri kendine özgü.",
-      "meta_description": "Su kabağı lambası. El yapımı, doğal ve dekoratif. Adet olarak kapınıza gelsin.",
-      "description": "<p>Doğal su kabağının kurutulup el işçiliğiyle oyulmasıyla hazırlanan dekoratif lamba. Yaktığınızda duvarlara desenli, sıcak bir ışık yansıtır.</p><p>El yapımı olduğundan her parça kendine özgü desen ve formdadır.</p>"
+      "meta_title": "Su Kabağı Lambası | El Yapımı Doğal Dekor",
+      "short_description": "Doğal su kabağının el işçiliğiyle oyulmasıyla yapılan dekoratif su kabağı lambası. Her biri kendine özgü.",
+      "meta_description": "Su kabağı lambası. El yapımı, doğal, dekoratif. Adet olarak kapınıza gelsin.",
+      "storage_info": "Nemli ortamlardan uzak tutun; tozunu kuru bir bezle alın.",
+      "description": "<p>Doğal su kabağının kurutulup el işçiliğiyle oyulmasıyla hazırlanan dekoratif lamba. Yaktığınızda duvarlara desenli, sıcak bir ışık yansıtarak ortama huzurlu bir atmosfer katar.</p><ul><li><strong>El yapımı</strong>, doğal su kabağından</li><li>Yakıldığında <strong>desenli ışık</strong> yansıtır</li><li>Her parça <strong>kendine özgü</strong> desen ve form</li><li>Doğal ev dekoru / hediyelik</li></ul><p><strong>Kullanım önerisi:</strong> Yatak odası, oturma odası veya hediyelik olarak; uygun bir ampulle kullanın.</p>"
     }
   ]
 }
