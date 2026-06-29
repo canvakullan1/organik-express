@@ -57,6 +57,7 @@ if ($do === 'import_og') {
     if (($_GET['status'] ?? '') === 'draft') { $flags .= ' --status=draft'; }
     $lim = (int) ($_GET['limit'] ?? 0);
     if ($lim > 0) { $flags .= ' --limit=' . $lim; }
+    if (($_GET['reimages'] ?? '') === '1') { $flags .= ' --reimages'; }
     echo @shell_exec("cd $repo && $php artisan import:organikgiller$flags 2>&1");
     exit;
 }

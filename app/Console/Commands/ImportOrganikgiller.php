@@ -8,9 +8,8 @@ use App\Models\Product;
 use App\Models\ProductImage;
 use App\Models\ProductVariant;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
 
 /**
  * organikgiller.com kataloğunu (elle yazılmış SEO içerikli) içe aktarır.
@@ -26,7 +25,7 @@ use Illuminate\Support\Str;
  */
 class ImportOrganikgiller extends Command
 {
-    protected $signature = 'import:organikgiller {--skip-images} {--only=} {--status=active} {--limit=0}';
+    protected $signature = 'import:organikgiller {--skip-images} {--only=} {--status=active} {--limit=0} {--reimages}';
 
     protected $description = 'organikgiller.com kataloğunu SEO içerikli olarak içe aktarır';
 
@@ -73,7 +72,14 @@ class ImportOrganikgiller extends Command
 
         $status = $this->option('status') === 'draft' ? ProductStatus::Draft->value : ProductStatus::Active->value;
         $only = array_filter(array_map('trim', explode(',', (string) $this->option('only'))));
-        $disk = Storage::disk('public');
+
+        // --reimages: bu kataloğa ait ürünlerin görsel kayıtlarını sil ki yeniden indirilsin
+        if ($this->option('reimages')) {
+            $slugs = array_column($catalog['products'] ?? [], 'slug');
+            $ids = Product::whereIn('slug', $slugs)->pluck('id');
+            $del = ProductImage::whereIn('product_id', $ids)->delete();
+            $this->info("Görsel kaydı silindi (yeniden indirilecek): {$del}");
+        }
 
         // 1) Kategoriler
         $catIdBySlug = [];
@@ -153,7 +159,7 @@ class ImportOrganikgiller extends Command
                 } else {
                     $got = false;
                     foreach (array_slice($src['images'] ?? [], 0, 4) as $idx => $url) {
-                        $stored = $this->downloadImage($disk, $url, $p['slug'], $idx);
+                        $stored = $this->downloadImage($url, $p['slug'], $idx);
                         if ($stored) {
                             ProductImage::create([
                                 'product_id' => $product->id,
@@ -179,7 +185,7 @@ class ImportOrganikgiller extends Command
         return self::SUCCESS;
     }
 
-    private function downloadImage($disk, string $url, string $slug, int $idx): ?string
+    private function downloadImage(string $url, string $slug, int $idx): ?string
     {
         try {
             $res = Http::withHeaders(['User-Agent' => 'Mozilla/5.0'])->timeout(40)->get($url);
@@ -188,7 +194,12 @@ class ImportOrganikgiller extends Command
             }
             $ext = str_contains($url, '.png') ? 'png' : (str_contains($url, '.webp') ? 'webp' : 'jpg');
             $path = "products/{$slug}-" . ($idx + 1) . ".{$ext}";
-            $disk->put($path, $res->body());
+
+            // Deploy korumalı konum: repo storage/app/public (git reset --hard untracked'i silmez,
+            // deploy bu klasörü public_html/storage'a kopyalar → görseller deploy'larda korunur).
+            $full = storage_path('app/public/' . $path);
+            File::ensureDirectoryExists(dirname($full));
+            File::put($full, $res->body());
 
             return $path;
         } catch (\Throwable $e) {
