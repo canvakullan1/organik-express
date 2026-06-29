@@ -61,6 +61,12 @@ if ($do === 'import_og') {
     echo @shell_exec("cd $repo && $php artisan import:organikgiller$flags 2>&1");
     exit;
 }
+if ($do === 'write_pages') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(300);
+    echo @shell_exec("cd $repo && $php artisan pages:write 2>&1");
+    exit;
+}
 if ($do === 'setup_site') {
     if (! $php) { exit("php bulunamadi\n"); }
     set_time_limit(600);
