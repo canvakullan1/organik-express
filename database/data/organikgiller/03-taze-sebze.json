@@ -1,0 +1,344 @@
+{
+  "categories": [
+    {
+      "slug": "taze-sebze",
+      "name": "Taze Sebze",
+      "sort_order": 3,
+      "meta_title": "Organik Taze Sebze | Mevsiminde Tarladan Sofraya",
+      "meta_description": "Organik sertifikalı taze sebzeler; domates, biber, patates, yeşillik ve daha fazlası. Mevsiminde hasat edilip taze olarak kapınıza gelir.",
+      "description": "<p>Organik tarım yöntemleriyle, sentetik gübre ve zirai ilaç kullanılmadan yetiştirilen mevsim sebzeleri. Hasat sonrası kısa sürede taze olarak kapınıza ulaştırılır.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-domates-kg",
+      "category": "taze-sebze",
+      "name": "Organik Domates (kg)",
+      "slug": "organik-domates",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Domates kg | Mevsiminde Tarladan",
+      "short_description": "Mevsiminde dalında olgunlaşan, aromalı organik domates; salata ve yemekler için kilogram bazında.",
+      "meta_description": "Organik domates. Dalında olgunlaşmış, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Organik tarımla, dalında olgunlaşana kadar bekletilerek hasat edilen aromalı domates. Salatada, yemekte ve sosta gerçek domates lezzeti verir.</p><p>Zirai ilaç ve sentetik gübre kullanılmadan yetiştirilir; taze olarak gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-kokteyl-domates-kg",
+      "category": "taze-sebze",
+      "name": "Organik Kokteyl Domates (kg)",
+      "slug": "organik-kokteyl-domates",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kokteyl Domates kg | Salatalık",
+      "short_description": "Küçük taneli, tatlı aromalı organik kokteyl domates; salata ve atıştırmalık için kilogram bazında.",
+      "meta_description": "Organik kokteyl domates. Tatlı aromalı, küçük taneli ve katkısız. Mevsiminde taze kapınıza gelsin.",
+      "description": "<p>Küçük taneli ve tatlı aromasıyla öne çıkan organik kokteyl domates. Salatada, kahvaltıda ve atıştırmalık olarak taze tüketime uygundur.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-dolmalık-biber-kg",
+      "category": "taze-sebze",
+      "name": "Organik Dolmalık Biber (kg)",
+      "slug": "organik-dolmalik-biber",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Dolmalık Biber kg | Etli & Diri",
+      "short_description": "Etli ve diri yapısıyla dolmalık organik biber; dolma ve fırın için kilogram bazında.",
+      "meta_description": "Organik dolmalık biber. Etli, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Etli ve diri yapısıyla dolma ve fırın yemekleri için ideal organik dolmalık biber. Doğal aroması yemeklere tatlı bir derinlik katar.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-kapya-biber-kg",
+      "category": "taze-sebze",
+      "name": "Organik Kapya Biber (kg)",
+      "slug": "organik-kapya-biber",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kapya Biber kg | Tatlı & Etli",
+      "short_description": "Tatlı ve etli yapısıyla közleme ve kavurmaya uygun organik kapya biber; kilogram bazında.",
+      "meta_description": "Organik kapya biber. Tatlı, etli ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Tatlı aroması ve etli yapısıyla közlemede, kavurmada ve sosta öne çıkan organik kapya biber. Doğal şekerleri sayesinde dolgun bir lezzet verir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-köy-biber-kg",
+      "category": "taze-sebze",
+      "name": "Organik Köy Biber (kg)",
+      "slug": "organik-koy-biber",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Köy Biber kg | Aromalı Çarliston",
+      "short_description": "İnce kabuklu, aromalı organik köy (çarliston) biber; kızartma ve yemekler için kilogram bazında.",
+      "meta_description": "Organik köy biber. İnce kabuklu, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>İnce kabuğu ve yoğun aromasıyla kızartmalık organik köy biber. Tavada ve yemeklerde doğal bir tat verir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-sivri-biber-kg",
+      "category": "taze-sebze",
+      "name": "Organik Sivri Biber (kg)",
+      "slug": "organik-sivri-biber",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Sivri Biber kg | İnce & Aromalı",
+      "short_description": "İnce yapılı, hafif acımsı aromalı organik sivri biber; salata ve kızartma için kilogram bazında.",
+      "meta_description": "Organik sivri biber. İnce, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>İnce yapısı ve hafif acımsı aromasıyla salatalık ve kızartmalık organik sivri biber. Yemeklere taze bir karakter katar.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-tatlı-kıl-biber-kg",
+      "category": "taze-sebze",
+      "name": "Organik Tatlı Kıl Biber (kg)",
+      "slug": "organik-tatli-kil-biber",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Tatlı Kıl Biber kg | İnce Aromalı",
+      "short_description": "İnce uzun, tatlı aromalı organik kıl biber; kızartma ve sote için kilogram bazında.",
+      "meta_description": "Organik tatlı kıl biber. İnce, tatlı aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>İnce uzun yapısı ve tatlı aromasıyla kızartma ve sotelere uygun organik kıl biber. Doğal lezzetiyle yemekleri tamamlar.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-sakız-kabak-kg-kopyası",
+      "category": "taze-sebze",
+      "name": "Organik Patlıcan (kg)",
+      "slug": "organik-patlican",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Patlıcan kg | Közleme & Kızartma",
+      "short_description": "İnce kabuklu, az çekirdekli organik patlıcan; közleme, kızartma ve yemekler için kilogram bazında.",
+      "meta_description": "Organik patlıcan. İnce kabuklu, az çekirdekli ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>İnce kabuğu ve az çekirdekli yapısıyla közlemelik organik patlıcan. Kızartmada, yemekte ve közlemede doğal aroma verir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-sakız-kabak-kg",
+      "category": "taze-sebze",
+      "name": "Organik Sakız Kabak (kg)",
+      "slug": "organik-sakiz-kabak",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Sakız Kabak kg | İnce Kabuklu",
+      "short_description": "İnce kabuklu, yumuşak organik sakız kabak; zeytinyağlı ve kızartma için kilogram bazında.",
+      "meta_description": "Organik sakız kabak. İnce kabuklu, yumuşak ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>İnce kabuğu ve yumuşak dokusuyla organik sakız kabak. Zeytinyağlı yemeklerde, kızartmada ve mücverlerde idealdir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-patates-kg",
+      "category": "taze-sebze",
+      "name": "Organik Patates (kg)",
+      "slug": "organik-patates",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Patates kg | Çok Amaçlı",
+      "short_description": "Haşlama, fırın ve kızartmaya uygun çok amaçlı organik patates; kilogram bazında.",
+      "meta_description": "Organik patates. Çok amaçlı, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Haşlama, fırın, püre ve kızartmaya uygun çok amaçlı organik patates. Doğal nişastasıyla her tarifte dengeli bir sonuç verir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-kırmızı-patates-kg",
+      "category": "taze-sebze",
+      "name": "Organik Kırmızı Patates (kg)",
+      "slug": "organik-kirmizi-patates",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kırmızı Patates kg | Fırınlık",
+      "short_description": "Diri etli, fırın ve haşlamaya uygun organik kırmızı patates; kilogram bazında.",
+      "meta_description": "Organik kırmızı patates. Diri etli, fırınlık ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Diri eti ve dengeli nişastasıyla fırın ve haşlamada dağılmayan organik kırmızı patates. Yemeklerde formunu korur.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-havuç-kg",
+      "category": "taze-sebze",
+      "name": "Organik Havuç (kg)",
+      "slug": "organik-havuc",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Havuç kg | Tatlı & Diri",
+      "short_description": "Tatlı ve diri organik havuç; salata, yemek ve taze sıkım için kilogram bazında.",
+      "meta_description": "Organik havuç. Tatlı, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Doğal şekeri yüksek, diri organik havuç. Salatada, yemekte ve taze sıkım sularda çok yönlü kullanılır.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-mor-havuç-kg",
+      "category": "taze-sebze",
+      "name": "Organik Mor Havuç (kg)",
+      "slug": "organik-mor-havuc",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Mor Havuç kg | Şalgam & Salata",
+      "short_description": "Antioksidan zengini organik mor havuç; şalgam, salgam suyu ve salata için kilogram bazında.",
+      "meta_description": "Organik mor havuç. Antioksidan zengini, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Koyu rengini veren antosiyaninlerle antioksidan açısından zengin organik mor havuç. Şalgam suyunda, salatada ve turşuda kullanılır.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-kırmızı-pancar-kg",
+      "category": "taze-sebze",
+      "name": "Organik Kırmızı Pancar (kg)",
+      "slug": "organik-kirmizi-pancar",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kırmızı Pancar kg | Detoks Dostu",
+      "short_description": "Yoğun renkli, toprak aromalı organik kırmızı pancar; haşlama, salata ve taze sıkım için kilogram bazında.",
+      "meta_description": "Organik kırmızı pancar. Yoğun renkli, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Yoğun rengi ve toprak aromasıyla organik kırmızı pancar. Haşlanarak salatada, közlenerek ya da taze sıkım sularda değerlendirilir.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-kuru-soğan-kg",
+      "category": "taze-sebze",
+      "name": "Organik Kuru Soğan (kg)",
+      "slug": "organik-kuru-sogan",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kuru Soğan kg | Yemeklik",
+      "short_description": "Yemeklerin temeli organik kuru soğan; sote, yemek ve sos için kilogram bazında.",
+      "meta_description": "Organik kuru soğan. Yemeklik, doğal ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Yemeklerin vazgeçilmez temeli organik kuru soğan. Sotede, sosta ve sebze yemeklerinde dengeli bir tatlılık verir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-kırmızı-kuru-soğan-kg",
+      "category": "taze-sebze",
+      "name": "Organik Kırmızı Kuru Soğan (kg)",
+      "slug": "organik-kirmizi-kuru-sogan",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kırmızı Kuru Soğan kg | Salatalık",
+      "short_description": "Hafif tatlı, salatalık organik kırmızı kuru soğan; salata ve meze için kilogram bazında.",
+      "meta_description": "Organik kırmızı kuru soğan. Hafif tatlı, salatalık ve katkısız. Mevsiminde taze kapınıza gelsin.",
+      "description": "<p>Hafif tatlı aroması ve canlı rengiyle salatalık organik kırmızı soğan. Salatalarda ve mezelerde çiğ olarak öne çıkar.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-taze-soğan-bağ",
+      "category": "taze-sebze",
+      "name": "Organik Taze Soğan (Bağ)",
+      "slug": "organik-taze-sogan",
+      "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Taze Soğan | Bağ",
+      "short_description": "Taptaze, aromalı organik taze soğan; salata ve kahvaltı için bağ halinde.",
+      "meta_description": "Organik taze soğan. Taptaze, aromalı ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "description": "<p>Taptaze ve aromalı organik taze soğan. Salatada, kahvaltıda ve yemeklerde ferah bir tat verir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-sarımsak-kg",
+      "category": "taze-sebze",
+      "name": "Organik Sarımsak 250 gr",
+      "slug": "organik-sarimsak-250-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Sarımsak 250 gr | Aromalı Yerli",
+      "short_description": "Yoğun aromalı, küçük dişli organik sarımsak; yemek ve sos için 250 gramlık pakette.",
+      "meta_description": "Organik sarımsak. Yoğun aromalı, yerli ve katkısız. 250 gr taze paket kapınıza gelsin.",
+      "description": "<p>Yoğun aroması ve küçük dişli yapısıyla yerli organik sarımsak. Yemeklerde, soslarda ve turşuda doğal bir lezzet derinliği katar.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-hıyar-kg",
+      "category": "taze-sebze",
+      "name": "Organik Salatalık (Hıyar) (kg)",
+      "slug": "organik-salatalik-hiyar",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Salatalık kg | Çıtır & Aromalı",
+      "short_description": "Çıtır ve aromalı organik salatalık; salata, kahvaltı ve atıştırmalık için kilogram bazında.",
+      "meta_description": "Organik salatalık (hıyar). Çıtır, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Çıtır dokusu ve ferah aromasıyla organik salatalık. Salatada, kahvaltıda ve atıştırmalık olarak taze tüketime uygundur.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-fasulye-kg",
+      "category": "taze-sebze",
+      "name": "Organik Taze Fasulye (kg)",
+      "slug": "organik-taze-fasulye",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Taze Fasulye kg | Etli & Diri",
+      "short_description": "Etli ve diri organik taze fasulye; zeytinyağlı ve etli yemekler için kilogram bazında.",
+      "meta_description": "Organik taze fasulye. Etli, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Etli ve diri yapısıyla organik taze fasulye. Zeytinyağlı, etli ve sebzeli yemeklerde doğal aromasını korur.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-semizotu-kg",
+      "category": "taze-sebze",
+      "name": "Organik Semizotu (kg)",
+      "slug": "organik-semizotu",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Semizotu kg | Omega-3 Zengini",
+      "short_description": "Taze ve sulu organik semizotu; yoğurtlu, zeytinyağlı ve salata için kilogram bazında.",
+      "meta_description": "Organik semizotu. Taze, sulu ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Sulu yaprakları ve hafif mayhoş tadıyla organik semizotu. Yoğurtlu yemekte, salatada ve zeytinyağlı tariflerde değerlendirilir.</p><p>Organik tarımla, sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-marul-bağ",
+      "category": "taze-sebze",
+      "name": "Organik Marul (Bağ)",
+      "slug": "organik-marul",
+      "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Marul | Çıtır Yapraklı",
+      "short_description": "Çıtır yapraklı, taze organik marul; salata ve sandviç için bağ halinde.",
+      "meta_description": "Organik marul. Çıtır yapraklı, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "description": "<p>Çıtır yaprakları ve ferah tadıyla organik marul. Salatalarda ve sandviçlerde taze bir doku katar.</p><p>Organik tarımla yetiştirilir; taze olarak gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-kıvırcık-adt",
+      "category": "taze-sebze",
+      "name": "Organik Kıvırcık Salata (Adet)",
+      "slug": "organik-kivircik-salata",
+      "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kıvırcık Salata | Taze Yapraklı",
+      "short_description": "Yumuşak kıvrımlı yaprakları olan taze organik kıvırcık salata; baş halinde.",
+      "meta_description": "Organik kıvırcık salata. Taze, yumuşak yapraklı ve katkısız. Baş halinde taze kapınıza gelsin.",
+      "description": "<p>Yumuşak ve kıvrımlı yapraklarıyla organik kıvırcık salata. Salataların ve sandviçlerin taze tamamlayıcısı.</p><p>Organik tarımla yetiştirilir; baş halinde taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-roka-bağ",
+      "category": "taze-sebze",
+      "name": "Organik Roka (Bağ)",
+      "slug": "organik-roka",
+      "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Roka | Aromalı Yeşillik",
+      "short_description": "Keskin ve aromalı organik roka; salata, balık ve pizza yanına bağ halinde.",
+      "meta_description": "Organik roka. Aromalı, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "description": "<p>Keskin ve aromatik tadıyla organik roka. Salatalarda, balık yanında ve pizzada karakterli bir lezzet verir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-maydanoz-bağ",
+      "category": "taze-sebze",
+      "name": "Organik Maydanoz (Bağ)",
+      "slug": "organik-maydanoz",
+      "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Maydanoz | Taptaze",
+      "short_description": "Taptaze ve aromalı organik maydanoz; salata, yemek ve garnitür için bağ halinde.",
+      "meta_description": "Organik maydanoz. Taptaze, aromalı ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "description": "<p>Taptaze ve aromatik organik maydanoz. Salatalara, yemeklere ve garnitürlere ferah bir tat katar.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-dereotu-bağ",
+      "category": "taze-sebze",
+      "name": "Organik Dereotu (Bağ)",
+      "slug": "organik-dereotu",
+      "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Dereotu | Aromalı Yeşillik",
+      "short_description": "Yoğun aromalı taze organik dereotu; zeytinyağlı, salata ve balık için bağ halinde.",
+      "meta_description": "Organik dereotu. Aromalı, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "description": "<p>Yoğun aroması ve ince yapraklarıyla organik dereotu. Zeytinyağlılarda, salatada ve balıkta belirgin bir tat verir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-pazı-bağ",
+      "category": "taze-sebze",
+      "name": "Organik Pazı (Bağ)",
+      "slug": "organik-pazi",
+      "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Pazı | Yeşil Yapraklı",
+      "short_description": "Geniş yapraklı, besleyici organik pazı; kavurma, sarma ve yemekler için bağ halinde.",
+      "meta_description": "Organik pazı. Geniş yapraklı, besleyici ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "description": "<p>Geniş yaprakları ve besleyici yapısıyla organik pazı. Kavurmada, sarmada ve sebze yemeklerinde kullanılır.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-kale-bağ",
+      "category": "taze-sebze",
+      "name": "Organik Kara Lahana (Kale) (Bağ)",
+      "slug": "organik-kale-kara-lahana",
+      "unit": "demet", "unit_amount": 1, "variant_name": "1 Bağ", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kale (Kara Lahana) | Süper Besin",
+      "short_description": "Besin değeri yüksek organik kale (kara lahana); smoothie, salata ve yemek için bağ halinde.",
+      "meta_description": "Organik kale (kara lahana). Besleyici, taze ve katkısız. Bağ halinde taze olarak kapınıza gelsin.",
+      "description": "<p>Yüksek besin değeriyle bilinen organik kale (kara lahana). Smoothie, salata ve sebze yemeklerinde değerlendirilir.</p><p>Organik tarımla yetiştirilir; bağ halinde taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-soyulmamış-enginar-adt",
+      "category": "taze-sebze",
+      "name": "Organik Soyulmamış Enginar (Adet)",
+      "slug": "organik-soyulmamis-enginar",
+      "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Soyulmamış Enginar | Taze Bütün",
+      "short_description": "Bütün haliyle taze organik enginar; kendiniz ayıklamak isteyenler için soyulmamış adet.",
+      "meta_description": "Organik soyulmamış enginar. Taze, bütün ve katkısız. Adet olarak taze kapınıza gelsin.",
+      "description": "<p>Bütün haliyle, yaprakları üzerinde taze organik enginar. Kendiniz ayıklayıp zeytinyağlı pişirmek için idealdir.</p><p>Organik tarımla yetiştirilir; taze olarak gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-soyulmuş-enginar-adt",
+      "category": "taze-sebze",
+      "name": "Organik Soyulmuş Enginar (Adet)",
+      "slug": "organik-soyulmus-enginar",
+      "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Soyulmuş Enginar | Pişirmeye Hazır",
+      "short_description": "Ayıklanmış, pişirmeye hazır organik enginar; pratik zeytinyağlı için soyulmuş adet.",
+      "meta_description": "Organik soyulmuş enginar. Ayıklanmış, pratik ve katkısız. Adet olarak taze kapınıza gelsin.",
+      "description": "<p>Ayıklanıp pişirmeye hazır hale getirilmiş organik enginar göbeği. Pratik bir şekilde zeytinyağlı enginar hazırlamanızı sağlar.</p><p>Organik tarımla yetiştirilir; taze olarak gönderilir.</p>"
+    }
+  ]
+}

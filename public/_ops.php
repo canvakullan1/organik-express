@@ -48,6 +48,16 @@ if ($do === 'lsimg') {
     echo "icindekiler: " . @shell_exec("ls -1 $publicStorage 2>&1");
     exit;
 }
+if ($do === 'import_og') {
+    // Yalnızca organikgiller içe aktarma komutu (sabit, keyfi komut çalıştırmaz).
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(1800);
+    $flags = '';
+    if (($_GET['skipimg'] ?? '') === '1') { $flags .= ' --skip-images'; }
+    if (($_GET['status'] ?? '') === 'draft') { $flags .= ' --status=draft'; }
+    echo @shell_exec("cd $repo && $php artisan import:organikgiller$flags 2>&1");
+    exit;
+}
 if ($do === 'deploy') {
     if (! $git) { exit("git bulunamadi\n"); }
     echo "git=$git php=$php\n";

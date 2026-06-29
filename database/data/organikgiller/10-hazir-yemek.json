@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "slug": "hazir-yemek",
+      "name": "Hazır Yemek & Meze",
+      "sort_order": 10,
+      "meta_title": "Organik Hazır Yemek & Meze | Humus, Şakşuka, Köfte",
+      "meta_description": "Organik malzemelerle hazırlanan pratik yemekler ve mezeler; humus, şakşuka, mantar sote, ekşili köfte. Isıtıp servis edin, taze gelsin.",
+      "description": "<p>Organik malzemelerle hazırlanıp pratik kullanım için paketlenen yemek ve mezeler. Katkı maddesi içermez; ısıtarak ya da soğuk olarak servis edebilirsiniz.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-humus-240-gr",
+      "category": "hazir-yemek",
+      "name": "Organik Humus 240 gr",
+      "slug": "organik-humus-240-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "240 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Humus 240 gr | Nohut & Tahin",
+      "short_description": "Organik nohut ve tahinden hazırlanan kremamsı humus; meze ve atıştırmalık için 240 gramlık kasede.",
+      "meta_description": "Organik humus. Nohut ve tahinden, doğal ve katkısız. 240 gr kase kapınıza gelsin.",
+      "description": "<p>Organik nohut, tahin ve zeytinyağıyla hazırlanan kremamsı humus. Ekmek ya da sebzelerle meze olarak ve atıştırmalık olarak servis edilir.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-şakşuka-250-gr",
+      "category": "hazir-yemek",
+      "name": "Organik Şakşuka 250 gr",
+      "slug": "organik-saksuka-250-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Şakşuka 250 gr | Zeytinyağlı Meze",
+      "short_description": "Patlıcan, biber ve domatesle hazırlanan zeytinyağlı organik şakşuka; meze için 250 gramlık kasede.",
+      "meta_description": "Organik şakşuka. Zeytinyağlı, doğal ve katkısız. 250 gr kase kapınıza gelsin.",
+      "description": "<p>Patlıcan, biber ve domatesin zeytinyağında pişirilmesiyle hazırlanan geleneksel şakşuka. Soğuk meze olarak ya da ana yemek yanında servis edilir.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-mantar-sote-330-gr",
+      "category": "hazir-yemek",
+      "name": "Organik Mantar Sote 330 gr",
+      "slug": "organik-mantar-sote-330-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "330 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Mantar Sote 330 gr | Pratik Yemek",
+      "short_description": "Tereyağı ve baharatlarla sotelenen organik mantar; pratik ana yemek için 330 gramlık kavanozda.",
+      "meta_description": "Organik mantar sote. Pratik, doğal ve katkısız. 330 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik mantarların tereyağı ve baharatlarla sotelenmesiyle hazırlanan pratik yemek. Isıtıp makarna yanında ya da kahvaltıda servis edebilirsiniz.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-ekşili-köfte-340-gr",
+      "category": "hazir-yemek",
+      "name": "Organik Ekşili Köfte 340 gr",
+      "slug": "organik-eksili-kofte-340-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "340 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Ekşili Köfte 340 gr | Pratik Ana Yemek",
+      "short_description": "Ekşili sosuyla hazırlanan organik köfte yemeği; ısıtıp servise hazır 340 gramlık kavanozda.",
+      "meta_description": "Organik ekşili köfte. Pratik, doğal ve katkısız. 340 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik malzemelerle hazırlanan, mayhoş ekşili sosuyla servise hazır köfte yemeği. Pişirme telaşı olmadan ısıtıp sofraya getirebilirsiniz.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-orman-kebabı-310-gr",
+      "category": "hazir-yemek",
+      "name": "Organik Orman Kebabı 310 gr",
+      "slug": "organik-orman-kebabi-310-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "310 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Orman Kebabı 310 gr | Etli & Sebzeli",
+      "short_description": "Et ve sebzelerle hazırlanan organik orman kebabı; ısıtıp servise hazır 310 gramlık kavanozda.",
+      "meta_description": "Organik orman kebabı. Etli, sebzeli ve katkısız. 310 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik et ve mevsim sebzeleriyle hazırlanan, servise hazır orman kebabı. Pratik bir şekilde ısıtıp pilav ya da ekmek yanında sunabilirsiniz.</p><p>Katkı maddesi ve koruyucu içermez.</p>"
+    }
+  ]
+}

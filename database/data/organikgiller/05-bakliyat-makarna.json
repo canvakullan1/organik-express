@@ -1,0 +1,157 @@
+{
+  "categories": [
+    {
+      "slug": "bakliyat-makarna",
+      "name": "Bakliyat, Makarna & Tahıl",
+      "sort_order": 5,
+      "meta_title": "Organik Bakliyat & Makarna | Mercimek, Nohut, Bulgur",
+      "meta_description": "Organik mercimek, nohut, börülce, bulgur, pirinç ve tam buğday makarna. Katkısız, doğal kuru gıdalar kapınıza gelsin.",
+      "description": "<p>Organik tarımla yetiştirilen bakliyat, tahıl ve makarna çeşitleri. Sentetik gübre ve zirai ilaç kullanılmadan üretilen, katkısız kuru gıdalar.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-nohut-1000-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Nohut 1000 gr",
+      "slug": "organik-nohut-1000-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "1000 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Nohut 1 kg | İri Taneli",
+      "short_description": "İri taneli, kolay pişen organik nohut; yemek, humus ve leblebi için 1000 gramlık pakette.",
+      "meta_description": "Organik nohut. İri taneli, doğal ve katkısız. 1000 gr paket kapınıza gelsin.",
+      "description": "<p>İri taneli ve kolay pişen organik nohut. Etli yemeklerde, humusta ve pilavda yüksek protein ve lif sağlar.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-kırmızı-mercimek-750-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Kırmızı Mercimek 750 gr",
+      "slug": "organik-kirmizi-mercimek-750-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "750 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kırmızı Mercimek 750 gr | Çorbalık",
+      "short_description": "Çabuk pişen, çorbalık organik kırmızı mercimek; çorba ve köfte için 750 gramlık pakette.",
+      "meta_description": "Organik kırmızı mercimek. Çorbalık, doğal ve katkısız. 750 gr paket kapınıza gelsin.",
+      "description": "<p>Çabuk pişen ve sindirimi kolay organik kırmızı mercimek. Çorbada, mercimek köftesinde ve yemeklerde besleyici bir temel sağlar.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-yeşil-mercimek-750-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Yeşil Mercimek 750 gr",
+      "slug": "organik-yesil-mercimek-750-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "750 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Yeşil Mercimek 750 gr | Yemeklik",
+      "short_description": "Diri taneli organik yeşil mercimek; yemek, salata ve pilav için 750 gramlık pakette.",
+      "meta_description": "Organik yeşil mercimek. Diri taneli, doğal ve katkısız. 750 gr paket kapınıza gelsin.",
+      "description": "<p>Pişince formunu koruyan diri taneli organik yeşil mercimek. Yemeklerde, salatada ve pilavda lif açısından zengin bir seçenek.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-sarı-mercimek-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Sarı Mercimek 500 gr",
+      "slug": "organik-sari-mercimek-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Sarı Mercimek 500 gr | Çorbalık",
+      "short_description": "Çabuk pişen organik sarı mercimek; çorba ve püre için 500 gramlık pakette.",
+      "meta_description": "Organik sarı mercimek. Çorbalık, doğal ve katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Çabuk pişen ve hafif organik sarı mercimek. Çorbada ve pürelerde kremamsı bir kıvam verir.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-börülce-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Börülce 500 gr",
+      "slug": "organik-borulce-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Börülce 500 gr | Yemeklik",
+      "short_description": "Doğal kurutulmuş organik börülce; zeytinyağlı ve salata için 500 gramlık pakette.",
+      "meta_description": "Organik börülce. Doğal, yemeklik ve katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal yöntemle kurutulmuş organik börülce. Zeytinyağlı yemeklerde ve salatalarda lif ve protein açısından zengin bir seçenek.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-pilavlık-bulgur-750-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Pilavlık Bulgur 750 gr",
+      "slug": "organik-pilavlik-bulgur-750-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "750 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Pilavlık Bulgur 750 gr | Tam Buğday",
+      "short_description": "Tam buğdaydan iri çekilmiş organik pilavlık bulgur; pilav ve garnitür için 750 gramlık pakette.",
+      "meta_description": "Organik pilavlık bulgur. Tam buğdaydan, doğal ve katkısız. 750 gr paket kapınıza gelsin.",
+      "description": "<p>Tam buğdaydan iri çekilmiş organik pilavlık bulgur. Pilavda ve garnitürde dane dane bir sonuç ve doğal lif sağlar.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-köftelik-bulgur-750-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Köftelik Bulgur 750 gr",
+      "slug": "organik-koftelik-bulgur-750-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "750 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Köftelik Bulgur 750 gr | İnce Çekim",
+      "short_description": "İnce çekilmiş organik köftelik bulgur; çiğ köfte ve salata için 750 gramlık pakette.",
+      "meta_description": "Organik köftelik bulgur. İnce çekim, doğal ve katkısız. 750 gr paket kapınıza gelsin.",
+      "description": "<p>İnce çekilmiş organik köftelik bulgur. Çiğ köftede, kısırda ve salatalarda kolay yoğrulan doğal bir malzeme.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-pirinç-750-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Pirinç 750 gr",
+      "slug": "organik-pirinc-750-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "750 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Pirinç 750 gr | Pilavlık",
+      "short_description": "Diri taneli organik pilavlık pirinç; pilav ve sulu yemekler için 750 gramlık pakette.",
+      "meta_description": "Organik pirinç. Diri taneli, pilavlık ve katkısız. 750 gr paket kapınıza gelsin.",
+      "description": "<p>Pişince dağılmayan diri taneli organik pirinç. Pilavda ve sulu yemeklerde dengeli bir kıvam verir.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-burgu-makarna-750-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Burgu Makarna 500 gr",
+      "slug": "organik-burgu-makarna-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Burgu Makarna 500 gr | Tam Buğday",
+      "short_description": "Doğal buğdaydan organik burgu makarna; sos tutan yapısıyla 500 gramlık pakette.",
+      "meta_description": "Organik burgu makarna. Doğal buğdaydan, katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal buğdaydan üretilen organik burgu makarna. Kıvrımlı yapısı sosu güzelce tutar; salata ve fırın makarnada idealdir.</p><p>Katkı maddesi ve renklendirici içermez.</p>"
+    },
+    {
+      "source_slug": "organilgiller-organikspagetti-makarna-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Spagetti Makarna 500 gr",
+      "slug": "organik-spagetti-makarna-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Spagetti Makarna 500 gr | Doğal Buğday",
+      "short_description": "Doğal buğdaydan organik spagetti makarna; soslu tarifler için 500 gramlık pakette.",
+      "meta_description": "Organik spagetti makarna. Doğal buğdaydan, katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal buğdaydan üretilen organik spagetti makarna. Domates soslu ve zeytinyağlı tariflerde dengeli bir doku sunar.</p><p>Katkı maddesi ve renklendirici içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-tel-şehriye-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Tel Şehriye 500 gr",
+      "slug": "organik-tel-sehriye-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tel Şehriye 500 gr | Pilav & Çorba",
+      "short_description": "Doğal buğdaydan organik tel şehriye; pilav ve çorba için 500 gramlık pakette.",
+      "meta_description": "Organik tel şehriye. Doğal buğdaydan, katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal buğdaydan üretilen organik tel şehriye. Pilava eklendiğinde altın rengi bir görünüm ve çorbalarda kıvam verir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-arpa-şehriye-500-gr-kopyası",
+      "category": "bakliyat-makarna",
+      "name": "Organik Arpa Şehriye 500 gr",
+      "slug": "organik-arpa-sehriye-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Arpa Şehriye 500 gr | Pilavlık",
+      "short_description": "Doğal buğdaydan organik arpa şehriye; pilav ve garnitür için 500 gramlık pakette.",
+      "meta_description": "Organik arpa şehriye. Doğal buğdaydan, katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal buğdaydan üretilen organik arpa şehriye. Tek başına pilav olarak ya da pirinç pilavına eklenerek kullanılır.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-cin-mısır-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Cin Mısır 500 gr",
+      "slug": "organik-cin-misir-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Cin Mısır 500 gr | Patlamalık",
+      "short_description": "Evde patlatmaya uygun organik cin mısır; sağlıklı atıştırmalık için 500 gramlık pakette.",
+      "meta_description": "Organik cin mısır. Patlamalık, doğal ve katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Evde tencerede ya da tavada patlatmaya uygun organik cin mısır. Yağsız hazırlanabilen, lif açısından zengin sağlıklı bir atıştırmalık.</p><p>Organik tarımla yetiştirilir; katkı maddesi içermez.</p>"
+    }
+  ]
+}

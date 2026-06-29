@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "slug": "kuruyemis-kurutulmus",
+      "name": "Kuruyemiş & Kurutulmuş Meyve",
+      "sort_order": 12,
+      "meta_title": "Organik Kuruyemiş & Kuru Meyve | Ceviz, Kuru Dut",
+      "meta_description": "Organik kabuklu ceviz, gün kurusu kayısı, kuru dut ve hindistan cevizi. Şeker ve kükürt ilavesiz, doğal kurutulmuş ürünler.",
+      "description": "<p>Organik olarak yetiştirilen kuruyemiş ve doğal yöntemle kurutulmuş meyveler. Şeker, kükürt ve katkı maddesi içermez.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-kabuklu-ceviz-kg",
+      "category": "kuruyemis-kurutulmus",
+      "name": "Organik Kabuklu Ceviz (kg)",
+      "slug": "organik-kabuklu-ceviz",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kabuklu Ceviz kg | Yeni Sezon",
+      "short_description": "Dolgun içli, yeni sezon organik kabuklu ceviz; taze tüketim ve tatlılar için kilogram bazında.",
+      "meta_description": "Organik kabuklu ceviz. Dolgun içli, doğal ve katkısız. Kilogram bazında kapınıza gelsin.",
+      "description": "<p>Dolgun içi ve doğal aromasıyla organik kabuklu ceviz. Omega yağ asitleri açısından zengin; taze tüketimde, kahvaltıda ve tatlılarda kullanılır.</p><p>Kabuğunda saklandığı için tazeliğini uzun süre korur; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-gün-kurusu-kayısı-300-gr",
+      "category": "kuruyemis-kurutulmus",
+      "name": "Organik Gün Kurusu Kayısı 400 gr",
+      "slug": "organik-gun-kurusu-kayisi-400-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Gün Kurusu Kayısı 400 gr | Kükürtsüz",
+      "short_description": "Güneşte doğal kurutulan, kükürtsüz organik gün kurusu kayısı; 400 gramlık pakette.",
+      "meta_description": "Organik gün kurusu kayısı. Kükürtsüz, doğal kurutma ve katkısız. 400 gr paket kapınıza gelsin.",
+      "description": "<p>Güneşte doğal yöntemle kurutulan, koyu renkli ve yoğun tatlı organik gün kurusu kayısı. Kükürtleme yapılmadığı için doğal kahverengi tonundadır.</p><p>Şeker ve katkı maddesi içermez; atıştırmalık ve kompostoda kullanılır.</p>"
+    },
+    {
+      "source_slug": "organik-kuru-dut-250-gr",
+      "category": "kuruyemis-kurutulmus",
+      "name": "Organik Kuru Dut 250 gr",
+      "slug": "organik-kuru-dut-250-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kuru Dut 250 gr | Doğal Tatlı",
+      "short_description": "Güneşte kurutulan, doğal tatlı organik kuru dut; atıştırmalık için 250 gramlık pakette.",
+      "meta_description": "Organik kuru dut. Doğal tatlı, kurutulmuş ve katkısız. 250 gr paket kapınıza gelsin.",
+      "description": "<p>Güneşte doğal yöntemle kurutulan organik kuru dut. Doğal şekeriyle tatlı krizlerine sağlıklı bir alternatif; kuruyemişle karıştırarak da tüketilir.</p><p>İlave şeker ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-hindistan-cevizi-50-gr",
+      "category": "kuruyemis-kurutulmus",
+      "name": "Organik Hindistan Cevizi (Rende) 50 gr",
+      "slug": "organik-hindistan-cevizi-rende-50-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "50 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Hindistan Cevizi Rende 50 gr | Pastane",
+      "short_description": "Rendelenmiş kurutulmuş organik hindistan cevizi; tatlı ve pasta süslemesi için 50 gramlık pakette.",
+      "meta_description": "Organik hindistan cevizi rende. Kurutulmuş, doğal ve katkısız. 50 gr paket kapınıza gelsin.",
+      "description": "<p>Rendelenip kurutulan organik hindistan cevizi. Tatlıların, keklerin ve sütlü tatlıların üzerinde süsleme ve aroma için kullanılır.</p><p>Şeker ve katkı maddesi içermez.</p>"
+    }
+  ]
+}

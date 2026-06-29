@@ -1,0 +1,322 @@
+{
+  "categories": [
+    {
+      "slug": "sut-urunleri",
+      "name": "Süt & Süt Ürünleri",
+      "sort_order": 1,
+      "meta_title": "Organik Süt Ürünleri | Keçi & Manda Peyniri, Yoğurt",
+      "meta_description": "Organik keçi ve manda sütünden peynir, yoğurt, kefir, tereyağı ve labne. Katkısız, doğal mayalı süt ürünleri kapınıza taze gelsin.",
+      "description": "<p>Organik keçi ve manda sütünden üretilen peynir, yoğurt, kefir ve tereyağı çeşitleri. Katkı maddesi içermeyen, doğal mayalı süt ürünlerimiz soğuk zincirle taze olarak kapınıza ulaşır.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "keçi-basma-peynir-tulum-425-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Basma (Tulum) Peyniri 425 gr",
+      "slug": "organik-keci-basma-tulum-peyniri-425-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "425 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Tulum Peyniri 425 gr | Tam Kıvamında",
+      "short_description": "Geleneksel yöntemle olgunlaştırılan, yoğun aromalı organik keçi tulum peyniri; 425 gramlık taze pakette.",
+      "meta_description": "Organik keçi sütünden geleneksel tulum peyniri. Yoğun aroma, doğal maya, katkısız. 425 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik keçi sütünden geleneksel yöntemle basılan ve olgunlaştırılan tulum peyniri. Yoğun, hafif tuzlu aromasıyla kahvaltıların ve mezelerin vazgeçilmezi.</p><p>Katkı maddesi ve koruyucu içermez; doğal mayası ve dengeli olgunlaşmasıyla gerçek keçi peyniri lezzetini sofranıza taşır.</p>"
+    },
+    {
+      "source_slug": "keçi-beyaz-peynir",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Beyaz Peyniri 450 gr",
+      "slug": "organik-keci-beyaz-peyniri-450-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "450 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Beyaz Peyniri 450 gr | Katkısız",
+      "short_description": "Tam kıvamında, hafif tuzlu organik keçi beyaz peyniri; kahvaltı sofralarınız için 450 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden beyaz peynir. Yumuşak dokulu, hafif tuzlu ve katkısız. 450 gr taze paket. Hızlı teslimat.",
+      "description": "<p>Organik keçi sütünden mayalanan, yumuşak dokulu ve hafif tuzlu beyaz peynir. Hafif sindirilebilir yapısıyla her yaşa uygun bir kahvaltılık.</p><p>Doğal maya ile üretilir; koruyucu ve katkı maddesi içermez. Soğuk zincirle taze olarak gönderilir.</p>"
+    },
+    {
+      "source_slug": "keçi-hellim-peyniri-300-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Hellim Peyniri 300 gr",
+      "slug": "organik-keci-hellim-peyniri-300-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Hellim Peyniri 300 gr | Izgaralık",
+      "short_description": "Izgarada ve tavada erimeyen, tok dokulu organik keçi hellim peyniri; 300 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden hellim peyniri. Izgaralık, tok dokulu ve katkısız. 300 gr paket kapınıza taze gelsin.",
+      "description": "<p>Organik keçi sütünden üretilen, ısıya dayanıklı tok dokulu hellim peyniri. Izgarada veya tavada altın rengini alana kadar pişirip sıcak tüketebilirsiniz.</p><p>Doğal mayalı ve katkısızdır; kahvaltıdan ara öğüne kadar pratik bir protein kaynağıdır.</p>"
+    },
+    {
+      "source_slug": "keçi-kaşar-peyniri-300-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Kaşar Peyniri 300 gr",
+      "slug": "organik-keci-kasar-peyniri-300-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Kaşar Peyniri 300 gr | Erimeli",
+      "short_description": "Tostta eriyen, yumuşak aromalı organik keçi kaşar peyniri; 300 gramlık taze pakette.",
+      "meta_description": "Organik keçi sütünden kaşar peyniri. Tost ve yemeklerde erir, katkısız ve doğal mayalı. 300 gr taze paket.",
+      "description": "<p>Organik keçi sütünden üretilen, ısıyla güzelce eriyen kaşar peyniri. Tost, makarna ve fırın yemeklerinde ipeksi bir kıvam verir.</p><p>Koruyucu içermez; dengeli olgunlaşmasıyla yumuşak ve dolgun bir lezzet sunar.</p>"
+    },
+    {
+      "source_slug": "keçi-labne-peynir-200-gr-kopyası",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Kefiri 250 ml",
+      "slug": "organik-keci-kefiri-250-ml",
+      "unit": "paket", "unit_amount": 1, "variant_name": "250 ml", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Kefiri 250 ml | Probiyotik",
+      "short_description": "Doğal fermantasyonla üretilen, probiyotik açısından zengin organik keçi kefiri; 250 ml şişede.",
+      "meta_description": "Organik keçi sütünden kefir. Doğal fermantasyon, probiyotik zengini, katkısız. 250 ml taze şişe kapınıza gelsin.",
+      "description": "<p>Organik keçi sütünün doğal kefir mayasıyla fermente edilmesiyle elde edilen, probiyotik bakımından zengin içecek. Hafif ekşi tadıyla sindirime dost bir seçenek.</p><p>Şeker ve katkı maddesi içermez; günlük rutininize ferahlatıcı bir destek katar.</p>"
+    },
+    {
+      "source_slug": "keçi-labne-peynir-200-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Labne Peyniri 200 gr",
+      "slug": "organik-keci-labne-peyniri-200-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "200 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Labne Peyniri 200 gr | Krem Kıvam",
+      "short_description": "İpeksi, sürülebilir kıvamda organik keçi labne peyniri; kahvaltı ve atıştırmalıklar için 200 gramlık kasede.",
+      "meta_description": "Organik keçi sütünden labne. Krem kıvamında, sürülebilir ve katkısız. 200 gr taze kase kapınıza gelsin.",
+      "description": "<p>Organik keçi sütünden süzülerek hazırlanan, ipeksi ve sürülebilir labne peyniri. Ekmeğin üzerine sürerek ya da soslarda kullanarak değerlendirebilirsiniz.</p><p>Hafif mayhoş aromasıyla doğal ve katkısızdır; kahvaltıların zarif bir tamamlayıcısıdır.</p>"
+    },
+    {
+      "source_slug": "keçi-lor-peyniri-az-tuzlu-425-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Lor Peyniri (Az Tuzlu) 425 gr",
+      "slug": "organik-keci-lor-peyniri-az-tuzlu-425-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "425 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Lor Peyniri Az Tuzlu 425 gr",
+      "short_description": "Hafif ve az tuzlu organik keçi lor peyniri; diyet dostu, yüksek proteinli 425 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden az tuzlu lor peyniri. Hafif, yüksek proteinli ve katkısız. 425 gr taze paket.",
+      "description": "<p>Organik keçi sütünden elde edilen, az tuzlu ve hafif lor peyniri. Yüksek protein içeriğiyle dengeli beslenmeye uygun, hafif bir seçenek.</p><p>Tatlı ve tuzlu tariflerde kullanılabilir; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "keçi-lor-peyniri-tuzsuz-220-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Lor Peyniri (Tuzsuz) 220 gr",
+      "slug": "organik-keci-lor-peyniri-tuzsuz-220-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "220 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Lor Peyniri Tuzsuz 220 gr | Bebek Dostu",
+      "short_description": "Tuz eklenmeden hazırlanan organik keçi lor peyniri; bebek ve tuzsuz diyetler için ideal, 220 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden tuzsuz lor peyniri. Bebek ve tuzsuz beslenmeye uygun, katkısız. 220 gr taze paket.",
+      "description": "<p>Hiç tuz eklenmeden üretilen organik keçi lor peyniri. Tuzsuz beslenenler ve ek gıdaya geçen bebekler için yumuşak, hafif bir alternatif.</p><p>Doğal ve katkısızdır; sade haliyle ya da tariflerde kullanılabilir.</p>"
+    },
+    {
+      "source_slug": "keçi-olgunlaştırılmış-peynir-275-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Olgunlaştırılmış Peyniri 275 gr",
+      "slug": "organik-keci-olgunlastirilmis-peyniri-275-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "275 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Olgun Peyniri 275 gr | Yoğun Aroma",
+      "short_description": "Uzun süre dinlendirilerek olgunlaştırılan, karakterli organik keçi peyniri; 275 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden olgunlaştırılmış peynir. Yoğun aroma, doğal maya, katkısız. 275 gr taze paket.",
+      "description": "<p>Organik keçi sütünden üretilip uzun süre dinlendirilerek olgunlaştırılan karakterli peynir. Zamanla derinleşen yoğun aromasıyla peynir tabaklarının yıldızı.</p><p>Katkı maddesi içermez; bir bardak şarap ya da taze ekmekle eşsiz uyum sağlar.</p>"
+    },
+    {
+      "source_slug": "keçi-sadeyağ-175-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Sadeyağı 175 gr",
+      "slug": "organik-keci-sadeyagi-175-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "175 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Sadeyağı 175 gr | Saf Tereyağı",
+      "short_description": "Keçi tereyağının arıtılmasıyla elde edilen, yüksek ısıya dayanıklı organik keçi sadeyağı; 175 gramlık kavanozda.",
+      "meta_description": "Organik keçi sütünden sadeyağ. Saf, yüksek ısıya dayanıklı ve katkısız. 175 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik keçi tereyağının süt proteinlerinden arındırılmasıyla elde edilen saf sadeyağ. Yüksek dumanlanma noktası sayesinde kavurma ve tatlılarda güvenle kullanılır.</p><p>Yoğun aroması ve uzun raf ömrüyle geleneksel mutfağın değerli bir malzemesidir.</p>"
+    },
+    {
+      "source_slug": "keçi-sepet-peyniri-300-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Sepet Peyniri 300 gr",
+      "slug": "organik-keci-sepet-peyniri-300-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Sepet Peyniri 300 gr | Taze",
+      "short_description": "Sepette süzülerek şekillenen, taze ve hafif organik keçi sepet peyniri; 300 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden sepet peyniri. Taze, hafif tuzlu ve katkısız. 300 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik keçi sütünden hazırlanıp geleneksel sepette süzülerek şekil verilen taze peynir. Hafif tuzlu ve yumuşak yapısıyla kahvaltıların ferah bir seçeneği.</p><p>Doğal mayalı ve katkısızdır; salatalarda da rahatlıkla kullanılır.</p>"
+    },
+    {
+      "source_slug": "keçi-sürk-peyniri-230-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Sürk Peyniri 230 gr",
+      "slug": "organik-keci-surk-peyniri-230-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "230 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Sürk Peyniri 230 gr | Baharatlı",
+      "short_description": "Baharatlarla yoğrulup olgunlaştırılan yöresel organik keçi sürk peyniri; 230 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden sürk peyniri. Baharatlı, yöresel ve katkısız. 230 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik keçi sütünden üretilen, baharatlarla yoğrulup olgunlaştırılan yöresel sürk peyniri. Kendine has acımsı ve baharatlı aromasıyla farklı bir kahvaltı deneyimi sunar.</p><p>Geleneksel yöntemle hazırlanır; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "keçi-süzme-yoğurt",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Süzme Yoğurdu",
+      "slug": "organik-keci-suzme-yogurdu",
+      "unit": "paket", "unit_amount": 1, "variant_name": "Paket", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Süzme Yoğurdu | Yoğun Kıvam",
+      "short_description": "Suyu süzülerek yoğun kıvama getirilen, hafif mayhoş organik keçi süzme yoğurdu.",
+      "meta_description": "Organik keçi sütünden süzme yoğurt. Yoğun kıvam, doğal maya, katkısız. Taze olarak kapınıza gelsin.",
+      "description": "<p>Organik keçi sütünden mayalanıp suyu süzülerek hazırlanan yoğun kıvamlı süzme yoğurt. Kahvaltıda, mezede ve soslarda kremamsı dokusuyla öne çıkar.</p><p>Hafif mayhoş tadı ve doğal mayasıyla katkısızdır.</p>"
+    },
+    {
+      "source_slug": "keçi-tereyağ-250-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Tereyağı 250 gr",
+      "slug": "organik-keci-tereyagi-250-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Tereyağı 250 gr | Günlük Sütten",
+      "short_description": "Günlük keçi sütünün kaymağından çalkalanan, yoğun aromalı organik keçi tereyağı; 250 gramlık pakette.",
+      "meta_description": "Organik keçi sütünden tereyağı. Yoğun aroma, doğal ve katkısız. 250 gr taze paket kapınıza gelsin.",
+      "description": "<p>Günlük organik keçi sütünün kaymağından geleneksel yöntemle çalkalanan tereyağı. Kahvaltıda, hamur işlerinde ve yemeklerde dolgun bir lezzet bırakır.</p><p>Koruyucu içermez; keçi sütüne özgü ferah aromasını korur.</p>"
+    },
+    {
+      "source_slug": "kapra-keçi-yoğurt-750-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Yoğurdu 750 gr",
+      "slug": "organik-keci-yogurdu-750-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "750 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Yoğurdu 750 gr | Hafif Sindirim",
+      "short_description": "Doğal mayalı, hafif sindirilen organik keçi yoğurdu; 750 gramlık kapta taze olarak.",
+      "meta_description": "Organik keçi sütünden yoğurt. Hafif, doğal mayalı ve katkısız. 750 gr taze kap kapınıza gelsin.",
+      "description": "<p>Organik keçi sütünden doğal mayayla üretilen, hafif sindirilebilir yoğurt. İnce kıvamı ve ferah tadıyla günlük tüketim için ideal.</p><p>Şeker ve katkı maddesi içermez; sade ya da meyvelerle birlikte tüketilebilir.</p>"
+    },
+    {
+      "source_slug": "manda-tereyağı-250-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Manda Tereyağı 250 gr",
+      "slug": "organik-manda-tereyagi-250-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "250 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Manda Tereyağı 250 gr | Yoğun Kremamsı",
+      "short_description": "Yağ oranı yüksek manda sütünden çalkalanan, kremamsı ve dolgun organik manda tereyağı; 250 gramlık pakette.",
+      "meta_description": "Organik manda sütünden tereyağı. Yoğun, kremamsı ve katkısız. 250 gr taze paket kapınıza gelsin.",
+      "description": "<p>Yağ oranı yüksek manda sütünün kaymağından geleneksel yöntemle çalkalanan kremamsı tereyağı. Kahvaltıların ve tatlıların zenginleştiricisi.</p><p>Dolgun aroması ve yoğun dokusuyla katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "manda-yoğurt-750-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Manda Yoğurdu 750 gr",
+      "slug": "organik-manda-yogurdu-750-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "750 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Manda Yoğurdu 750 gr | Kaymaklı",
+      "short_description": "Kaymak tutan, yoğun ve dolgun kıvamlı organik manda yoğurdu; 750 gramlık kapta.",
+      "meta_description": "Organik manda sütünden yoğurt. Kaymaklı, yoğun kıvamlı ve katkısız. 750 gr taze kap kapınıza gelsin.",
+      "description": "<p>Yağ oranı yüksek manda sütünden mayalanan, üzeri kaymak tutan yoğun yoğurt. Geleneksel kıvamı ve dolgun tadıyla tatlılarda da tercih edilir.</p><p>Doğal mayalıdır; katkı maddesi ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-dil-peyniri-300-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Dil Peyniri 300 gr",
+      "slug": "organik-dil-peyniri-300-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Dil Peyniri 300 gr | Tel Tel",
+      "short_description": "Tel tel ayrılan, yumuşak ve hafif tuzlu organik dil peyniri; 300 gramlık taze pakette.",
+      "meta_description": "Organik sütten dil peyniri. Tel tel, yumuşak ve katkısız. 300 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik sütten geleneksel yöntemle üretilen, tel tel ayrılan dil peyniri. Yumuşak dokusu ve hafif tuzuyla kahvaltıların keyifli bir parçası.</p><p>Doğal mayalı ve katkısızdır; çocukların da severek tükettiği bir lezzettir.</p>"
+    },
+    {
+      "source_slug": "organik-kefir-1lt",
+      "category": "sut-urunleri",
+      "name": "Organik Kefir 1 lt",
+      "slug": "organik-kefir-1-lt",
+      "unit": "paket", "unit_amount": 1, "variant_name": "1 lt", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kefir 1 lt | Probiyotik İçecek",
+      "short_description": "Doğal kefir mayasıyla fermente edilen, probiyotik zengini organik kefir; 1 litrelik şişede.",
+      "meta_description": "Organik sütten kefir. Doğal fermantasyon, probiyotik zengini ve katkısız. 1 lt taze şişe kapınıza gelsin.",
+      "description": "<p>Organik sütün doğal kefir mayasıyla fermente edilmesiyle elde edilen, probiyotik bakımından zengin içecek. Sindirim dostu yapısıyla günlük rutine destek olur.</p><p>Şeker ve katkı maddesi içermez; sade ya da meyvelerle tüketilebilir.</p>"
+    },
+    {
+      "source_slug": "organik-keçi-sütü-500-ml",
+      "category": "sut-urunleri",
+      "name": "Organik Keçi Sütü 500 ml",
+      "slug": "organik-keci-sutu-500-ml",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 ml", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Sütü 500 ml | Hafif Sindirim",
+      "short_description": "Hafif sindirilen, doğal ve katkısız organik keçi sütü; 500 ml taze şişede.",
+      "meta_description": "Organik keçi sütü. Hafif, doğal ve katkısız. 500 ml taze şişe soğuk zincirle kapınıza gelsin.",
+      "description": "<p>Hafif sindirilebilir yapısıyla bilinen organik keçi sütü. Sade içime, kahvaltıya ve ev yapımı peynir-yoğurt tariflerine uygun doğal bir kaynak.</p><p>Katkı maddesi içermez; soğuk zincirle taze olarak gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-lor-peyniri-350-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Lor Peyniri 350 gr",
+      "slug": "organik-lor-peyniri-350-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "350 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Lor Peyniri 350 gr | Yüksek Protein",
+      "short_description": "Hafif ve yüksek proteinli organik lor peyniri; tatlı ve tuzlu tariflere uygun, 350 gramlık pakette.",
+      "meta_description": "Organik sütten lor peyniri. Hafif, yüksek proteinli ve katkısız. 350 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik sütten elde edilen hafif ve yüksek proteinli lor peyniri. Börek, kek ve tatlı tariflerinde ya da sade olarak tüketilebilir.</p><p>Doğaldır ve katkı maddesi içermez; dengeli beslenmeye uygundur.</p>"
+    },
+    {
+      "source_slug": "organik-pastörize-süt-1lt",
+      "category": "sut-urunleri",
+      "name": "Organik Pastörize Süt 1 lt",
+      "slug": "organik-pastorize-sut-1-lt",
+      "unit": "paket", "unit_amount": 1, "variant_name": "1 lt", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Pastörize Süt 1 lt | Günlük Taze",
+      "short_description": "Doğal besin değerini koruyacak şekilde pastörize edilen organik inek sütü; 1 litrelik şişede.",
+      "meta_description": "Organik pastörize süt. Doğal, katkısız ve günlük taze. 1 lt şişe soğuk zincirle kapınıza gelsin.",
+      "description": "<p>Doğal besin değerini koruyacak şekilde pastörize edilen organik süt. Sade içime, kahvaltıya ve tatlı tariflerine uygun günlük taze bir kaynak.</p><p>Katkı maddesi içermez; soğuk zincirle taze olarak gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-tam-yağlı-beyaz-peynir-650-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Tam Yağlı Beyaz Peynir 650 gr",
+      "slug": "organik-tam-yagli-beyaz-peynir-650-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "650 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tam Yağlı Beyaz Peynir 650 gr | Dolgun",
+      "short_description": "Dolgun ve kremamsı organik tam yağlı beyaz peynir; kahvaltı sofraları için 650 gramlık pakette.",
+      "meta_description": "Organik tam yağlı beyaz peynir. Dolgun, kremamsı ve katkısız. 650 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik sütten üretilen, yağ oranı yüksek dolgun beyaz peynir. Kremamsı dokusu ve dengeli tuzuyla kahvaltıların klasik lezzeti.</p><p>Doğal mayalıdır; koruyucu ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-tam-yağlı-labne-200-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Tam Yağlı Labne 200 gr",
+      "slug": "organik-tam-yagli-labne-200-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "200 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tam Yağlı Labne 200 gr | Krem Peynir",
+      "short_description": "İpeksi ve sürülebilir organik tam yağlı labne; kahvaltı ve atıştırmalıklar için 200 gramlık kasede.",
+      "meta_description": "Organik tam yağlı labne. Krem kıvamında, sürülebilir ve katkısız. 200 gr taze kase kapınıza gelsin.",
+      "description": "<p>Organik sütten süzülerek hazırlanan, ipeksi ve dolgun labne peyniri. Ekmek üzerine sürerek ya da soslarda kremamsı bir doku için kullanabilirsiniz.</p><p>Hafif mayhoş aromasıyla doğal ve katkısızdır.</p>"
+    },
+    {
+      "source_slug": "organik-tam-yağlı-taze-beyaz-peynir-500gr",
+      "category": "sut-urunleri",
+      "name": "Organik Tam Yağlı Taze Beyaz Peynir 500 gr",
+      "slug": "organik-tam-yagli-taze-beyaz-peynir-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Taze Beyaz Peynir 500 gr | Tam Yağlı",
+      "short_description": "Az olgunlaştırılmış, yumuşak ve taze organik tam yağlı beyaz peynir; 500 gramlık pakette.",
+      "meta_description": "Organik tam yağlı taze beyaz peynir. Yumuşak, taze ve katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Organik sütten üretilen, az olgunlaştırılmış yumuşak ve taze beyaz peynir. Hafif tuzu ve ferah tadıyla kahvaltıların hafif bir seçeneği.</p><p>Doğal mayalıdır; katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-tavayoğurt-900-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Tava Yoğurt 900 gr",
+      "slug": "organik-tava-yogurt-900-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "900 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tava Yoğurt 900 gr | Kaymaklı",
+      "short_description": "Geniş tavada mayalanıp kaymak tutan, yoğun kıvamlı organik tava yoğurt; 900 gramlık kapta.",
+      "meta_description": "Organik sütten tava yoğurt. Kaymaklı, yoğun kıvamlı ve katkısız. 900 gr taze kap kapınıza gelsin.",
+      "description": "<p>Organik sütün geniş tavada mayalanmasıyla üretilen, üzeri kaymak tutan yoğun yoğurt. Geleneksel kıvamı ve dolgun tadıyla sofraların gözdesi.</p><p>Doğal mayalıdır; katkı maddesi ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-taze-kaşar-peyniri-400-gr",
+      "category": "sut-urunleri",
+      "name": "Organik Taze Kaşar Peyniri 400 gr",
+      "slug": "organik-taze-kasar-peyniri-400-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Taze Kaşar Peyniri 400 gr | Erimeli",
+      "short_description": "Tostta ve yemeklerde eriyen, yumuşak organik taze kaşar peyniri; 400 gramlık pakette.",
+      "meta_description": "Organik taze kaşar peyniri. Erimeli, yumuşak ve katkısız. 400 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik sütten üretilen, ısıyla güzelce eriyen taze kaşar peyniri. Tost, makarna ve fırın yemeklerinde ipeksi bir kıvam sağlar.</p><p>Doğal mayalıdır; koruyucu ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-tereyağı-200gr",
+      "category": "sut-urunleri",
+      "name": "Organik Tereyağı 200 gr",
+      "slug": "organik-tereyagi-200-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "200 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tereyağı 200 gr | Günlük Sütten",
+      "short_description": "Günlük sütün kaymağından çalkalanan, dolgun aromalı organik tereyağı; 200 gramlık pakette.",
+      "meta_description": "Organik sütten tereyağı. Dolgun aroma, doğal ve katkısız. 200 gr taze paket kapınıza gelsin.",
+      "description": "<p>Günlük organik sütün kaymağından geleneksel yöntemle çalkalanan tereyağı. Kahvaltıda, hamur işlerinde ve yemeklerde dolgun bir lezzet bırakır.</p><p>Koruyucu içermez; doğal aromasını korur.</p>"
+    }
+  ]
+}

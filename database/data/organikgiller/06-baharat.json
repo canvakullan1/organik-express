@@ -1,0 +1,267 @@
+{
+  "categories": [
+    {
+      "slug": "baharat-aktar",
+      "name": "Baharat, Tuz & Aktar",
+      "sort_order": 6,
+      "meta_title": "Organik Baharat & Tuz | Pul Biber, Kimyon, Tarçın",
+      "meta_description": "Organik baharatlar, doğal kaya ve salamura tuzu, safran ve aktar ürünleri. Katkısız, aromasını koruyan baharatlar kapınıza gelsin.",
+      "description": "<p>Aromasını koruyacak şekilde öğütülen organik baharatlar, doğal tuzlar ve aktar ürünleri. Katkı maddesi, renklendirici ve dolgu içermez.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "doğal-salamura-tuzu-2000-gr",
+      "category": "baharat-aktar",
+      "name": "Doğal Salamura Tuzu 2000 gr",
+      "slug": "dogal-salamura-tuzu-2000-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "2000 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Doğal Salamura Tuzu 2 kg | Turşu & Peynir",
+      "short_description": "Turşu, peynir ve salamura için doğal iri taneli tuz; 2000 gramlık pakette.",
+      "meta_description": "Doğal salamura tuzu. İri taneli, katkısız ve doğal. 2000 gr paket kapınıza gelsin.",
+      "description": "<p>Turşu, peynir ve salamura hazırlamak için ideal, iri taneli doğal salamura tuzu. Rafine edilmeden, doğal mineral yapısı korunarak sunulur.</p><p>Topaklanma önleyici ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "doğal-öğütülmüş-sofra-tuzu-iyot-ilaveli-2000-gr",
+      "category": "baharat-aktar",
+      "name": "Doğal Öğütülmüş Sofra Tuzu (İyot İlaveli) 2000 gr",
+      "slug": "dogal-ogutulmus-sofra-tuzu-iyot-ilaveli-2000-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "2000 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Doğal Sofra Tuzu İyotlu 2 kg | İnce Öğütülmüş",
+      "short_description": "İnce öğütülmüş, iyot ilaveli doğal sofra tuzu; günlük kullanım için 2000 gramlık pakette.",
+      "meta_description": "Doğal iyotlu sofra tuzu. İnce öğütülmüş ve doğal. 2000 gr paket kapınıza gelsin.",
+      "description": "<p>Günlük yemek kullanımı için ince öğütülmüş, iyot ilaveli doğal sofra tuzu. Dengeli tane yapısıyla yemeklerde kolayca çözünür.</p><p>Gereksiz katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "dogal-ogutulmus-sofra-tuzu-iyot-ilaveli-600-gr",
+      "category": "baharat-aktar",
+      "name": "Doğal Öğütülmüş Sofra Tuzu (İyot İlaveli) 600 gr",
+      "slug": "dogal-ogutulmus-sofra-tuzu-iyot-ilaveli-600-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "600 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Doğal Sofra Tuzu İyotlu 600 gr | Pratik Boy",
+      "short_description": "İnce öğütülmüş, iyot ilaveli doğal sofra tuzu; pratik 600 gramlık pakette.",
+      "meta_description": "Doğal iyotlu sofra tuzu. İnce öğütülmüş, pratik boy. 600 gr paket kapınıza gelsin.",
+      "description": "<p>Mutfakta pratik kullanım için ince öğütülmüş, iyot ilaveli doğal sofra tuzu. Yemeklerde dengeli bir tuzluluk sağlar.</p><p>Gereksiz katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "sofrada-öğütme-kaynak-tuzu-500-gr",
+      "category": "baharat-aktar",
+      "name": "Sofrada Öğütme Kaynak Tuzu 500 gr",
+      "slug": "sofrada-ogutme-kaynak-tuzu-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Sofrada Öğütme Kaynak Tuzu 500 gr | Değirmenlik",
+      "short_description": "Değirmenle sofrada taze öğütülen iri kaynak tuzu; 500 gramlık pakette.",
+      "meta_description": "Sofrada öğütme kaynak tuzu. İri taneli, doğal kaynak tuzu. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Tuz değirmeninde sofrada taze öğütmek için iri taneli doğal kaynak tuzu. Yemeklerin üzerine çekilerek taze aroma katar.</p><p>Rafine edilmeden, doğal yapısı korunarak sunulur.</p>"
+    },
+    {
+      "source_slug": "çankırı-kaya-tuzu",
+      "category": "baharat-aktar",
+      "name": "Çankırı Kaya Tuzu",
+      "slug": "cankiri-kaya-tuzu",
+      "unit": "paket", "unit_amount": 1, "variant_name": "Paket", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Çankırı Kaya Tuzu | Doğal Mineral",
+      "short_description": "Yer altı kaya tuzu yataklarından çıkarılan doğal Çankırı kaya tuzu; mineral yapısı korunmuş.",
+      "meta_description": "Çankırı kaya tuzu. Doğal, mineral yapısı korunmuş. Katkısız tuz kapınıza gelsin.",
+      "description": "<p>Çankırı kaya tuzu yataklarından çıkarılan, doğal mineral yapısını koruyan kaya tuzu. Yemeklerde ve salamurada doğal bir alternatif sunar.</p><p>Rafine edilmemiş ve katkısızdır.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-acı-pul-biber-70-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Acı Pul Biber 70 gr",
+      "slug": "organik-aci-pul-biber-70-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "70 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Acı Pul Biber 70 gr | Doğal Kurutma",
+      "short_description": "Güneşte kurutulup pul pul çekilen organik acı pul biber; yemekler için 70 gramlık pakette.",
+      "meta_description": "Organik acı pul biber. Doğal kurutma, katkısız. 70 gr paket kapınıza gelsin.",
+      "description": "<p>Güneşte kurutulan acı biberlerin pul pul çekilmesiyle hazırlanan organik pul biber. Yemeklere ve çorbalara dengeli bir acılık ve renk katar.</p><p>Renklendirici ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-acı-toz-biber-95-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Acı Toz Biber 95 gr",
+      "slug": "organik-aci-toz-biber-95-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "95 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Acı Toz Biber 95 gr | İnce Öğütülmüş",
+      "short_description": "İnce öğütülmüş organik acı toz biber; yemek ve sos için 95 gramlık pakette.",
+      "meta_description": "Organik acı toz biber. İnce öğütülmüş, katkısız. 95 gr paket kapınıza gelsin.",
+      "description": "<p>Güneşte kurutulan acı biberlerin ince öğütülmesiyle elde edilen organik toz biber. Yemeklere ve soslara yoğun renk ve acılık verir.</p><p>Renklendirici ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-tatlı-toz-biber-95-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Tatlı Toz Biber 95 gr",
+      "slug": "organik-tatli-toz-biber-95-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "95 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tatlı Toz Biber 95 gr | Renk & Aroma",
+      "short_description": "Acısız, renk ve aroma veren organik tatlı toz biber; yemekler için 95 gramlık pakette.",
+      "meta_description": "Organik tatlı toz biber. Acısız, doğal ve katkısız. 95 gr paket kapınıza gelsin.",
+      "description": "<p>Güneşte kurutulan tatlı biberlerin öğütülmesiyle elde edilen organik toz biber. Yemeklere acılık vermeden renk ve dolgun bir aroma katar.</p><p>Renklendirici ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-tane-karabiber-90-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Tane Karabiber 90 gr",
+      "slug": "organik-tane-karabiber-90-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "90 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tane Karabiber 90 gr | Değirmenlik",
+      "short_description": "Aromasını koruyan organik tane karabiber; değirmende taze çekmek için 90 gramlık pakette.",
+      "meta_description": "Organik tane karabiber. Aromalı, değirmenlik ve katkısız. 90 gr paket kapınıza gelsin.",
+      "description": "<p>Uçucu aromasını koruyan organik tane karabiber. Değirmende taze çekildiğinde yemeklere en yoğun lezzeti verir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-seylan-toz-karabiber-120-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Toz Karabiber 120 gr",
+      "slug": "organik-toz-karabiber-120-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "120 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Toz Karabiber 120 gr | İnce Öğütülmüş",
+      "short_description": "İnce öğütülmüş organik toz karabiber; pratik kullanım için 120 gramlık pakette.",
+      "meta_description": "Organik toz karabiber. İnce öğütülmüş, katkısız. 120 gr paket kapınıza gelsin.",
+      "description": "<p>İnce öğütülmüş organik toz karabiber. Yemeklere pratik bir şekilde keskin ve sıcak bir aroma katar.</p><p>Katkı maddesi ve dolgu içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-toz-kimyon-75-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Toz Kimyon 75 gr",
+      "slug": "organik-toz-kimyon-75-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "75 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Toz Kimyon 75 gr | Köfte & Yemeklik",
+      "short_description": "Yoğun aromalı organik toz kimyon; köfte ve et yemekleri için 75 gramlık pakette.",
+      "meta_description": "Organik toz kimyon. Yoğun aromalı, katkısız. 75 gr paket kapınıza gelsin.",
+      "description": "<p>Yoğun aromasıyla köfte, et yemekleri ve bakliyatın vazgeçilmezi organik toz kimyon. İnce öğütülerek aromasını korur.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-toz-zencefil-70-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Toz Zencefil 70 gr",
+      "slug": "organik-toz-zencefil-70-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "70 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Toz Zencefil 70 gr | Çay & Tatlı",
+      "short_description": "Kurutulup öğütülen organik toz zencefil; çay, tatlı ve yemek için 70 gramlık pakette.",
+      "meta_description": "Organik toz zencefil. Doğal, aromalı ve katkısız. 70 gr paket kapınıza gelsin.",
+      "description": "<p>Kurutulup ince öğütülen organik toz zencefil. Bitki çaylarında, tatlılarda ve yemeklerde sıcak ve baharatlı bir aroma verir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-toz-zerdeçal-100-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Toz Zerdeçal 100 gr",
+      "slug": "organik-toz-zerdecal-100-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "100 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Toz Zerdeçal 100 gr | Altın Baharat",
+      "short_description": "Yoğun renkli organik toz zerdeçal; yemek, çorba ve içecek için 100 gramlık pakette.",
+      "meta_description": "Organik toz zerdeçal. Yoğun renkli, doğal ve katkısız. 100 gr paket kapınıza gelsin.",
+      "description": "<p>Yoğun sarı rengi ve toprağımsı aromasıyla organik toz zerdeçal. Yemeklere, çorbalara ve altın süt gibi içeceklere renk ve karakter katar.</p><p>Renklendirici ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-sumak-80-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Sumak 80 gr",
+      "slug": "organik-sumak-80-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "80 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Sumak 80 gr | Salata & Kebap",
+      "short_description": "Mayhoş aromalı organik sumak; salata, soğan ve kebap yanına 80 gramlık pakette.",
+      "meta_description": "Organik sumak. Mayhoş aromalı, doğal ve katkısız. 80 gr paket kapınıza gelsin.",
+      "description": "<p>Kurutulmuş sumak meyvesinin öğütülmesiyle elde edilen, mayhoş aromalı organik sumak. Salatalarda, soğan üzerinde ve kebap yanında ekşi bir tat verir.</p><p>Tuz ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-kekik-20-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Kekik 20 gr",
+      "slug": "organik-kekik-20-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "20 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kekik 20 gr | Aromalı Yaprak",
+      "short_description": "Doğal kurutulmuş organik kekik; et, çorba ve çay için 20 gramlık pakette.",
+      "meta_description": "Organik kekik. Doğal kurutulmuş, aromalı ve katkısız. 20 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal yöntemle kurutulan aromatik organik kekik. Et yemeklerinde, çorbalarda ve bitki çayı olarak değerlendirilir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-nane-25-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Nane 25 gr",
+      "slug": "organik-nane-25-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "25 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Nane 25 gr | Kurutulmuş",
+      "short_description": "Doğal kurutulmuş organik nane; çorba, yemek ve çay için 25 gramlık pakette.",
+      "meta_description": "Organik kuru nane. Doğal, aromalı ve katkısız. 25 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal yöntemle kurutulan aromatik organik nane. Çorbalarda, yoğurtlu yemeklerde ve bitki çayı olarak ferah bir aroma verir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-karanfil-65-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Karanfil 65 gr",
+      "slug": "organik-karanfil-65-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "65 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Karanfil 65 gr | Tane Baharat",
+      "short_description": "Yoğun aromalı organik tane karanfil; tatlı, komposto ve çay için 65 gramlık pakette.",
+      "meta_description": "Organik karanfil. Tane, yoğun aromalı ve katkısız. 65 gr paket kapınıza gelsin.",
+      "description": "<p>Yoğun aromasıyla organik tane karanfil. Kompostoda, tatlılarda, demlemelerde ve baharat karışımlarında sıcak bir koku ve tat verir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-seylan-çubuk-toz-tarçın-65-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Seylan Toz Tarçın 65 gr",
+      "slug": "organik-seylan-toz-tarcin-65-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "65 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Seylan Toz Tarçın 65 gr | Hakiki Tarçın",
+      "short_description": "Hakiki Seylan tarçınından öğütülen organik toz tarçın; tatlı ve içecek için 65 gramlık pakette.",
+      "meta_description": "Organik Seylan toz tarçın. Hakiki tarçın, doğal ve katkısız. 65 gr paket kapınıza gelsin.",
+      "description": "<p>Hakiki Seylan tarçınından ince öğütülen organik toz tarçın. Tatlılarda, sütlü içeceklerde ve hamur işlerinde yumuşak, ferah bir aroma verir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-seylan-çubuk-tarçın-30-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Seylan Çubuk Tarçın 30 gr",
+      "slug": "organik-seylan-cubuk-tarcin-30-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "30 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Seylan Çubuk Tarçın 30 gr | Demlemelik",
+      "short_description": "Hakiki Seylan çubuk tarçın; demleme, komposto ve içecek için 30 gramlık pakette.",
+      "meta_description": "Organik Seylan çubuk tarçın. Hakiki, demlemelik ve katkısız. 30 gr paket kapınıza gelsin.",
+      "description": "<p>Hakiki Seylan tarçınının çubuk hali. Çay, komposto ve sıcak içeceklerde demlenerek doğal aroma verir; baharat karışımlarında da kullanılır.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-çörekotu-95-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Çörek Otu 95 gr",
+      "slug": "organik-corek-otu-95-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "95 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Çörek Otu 95 gr | Fırın & Salata",
+      "short_description": "Aromalı organik çörek otu tohumu; ekmek, börek ve salata için 95 gramlık pakette.",
+      "meta_description": "Organik çörek otu. Aromalı, doğal ve katkısız. 95 gr paket kapınıza gelsin.",
+      "description": "<p>Aromalı organik çörek otu tohumu. Ekmek ve böreklerin üzerinde, salatalarda ve peynir yanında değerlendirilen besleyici bir tohum.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-susam-100-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Susam 100 gr",
+      "slug": "organik-susam-100-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "100 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Susam 100 gr | Fırın & Salata",
+      "short_description": "Doğal organik susam; ekmek, simit, salata ve tahin için 100 gramlık pakette.",
+      "meta_description": "Organik susam. Doğal, besleyici ve katkısız. 100 gr paket kapınıza gelsin.",
+      "description": "<p>Doğal organik susam tohumu. Fırın ürünlerinin üzerinde, salatalarda ve ev yapımı tahinlerde kullanılan, kalsiyum açısından zengin bir tohum.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organikketen-tohumu-115-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Keten Tohumu 115 gr",
+      "slug": "organik-keten-tohumu-115-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "115 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keten Tohumu 115 gr | Omega Kaynağı",
+      "short_description": "Lif ve omega açısından zengin organik keten tohumu; yoğurt, salata ve smoothie için 115 gramlık pakette.",
+      "meta_description": "Organik keten tohumu. Lif ve omega zengini, katkısız. 115 gr paket kapınıza gelsin.",
+      "description": "<p>Lif ve omega yağ asitleri açısından zengin organik keten tohumu. Yoğurda, salataya ve smoothie'ye eklenerek değerlendirilir.</p><p>Katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-safran-0-5-gr",
+      "category": "baharat-aktar",
+      "name": "Organik Safran 0,5 gr",
+      "slug": "organik-safran-0-5-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "0,5 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Safran 0,5 gr | Tel Safran",
+      "short_description": "Yoğun renk ve aroma veren organik tel safran; pilav, tatlı ve içecek için 0,5 gramlık pakette.",
+      "meta_description": "Organik safran. Tel safran, yoğun aromalı ve katkısız. 0,5 gr paket kapınıza gelsin.",
+      "description": "<p>Az miktarda bile yoğun renk ve aroma veren organik tel safran. Pilavlarda, tatlılarda ve içeceklerde eşsiz bir renk ve koku sağlar.</p><p>Boya ve katkı maddesi içermez.</p>"
+    }
+  ]
+}

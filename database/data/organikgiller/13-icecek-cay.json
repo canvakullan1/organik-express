@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "slug": "icecek-cay",
+      "name": "İçecek & Çay",
+      "sort_order": 13,
+      "meta_title": "Organik Çay & İçecek | Siyah Çay, Earl Grey, Salep",
+      "meta_description": "Organik siyah çay, earl grey ve doğal salep. Demlik ve bardak poşet seçenekleriyle katkısız içecekler kapınıza gelsin.",
+      "description": "<p>Organik çay yapraklarından hazırlanan siyah çay ve earl grey çeşitleri ile doğal salep. Aroma ve katkı maddesi içermez.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-siyah-çay-dökme-500-gr",
+      "category": "icecek-cay",
+      "name": "Organik Siyah Çay (Dökme) 500 gr",
+      "slug": "organik-siyah-cay-dokme-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyah Çay Dökme 500 gr | Demlik",
+      "short_description": "Organik çay bahçelerinden, dökme harman organik siyah çay; demlemelik 500 gramlık pakette.",
+      "meta_description": "Organik siyah çay dökme. Demlik harman, katkısız. 500 gr paket kapınıza gelsin.",
+      "description": "<p>Organik çay bahçelerinden toplanan yapraklardan hazırlanan dökme siyah çay. Demlikte koyu rengi ve dengeli aromasıyla geleneksel çay keyfi sunar.</p><p>Aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-siyah-çay-demlik-poşet",
+      "category": "icecek-cay",
+      "name": "Organik Siyah Çay (Demlik Poşet)",
+      "slug": "organik-siyah-cay-demlik-poset",
+      "unit": "paket", "unit_amount": 1, "variant_name": "Demlik Poşet", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyah Çay Demlik Poşet | Pratik",
+      "short_description": "Demlikte kolay kullanım için poşetlenmiş organik siyah çay; pratik demlik poşet kutusunda.",
+      "meta_description": "Organik siyah çay demlik poşet. Pratik, doğal ve katkısız. Kutu halinde kapınıza gelsin.",
+      "description": "<p>Demlikte pratik kullanım için poşetlenmiş organik siyah çay. Dökme çayın aromasını, demlik poşetin kolaylığıyla bir araya getirir.</p><p>Aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-siyah-çay-bardak-poşet",
+      "category": "icecek-cay",
+      "name": "Organik Siyah Çay (Bardak Poşet)",
+      "slug": "organik-siyah-cay-bardak-poset",
+      "unit": "paket", "unit_amount": 1, "variant_name": "Bardak Poşet", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyah Çay Bardak Poşet | Tek İçim",
+      "short_description": "Tek bardaklık pratik kullanım için poşetlenmiş organik siyah çay; bardak poşet kutusunda.",
+      "meta_description": "Organik siyah çay bardak poşet. Tek içimlik, pratik ve katkısız. Kutu halinde kapınıza gelsin.",
+      "description": "<p>Tek bardaklık pratik kullanım için poşetlenmiş organik siyah çay. Ofiste ve seyahatte hızlı bir çay molası için idealdir.</p><p>Aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-earl-grey-çay-demlik-poşet",
+      "category": "icecek-cay",
+      "name": "Organik Earl Grey Çay (Demlik Poşet)",
+      "slug": "organik-earl-grey-demlik-poset",
+      "unit": "paket", "unit_amount": 1, "variant_name": "Demlik Poşet", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Earl Grey Demlik Poşet | Bergamot",
+      "short_description": "Bergamot aromalı organik earl grey çay; demlikte kullanım için demlik poşet kutusunda.",
+      "meta_description": "Organik earl grey demlik poşet. Bergamotlu, doğal ve katkısız. Kutu halinde kapınıza gelsin.",
+      "description": "<p>Doğal bergamot aromasıyla harmanlanan organik earl grey çay. Demlikte kullanım için poşetlenmiştir; ferah ve karakteristik bir tat sunar.</p><p>Yapay aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-earl-grey-bardak-poşet",
+      "category": "icecek-cay",
+      "name": "Organik Earl Grey Çay (Bardak Poşet)",
+      "slug": "organik-earl-grey-bardak-poset",
+      "unit": "paket", "unit_amount": 1, "variant_name": "Bardak Poşet", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Earl Grey Bardak Poşet | Bergamot",
+      "short_description": "Bergamot aromalı, tek bardaklık pratik organik earl grey çay; bardak poşet kutusunda.",
+      "meta_description": "Organik earl grey bardak poşet. Bergamotlu, pratik ve katkısız. Kutu halinde kapınıza gelsin.",
+      "description": "<p>Doğal bergamot aromalı organik earl grey çayın tek bardaklık pratik poşet hali. Ofiste ve yolculukta hızlı bir aromalı çay keyfi sunar.</p><p>Yapay aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "keçi-toz-salep",
+      "category": "icecek-cay",
+      "name": "Organik Keçi Sütlü Toz Salep",
+      "slug": "organik-keci-toz-salep",
+      "unit": "paket", "unit_amount": 1, "variant_name": "Paket", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Keçi Toz Salep | Kış İçeceği",
+      "short_description": "Sıcak süte karıştırılarak hazırlanan, keçi sütü ile zenginleştirilmiş organik toz salep.",
+      "meta_description": "Organik keçi toz salep. Doğal, kış içeceği ve katkısız. Paket halinde kapınıza gelsin.",
+      "description": "<p>Sıcak süte karıştırılarak hazırlanan, keçi sütüyle zenginleştirilmiş organik toz salep. Kış aylarının geleneksel, ısıtıcı içeceği.</p><p>Üzerine tarçın serperek servis edebilirsiniz; yapay aroma içermez.</p>"
+    }
+  ]
+}

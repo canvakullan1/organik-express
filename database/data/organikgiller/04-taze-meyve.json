@@ -1,0 +1,135 @@
+{
+  "categories": [
+    {
+      "slug": "taze-meyve",
+      "name": "Taze Meyve",
+      "sort_order": 4,
+      "meta_title": "Organik Taze Meyve | Mevsiminde Bahçeden Sofraya",
+      "meta_description": "Organik sertifikalı taze meyveler; elma, çilek, kayısı, kiraz ve daha fazlası. Mevsiminde dalında olgunlaşıp taze olarak kapınıza gelir.",
+      "description": "<p>Organik tarım yöntemleriyle, sentetik gübre ve zirai ilaç kullanılmadan yetiştirilen mevsim meyveleri. Dalında olgunlaşan meyveler kısa sürede taze olarak kapınıza ulaşır.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-elma-kg",
+      "category": "taze-meyve",
+      "name": "Organik Elma (kg)",
+      "slug": "organik-elma",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Elma kg | Aromalı & Diri",
+      "short_description": "Dalında olgunlaşan, aromalı ve diri organik elma; taze tüketim ve tarifler için kilogram bazında.",
+      "meta_description": "Organik elma. Aromalı, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Dalında olgunlaşana kadar bekletilen, aromalı ve diri organik elma. Taze tüketimde, salatada ve tatlılarda doğal tatlılığıyla öne çıkar.</p><p>Zirai ilaç ve sentetik gübre kullanılmadan yetiştirilir; taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-çilek-kg",
+      "category": "taze-meyve",
+      "name": "Organik Çilek (kg)",
+      "slug": "organik-cilek",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Çilek kg | Aromalı & Taze",
+      "short_description": "Mis kokulu, aromalı organik çilek; taze tüketim, reçel ve tatlılar için kilogram bazında.",
+      "meta_description": "Organik çilek. Aromalı, taze ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Mis kokusu ve yoğun aromasıyla organik çilek. Taze tüketimde, reçelde ve tatlılarda doğal lezzetini sunar.</p><p>Zirai ilaç kullanılmadan yetiştirilir; özenle taze olarak gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-kayısı-kg",
+      "category": "taze-meyve",
+      "name": "Organik Kayısı (kg)",
+      "slug": "organik-kayisi",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kayısı kg | Tatlı & Aromalı",
+      "short_description": "Dalında olgunlaşan, tatlı aromalı organik kayısı; taze tüketim ve tatlılar için kilogram bazında.",
+      "meta_description": "Organik kayısı. Tatlı, aromalı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Dalında olgunlaşan, tatlı ve aromalı organik kayısı. Taze tüketimde ve tatlılarda doğal şekeriyle öne çıkar.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-ispanak-kg-kopyası",
+      "category": "taze-meyve",
+      "name": "Organik Kiraz (kg)",
+      "slug": "organik-kiraz",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kiraz kg | Tatlı & Diri",
+      "short_description": "İri taneli, tatlı ve diri organik kiraz; taze tüketim için kilogram bazında.",
+      "meta_description": "Organik kiraz. İri taneli, tatlı ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>İri taneleri, tatlı tadı ve diri yapısıyla organik kiraz. Mevsiminde dalından toplanıp taze olarak gönderilir.</p><p>Zirai ilaç ve sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-erik-kg",
+      "category": "taze-meyve",
+      "name": "Organik Erik (kg)",
+      "slug": "organik-erik",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Erik kg | Mayhoş & Diri",
+      "short_description": "Çıtır ve mayhoş aromalı organik erik; taze tüketim için kilogram bazında.",
+      "meta_description": "Organik erik. Mayhoş, diri ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Çıtır dokusu ve mayhoş aromasıyla organik erik. Mevsiminde toplanıp taze tüketim için kapınıza ulaştırılır.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-muz-kg",
+      "category": "taze-meyve",
+      "name": "Organik Muz (kg)",
+      "slug": "organik-muz",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Muz kg | Doğal Olgunlaşan",
+      "short_description": "Doğal yöntemle olgunlaşan, tatlı organik muz; taze tüketim ve smoothie için kilogram bazında.",
+      "meta_description": "Organik muz. Doğal olgunlaşan, tatlı ve katkısız. Taze olarak kapınıza gelsin.",
+      "description": "<p>Doğal yöntemle olgunlaştırılan, tatlı ve besleyici organik muz. Taze tüketimde, smoothie ve tatlılarda enerji veren bir seçenek.</p><p>Kimyasal olgunlaştırıcı kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-kivi-kg",
+      "category": "taze-meyve",
+      "name": "Organik Kivi (kg)",
+      "slug": "organik-kivi",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Kivi kg | C Vitamini Deposu",
+      "short_description": "Mayhoş ve C vitamini açısından zengin organik kivi; taze tüketim için kilogram bazında.",
+      "meta_description": "Organik kivi. Mayhoş, C vitamini zengini ve katkısız. Taze olarak kapınıza gelsin.",
+      "description": "<p>C vitamini açısından zengin, mayhoş aromalı organik kivi. Taze tüketimde, salatada ve kahvaltıda canlandırıcı bir seçenek.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-limon-kg",
+      "category": "taze-meyve",
+      "name": "Organik Limon (kg)",
+      "slug": "organik-limon",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Limon kg | Bol Sulu & Aromalı",
+      "short_description": "Bol sulu, aromalı organik limon; yemek, salata ve içecek için kilogram bazında.",
+      "meta_description": "Organik limon. Bol sulu, aromalı ve katkısız. Taze olarak kapınıza gelsin.",
+      "description": "<p>Bol sulu ve aromalı organik limon. Yemeklerde, salatalarda ve içeceklerde doğal ferahlık katar; kabuğu rendelik olarak da kullanılabilir.</p><p>Zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-greyfurt-kg",
+      "category": "taze-meyve",
+      "name": "Organik Greyfurt (kg)",
+      "slug": "organik-greyfurt",
+      "unit": "kg", "unit_amount": 1, "variant_name": "1 kg", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Greyfurt kg | Mayhoş & Sulu",
+      "short_description": "Mayhoş ve bol sulu organik greyfurt; taze sıkım ve salata için kilogram bazında.",
+      "meta_description": "Organik greyfurt. Mayhoş, sulu ve katkısız. Taze olarak kapınıza gelsin.",
+      "description": "<p>Mayhoş tadı ve bol suyuyla organik greyfurt. Taze sıkım sularda, salatalarda ve kahvaltıda canlandırıcı bir seçenek.</p><p>Organik tarımla, zirai ilaç kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-karpuz-kg",
+      "category": "taze-meyve",
+      "name": "Organik Karpuz (Adet)",
+      "slug": "organik-karpuz",
+      "unit": "adet", "unit_amount": 1, "variant_name": "1 Adet", "is_weight_based": true, "tax_rate": 1,
+      "meta_title": "Organik Karpuz | Tatlı & Sulu",
+      "short_description": "Doğal yöntemle yetişen, tatlı ve sulu organik karpuz; yaz sofraları için bütün adet.",
+      "meta_description": "Organik karpuz. Tatlı, sulu ve katkısız. Mevsiminde taze olarak kapınıza gelsin.",
+      "description": "<p>Doğal yöntemle yetiştirilen, tatlı ve sulu organik karpuz. Yaz sofralarının serinletici klasiği olarak bütün halde gönderilir.</p><p>Zirai ilaç ve sentetik gübre kullanılmadan yetiştirilir.</p>"
+    },
+    {
+      "source_slug": "organik-yaban-mersini-125-gr",
+      "category": "taze-meyve",
+      "name": "Organik Yaban Mersini 125 gr",
+      "slug": "organik-yaban-mersini-125-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "125 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Yaban Mersini 125 gr | Antioksidan",
+      "short_description": "Antioksidan açısından zengin, taze organik yaban mersini; 125 gramlık pakette.",
+      "meta_description": "Organik yaban mersini. Antioksidan zengini, taze ve katkısız. 125 gr taze paket kapınıza gelsin.",
+      "description": "<p>Antioksidan açısından zengin, mayhoş-tatlı aromalı organik yaban mersini. Kahvaltıda, smoothie ve tatlılarda değerlendirilen besleyici bir meyve.</p><p>Organik tarımla yetiştirilir; taze paketinde gönderilir.</p>"
+    }
+  ]
+}

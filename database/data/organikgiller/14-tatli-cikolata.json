@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "slug": "tatli-cikolata",
+      "name": "Tatlı & Çikolata",
+      "sort_order": 14,
+      "meta_title": "Organik Çikolata & Tatlı | Bitter, Sütlü, Şekersiz",
+      "meta_description": "Organik bitter ve sütlü çikolatalar, şekersiz karamel ve doğal lolipop. Katkısız tatlı alternatifleri kapınıza gelsin.",
+      "description": "<p>Organik kakao ve doğal malzemelerle hazırlanan çikolata ve tatlı çeşitleri. Yapay aroma ve katkı maddesi içermez.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-çikolata-100-bitter-sade-75-gr",
+      "category": "tatli-cikolata",
+      "name": "Organik %100 Bitter Çikolata (Sade) 75 gr",
+      "slug": "organik-100-bitter-cikolata-sade-75-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "75 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik %100 Bitter Çikolata 75 gr | Şekersiz",
+      "short_description": "İlave şekersiz, yoğun kakao aromalı organik %100 bitter çikolata; 75 gramlık tablette.",
+      "meta_description": "Organik %100 bitter çikolata. Şekersiz, yoğun kakaolu ve katkısız. 75 gr tablet kapınıza gelsin.",
+      "description": "<p>İlave şeker içermeyen, yüksek kakao oranlı organik bitter çikolata. Yoğun ve hafif acımsı aromasıyla gerçek çikolata severler için.</p><p>Yapay aroma, emülgatör ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-çikolata-100-bitter-hurmalı-85-gr",
+      "category": "tatli-cikolata",
+      "name": "Organik %100 Bitter Çikolata (Hurmalı) 85 gr",
+      "slug": "organik-100-bitter-cikolata-hurmali-85-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "85 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Bitter Çikolata Hurmalı 85 gr | Şekersiz",
+      "short_description": "Hurma ile doğal tatlandırılan, ilave şekersiz organik bitter çikolata; 85 gramlık tablette.",
+      "meta_description": "Organik hurmalı bitter çikolata. İlave şekersiz, hurmayla tatlı ve katkısız. 85 gr tablet.",
+      "description": "<p>Rafine şeker yerine hurma ile doğal olarak tatlandırılan organik bitter çikolata. Yoğun kakao aromasını hurmanın yumuşak tatlılığıyla buluşturur.</p><p>Yapay aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-çikolata-sütlü-lavantalı-85-gr",
+      "category": "tatli-cikolata",
+      "name": "Organik Sütlü Çikolata (Lavantalı) 85 gr",
+      "slug": "organik-sutlu-cikolata-lavantali-85-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "85 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Sütlü Lavantalı Çikolata 85 gr",
+      "short_description": "Doğal lavanta aromalı, yumuşak içimli organik sütlü çikolata; 85 gramlık tablette.",
+      "meta_description": "Organik sütlü lavantalı çikolata. Doğal aromalı, katkısız. 85 gr tablet kapınıza gelsin.",
+      "description": "<p>Doğal lavanta aromasıyla harmanlanan, yumuşak içimli organik sütlü çikolata. Zarif kokusu ve dengeli tatlılığıyla farklı bir lezzet deneyimi sunar.</p><p>Yapay aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "keçi-sütü-karameli-rafine-şekersiz-200-gr",
+      "category": "tatli-cikolata",
+      "name": "Keçi Sütü Karameli (Rafine Şekersiz) 200 gr",
+      "slug": "keci-sutu-karameli-rafine-sekersiz-200-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "200 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Keçi Sütü Karameli Şekersiz 200 gr | Sürülebilir",
+      "short_description": "Keçi sütünden, rafine şeker kullanılmadan hazırlanan sürülebilir karamel; 200 gramlık kavanozda.",
+      "meta_description": "Keçi sütü karameli. Rafine şekersiz, sürülebilir ve katkısız. 200 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Keçi sütünün uzun süre kaynatılmasıyla hazırlanan, rafine şeker içermeyen sürülebilir karamel. Ekmeğe sürerek, tatlılarda ya da meyveyle tüketebilirsiniz.</p><p>Yapay aroma ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organik-meyve-aromalı-lolipop-12-li",
+      "category": "tatli-cikolata",
+      "name": "Organik Meyve Aromalı Lolipop 10'lu",
+      "slug": "organik-meyve-aromali-lolipop-10-lu",
+      "unit": "paket", "unit_amount": 1, "variant_name": "10'lu Paket", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Meyve Aromalı Lolipop 10'lu | Doğal",
+      "short_description": "Doğal meyve aromalarıyla hazırlanan organik lolipop; çocuklar için 10'lu pakette.",
+      "meta_description": "Organik meyve aromalı lolipop. Doğal aromalı, katkısız. 10'lu paket kapınıza gelsin.",
+      "description": "<p>Doğal meyve aromalarıyla hazırlanan organik lolipop. Yapay renklendirici içermeyen, çocuklar için daha güvenli bir şeker alternatifi.</p><p>10'lu pratik pakette gönderilir.</p>"
+    }
+  ]
+}

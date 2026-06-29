@@ -1,0 +1,2356 @@
+{
+    "scraped_at": "2026-06-29T22:13:31+02:00",
+    "count": 180,
+    "failed": [],
+    "products": [
+        {
+            "source_url": "https://www.organikgiller.com/product-page/wave-doğal-bulaşık-makinası-deterjanı-1-183-lt-kopyası",
+            "slug": "wave-doğal-bulaşık-makinası-deterjanı-1-183-lt-kopyası",
+            "name": "Bitkisel Bulaşık Makinesi Jel Deterjanı 1 Lt",
+            "sku": "0317",
+            "price": 384.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_e3b014fdd3f74b69bf0b05dcb931fed2~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/doğal-salamura-tuzu-2000-gr",
+            "slug": "doğal-salamura-tuzu-2000-gr",
+            "name": "Doğal Salamura Tuzu 2000 Gr",
+            "sku": "0356",
+            "price": 449.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fa299f631aff4ce2b5563dd81ec4da46~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/doğal-öğütülmüş-sofra-tuzu-iyot-ilaveli-2000-gr",
+            "slug": "doğal-öğütülmüş-sofra-tuzu-iyot-ilaveli-2000-gr",
+            "name": "Doğal Öğütülmüş Sofra Tuzu İyot İlaveli 2000 Gr",
+            "sku": "0355",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_127cd8b6048b4bb7b76d049e09fff409~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/dogal-ogutulmus-sofra-tuzu-iyot-ilaveli-600-gr",
+            "slug": "dogal-ogutulmus-sofra-tuzu-iyot-ilaveli-600-gr",
+            "name": "Doğal Öğütülmüş Sofra Tuzu İyot İlaveli 600 Gr",
+            "sku": "0353",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_b9c0898b0ca64c46b1fcfbd88e4fa877~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-basma-peynir-tulum-425-gr",
+            "slug": "keçi-basma-peynir-tulum-425-gr",
+            "name": "Keçi Basma Peynir (Tulum) 425 Gr",
+            "sku": "0167",
+            "price": 649.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_5ebe02877c1f465d87db0b89c11d634d~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg",
+                "https://static.wixstatic.com/media/11766c_c252097304544a04a35391bd77f7e804~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-beyaz-peynir",
+            "slug": "keçi-beyaz-peynir",
+            "name": "Keçi Beyaz Peynir 450 Gr",
+            "sku": "0164",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_2fb532857b3543929fc931517328afef~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg",
+                "https://static.wixstatic.com/media/11766c_30b94d763d594db08640ca7f0cd4f094~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-hellim-peyniri-300-gr",
+            "slug": "keçi-hellim-peyniri-300-gr",
+            "name": "Keçi Hellim Peyniri 300 Gr",
+            "sku": "0179",
+            "price": 424.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_8a78cdaf0d13480b8c8eecd1da6df6b2~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-kaşar-peyniri-300-gr",
+            "slug": "keçi-kaşar-peyniri-300-gr",
+            "name": "Keçi Kaşar Peyniri 300 Gr",
+            "sku": "0169",
+            "price": 425.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_63391de6e7174b448221ed47b037b553~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-labne-peynir-200-gr-kopyası",
+            "slug": "keçi-labne-peynir-200-gr-kopyası",
+            "name": "Keçi Kefir 250 Ml",
+            "sku": "0177",
+            "price": 99.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_0bba13f6dba5460ab9a43a01e83780a7~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-labne-peynir-200-gr",
+            "slug": "keçi-labne-peynir-200-gr",
+            "name": "Keçi Labne Peynir 200 Gr",
+            "sku": "0176",
+            "price": 224.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_9c74797d8b294354b92fffa0d3a8f84c~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-lor-peyniri-az-tuzlu-425-gr",
+            "slug": "keçi-lor-peyniri-az-tuzlu-425-gr",
+            "name": "Keçi Lor Peyniri Az Tuzlu 425 Gr",
+            "sku": "0172",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_384bc27ee3934d9b8696a9e4528a9383~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-lor-peyniri-tuzsuz-220-gr",
+            "slug": "keçi-lor-peyniri-tuzsuz-220-gr",
+            "name": "Keçi Lor Peyniri Tuzsuz 220 Gr",
+            "sku": "0171",
+            "price": 79.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_e0f2731d4fcc4986851ee0438b21558c~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-olgunlaştırılmış-peynir-275-gr",
+            "slug": "keçi-olgunlaştırılmış-peynir-275-gr",
+            "name": "Keçi Olgunlaştırılmış Peynir 275 Gr",
+            "sku": "0168",
+            "price": 364.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_63391de6e7174b448221ed47b037b553~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-sadeyağ-175-gr",
+            "slug": "keçi-sadeyağ-175-gr",
+            "name": "Keçi Sadeyağ 175 Gr",
+            "sku": "0174",
+            "price": 394.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_aebc4a4bdc4f43b0a39cb3e6e953fe77~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-sepet-peyniri-300-gr",
+            "slug": "keçi-sepet-peyniri-300-gr",
+            "name": "Keçi Sepet Peyniri 300 Gr",
+            "sku": "0178",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_05641f43e4474a5ba3980d2ab7a1d4fb~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-sürk-peyniri-230-gr",
+            "slug": "keçi-sürk-peyniri-230-gr",
+            "name": "Keçi Sürk Peyniri 230 Gr",
+            "sku": "0170",
+            "price": 209.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_070055abcde445f4b2f05e5da69cab88~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-sütü-karameli-rafine-şekersiz-200-gr",
+            "slug": "keçi-sütü-karameli-rafine-şekersiz-200-gr",
+            "name": "Keçi Sütü Karameli Rafine Şekersiz 200 Gr",
+            "sku": "0175",
+            "price": 89.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6986f3a39f704e44b92508dedc587343~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-süzme-yoğurt",
+            "slug": "keçi-süzme-yoğurt",
+            "name": "Keçi Süzme Yoğurt",
+            "sku": "0162",
+            "price": 274.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_07004a8c60634b41873a23c8bd1de241~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg",
+                "https://static.wixstatic.com/media/11766c_3e077d8c53e6427f8ab5bf452edb9a25~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-tereyağ-250-gr",
+            "slug": "keçi-tereyağ-250-gr",
+            "name": "Keçi Tereyağ 250 Gr",
+            "sku": "0173",
+            "price": 394.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_c9cbd82356064d95853621bf6349fab3~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/keçi-toz-salep",
+            "slug": "keçi-toz-salep",
+            "name": "Keçi Toz Salep",
+            "sku": "0180",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_bb454a224df34840a6c10fba4847cc0e~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/kapra-keçi-yoğurt-750-gr",
+            "slug": "kapra-keçi-yoğurt-750-gr",
+            "name": "Keçi Yoğurt 750 Gr",
+            "sku": "0163",
+            "price": 274.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_33f821a371c24e2da8a832a29b622a81~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/manda-tereyağı-250-gr",
+            "slug": "manda-tereyağı-250-gr",
+            "name": "Manda Tereyağı 250 Gr",
+            "sku": "0183",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_2abdf70c680d4d56a7ea389d7903878c~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/manda-yoğurt-750-gr",
+            "slug": "manda-yoğurt-750-gr",
+            "name": "Manda Yoğurdu 750 Gr",
+            "sku": "0182",
+            "price": 274.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_801603df4a9c48e293feac12ec51dc6b~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-ajvar-balkan-sosu-230-gr",
+            "slug": "organik-ajvar-balkan-sosu-230-gr",
+            "name": "Organik Ajvar (Balkan Sosu) 230 Gr",
+            "sku": "0339",
+            "price": 109.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "Vegan Susam Ürünü",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_8066b99912574819a6b782121d4caf59~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-böğürtlen-reçeli-280-gr",
+            "slug": "organik-böğürtlen-reçeli-280-gr",
+            "name": "Organik Böğürtlen Reçeli 280 Gr",
+            "sku": "0389",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_7d439d2474ab4cc78273379b9b2325f0~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-patlıcan-kg-kopyası",
+            "slug": "organik-patlıcan-kg-kopyası",
+            "name": "Organik Bütün Tavuk Adt",
+            "sku": "0071",
+            "price": 1099.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fbb6bd33ae63480db4b7368c137d9c58~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dana-kangal-sucuk-250-gr",
+            "slug": "organik-dana-kangal-sucuk-250-gr",
+            "name": "Organik Dana Kangal Sucuk 250 Gr",
+            "sku": "0444",
+            "price": 559.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_373b5f1892a0492cbc4b55de7bd09be5~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dana-kavurma-150-gr",
+            "slug": "organik-dana-kavurma-150-gr",
+            "name": "Organik Dana Kavurma 150 Gr",
+            "sku": "0440",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_e5ae4616c41948269bd9036e60a2cf7d~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dana-kuşbaşı-500-gr",
+            "slug": "organik-dana-kuşbaşı-500-gr",
+            "name": "Organik Dana Kuşbaşı 500 gr",
+            "sku": "0048",
+            "price": 799.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_80e29ebbd7e34052a14c3bb0550c708b~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dana-kıyma-500-gr",
+            "slug": "organik-dana-kıyma-500-gr",
+            "name": "Organik Dana Kıyma 500 gr",
+            "sku": "0047",
+            "price": 699.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_c3fbfff39fcc402695ee8e146eb980c8~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dana-pastırma-120-gr",
+            "slug": "organik-dana-pastırma-120-gr",
+            "name": "Organik Dana Pastırma 120 Gr",
+            "sku": "0441",
+            "price": 559.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fa5a1f53a90846cd9fb404a16de24d2e~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dana-salam-75-gr",
+            "slug": "organik-dana-salam-75-gr",
+            "name": "Organik Dana Salam 75 Gr",
+            "sku": "0442",
+            "price": 125.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_b5fa30bb2596433e9c82a87cadf37769~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dana-sosis-250-gr",
+            "slug": "organik-dana-sosis-250-gr",
+            "name": "Organik Dana Sosis 250 Gr",
+            "sku": "0443",
+            "price": 559.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_a6e71f6666d94c609299f6193ae06e31~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-organik-dana-sucuk-300-gr",
+            "slug": "organik-organik-dana-sucuk-300-gr",
+            "name": "Organik Dana Sucuk 300 Gr",
+            "sku": "0049",
+            "price": 1199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_1e4f6c39afcf4f02a9d7d8f130b177d1~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dereotu-bağ",
+            "slug": "organik-dereotu-bağ",
+            "name": "Organik Dereotu Bağ",
+            "sku": "0114",
+            "price": 49.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_0b272e7f14894c7c8fe927e8891ab07d~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dil-peyniri-300-gr",
+            "slug": "organik-dil-peyniri-300-gr",
+            "name": "Organik Dil Peyniri 300 Gr",
+            "sku": "0040",
+            "price": 489.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_622130b41214451db58feb450975c038~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dolmalık-biber-kg",
+            "slug": "organik-dolmalık-biber-kg",
+            "name": "Organik Dolmalık Biber Kg",
+            "sku": "0106",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_40dcaa62fd334007b97a1ca496820f9c~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-domates-kg",
+            "slug": "organik-domates-kg",
+            "name": "Organik Domates Kg",
+            "sku": "0009",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_4e48474608a846b0b39f342bcc8ed18b~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-dut-özü-300-gr",
+            "slug": "organik-dut-özü-300-gr",
+            "name": "Organik Dut Özü 300 Gr",
+            "sku": "0386",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_79751f80997f44e8901f01977b9248bf~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-earl-grey-bardak-poşet",
+            "slug": "organik-earl-grey-bardak-poşet",
+            "name": "Organik Earl Grey Bardak Poşet",
+            "sku": "0240",
+            "price": 39.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6348691e40964477a22b90420acc13ee~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-earl-grey-çay-demlik-poşet",
+            "slug": "organik-earl-grey-çay-demlik-poşet",
+            "name": "Organik Earl Grey Çay Demlik Poşet",
+            "sku": "0242",
+            "price": 69.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_31b82e2005014edfbc0aeb10d7f372df~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-ekşili-köfte-340-gr",
+            "slug": "organik-ekşili-köfte-340-gr",
+            "name": "Organik Ekşili Köfte 340 Gr",
+            "sku": "0333",
+            "price": 259.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "Dana Kıyma",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_66b74bd5eae94d8388f3cc213e384138~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-elma-kg",
+            "slug": "organik-elma-kg",
+            "name": "Organik Elma Kg",
+            "sku": "0018",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3ae80aba0b3948c795e477eb6730d2aa~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-erik-kg",
+            "slug": "organik-erik-kg",
+            "name": "Organik Erik Kg",
+            "sku": "0098",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fab1541d27334b17b33df1bbefd3822b~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-greyfurt-kg",
+            "slug": "organik-greyfurt-kg",
+            "name": "Organik Greyfurt Kg",
+            "sku": "0026",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_5811df3acbe04f9e8fed2ee928d5ca38~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-gün-kurusu-kayısı-300-gr",
+            "slug": "organik-gün-kurusu-kayısı-300-gr",
+            "name": "Organik Gün Kurusu Kayısı 400 Gr",
+            "sku": "0325",
+            "price": 395.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_05d39cad94d1451194d40e704404e031~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-hamburger-ekmeği-400-gr",
+            "slug": "organik-hamburger-ekmeği-400-gr",
+            "name": "Organik Hamburger Ekmeği 400 Gr",
+            "sku": "0362",
+            "price": 229.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6da4cceee51d4e7e90785bc40852ad15~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-havuç-kg",
+            "slug": "organik-havuç-kg",
+            "name": "Organik Havuç Kg",
+            "sku": "0115",
+            "price": 119.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_287e901f183d4d61a0202f725e4c47b0~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-hindistan-cevizi-yağı-150-gr",
+            "slug": "organik-hindistan-cevizi-yağı-150-gr",
+            "name": "Organik Hindistan Cevizi Yağı",
+            "sku": "0263",
+            "price": 139.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_5a6faf6941254374b9de35766acedf55~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png",
+                "https://static.wixstatic.com/media/11766c_9a73d2acc30f427a8eb96e7b2c9077a7~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg",
+                "https://static.wixstatic.com/media/11766c_3a2ead15188c4e5e8b790b4917edcfb3~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-hindistan-cevizi-yağı-150gr",
+            "slug": "organik-hindistan-cevizi-yağı-150gr",
+            "name": "Organik Hindistan Cevizi Yağı 150Gr",
+            "sku": "0250",
+            "price": 99.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_25a631bd5b0d4bb1818e2dab7fdfff0b~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-humus-240-gr",
+            "slug": "organik-humus-240-gr",
+            "name": "Organik Humus 240 Gr",
+            "sku": "0337",
+            "price": 109.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "Vegan Susam Ürünü",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_70dc2edff5b9465787895e0fb688fff2~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-hıyar-kg",
+            "slug": "organik-hıyar-kg",
+            "name": "Organik Hıyar Kg",
+            "sku": "0094",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_959f87fd2a684cd88cecde6a93aa86af~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kabuklu-ceviz-kg",
+            "slug": "organik-kabuklu-ceviz-kg",
+            "name": "Organik Kabuklu Ceviz Kg",
+            "sku": null,
+            "price": 799.9,
+            "currency": "TRY",
+            "availability": null,
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_46610c00117d4cf08feb7e656a0d3bb6~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kahvaltılık-kapya-sos-230-gr",
+            "slug": "organik-kahvaltılık-kapya-sos-230-gr",
+            "name": "Organik Kahvaltılık Kapya Sos 230 Gr",
+            "sku": "0335",
+            "price": 179.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "Vegan",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_7d187faed6eb4587b6a5392af6197606~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kale-bağ",
+            "slug": "organik-kale-bağ",
+            "name": "Organik Kale Bağ",
+            "sku": "0118",
+            "price": 79.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_b75b7af225f3424eba017f2fc0b20b0c~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kapya-biber-kg",
+            "slug": "organik-kapya-biber-kg",
+            "name": "Organik Kapya Biber Kg",
+            "sku": "0107",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_812c9e2f50e4485e98b0cfb130dfba17~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-karpuz-kg",
+            "slug": "organik-karpuz-kg",
+            "name": "Organik Karpuz Adt",
+            "sku": "0124",
+            "price": 599.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "Yaklaşık 3 kg gelir",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_c0ab58bee6e74d748b30332b1d37d20a~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kayısı-kg",
+            "slug": "organik-kayısı-kg",
+            "name": "Organik Kayısı Kg",
+            "sku": "0099",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_bda2660ee2b14c32956ab2f6e08a0a86~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png",
+                "https://static.wixstatic.com/media/11766c_73a2d16a34924d85ae74a252fb988548f002.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kefir-1lt",
+            "slug": "organik-kefir-1lt",
+            "name": "Organik Kefir 1Lt",
+            "sku": "0034",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3ce24be500c8467d8cf8cc506f3f066f~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-keçi-sütü-500-ml",
+            "slug": "organik-keçi-sütü-500-ml",
+            "name": "Organik Keçi Sütü 500 Ml",
+            "sku": null,
+            "price": 29.9,
+            "currency": "TRY",
+            "availability": null,
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_ccd449b71e1241789ff5469dd6bc2e6e~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-ispanak-kg-kopyası",
+            "slug": "organik-ispanak-kg-kopyası",
+            "name": "Organik Kiraz Kg",
+            "sku": "00101",
+            "price": 699.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_b08b500c3623437ebb81d45840386228~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kivi-kg",
+            "slug": "organik-kivi-kg",
+            "name": "Organik Kivi Kg",
+            "sku": "0212",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d52e59b50fee4ba3889b018da37dc709~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png",
+                "https://static.wixstatic.com/media/11766c_3778b47cb11d460b855c1baa44a30935f002.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kokteyl-domates-kg",
+            "slug": "organik-kokteyl-domates-kg",
+            "name": "Organik Kokteyl Domates Kg",
+            "sku": "0003",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_892c993f0c6143b1b5504127b1243b30~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kuru-dut-250-gr",
+            "slug": "organik-kuru-dut-250-gr",
+            "name": "Organik Kuru Dut 250 Gr",
+            "sku": "0392",
+            "price": 189.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d1ddb4dda6894ddca463fb68e1902536~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kuru-soğan-kg",
+            "slug": "organik-kuru-soğan-kg",
+            "name": "Organik Kuru Soğan Kg",
+            "sku": "0014",
+            "price": 79.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_ee628e2450bb499eb48f5798d6313493~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-köy-biber-kg",
+            "slug": "organik-köy-biber-kg",
+            "name": "Organik Köy Biber Kg",
+            "sku": "0446",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_1086eb613a7e4050831989c7e1a67cfa~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kırmızı-kuru-soğan-kg",
+            "slug": "organik-kırmızı-kuru-soğan-kg",
+            "name": "Organik Kırmızı Kuru Soğan Kg",
+            "sku": "0015",
+            "price": 119.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_db0b7b72806e4aa9a052501977ad43ce~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kırmızı-pancar-kg",
+            "slug": "organik-kırmızı-pancar-kg",
+            "name": "Organik Kırmızı Pancar Kg",
+            "sku": "0008",
+            "price": 119.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_299c6b4eee184c52a7a06f6e03268bec~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kırmızı-patates-kg",
+            "slug": "organik-kırmızı-patates-kg",
+            "name": "Organik Kırmızı Patates Kg",
+            "sku": "0004",
+            "price": 99.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d48c3bacec244c0299ce3a240cbab680~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-kıvırcık-adt",
+            "slug": "organik-kıvırcık-adt",
+            "name": "Organik Kıvırcık Adt",
+            "sku": "0032",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_f3163f843d2143c0bd964d77079fc187~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-limon-kg",
+            "slug": "organik-limon-kg",
+            "name": "Organik Limon Kg",
+            "sku": "0023",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6149d619a62e4ad5a9ca467ba57a611e~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-lor-peyniri-350-gr",
+            "slug": "organik-lor-peyniri-350-gr",
+            "name": "Organik Lor Peyniri 350 Gr",
+            "sku": "0042",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_49228d9adea94d91985de843917801b9~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-mantar-sote-330-gr",
+            "slug": "organik-mantar-sote-330-gr",
+            "name": "Organik Mantar Sote 330 Gr",
+            "sku": "0331",
+            "price": 259.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "Vegan - İstiridye Mantarı",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d028e7adb0ab4303b0e6ef073c65db2f~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-marul-bağ",
+            "slug": "organik-marul-bağ",
+            "name": "Organik Marul Bağ",
+            "sku": "0128",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_1c693e7eb45f414c8405a62ba750adb4~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-maydanoz-bağ",
+            "slug": "organik-maydanoz-bağ",
+            "name": "Organik Maydanoz Bağ",
+            "sku": "0028",
+            "price": 49.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_4b3d86b50b0a4cc4888592d22c2c2c00~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-meyve-aromalı-lolipop-12-li",
+            "slug": "organik-meyve-aromalı-lolipop-12-li",
+            "name": "Organik Meyve Aromalı Lolipop 10' lu",
+            "sku": "0252",
+            "price": 109.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_f615da9faf15440a913d5ba5dbca9289~mv2.jpeg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-meyve-sepeti",
+            "slug": "organik-meyve-sepeti",
+            "name": "Organik Meyve Sepeti",
+            "sku": "0449",
+            "price": 1259.76,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_be75d5fcdf2f48b2afb82c21d22c8dc4~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-mor-havuç-kg",
+            "slug": "organik-mor-havuç-kg",
+            "name": "Organik Mor Havuç Kg",
+            "sku": "0005",
+            "price": 119.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_968e5515f68c4a889ee884e9ff818504~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-muz-kg",
+            "slug": "organik-muz-kg",
+            "name": "Organik Muz Kg",
+            "sku": "0021",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_70a5db29b0dd48b28cc16bee65744476~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-nohut-1000-gr",
+            "slug": "organik-nohut-1000-gr",
+            "name": "Organik Nohut 1000 Gr",
+            "sku": "0367",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_7710094e6e334bbd97cb421ac67e3085~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-orman-kebabı-310-gr",
+            "slug": "organik-orman-kebabı-310-gr",
+            "name": "Organik Orman Kebabı 310 Gr",
+            "sku": "0332",
+            "price": 224.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "Dana Eti",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3f60d7e5ec024ae389eca76c6dc400bb~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-pastörize-süt-1lt",
+            "slug": "organik-pastörize-süt-1lt",
+            "name": "Organik Pastörize Süt 1Lt",
+            "sku": "0033",
+            "price": 179.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_224303397a72411d9a2db56c260a65d3~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-patates-kg",
+            "slug": "organik-patates-kg",
+            "name": "Organik Patates Kg",
+            "sku": "0013",
+            "price": 79.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_f1ef52b61ae84bf29c088f0fd093d4b2~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-sakız-kabak-kg-kopyası",
+            "slug": "organik-sakız-kabak-kg-kopyası",
+            "name": "Organik Patlıcan Kg",
+            "sku": "0070",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_bfcbe5a523214e64b7a0b629efde0066~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-pazı-bağ",
+            "slug": "organik-pazı-bağ",
+            "name": "Organik Pazı Bağ",
+            "sku": "0030",
+            "price": 99.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3297a9e5d56f4926923a75a8299b7462~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-roka-bağ",
+            "slug": "organik-roka-bağ",
+            "name": "Organik Roka Bağ",
+            "sku": "0029",
+            "price": 49.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_7444b5571b3644f4b0555fda43bcf6f9~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-safran-0-5-gr",
+            "slug": "organik-safran-0-5-gr",
+            "name": "Organik Safran 0,5 gr",
+            "sku": "0053",
+            "price": 79.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_05bc89698f6e4bc9b896451c3f45691a~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-sakız-kabak-kg",
+            "slug": "organik-sakız-kabak-kg",
+            "name": "Organik Sakız Kabak Kg",
+            "sku": "0069",
+            "price": 259.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6fbbd94bf8fe4d068bb68af632999921~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-sarı-somun-ekmeği-500-gr",
+            "slug": "organik-sarı-somun-ekmeği-500-gr",
+            "name": "Organik Sarı Somun Ekmeği 500 Gr",
+            "sku": "0361",
+            "price": 209.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "Ekşi Mayalı",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_aeec6473fa2c484aa4872d357f337066~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-sarımsak-kg",
+            "slug": "organik-sarımsak-kg",
+            "name": "Organik Sarımsak 250 Gr",
+            "sku": "0017",
+            "price": 124.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_45f7e5f2f67545f68a907e507ea7c2a6~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-semizotu-kg",
+            "slug": "organik-semizotu-kg",
+            "name": "Organik Semizotu Kg",
+            "sku": "0096",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_c6b49cf8fc40470fb9f4b1d1d864f47e~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-sivri-biber-kg",
+            "slug": "organik-sivri-biber-kg",
+            "name": "Organik Sivri Biber Kg",
+            "sku": "0108",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3d8778cd357b41e5af064d5829e885b5~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-siyah-çay-bardak-poşet",
+            "slug": "organik-siyah-çay-bardak-poşet",
+            "name": "Organik Siyah Çay Bardak Poşet",
+            "sku": "0239",
+            "price": 69.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_1c91749256e84aae944ea0ae254b35ec~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-siyah-çay-demlik-poşet",
+            "slug": "organik-siyah-çay-demlik-poşet",
+            "name": "Organik Siyah Çay Demlik Poşet",
+            "sku": "0241",
+            "price": 89.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_19fc2908c11046339220a81fcbdc9d4f~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-siyah-çay-dökme-500-gr",
+            "slug": "organik-siyah-çay-dökme-500-gr",
+            "name": "Organik Siyah Çay Dökme 500 Gr",
+            "sku": "0238",
+            "price": 119.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fb7706ef6706431280baac1af05679b3~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-siyezli-ekmek-600gr",
+            "slug": "organik-siyezli-ekmek-600gr",
+            "name": "Organik Siyezli Ekmek 600 Gr",
+            "sku": "0360",
+            "price": 209.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "Ekşi Mayalı",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_cc203651d51b41bba871d75a269989db~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-siyezli-sandviç-ekmeği-400-gr",
+            "slug": "organik-siyezli-sandviç-ekmeği-400-gr",
+            "name": "Organik Siyezli Sandviç Ekmeği 400 Gr",
+            "sku": "0363",
+            "price": 229.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3ccbc3c701064d40ba46757150183c30~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-soyulmamış-enginar-adt",
+            "slug": "organik-soyulmamış-enginar-adt",
+            "name": "Organik Soyulmamış Enginar Adt",
+            "sku": "0007",
+            "price": 159.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_2d9fd4a7b26f43bbb960823771d82d88~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-soyulmuş-enginar-adt",
+            "slug": "organik-soyulmuş-enginar-adt",
+            "name": "Organik Soyulmuş Enginar Adt",
+            "sku": "0102",
+            "price": 179.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_30587b0f6a664e91bd3fb13b9970e40b~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-sıvı-el-sabunu-epure-1-lt",
+            "slug": "organik-sıvı-el-sabunu-epure-1-lt",
+            "name": "Organik Sıvı El Sabunu Epure 1 Lt",
+            "sku": "0207",
+            "price": 169.5,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_5df10eccc3914c6aba6742c12e810914~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tam-yağlı-beyaz-peynir-650-gr",
+            "slug": "organik-tam-yağlı-beyaz-peynir-650-gr",
+            "name": "Organik Tam Yağlı Beyaz Peynir 650 Gr",
+            "sku": "0043",
+            "price": 899.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_898a2b6d6cd44dd89d76891d248b7581~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tam-yağlı-labne-200-gr",
+            "slug": "organik-tam-yağlı-labne-200-gr",
+            "name": "Organik Tam Yağlı Labne 200 Gr",
+            "sku": "0045",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_300c12d9fcb7462298c104880e23c256~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tam-yağlı-taze-beyaz-peynir-500gr",
+            "slug": "organik-tam-yağlı-taze-beyaz-peynir-500gr",
+            "name": "Organik Tam Yağlı Taze Beyaz Peynir 500Gr",
+            "sku": "0044",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_e1d797335706478ca9e623bcb4dcb081~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tatlı-kıl-biber-kg",
+            "slug": "organik-tatlı-kıl-biber-kg",
+            "name": "Organik Tatlı Kıl Biber Kg",
+            "sku": "0447",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_63c2e9ebe7804d14ad94bebaff80ccdb~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tavayoğurt-900-gr",
+            "slug": "organik-tavayoğurt-900-gr",
+            "name": "Organik TavaYoğurt 900 Gr",
+            "sku": "0037",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_ae328aaeb042444f83d56d6ffa5a35aa~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tavuk-baget-500-gr",
+            "slug": "organik-tavuk-baget-500-gr",
+            "name": "Organik Tavuk Baget Kg",
+            "sku": "0075",
+            "price": 1119.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_b365f962ded8486786982d140b7ba6e2~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tavuk-bonfile-500-gr",
+            "slug": "organik-tavuk-bonfile-500-gr",
+            "name": "Organik Tavuk Bonfile Kg",
+            "sku": "0074",
+            "price": 1199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3bc78bdda66f4708854e1d545d91af7b~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tavuk-kalçalı-but-adt",
+            "slug": "organik-tavuk-kalçalı-but-adt",
+            "name": "Organik Tavuk Kalçalı ButKg",
+            "sku": "0073",
+            "price": 899.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_b9781476d9d44f3c94c2ba1c54d79e94~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tavuk-kanat-750-gr",
+            "slug": "organik-tavuk-kanat-750-gr",
+            "name": "Organik Tavuk Kanat 1000 Gr",
+            "sku": "0077",
+            "price": 1199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_63057c51175a4bf3893ee87a1e68283f~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tavuk-pirzola-500-gr",
+            "slug": "organik-tavuk-pirzola-500-gr",
+            "name": "Organik Tavuk Pirzola Kg",
+            "sku": "0076",
+            "price": 999.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_8d9f2ce007cd4bd18220c8d1308de7fb~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-fasulye-kg",
+            "slug": "organik-fasulye-kg",
+            "name": "Organik Taze Fasulye Kg",
+            "sku": "0095",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_dd94fa9971954c29bd90612408f136d1~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-taze-kaşar-peyniri-400-gr",
+            "slug": "organik-taze-kaşar-peyniri-400-gr",
+            "name": "Organik Taze Kaşar Peyniri 400 Gr",
+            "sku": "0041",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d4ac03387dc440d6a9cc61470f240405~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-taze-soğan-bağ",
+            "slug": "organik-taze-soğan-bağ",
+            "name": "Organik Taze Soğan Bağ",
+            "sku": "0116",
+            "price": 89.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d632235742ef4ce19427a3501cbb072e~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-tereyağı-200gr",
+            "slug": "organik-tereyağı-200gr",
+            "name": "Organik Tereyağı 200 Gr",
+            "sku": "0046",
+            "price": 339.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_a577bb012d144e2394b23a33c70b2ac1~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-yaban-mersini-125-gr",
+            "slug": "organik-yaban-mersini-125-gr",
+            "name": "Organik Yaban Mersini",
+            "sku": "0112",
+            "price": 599.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fec28661bbc1448cbc9c175829a5f849~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-yarım-tavuk-adt",
+            "slug": "organik-yarım-tavuk-adt",
+            "name": "Organik Yarım Tavuk Adt",
+            "sku": "0072",
+            "price": 519.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fe8fade0993f475eaae2c5d0402fae88~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-yumurta-10-lu",
+            "slug": "organik-yumurta-10-lu",
+            "name": "Organik Yumurta 10' lu",
+            "sku": "0054",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_9611fb5366284904be1c6b1339e58948~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-yumurta-30-lu",
+            "slug": "organik-yumurta-30-lu",
+            "name": "Organik Yumurta 30'lu",
+            "sku": "0056",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_76719ee0b13d4689a5ab1b73ce9c2eff~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-çavdarlı-tam-buğday-ekmeği-500-gr",
+            "slug": "organik-çavdarlı-tam-buğday-ekmeği-500-gr",
+            "name": "Organik Çavdarlı Tam Buğday Ekmeği 500 Gr",
+            "sku": "0359",
+            "price": 209.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "Ekşi Mayalı",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_1023b10468bb4e5690dac6fa01ab41e2~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-çikolata-100-bitter-hurmalı-85-gr",
+            "slug": "organik-çikolata-100-bitter-hurmalı-85-gr",
+            "name": "Organik Çikolata %100 Bitter Hurmalı 85 Gr",
+            "sku": "0269",
+            "price": 129.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_06764be0c42e493e9e6da465ca7ad5f1~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-çikolata-100-bitter-sade-75-gr",
+            "slug": "organik-çikolata-100-bitter-sade-75-gr",
+            "name": "Organik Çikolata %100 Bitter Sade 75 Gr",
+            "sku": "0293",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_4f12955b79ea40849a241667c2d3fdac~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-çikolata-sütlü-lavantalı-85-gr",
+            "slug": "organik-çikolata-sütlü-lavantalı-85-gr",
+            "name": "Organik Çikolata Sütlü Lavantalı 85 Gr",
+            "sku": "0270",
+            "price": 129.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_0364fdc35e4e4089b7a0b9cf4b0deb37~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-çilek-kg",
+            "slug": "organik-çilek-kg",
+            "name": "Organik Çilek Kg",
+            "sku": "0061",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_dd65c31d137e47fb917a503fd186b461~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-ilk-lokma-paketi",
+            "slug": "organik-ilk-lokma-paketi",
+            "name": "Organik İlk Lokma Sepeti",
+            "sku": "0448",
+            "price": 483.8,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_60d4080486244d579e9ef590434137ae~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organik-şakşuka-250-gr",
+            "slug": "organik-şakşuka-250-gr",
+            "name": "Organik Şakşuka 250 Gr",
+            "sku": "0336",
+            "price": 134.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "Vegan",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_38328113095a4b48886ffdf6aca22cb2~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organilgiller-organik-acı-ketçap-280-gr",
+            "slug": "organilgiller-organik-acı-ketçap-280-gr",
+            "name": "Organikgiller Organik Acı Ketçap 280 Gr",
+            "sku": "0432",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_305059bf950e4968a350038954d208d3~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-acı-pul-biber-70-gr",
+            "slug": "organikgiller-organik-acı-pul-biber-70-gr",
+            "name": "Organikgiller Organik Acı Pul Biber 70 Gr",
+            "sku": "0427",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_66ad39c7ac694d28a9761ff38adfb41b~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-acı-toz-biber-95-gr",
+            "slug": "organikgiller-organik-acı-toz-biber-95-gr",
+            "name": "Organikgiller Organik Acı Toz Biber 95 Gr",
+            "sku": "0371",
+            "price": 179.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_4c414032c9494f50a201f31c3d8ea066~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-alıç-sirkesi-500-ml",
+            "slug": "organikgiller-organik-alıç-sirkesi-500-ml",
+            "name": "Organikgiller Organik Alıç Sirkesi 500 Ml",
+            "sku": "407",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_f101b8e305aa418b872df35f14032a8b~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-arpa-şehriye-500-gr-kopyası",
+            "slug": "organikgiller-organik-arpa-şehriye-500-gr-kopyası",
+            "name": "Organikgiller Organik Arpa Şehriye 500 Gr",
+            "sku": "0422",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_0f5b4b7f2bef49839ae5ab7108e1f9cd~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-ayçiçek-yağı-1-lt",
+            "slug": "organikgiller-organik-ayçiçek-yağı-1-lt",
+            "name": "Organikgiller Organik Ayçiçek Yağı 1 Lt",
+            "sku": "0425",
+            "price": 649.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6dc82644c4b6430c9f1659213426c17a~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-balzamik-sirke-250-ml",
+            "slug": "organikgiller-organik-balzamik-sirke-250-ml",
+            "name": "Organikgiller Organik Balzamik Sirke 250 Ml",
+            "sku": "0431",
+            "price": 349.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_00a0f43e6681468b967c7f90c7e3a92a~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-burgu-makarna-750-gr",
+            "slug": "organikgiller-organik-burgu-makarna-750-gr",
+            "name": "Organikgiller Organik Burgu Makarna 500 Gr",
+            "sku": "0439",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_2b73ae8488da4ba380114cad0ba18dcf~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-börülce-500-gr",
+            "slug": "organikgiller-organik-börülce-500-gr",
+            "name": "Organikgiller Organik Börülce 500 Gr",
+            "sku": "0423",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_c49ab9838d6d40aa8125ec890b3a9901~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-cin-mısır-500-gr",
+            "slug": "organikgiller-organik-cin-mısır-500-gr",
+            "name": "Organikgiller Organik Cin Mısır 500 Gr",
+            "sku": "0419",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_e6b28d997a024398af0acb8c39540186~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organilgiller-organik-domates-biber-karışık-salöa-650-gr",
+            "slug": "organilgiller-organik-domates-biber-karışık-salöa-650-gr",
+            "name": "Organikgiller Organik Domates & Biber Karışık Salça 650 Gr",
+            "sku": "0415",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "TUZSUZ",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_57a2a882eed6467ca4bc58ff12136837~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-elmam-sirkesi-500-ml",
+            "slug": "organikgiller-organik-elmam-sirkesi-500-ml",
+            "name": "Organikgiller Organik Elma Sirkesi 500 Ml",
+            "sku": "0409",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_ced4fa40af7949d69e98838f73eb9488~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-ham-kakao-tozu-100-gr",
+            "slug": "organikgiller-organik-ham-kakao-tozu-100-gr",
+            "name": "Organikgiller Organik Ham Kakao Tozu 100 Gr",
+            "sku": "0342",
+            "price": 349.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_26fef1e8aa4d4ef89d7af337ec84f487~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-hindistan-cevizi-50-gr",
+            "slug": "organikgiller-organik-hindistan-cevizi-50-gr",
+            "name": "Organikgiller Organik Hindistan Cevizi 50 Gr",
+            "sku": "0402",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_2f1d5f2374944888892cdaff0aca0cde~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-karanfil-65-gr",
+            "slug": "organikgiller-organik-karanfil-65-gr",
+            "name": "Organikgiller Organik Karanfil 65 Gr",
+            "sku": "0401",
+            "price": 349.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_ec66abced4874216a27e5a625c9f2051~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-kekik-20-gr",
+            "slug": "organikgiller-organik-kekik-20-gr",
+            "name": "Organikgiller Organik Kekik 20 Gr",
+            "sku": "0398",
+            "price": 119.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_1a34c3f77f8242cbbc65a623cc0f70f4~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organikketen-tohumu-115-gr",
+            "slug": "organikgiller-organikketen-tohumu-115-gr",
+            "name": "Organikgiller Organik Keten Tohumu 115 Gr",
+            "sku": "0426",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_ca3756a17ba24468a2fac49c82150a7c~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-köftelik-bulgur-750-gr",
+            "slug": "organikgiller-organik-köftelik-bulgur-750-gr",
+            "name": "Organikgiller Organik Köftelik Bulgur 750 Gr",
+            "sku": "0424",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_249fd0b0d0494502afa1732de3ffe0f5~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-kırmızı-mercimek-750-gr",
+            "slug": "organikgiller-organik-kırmızı-mercimek-750-gr",
+            "name": "Organikgiller Organik Kırmızı Mercimek 750 Gr",
+            "sku": "0436",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d5f13ca6c984426b9042e59ab310e7d0~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-nane-25-gr",
+            "slug": "organikgiller-organik-nane-25-gr",
+            "name": "Organikgiller Organik Nane 25 Gr",
+            "sku": "0399",
+            "price": 119.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_68063e5d044044da9be0584a604d0a4d~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-nar-ekşisi-350-gr",
+            "slug": "organikgiller-organik-nar-ekşisi-350-gr",
+            "name": "Organikgiller Organik Nar Ekşisi 350 Gr",
+            "sku": "0418",
+            "price": 449.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_29a7cb2bbec640689c40ed7a393a68db~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-paprika-sosu-320-gr",
+            "slug": "organikgiller-organik-paprika-sosu-320-gr",
+            "name": "Organikgiller Organik Paprika Sosu 320 Gr",
+            "sku": "0433",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "TUZSUZ",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6de8d792fc8b43b78e706823d4785d42~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-pilavlık-bulgur-750-gr",
+            "slug": "organikgiller-organik-pilavlık-bulgur-750-gr",
+            "name": "Organikgiller Organik Pilavlık Bulgur 750 Gr",
+            "sku": "0438",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_4ce37e19940647c4b2d81863bf72a789~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-pirinç-750-gr",
+            "slug": "organikgiller-organik-pirinç-750-gr",
+            "name": "Organikgiller Organik Pirinç 750 Gr",
+            "sku": "0420",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_70d4894f0abc460b822cdef6672dc037~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-sarı-mercimek-500-gr",
+            "slug": "organikgiller-organik-sarı-mercimek-500-gr",
+            "name": "Organikgiller Organik Sarı Mercimek 500 Gr",
+            "sku": "0437",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_7c5ed79880dd47b2b2293cf5e0b6ccf7~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-seylan-çubuk-toz-tarçın-65-gr",
+            "slug": "organikgiller-organik-seylan-çubuk-toz-tarçın-65-gr",
+            "name": "Organikgiller Organik Seylan Toz Tarçın 65 Gr",
+            "sku": "0344",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_8a56a87ab15f4577b7d4822bb054a0a2~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-seylan-çubuk-tarçın-30-gr",
+            "slug": "organikgiller-organik-seylan-çubuk-tarçın-30-gr",
+            "name": "Organikgiller Organik Seylan Çubuk Tarçın 30 Gr",
+            "sku": "0343",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_a2b089f814c143d487378aee5f92d566~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-zeytin-güneşte-kurutma-650-gr",
+            "slug": "organikgiller-organik-zeytin-güneşte-kurutma-650-gr",
+            "name": "Organikgiller Organik Siyah Zeytin Güneşte Kurutma 650 Gr",
+            "sku": "0350",
+            "price": 799.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_0a96c586356f4479b7605b00670ce2b5~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-siyah-zeytin-salamura-700-gr",
+            "slug": "organikgiller-organik-siyah-zeytin-salamura-700-gr",
+            "name": "Organikgiller Organik Siyah Zeytin Salamura 700 Gr",
+            "sku": "0352",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_49c09b572cce497788ca9c2327e59e5f~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organilgiller-organikspagetti-makarna-500-gr",
+            "slug": "organilgiller-organikspagetti-makarna-500-gr",
+            "name": "Organikgiller Organik Spagetti Makarna 500 Gr",
+            "sku": "0417",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_f863797ff9364bc18b049a87e68a22e5~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-sumak-80-gr",
+            "slug": "organikgiller-organik-sumak-80-gr",
+            "name": "Organikgiller Organik Sumak 80 Gr",
+            "sku": "0395",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_16f6516f6626498899ef9c01aa8b0e86~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-susam-100-gr",
+            "slug": "organikgiller-organik-susam-100-gr",
+            "name": "Organikgiller Organik Susam 100 Gr",
+            "sku": "0396",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_fa191783a774480db0dde02be7036aa4~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-tahin-300-gr",
+            "slug": "organikgiller-organik-tahin-300-gr",
+            "name": "Organikgiller Organik Tahin 300 Gr",
+            "sku": "0410",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_e2c1fbf05d9f40339864a6d82825256f~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-tane-karabiber-90-gr",
+            "slug": "organikgiller-organik-tane-karabiber-90-gr",
+            "name": "Organikgiller Organik Tane Karabiber 90 Gr",
+            "sku": "0346",
+            "price": 199.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_20ddb43046024febb2f9bc4d2296c1ee~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-tatlı-toz-biber-95-gr",
+            "slug": "organikgiller-organik-tatlı-toz-biber-95-gr",
+            "name": "Organikgiller Organik Tatlı Toz Biber 95 Gr",
+            "sku": "0394",
+            "price": 229.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_0a0f51c1be7a42f5be1964043735cea3~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-tel-şehriye-500-gr",
+            "slug": "organikgiller-organik-tel-şehriye-500-gr",
+            "name": "Organikgiller Organik Tel Şehriye 500 Gr",
+            "sku": "0421",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_d7b0c04443aa4aebaea9db99f9e07d1b~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-seylan-toz-karabiber-120-gr",
+            "slug": "organikgiller-organik-seylan-toz-karabiber-120-gr",
+            "name": "Organikgiller Organik Toz Karabiber 120 Gr",
+            "sku": "0345",
+            "price": 229.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_a62b60517cb545b680014aa8a904a879~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-toz-kimyon-75-gr",
+            "slug": "organikgiller-organik-toz-kimyon-75-gr",
+            "name": "Organikgiller Organik Toz Kimyon 75 Gr",
+            "sku": "0434",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_15840eb5070f432fb37bfbb49fd12c64~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-toz-zencefil-70-gr",
+            "slug": "organikgiller-organik-toz-zencefil-70-gr",
+            "name": "Organikgiller Organik Toz Zencefil 70 Gr",
+            "sku": "0340",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_cf7b22ee80c942e8ae5d7f356fdf8e75~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-toz-zerdeçal-100-gr",
+            "slug": "organikgiller-organik-toz-zerdeçal-100-gr",
+            "name": "Organikgiller Organik Toz Zerdeçal 100 Gr",
+            "sku": "0341",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_556d8626156940e6909da5a5ab2e685f~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png",
+                "https://static.wixstatic.com/media/11766c_002e456d1c08468cab3735e3fba877a1~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-yeşil-mercimek-750-gr",
+            "slug": "organikgiller-organik-yeşil-mercimek-750-gr",
+            "name": "Organikgiller Organik Yeşil Mercimek 750 Gr",
+            "sku": "0435",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_346fa5339ce242e2b350e068a1b647f3~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-yeşil-zeytin-çizik-600-gr",
+            "slug": "organikgiller-organik-yeşil-zeytin-çizik-600-gr",
+            "name": "Organikgiller Organik Yeşil Zeytin Çizik 600 Gr",
+            "sku": "0351",
+            "price": 499.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_6cf1c9718dd04c0e93f858bd975ac92e~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-zeytinyağı-5-lt",
+            "slug": "organikgiller-organik-zeytinyağı-5-lt",
+            "name": "Organikgiller Organik Zeytinyağı 5 Lt",
+            "sku": "0349",
+            "price": 3749.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_1e66dccfc6034de4a652057f9cd05dd5~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-çörek-otu-yağı-250-ml",
+            "slug": "organikgiller-organik-çörek-otu-yağı-250-ml",
+            "name": "Organikgiller Organik Çörek Otu Yağı 250 Ml",
+            "sku": "0430",
+            "price": 699.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "&#009;Soğuk Sıkım",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_71e4b548e92540369e644999ee284c6b~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-çörekotu-95-gr",
+            "slug": "organikgiller-organik-çörekotu-95-gr",
+            "name": "Organikgiller Organik Çörekotu 95 Gr",
+            "sku": "0393",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_34bffc1405d346639e1ae0dc8f2f6f2c~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organikgiller-organik-üzüm-sirkesi-500-ml",
+            "slug": "organikgiller-organik-üzüm-sirkesi-500-ml",
+            "name": "Organikgiller Organik Üzüm Sirkesi 500 Ml",
+            "sku": "0408",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_eb9c906ca45b4752a7e299627cf56fb5~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organilgiller-organik-acı-biber-salçası-610-gr",
+            "slug": "organilgiller-organik-acı-biber-salçası-610-gr",
+            "name": "Organilgiller Organik Acı Biber Salçası 610 Gr",
+            "sku": "0406",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "TUZSUZ",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_943ca67ce3e94a8a855e3dad8c050cd7~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organilgiller-organik-domates-salçası-650-gr",
+            "slug": "organilgiller-organik-domates-salçası-650-gr",
+            "name": "Organilgiller Organik Domates Salçası 650 Gr",
+            "sku": "0404",
+            "price": 299.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "TUZSUZ",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_e5d4b78164664ee28ab890d2db000464~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organilgiller-organik-tatlı-biber-salçası-610-gr",
+            "slug": "organilgiller-organik-tatlı-biber-salçası-610-gr",
+            "name": "Organilgiller Organik Tatlı Biber Salçası 610 Gr",
+            "sku": "0405",
+            "price": 399.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": "TUZSUZ",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_a92fc56af85d488b94657d634f223088~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/organilgiller-organik-tatlı-ketçap-250-gr",
+            "slug": "organilgiller-organik-tatlı-ketçap-250-gr",
+            "name": "Organilgiller Organik Tatlı Ketçap 280 Gr",
+            "sku": "0416",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": "&#009;",
+            "images": [
+                "https://static.wixstatic.com/media/11766c_53ba140bc4f64e389e9fdb63c7df7467~mv2.jpg/v1/fit/w_1280,h_1280,q_90/file.jpg"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/oğlak-kavurma-300-gr",
+            "slug": "oğlak-kavurma-300-gr",
+            "name": "Oğlak Kavurma 300 Gr",
+            "sku": "0181",
+            "price": 659.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_17bf896754224615bc864d2fd37649e3~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/sofrada-öğütme-kaynak-tuzu-500-gr",
+            "slug": "sofrada-öğütme-kaynak-tuzu-500-gr",
+            "name": "Sofrada Öğütme Kaynak Tuzu 500 Gr",
+            "sku": "0354",
+            "price": 149.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3637c2d659c14cfb8a98f2b3c4ebd1c5~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/su-kabağı-lambası-adt",
+            "slug": "su-kabağı-lambası-adt",
+            "name": "Su Kabağı Lambası Adt",
+            "sku": "0119",
+            "price": 449.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_3dfea8fbca1b43f5b567e829b307d3fa~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/wave-doğal-bulaşık-makinası-deterjanı-1-183-lt",
+            "slug": "wave-doğal-bulaşık-makinası-deterjanı-1-183-lt",
+            "name": "Wave Doğal Bulaşık Makinası Deterjanı 1.183 Lt",
+            "sku": "0202",
+            "price": 249.9,
+            "currency": "TRY",
+            "availability": "in",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_9596e8e1bd5e44b58aa04d3394a972de~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        },
+        {
+            "source_url": "https://www.organikgiller.com/product-page/çankırı-kaya-tuzu",
+            "slug": "çankırı-kaya-tuzu",
+            "name": "Çankırı Kaya Tuzu",
+            "sku": null,
+            "price": 34.9,
+            "currency": "TRY",
+            "availability": "out",
+            "source_description": null,
+            "images": [
+                "https://static.wixstatic.com/media/11766c_a3c0f24fc8424f6c8e7f9bd6c8691ec7~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png",
+                "https://static.wixstatic.com/media/11766c_695a8b3e5de64d768f5a02398f06af12~mv2.png/v1/fit/w_1280,h_1280,q_90/file.png"
+            ]
+        }
+    ]
+}

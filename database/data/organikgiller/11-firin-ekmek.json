@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "slug": "firin-ekmek",
+      "name": "Fırın & Ekmek",
+      "sort_order": 11,
+      "meta_title": "Organik Ekmek | Siyezli, Çavdarlı, Tam Buğday",
+      "meta_description": "Organik unlardan ekşi maya ile yapılan siyez, çavdar ve tam buğday ekmekleri. Katkısız, doğal fermente ekmekler taze gelsin.",
+      "description": "<p>Organik tam tahıllı unlardan, doğal ekşi maya ile yapılan ekmek çeşitleri. Katkı maddesi ve hamur geliştirici içermez; taze olarak gönderilir.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-siyezli-ekmek-600gr",
+      "category": "firin-ekmek",
+      "name": "Organik Siyezli Ekmek 600 gr",
+      "slug": "organik-siyezli-ekmek-600-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "600 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyezli Ekmek 600 gr | Ekşi Maya",
+      "short_description": "Atalık siyez buğdayından ekşi mayayla yapılan organik ekmek; 600 gramlık somun.",
+      "meta_description": "Organik siyezli ekmek. Atalık buğday, ekşi maya, katkısız. 600 gr taze somun kapınıza gelsin.",
+      "description": "<p>Atalık siyez buğdayı ununun doğal ekşi mayayla mayalanmasıyla yapılan organik ekmek. Yoğun aroması ve dolgun dokusuyla geleneksel bir lezzet.</p><p>Katkı maddesi ve hamur geliştirici içermez; taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-siyezli-sandviç-ekmeği-400-gr",
+      "category": "firin-ekmek",
+      "name": "Organik Siyezli Sandviç Ekmeği 400 gr",
+      "slug": "organik-siyezli-sandvic-ekmegi-400-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyezli Sandviç Ekmeği 400 gr",
+      "short_description": "Atalık siyez buğdayından yapılan, sandviçe uygun yumuşak organik ekmek; 400 gramlık pakette.",
+      "meta_description": "Organik siyezli sandviç ekmeği. Atalık buğday, katkısız. 400 gr taze paket kapınıza gelsin.",
+      "description": "<p>Atalık siyez buğdayından yapılan, sandviç ve tost için uygun yumuşak dokulu organik ekmek. Besleyici tahıl yapısıyla pratik öğünlerin sağlıklı seçeneği.</p><p>Katkı maddesi içermez; taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-çavdarlı-tam-buğday-ekmeği-500-gr",
+      "category": "firin-ekmek",
+      "name": "Organik Çavdarlı Tam Buğday Ekmeği 500 gr",
+      "slug": "organik-cavdarli-tam-bugday-ekmegi-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Çavdarlı Tam Buğday Ekmeği 500 gr",
+      "short_description": "Çavdar ve tam buğday unundan ekşi mayayla yapılan lifli organik ekmek; 500 gramlık somun.",
+      "meta_description": "Organik çavdarlı tam buğday ekmeği. Lifli, ekşi maya, katkısız. 500 gr taze somun.",
+      "description": "<p>Çavdar ve tam buğday unundan, doğal ekşi mayayla yapılan lif açısından zengin organik ekmek. Tok tutan yapısı ve yoğun aromasıyla dengeli beslenmeye uygundur.</p><p>Katkı maddesi ve hamur geliştirici içermez; taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-sarı-somun-ekmeği-500-gr",
+      "category": "firin-ekmek",
+      "name": "Organik Sarı Somun Ekmeği 500 gr",
+      "slug": "organik-sari-somun-ekmegi-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Sarı Somun Ekmeği 500 gr | Günlük",
+      "short_description": "Organik undan yapılan, yumuşak içli günlük organik sarı somun ekmeği; 500 gramlık somun.",
+      "meta_description": "Organik sarı somun ekmeği. Yumuşak, günlük ve katkısız. 500 gr taze somun kapınıza gelsin.",
+      "description": "<p>Organik undan yapılan, yumuşak içi ve ince kabuğuyla günlük tüketime uygun sarı somun ekmeği. Her öğüne uyum sağlayan klasik bir seçenek.</p><p>Katkı maddesi içermez; taze gönderilir.</p>"
+    },
+    {
+      "source_slug": "organik-hamburger-ekmeği-400-gr",
+      "category": "firin-ekmek",
+      "name": "Organik Hamburger Ekmeği 400 gr",
+      "slug": "organik-hamburger-ekmegi-400-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Hamburger Ekmeği 400 gr | Susamlı",
+      "short_description": "Organik undan yapılan yumuşak, susamlı organik hamburger ekmeği; ev burgerleri için pakette.",
+      "meta_description": "Organik hamburger ekmeği. Yumuşak, susamlı ve katkısız. 400 gr taze paket kapınıza gelsin.",
+      "description": "<p>Organik undan yapılan, yumuşak dokulu ve susamlı hamburger ekmeği. Ev yapımı burgerler için ideal; katkı maddesi içermez.</p><p>Taze olarak gönderilir; dilerseniz buzlukta saklayabilirsiniz.</p>"
+    }
+  ]
+}

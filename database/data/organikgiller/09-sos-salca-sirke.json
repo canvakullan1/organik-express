@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "slug": "sos-salca-sirke",
+      "name": "Sos, Salça & Sirke",
+      "sort_order": 9,
+      "meta_title": "Organik Sos, Salça & Sirke | Ketçap, Domates Salçası",
+      "meta_description": "Organik domates ve biber salçası, ketçap, paprika sosu, nar ekşisi ve doğal sirkeler. Katkısız, doğal mayalı ürünler kapınıza gelsin.",
+      "description": "<p>Organik sebzelerden geleneksel yöntemlerle üretilen salçalar, soslar ve doğal fermente sirkeler. Yapay renklendirici ve koruyucu içermez.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organilgiller-organik-domates-salçası-650-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Domates Salçası 650 gr",
+      "slug": "organik-domates-salcasi-650-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "650 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Domates Salçası 650 gr | Yoğun Kıvam",
+      "short_description": "Organik domateslerden geleneksel yöntemle kıvama getirilen domates salçası; 650 gramlık kavanozda.",
+      "meta_description": "Organik domates salçası. Yoğun kıvam, doğal ve katkısız. 650 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik domateslerin kaynatılıp süzülerek yoğunlaştırılmasıyla hazırlanan salça. Yemeklere ve soslara dolgun domates aroması ve renk verir.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organilgiller-organik-acı-biber-salçası-610-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Acı Biber Salçası 610 gr",
+      "slug": "organik-aci-biber-salcasi-610-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "610 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Acı Biber Salçası 610 gr | Geleneksel",
+      "short_description": "Acı biberlerden geleneksel yöntemle hazırlanan organik acı biber salçası; 610 gramlık kavanozda.",
+      "meta_description": "Organik acı biber salçası. Geleneksel, doğal ve katkısız. 610 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik acı biberlerden geleneksel yöntemle hazırlanan biber salçası. Yemeklere ve çorbalara yoğun renk ile dengeli bir acılık katar.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organilgiller-organik-tatlı-biber-salçası-610-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Tatlı Biber Salçası 610 gr",
+      "slug": "organik-tatli-biber-salcasi-610-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "610 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tatlı Biber Salçası 610 gr | Acısız",
+      "short_description": "Tatlı biberlerden hazırlanan, acısız organik biber salçası; yemekler için 610 gramlık kavanozda.",
+      "meta_description": "Organik tatlı biber salçası. Acısız, doğal ve katkısız. 610 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik tatlı biberlerden geleneksel yöntemle hazırlanan biber salçası. Yemeklere acılık vermeden renk ve dolgun bir aroma katar.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organilgiller-organik-domates-biber-karışık-salöa-650-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Domates & Biber Karışık Salça 650 gr",
+      "slug": "organik-domates-biber-karisik-salca-650-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "650 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Domates & Biber Karışık Salça 650 gr",
+      "short_description": "Domates ve biberin dengeli karışımıyla hazırlanan organik salça; yemekler için 650 gramlık kavanozda.",
+      "meta_description": "Organik domates biber karışık salça. Dengeli, doğal ve katkısız. 650 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Organik domates ve biberin dengeli oranda karıştırılıp geleneksel yöntemle yoğunlaştırılmasıyla hazırlanan salça. Tek kavanozda hem renk hem aroma sunar.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-ajvar-balkan-sosu-230-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Ajvar (Balkan Sosu) 230 gr",
+      "slug": "organik-ajvar-balkan-sosu-230-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "230 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Ajvar Balkan Sosu 230 gr | Köz Biberli",
+      "short_description": "Köz biber ve patlıcandan hazırlanan geleneksel Balkan ajvar sosu; kahvaltı ve meze için 230 gramlık kavanozda.",
+      "meta_description": "Organik ajvar (Balkan sosu). Köz biberli, doğal ve katkısız. 230 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Közlenmiş kırmızı biber ve patlıcanla hazırlanan geleneksel Balkan sosu ajvar. Kahvaltıda ekmeğe sürülerek ya da et yanında meze olarak tüketilir.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organik-kahvaltılık-kapya-sos-230-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Kahvaltılık Kapya Sos 230 gr",
+      "slug": "organik-kahvaltilik-kapya-sos-230-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "230 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kapya Sos 230 gr | Kahvaltılık",
+      "short_description": "Tatlı kapya biberinden hazırlanan sürülebilir kahvaltılık sos; 230 gramlık kavanozda.",
+      "meta_description": "Organik kahvaltılık kapya sos. Tatlı biberli, doğal ve katkısız. 230 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Tatlı kapya biberinin közlenip sürülebilir kıvama getirilmesiyle hazırlanan kahvaltılık sos. Ekmeğe sürerek ya da tostta kullanabilirsiniz.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-paprika-sosu-320-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Paprika Sosu 320 gr",
+      "slug": "organik-paprika-sosu-320-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "320 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Paprika Sosu 320 gr | Köz Aromalı",
+      "short_description": "Köz paprika biberinden hazırlanan aromalı organik paprika sosu; meze ve yemek için 320 gramlık kavanozda.",
+      "meta_description": "Organik paprika sosu. Köz aromalı, doğal ve katkısız. 320 gr kavanoz kapınıza gelsin.",
+      "description": "<p>Közlenmiş paprika biberinden hazırlanan, hafif tatlı ve aromalı organik sos. Kahvaltıda, mezede ve et yanında lezzet katar.</p><p>Yapay renklendirici ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organilgiller-organik-acı-ketçap-280-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Acı Ketçap 280 gr",
+      "slug": "organik-aci-ketcap-280-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "280 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Acı Ketçap 280 gr | Domatesten",
+      "short_description": "Organik domatesten hazırlanan, baharatlı ve acı organik ketçap; 280 gramlık şişede.",
+      "meta_description": "Organik acı ketçap. Domatesten, doğal ve katkısız. 280 gr şişe kapınıza gelsin.",
+      "description": "<p>Organik domateslerden geleneksel yöntemle hazırlanan, dengeli baharatlı ve acı ketçap. Atıştırmalıkların ve fast food tariflerinin doğal sosu.</p><p>Yapay renklendirici, glikoz şurubu ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organilgiller-organik-tatlı-ketçap-250-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Tatlı Ketçap 280 gr",
+      "slug": "organik-tatli-ketcap-280-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "280 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tatlı Ketçap 280 gr | Domatesten",
+      "short_description": "Organik domatesten hazırlanan, acısız ve tatlı organik ketçap; 280 gramlık şişede.",
+      "meta_description": "Organik tatlı ketçap. Domatesten, doğal ve katkısız. 280 gr şişe kapınıza gelsin.",
+      "description": "<p>Organik domateslerden geleneksel yöntemle hazırlanan acısız, tatlı ketçap. Çocukların da severek tükettiği, atıştırmalıkların doğal sosu.</p><p>Yapay renklendirici, glikoz şurubu ve koruyucu içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-nar-ekşisi-350-gr",
+      "category": "sos-salca-sirke",
+      "name": "Organik Nar Ekşisi 350 gr",
+      "slug": "organik-nar-eksisi-350-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "350 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Nar Ekşisi 350 gr | Şeker İlavesiz",
+      "short_description": "Nar suyunun kaynatılarak yoğunlaştırılmasıyla elde edilen şeker ilavesiz organik nar ekşisi; 350 gramlık şişede.",
+      "meta_description": "Organik nar ekşisi. Şeker ilavesiz, doğal ve katkısız. 350 gr şişe kapınıza gelsin.",
+      "description": "<p>Organik narın suyunun yavaşça kaynatılıp yoğunlaştırılmasıyla elde edilen doğal nar ekşisi. Salatalarda, mezelerde ve et yemeklerinde mayhoş bir tat verir.</p><p>İlave şeker ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-elmam-sirkesi-500-ml",
+      "category": "sos-salca-sirke",
+      "name": "Organik Elma Sirkesi 500 ml",
+      "slug": "organik-elma-sirkesi-500-ml",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 ml", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Elma Sirkesi 500 ml | Doğal Fermente",
+      "short_description": "Doğal fermantasyonla üretilen, filtresiz organik elma sirkesi; salata ve içecek için 500 ml şişede.",
+      "meta_description": "Organik elma sirkesi. Doğal fermente, filtresiz ve katkısız. 500 ml şişe kapınıza gelsin.",
+      "description": "<p>Organik elmaların doğal fermantasyonuyla üretilen, ana mayası (sirke anası) bulunabilen filtresiz elma sirkesi. Salatalarda ve suyla seyreltilerek kullanılır.</p><p>Yapay asit ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-üzüm-sirkesi-500-ml",
+      "category": "sos-salca-sirke",
+      "name": "Organik Üzüm Sirkesi 500 ml",
+      "slug": "organik-uzum-sirkesi-500-ml",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 ml", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Üzüm Sirkesi 500 ml | Doğal Fermente",
+      "short_description": "Doğal fermantasyonla üretilen organik üzüm sirkesi; salata ve yemekler için 500 ml şişede.",
+      "meta_description": "Organik üzüm sirkesi. Doğal fermente, katkısız. 500 ml şişe kapınıza gelsin.",
+      "description": "<p>Organik üzümlerin doğal fermantasyonuyla üretilen geleneksel üzüm sirkesi. Salatalarda, turşuda ve yemeklerde dengeli bir ekşilik verir.</p><p>Yapay asit ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-alıç-sirkesi-500-ml",
+      "category": "sos-salca-sirke",
+      "name": "Organik Alıç Sirkesi 500 ml",
+      "slug": "organik-alic-sirkesi-500-ml",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 ml", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Alıç Sirkesi 500 ml | Doğal Fermente",
+      "short_description": "Alıç meyvesinden doğal fermantasyonla üretilen organik alıç sirkesi; 500 ml şişede.",
+      "meta_description": "Organik alıç sirkesi. Doğal fermente, katkısız. 500 ml şişe kapınıza gelsin.",
+      "description": "<p>Organik alıç meyvesinin doğal fermantasyonuyla üretilen sirke. Geleneksel olarak suyla seyreltilerek tüketilir ya da salatalarda kullanılır.</p><p>Yapay asit ve katkı maddesi içermez.</p>"
+    },
+    {
+      "source_slug": "organikgiller-organik-balzamik-sirke-250-ml",
+      "category": "sos-salca-sirke",
+      "name": "Organik Balzamik Sirke 250 ml",
+      "slug": "organik-balzamik-sirke-250-ml",
+      "unit": "paket", "unit_amount": 1, "variant_name": "250 ml", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Balzamik Sirke 250 ml | Yoğun Kıvam",
+      "short_description": "Üzüm mostosundan olgunlaştırılan yoğun kıvamlı organik balzamik sirke; salata ve sos için 250 ml şişede.",
+      "meta_description": "Organik balzamik sirke. Yoğun kıvam, doğal ve katkısız. 250 ml şişe kapınıza gelsin.",
+      "description": "<p>Üzüm mostosundan olgunlaştırılarak elde edilen, yoğun kıvamlı ve tatlı-ekşi organik balzamik sirke. Salatalarda, peynir yanında ve soslarda zarif bir lezzet verir.</p><p>Yapay renklendirici ve katkı maddesi içermez.</p>"
+    }
+  ]
+}
