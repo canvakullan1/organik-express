@@ -53,6 +53,9 @@ class WritePages extends Command
             $existed ? $updated++ : $created++;
         }
 
+        // Eski hatalı slug ile oluşmuş mükerrer sayfayı temizle
+        Page::where('slug', 'sertifikalar-ve-analizler')->delete();
+
         $this->info("Sayfa: {$updated} güncellendi, {$created} oluşturuldu.");
 
         return self::SUCCESS;
