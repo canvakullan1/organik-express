@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Banner;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Console\Command;
@@ -93,9 +94,44 @@ class SetupCatalogSite extends Command
         $produceIds = Category::whereIn('slug', ['taze-meyve', 'taze-sebze'])->pluck('id');
         $sCount = Product::whereIn('category_id', $produceIds)->update(['is_seasonal' => true]);
 
+        // 4) Hero banner linklerini yeni kataloğa göre düzelt (görselleri korunur)
+        $bannerFix = 0;
+        foreach (Banner::where('position', 'hero')->get() as $b) {
+            $t = mb_strtolower($b->title . ' ' . $b->subtitle, 'UTF-8');
+            $link = null;
+            if (str_contains($t, 'sebze') || str_contains($t, 'meyve')) {
+                $link = '/kategori/meyve-sebze';
+            } elseif (str_contains($t, 'zeytinyağ') || str_contains($t, 'zeytin yağ')) {
+                $link = '/kategori/zeytin-zeytinyagi-yag';
+            } elseif (str_contains($t, 'kahvaltı') || str_contains($t, 'peynir') || str_contains($t, 'süt')) {
+                $link = '/kategori/sut-kahvaltilik';
+            } elseif (str_contains($t, 'et') || str_contains($t, 'tavuk')) {
+                $link = '/kategori/et-tavuk';
+            }
+            $changed = false;
+            if ($link && $b->link !== $link) {
+                $b->link = $link;
+                $changed = true;
+            }
+            if (blank($b->button_text)) {
+                $b->button_text = 'Hemen Keşfet';
+                $changed = true;
+            }
+            // Satmadığımız ürünleri (bal) içeren alt başlığı düzelt
+            if ($b->subtitle && str_contains(mb_strtolower($b->subtitle, 'UTF-8'), 'bal')) {
+                $b->subtitle = 'Köy peyniri, kefir ve tereyağı';
+                $changed = true;
+            }
+            if ($changed) {
+                $b->save();
+                $bannerFix++;
+            }
+        }
+
         $this->info('Üst kategori: ' . count($this->groups) . ' hazır.');
         $this->info("Kategori görseli atanan: {$imgSet}");
         $this->info("Öne çıkan ürün: {$fCount} | Mevsim ürünü: {$sCount}");
+        $this->info("Düzenlenen hero banner: {$bannerFix}");
 
         return self::SUCCESS;
     }
