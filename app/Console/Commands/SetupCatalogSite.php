@@ -3,7 +3,9 @@
 namespace App\Console\Commands;
 
 use App\Models\Banner;
+use App\Models\Bundle;
 use App\Models\Category;
+use App\Models\Producer;
 use App\Models\Product;
 use Illuminate\Console\Command;
 
@@ -128,10 +130,15 @@ class SetupCatalogSite extends Command
             }
         }
 
+        // 5) Katalogla eşleşmeyen demo üretici ve kutuları gizle (admin'den gerçekleri eklenebilir)
+        $prodOff = Producer::where('is_active', true)->update(['is_active' => false]);
+        $bundleOff = Bundle::where('is_active', true)->update(['is_active' => false]);
+
         $this->info('Üst kategori: ' . count($this->groups) . ' hazır.');
         $this->info("Kategori görseli atanan: {$imgSet}");
         $this->info("Öne çıkan ürün: {$fCount} | Mevsim ürünü: {$sCount}");
         $this->info("Düzenlenen hero banner: {$bannerFix}");
+        $this->info("Gizlenen demo üretici: {$prodOff} | demo kutu: {$bundleOff}");
 
         return self::SUCCESS;
     }
