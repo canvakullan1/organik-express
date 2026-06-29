@@ -196,7 +196,7 @@
         {{-- Yeşil kategori barı (masaüstü) — premium mega menü --}}
         <div class="bg-leaf-700 text-white hidden lg:block shadow-sm">
             <div class="mx-auto max-w-7xl px-4">
-                <nav class="flex items-center gap-0.5">
+                <nav class="flex items-center justify-center gap-1">
                     @if($headerMenu->isNotEmpty())
                         @foreach($headerMenu as $item)
                             <div class="relative"
@@ -204,7 +204,7 @@
                                  @mouseenter="clearTimeout(t); open = true"
                                  @mouseleave="t = setTimeout(() => open = false, 140)">
                                 <a href="{{ $item->resolved_url }}" @if($item->target_blank) target="_blank" @endif
-                                   class="relative flex items-center gap-1 whitespace-nowrap px-3 py-[14px] text-[12px] font-700 uppercase tracking-[0.05em] text-white/90 hover:text-white transition-colors">
+                                   class="relative flex items-center gap-1 whitespace-nowrap px-4 py-[14px] text-[12.5px] font-700 uppercase tracking-[0.05em] text-white/90 hover:text-white transition-colors">
                                     {{ $item->label }}
                                     @if($item->children->isNotEmpty())
                                         <svg class="size-3 opacity-60 transition-transform duration-200" :class="open ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>

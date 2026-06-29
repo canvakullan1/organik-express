@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use App\Models\Banner;
 use App\Models\Bundle;
 use App\Models\Category;
+use App\Models\MenuItem;
 use App\Models\Producer;
 use App\Models\Product;
 use Illuminate\Console\Command;
@@ -134,11 +135,39 @@ class SetupCatalogSite extends Command
         $prodOff = Producer::where('is_active', true)->update(['is_active' => false]);
         $bundleOff = Bundle::where('is_active', true)->update(['is_active' => false]);
 
+        // 6) Header menüsünü yeni kategorilere göre yeniden kur (eski/olmayan kategori linklerini temizler)
+        MenuItem::where('location', 'header')->delete();
+        $menuOrder = 1;
+        foreach ($this->groups as $slug => [$name, $childSlugs]) {
+            $parentCat = Category::where('slug', $slug)->first();
+            if (! $parentCat) {
+                continue;
+            }
+            $menuParent = MenuItem::create([
+                'location' => 'header', 'parent_id' => null,
+                'label' => $name, 'type' => 'category', 'reference_id' => $parentCat->id,
+                'sort_order' => $menuOrder++, 'is_active' => true, 'target_blank' => false,
+            ]);
+            $childOrder = 1;
+            foreach ($childSlugs as $cs) {
+                $childCat = Category::where('slug', $cs)->first();
+                if ($childCat) {
+                    MenuItem::create([
+                        'location' => 'header', 'parent_id' => $menuParent->id,
+                        'label' => $childCat->name, 'type' => 'category', 'reference_id' => $childCat->id,
+                        'sort_order' => $childOrder++, 'is_active' => true, 'target_blank' => false,
+                    ]);
+                }
+            }
+        }
+        $menuCount = MenuItem::where('location', 'header')->count();
+
         $this->info('Üst kategori: ' . count($this->groups) . ' hazır.');
         $this->info("Kategori görseli atanan: {$imgSet}");
         $this->info("Öne çıkan ürün: {$fCount} | Mevsim ürünü: {$sCount}");
         $this->info("Düzenlenen hero banner: {$bannerFix}");
         $this->info("Gizlenen demo üretici: {$prodOff} | demo kutu: {$bundleOff}");
+        $this->info("Header menü öğesi (yeniden kuruldu): {$menuCount}");
 
         return self::SUCCESS;
     }
