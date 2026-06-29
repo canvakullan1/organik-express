@@ -45,17 +45,25 @@ class PaytrController extends Controller
         return response('OK');
     }
 
-    /** Kullanıcının PayTR sonrası döndüğü sayfa (onay sunucu tarafında yapıldı). */
+    /** Kullanıcının PayTR sonrası döndüğü sayfa (kesin onay sunucu-sunucu notify ile yapılır). */
     public function return(Request $request)
     {
         $orderId = session('pending_order');
         $order = $orderId ? Order::find($orderId) : null;
 
-        // Sepet temizliği (oturum burada mevcut)
+        // Başarısız / iptal dönüşü → SEPET KORUNUR, müşteri yeniden deneyebilir.
+        if ($request->boolean('fail') || ! $order) {
+            session()->forget('pending_order');
+
+            return redirect()->route('checkout.index')
+                ->withErrors(['payment' => 'Ödeme tamamlanmadı veya iptal edildi. Sepetiniz korundu; dilerseniz tekrar deneyebilirsiniz.']);
+        }
+
+        // Başarılı dönüş → sepet temizlenir ve sipariş sonucu gösterilir.
         app(\App\Services\Cart\CartService::class)->clear();
         session()->forget(['pending_order', 'coupon_code']);
 
-        if ($order && $order->user_id === auth()->id()) {
+        if ($order->user_id === auth()->id()) {
             return redirect()->route('checkout.success', $order);
         }
 

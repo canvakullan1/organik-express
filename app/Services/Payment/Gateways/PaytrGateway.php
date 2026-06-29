@@ -98,7 +98,7 @@ class PaytrGateway implements PaymentGateway
             'user_address' => $ship['address'] ?? 'Adres',
             'user_phone' => $order->contact_phone ?: '05000000000',
             'merchant_ok_url' => route('checkout.paytr.return'),
-            'merchant_fail_url' => route('checkout.paytr.return'),
+            'merchant_fail_url' => route('checkout.paytr.return', ['fail' => 1]),
             'timeout_limit' => 30,
             'currency' => $currency,
             'test_mode' => $testMode,
