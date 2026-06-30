@@ -61,6 +61,16 @@ if ($do === 'import_og') {
     echo @shell_exec("cd $repo && $php artisan import:organikgiller$flags 2>&1");
     exit;
 }
+if ($do === 'fix_images') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(1800);
+    $flags = '';
+    if (($_GET['report'] ?? '') === '1') { $flags .= ' --report'; }
+    $lim = (int) ($_GET['limit'] ?? 0);
+    if ($lim > 0) { $flags .= ' --limit=' . $lim; }
+    echo @shell_exec("cd $repo && $php artisan products:fix-images$flags 2>&1");
+    exit;
+}
 if ($do === 'write_pages') {
     if (! $php) { exit("php bulunamadi\n"); }
     set_time_limit(300);
