@@ -15,7 +15,7 @@ class CheckoutSettings extends Settings
     /** @var array<int, string> */
     public array $delivery_slots;           // zaman aralıkları
     public ?string $delivery_info_note;     // bölgeye göre teslim günleri bilgilendirme notu
-    /** @var array<int, array{name:string, days:array<int,int>}> Elden teslim bölgeleri ve teslim günleri (0=Pazar..6=Cumartesi) */
+    /** @var array Elden teslim bölgeleri: [['name'=>..., 'days'=>[0..6]], ...] (0=Pazar..6=Cumartesi) */
     public array $delivery_zones;
 
     // Teslimat bölgeleri (elden teslim yapılan + erken sipariş indirimi geçerli şehirler)
