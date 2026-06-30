@@ -72,7 +72,8 @@ class OrderService
         }
 
         // Seçilen bölgenin teslim günleri (0=Pazar..6=Cumartesi)
-        $zone = collect((array) ($s->delivery_zones ?? []))->first(fn ($z) => ($z['name'] ?? null) === $zoneName);
+        $allZones = json_decode($s->delivery_zones ?: '[]', true) ?: [];
+        $zone = collect($allZones)->first(fn ($z) => ($z['name'] ?? null) === $zoneName);
         $days = array_map('intval', (array) ($zone['days'] ?? []));
         if (empty($days)) {
             return 0;

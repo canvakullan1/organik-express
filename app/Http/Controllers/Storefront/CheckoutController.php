@@ -75,7 +75,7 @@ class CheckoutController extends Controller
             'dateCandidates' => $dateCandidates,
             'deliverySlots' => $checkout->delivery_slots,
             'deliveryInfoNote' => $checkout->delivery_info_note,
-            'deliveryZones' => array_values((array) $checkout->delivery_zones),
+            'deliveryZones' => array_values((array) (json_decode($checkout->delivery_zones ?: '[]', true) ?: [])),
             'deliveryZoneCities' => array_values((array) $checkout->delivery_zone_cities),
             'earlyPct' => (int) $checkout->early_order_discount_percent,
         ]);

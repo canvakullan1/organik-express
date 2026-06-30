@@ -73,4 +73,36 @@ class CheckoutSettingsPage extends SettingsPage
                 ])->columns(2),
         ]);
     }
+
+    /** delivery_zones DB'de JSON metni; formda Repeater için diziye çevir. */
+    protected function mutateFormDataBeforeFill(array $data): array
+    {
+        if (isset($data['delivery_zones']) && is_string($data['delivery_zones'])) {
+            $data['delivery_zones'] = json_decode($data['delivery_zones'], true) ?: [];
+        }
+
+        return $data;
+    }
+
+    /** Repeater dizisini kaydederken JSON metnine çevir. */
+    protected function mutateFormDataBeforeSave(array $data): array
+    {
+        if (isset($data['delivery_zones']) && is_array($data['delivery_zones'])) {
+            // days değerlerini int'e indir, boş bölgeleri ele
+            $zones = [];
+            foreach ($data['delivery_zones'] as $z) {
+                $name = trim((string) ($z['name'] ?? ''));
+                if ($name === '') {
+                    continue;
+                }
+                $zones[] = [
+                    'name' => $name,
+                    'days' => array_values(array_map('intval', (array) ($z['days'] ?? []))),
+                ];
+            }
+            $data['delivery_zones'] = json_encode($zones, JSON_UNESCAPED_UNICODE);
+        }
+
+        return $data;
+    }
 }
