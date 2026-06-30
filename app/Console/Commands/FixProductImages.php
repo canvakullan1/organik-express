@@ -7,6 +7,7 @@ use App\Models\ProductImage;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Storage;
 
 /**
  * Görseli olmayan ürünleri tespit eder ve görsellerini indirir.
@@ -24,11 +25,28 @@ class FixProductImages extends Command
 
     public function handle(): int
     {
-        // Görseli olmayan ürünler
-        $missing = Product::whereDoesntHave('images')->orderBy('id')->get(['id', 'name', 'slug']);
-        $this->info('Görseli olmayan ürün: ' . $missing->count());
+        // Servis edilebilir (dosyası mevcut) görseli olmayan ürünler — kayıt var ama dosya yoksa da yakalanır.
+        $disk = Storage::disk('public');
+        $missing = Product::with('images')->orderBy('id')->get()->filter(function ($p) use ($disk) {
+            $hasFile = $p->images->contains(fn ($i) => $i->path && $disk->exists($i->path));
+
+            return ! $hasFile; // hiç servis edilebilir görseli yoksa eksik
+        })->values();
+
+        $this->info('Görseli (dosyası) olmayan ürün: ' . $missing->count());
         foreach ($missing as $m) {
             $this->line("  #{$m->id}  {$m->name}  ({$m->slug})");
+        }
+
+        // Eksik/bozuk görsel kayıtlarını temizle (yeniden indirilecek)
+        if (! $this->option('report')) {
+            foreach ($missing as $m) {
+                foreach ($m->images as $img) {
+                    if (! $img->path || ! $disk->exists($img->path)) {
+                        $img->delete();
+                    }
+                }
+            }
         }
 
         if ($this->option('report') || $missing->isEmpty()) {
@@ -135,9 +153,15 @@ class FixProductImages extends Command
             }
             $ext = str_contains($url, '.png') ? 'png' : (str_contains($url, '.webp') ? 'webp' : 'jpg');
             $path = "products/{$slug}-" . ($idx + 1) . ".{$ext}";
-            $full = storage_path('app/public/' . $path);
-            File::ensureDirectoryExists(dirname($full));
-            File::put($full, $res->body());
+            $body = $res->body();
+
+            // 1) Repo storage (deploy korumalı)
+            $repo = storage_path('app/public/' . $path);
+            File::ensureDirectoryExists(dirname($repo));
+            File::put($repo, $body);
+
+            // 2) Servis diski (public_html/storage) — anında görünür
+            Storage::disk('public')->put($path, $body);
 
             return $path;
         } catch (\Throwable $e) {
