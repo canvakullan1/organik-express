@@ -27,13 +27,13 @@ class FixProductImages extends Command
     {
         // Servis edilebilir (dosyası mevcut) görseli olmayan ürünler — kayıt var ama dosya yoksa da yakalanır.
         $disk = Storage::disk('public');
-        $missing = Product::with('images')->orderBy('id')->get()->filter(function ($p) use ($disk) {
-            $hasFile = $p->images->contains(fn ($i) => $i->path && $disk->exists($i->path));
-
-            return ! $hasFile; // hiç servis edilebilir görseli yoksa eksik
+        // Geçerli görsel = dosya mevcut VE makul boyutta (bozuk/boş/hata sayfası değil)
+        $ok = fn ($i) => $i->path && $disk->exists($i->path) && $disk->size($i->path) > 3000;
+        $missing = Product::with('images')->orderBy('id')->get()->filter(function ($p) use ($ok) {
+            return ! $p->images->contains($ok);
         })->values();
 
-        $this->info('Görseli (dosyası) olmayan ürün: ' . $missing->count());
+        $this->info('Geçerli görseli olmayan ürün: ' . $missing->count());
         foreach ($missing as $m) {
             $this->line("  #{$m->id}  {$m->name}  ({$m->slug})");
         }
@@ -42,7 +42,7 @@ class FixProductImages extends Command
         if (! $this->option('report')) {
             foreach ($missing as $m) {
                 foreach ($m->images as $img) {
-                    if (! $img->path || ! $disk->exists($img->path)) {
+                    if (! $ok($img)) {
                         $img->delete();
                     }
                 }
