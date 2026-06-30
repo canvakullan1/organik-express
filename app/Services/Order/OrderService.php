@@ -53,24 +53,11 @@ class OrderService
     {
         $s = app(\App\Settings\CheckoutSettings::class);
         $pct = (int) ($s->early_order_discount_percent ?? 0);
-        if ($pct <= 0 || ! $city || ! $deliveryDate || ! $zoneName) {
+        if ($pct <= 0 || ! $deliveryDate || ! $zoneName) {
             return 0;
         }
 
-        // Şehir bir teslimat bölgesi mi — Türkçe karakterleri ASCII'ye indirip karşılaştır.
-        $norm = function ($v) {
-            $v = strtr((string) $v, [
-                'İ' => 'i', 'I' => 'i', 'ı' => 'i', 'Ş' => 's', 'ş' => 's', 'Ğ' => 'g', 'ğ' => 'g',
-                'Ü' => 'u', 'ü' => 'u', 'Ö' => 'o', 'ö' => 'o', 'Ç' => 'c', 'ç' => 'c',
-            ]);
-
-            return mb_strtolower(trim($v), 'UTF-8');
-        };
-        $zoneCities = array_map($norm, (array) ($s->delivery_zone_cities ?? []));
-        if (! in_array($norm($city), $zoneCities, true)) {
-            return 0;
-        }
-
+        // İndirim, seçilen elden-teslim bölgesine + o bölgenin en erken teslim gününe bağlıdır.
         // Seçilen bölgenin teslim günleri (0=Pazar..6=Cumartesi)
         $allZones = json_decode($s->delivery_zones ?: '[]', true) ?: [];
         $zone = collect($allZones)->first(fn ($z) => ($z['name'] ?? null) === $zoneName);

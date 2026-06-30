@@ -27,10 +27,9 @@
         get selectedZone() { return this.zones.find(z => z.name === this.zoneName) || null; },
         get availableDates() { const z = this.selectedZone; if (!z) return []; return this.dateCandidates.filter(d => (z.days || []).map(Number).includes(d.dow)).slice(0, 6); },
         get earlyDate() { return this.availableDates.length ? this.availableDates[0].date : ''; },
-        autoZone() { if (!this.inZone) { this.zoneName = '__diger__'; } else if (this.zoneName === '__diger__') { this.zoneName = ''; } },
         syncDate() { if (!this.selectedZone) { this.deliveryDate = ''; return; } const ds = this.availableDates.map(d => d.date); if (!ds.includes(this.deliveryDate)) { this.deliveryDate = ds.length ? ds[0] : ''; } },
-        init() { this.$watch('shipCity', () => { this.autoZone(); this.syncDate(); }); this.$watch('zoneName', () => this.syncDate()); this.autoZone(); this.syncDate(); },
-        get earlyEligible() { return this.earlyPct > 0 && this.inZone && !!this.selectedZone && this.deliveryDate !== '' && this.deliveryDate === this.earlyDate; },
+        init() { this.$watch('zoneName', () => this.syncDate()); this.syncDate(); },
+        get earlyEligible() { return this.earlyPct > 0 && !!this.selectedZone && this.deliveryDate !== '' && this.deliveryDate === this.earlyDate; },
         get earlyDiscount() { return this.earlyEligible ? Math.round(this.sub * this.earlyPct) / 100 : 0 },
         get loyalty() { return this.usePoints ? this.redeemable : 0 },
         get total() { return Math.max(0, this.sub - this.couponDiscount - this.loyalty - this.earlyDiscount) + this.shipping },
@@ -195,7 +194,7 @@
                         <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>
                         <span><strong>%<span x-text="earlyPct"></span> erken sipariş indirimi</strong> uygulandı — sepet özetinde görebilirsiniz.</span>
                     </div>
-                    <div x-show="inZone && selectedZone && !earlyEligible" x-cloak class="mt-3 flex items-center gap-2 rounded-lg bg-leaf-50 border border-leaf-200 px-3 py-2.5 text-sm text-leaf-800">
+                    <div x-show="selectedZone && !earlyEligible" x-cloak class="mt-3 flex items-center gap-2 rounded-lg bg-leaf-50 border border-leaf-200 px-3 py-2.5 text-sm text-leaf-800">
                         <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/></svg>
                         <span>En erken teslim gününü seçerseniz <strong>%<span x-text="earlyPct"></span> indirim</strong> kazanırsınız!</span>
                     </div>
