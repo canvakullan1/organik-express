@@ -15,13 +15,22 @@
         redeemable: {{ $pricing['redeemable'] }},
         shipping: {{ $pricing['shipping'] }},
         zoneCities: @js($deliveryZoneCities),
+        zones: @js($deliveryZones),
+        dateCandidates: @js($dateCandidates),
         earlyPct: {{ $earlyPct }},
-        earlyDate: '{{ $earlyDate }}',
+        zoneName: '',
         shipCity: @js($guest ? old('city', '') : (optional($addresses->firstWhere('id', $defaultAddressId))->city ?? optional($addresses->first())->city ?? '')),
-        deliveryDate: '{{ optional($deliveryDates->first())->format('Y-m-d') }}',
+        deliveryDate: '',
         norm(s) { const m={'İ':'i','I':'i','ı':'i','Ş':'s','ş':'s','Ğ':'g','ğ':'g','Ü':'u','ü':'u','Ö':'o','ö':'o','Ç':'c','ç':'c'}; return (s||'').replace(/[İIıŞşĞğÜüÖöÇç]/g, c => m[c]).trim().toLowerCase(); },
         get inZone() { return this.zoneCities.map(c => this.norm(c)).includes(this.norm(this.shipCity)); },
-        get earlyEligible() { return this.earlyPct > 0 && this.inZone && this.deliveryDate === this.earlyDate; },
+        get isCargo() { return this.zoneName === '__diger__'; },
+        get selectedZone() { return this.zones.find(z => z.name === this.zoneName) || null; },
+        get availableDates() { const z = this.selectedZone; if (!z) return []; return this.dateCandidates.filter(d => (z.days || []).map(Number).includes(d.dow)).slice(0, 6); },
+        get earlyDate() { return this.availableDates.length ? this.availableDates[0].date : ''; },
+        autoZone() { if (!this.inZone) { this.zoneName = '__diger__'; } else if (this.zoneName === '__diger__') { this.zoneName = ''; } },
+        syncDate() { if (!this.selectedZone) { this.deliveryDate = ''; return; } const ds = this.availableDates.map(d => d.date); if (!ds.includes(this.deliveryDate)) { this.deliveryDate = ds.length ? ds[0] : ''; } },
+        init() { this.$watch('shipCity', () => { this.autoZone(); this.syncDate(); }); this.$watch('zoneName', () => this.syncDate()); this.autoZone(); this.syncDate(); },
+        get earlyEligible() { return this.earlyPct > 0 && this.inZone && !!this.selectedZone && this.deliveryDate !== '' && this.deliveryDate === this.earlyDate; },
         get earlyDiscount() { return this.earlyEligible ? Math.round(this.sub * this.earlyPct) / 100 : 0 },
         get loyalty() { return this.usePoints ? this.redeemable : 0 },
         get total() { return Math.max(0, this.sub - this.couponDiscount - this.loyalty - this.earlyDiscount) + this.shipping },
@@ -138,29 +147,38 @@
             {{-- Teslimat zamanı --}}
             <section class="rounded-2xl border border-paper bg-white p-5">
                 <h2 class="font-700 text-bark mb-4">2 · Teslimat Zamanı</h2>
-                <div class="grid sm:grid-cols-2 gap-4">
+
+                {{-- Teslimat bölgesi seçimi --}}
+                <div class="mb-4">
+                    <label class="block text-sm font-600 mb-1.5">Teslimat Bölgeniz</label>
+                    <select x-model="zoneName" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
+                        <option value="">Bölgenizi seçin…</option>
+                        @foreach($deliveryZones as $z)
+                            <option value="{{ $z['name'] }}">{{ $z['name'] }}</option>
+                        @endforeach
+                        <option value="__diger__">Diğer İller (Kargo ile gönderim)</option>
+                    </select>
+                    <input type="hidden" name="delivery_zone" :value="isCargo ? '' : zoneName">
+                </div>
+
+                {{-- Bölge seçilmedi --}}
+                <div x-show="!selectedZone && !isCargo" x-cloak class="rounded-xl bg-cream border border-paper px-4 py-3 text-sm text-bark/60">
+                    Teslimat gününüzü görmek için lütfen bölgenizi seçin.
+                </div>
+
+                {{-- Diğer iller: kargo bilgilendirmesi (gün seçimi yok) --}}
+                <div x-show="isCargo" x-cloak class="rounded-xl bg-leaf-50 border border-leaf-200 px-4 py-3 text-sm text-bark/80 leading-relaxed whitespace-pre-line">{{ $deliveryInfoNote ?: 'Bulunduğunuz il elden teslim bölgemiz dışında olduğundan, siparişiniz anlaşmalı kargo ile 1-3 iş günü içinde adresinize gönderilecektir.' }}</div>
+
+                {{-- Elden teslim bölgesi: gün + zaman aralığı --}}
+                <div x-show="selectedZone" x-cloak class="grid sm:grid-cols-2 gap-4">
                     <div>
                         <label class="block text-sm font-600 mb-1.5">Teslimat Günü</label>
                         <select name="delivery_date" x-model="deliveryDate" class="w-full rounded-lg border border-paper bg-cream/50 px-4 py-2.5 text-sm">
-                            @foreach($deliveryDates as $d)
-                                <option value="{{ $d->format('Y-m-d') }}">{{ $d->translatedFormat('d F Y, l') }}</option>
-                            @endforeach
+                            <template x-for="d in availableDates" :key="d.date">
+                                <option :value="d.date" x-text="d.label"></option>
+                            </template>
                         </select>
-
-                        @if(filled($deliveryInfoNote ?? null))
-                            {{-- Bölgeye göre teslimat günleri bilgilendirmesi --}}
-                            <div x-data="{ openInfo: false }" class="mt-2">
-                                <button type="button" @click="openInfo = !openInfo"
-                                        class="inline-flex items-center gap-1.5 text-[13px] font-600 text-leaf-700 hover:text-leaf-800">
-                                    <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/></svg>
-                                    Teslimat günleri bölgeye göre değişir — ayrıntılar
-                                    <svg class="size-3.5 transition-transform duration-200" :class="openInfo ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
-                                </button>
-                                <div x-show="openInfo" x-cloak x-collapse
-                                     x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-1" x-transition:enter-end="opacity-100 translate-y-0"
-                                     class="mt-2 rounded-xl bg-leaf-50 border border-leaf-200 px-4 py-3 text-[13px] text-bark/80 leading-relaxed whitespace-pre-line">{{ $deliveryInfoNote }}</div>
-                            </div>
-                        @endif
+                        <p class="mt-1.5 text-xs text-bark/45"><span x-text="selectedZone?.name"></span> bölgesine özel teslim günleri gösteriliyor.</p>
                     </div>
                     <div>
                         <label class="block text-sm font-600 mb-1.5">Zaman Aralığı</label>
@@ -177,7 +195,7 @@
                         <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>
                         <span><strong>%<span x-text="earlyPct"></span> erken sipariş indirimi</strong> uygulandı — sepet özetinde görebilirsiniz.</span>
                     </div>
-                    <div x-show="inZone && !earlyEligible" x-cloak class="mt-3 flex items-center gap-2 rounded-lg bg-leaf-50 border border-leaf-200 px-3 py-2.5 text-sm text-leaf-800">
+                    <div x-show="inZone && selectedZone && !earlyEligible" x-cloak class="mt-3 flex items-center gap-2 rounded-lg bg-leaf-50 border border-leaf-200 px-3 py-2.5 text-sm text-leaf-800">
                         <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z"/></svg>
                         <span>En erken teslim gününü seçerseniz <strong>%<span x-text="earlyPct"></span> indirim</strong> kazanırsınız!</span>
                     </div>

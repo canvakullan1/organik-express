@@ -37,10 +37,27 @@ class CheckoutSettingsPage extends SettingsPage
                     ->numeric()->required()->helperText('0 = bugün, 1 = yarın'),
                 Forms\Components\TagsInput::make('delivery_slots')->label('Zaman Aralıkları')
                     ->placeholder('09:00 - 12:00')->columnSpanFull(),
+                Forms\Components\Repeater::make('delivery_zones')
+                    ->label('Elden Teslim Bölgeleri ve Günleri')
+                    ->columnSpanFull()
+                    ->helperText('Elden teslim yaptığınız bölgeler. Müşteri ödeme sayfasında bölgesini seçer; yalnızca o bölgenin teslim günleri gösterilir. Listede olmayan iller "kargo" akışına girer.')
+                    ->schema([
+                        Forms\Components\TextInput::make('name')->label('Bölge Adı')
+                            ->placeholder('İstanbul (Avrupa Yakası)')->required(),
+                        Forms\Components\CheckboxList::make('days')->label('Teslim Günleri')
+                            ->options([
+                                1 => 'Pazartesi', 2 => 'Salı', 3 => 'Çarşamba', 4 => 'Perşembe',
+                                5 => 'Cuma', 6 => 'Cumartesi', 0 => 'Pazar',
+                            ])
+                            ->columns(4)->gridDirection('row'),
+                    ])
+                    ->itemLabel(fn (array $state): ?string => $state['name'] ?? null)
+                    ->addActionLabel('Bölge Ekle')
+                    ->collapsible(),
                 Forms\Components\Textarea::make('delivery_info_note')
-                    ->label('Teslimat Günleri Bilgi Notu')
-                    ->rows(4)->columnSpanFull()
-                    ->helperText('Ödeme sayfasında "Teslimat Günü" altında açılır bilgi kutusunda gösterilir. Her satır ayrı bir madde olur. Bölgeye göre teslim günlerini yazın.'),
+                    ->label('Diğer İller (Kargo) Bilgi Notu')
+                    ->rows(3)->columnSpanFull()
+                    ->helperText('Elden teslim bölgesi dışındaki iller için ödeme sayfasında gösterilen kargo bilgilendirmesi.'),
             ])->columns(2),
 
             Forms\Components\Section::make('Erken Sipariş İndirimi')

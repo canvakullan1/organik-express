@@ -51,7 +51,17 @@ class CheckoutController extends Controller
 
         $checkout = app(CheckoutSettings::class);
         $pricing = $this->orders->pricing($user, 'bank_transfer', (float) old('loyalty_points', 0));
-        $dates = collect(range(0, 6))->map(fn ($i) => now()->addDays($checkout->delivery_lead_days + $i));
+
+        // Aday teslim günleri (en erken günden itibaren 4 hafta) — bölgeye göre frontend filtreler.
+        $dateCandidates = collect(range(0, 27))->map(function ($i) use ($checkout) {
+            $d = now()->addDays($checkout->delivery_lead_days + $i);
+
+            return [
+                'date' => $d->format('Y-m-d'),
+                'dow' => (int) $d->dayOfWeek, // 0=Pazar..6=Cumartesi
+                'label' => $d->translatedFormat('d F Y, l'),
+            ];
+        })->values();
 
         return view('storefront.checkout.index', [
             'guest' => $guest,
@@ -62,14 +72,12 @@ class CheckoutController extends Controller
             'addresses' => $addresses,
             'defaultAddressId' => optional($addresses->firstWhere('is_default', true))->id ?? optional($addresses->first())->id,
             'methods' => $this->payments->available(),
-            'deliveryDates' => $dates,
+            'dateCandidates' => $dateCandidates,
             'deliverySlots' => $checkout->delivery_slots,
             'deliveryInfoNote' => $checkout->delivery_info_note,
-            // Erken sipariş indirimi (teslimat bölgeleri + yarın teslim → %)
+            'deliveryZones' => array_values((array) $checkout->delivery_zones),
             'deliveryZoneCities' => array_values((array) $checkout->delivery_zone_cities),
             'earlyPct' => (int) $checkout->early_order_discount_percent,
-            // İndirim, en erken seçilebilir teslim tarihini (listenin ilki) seçen müşteriye uygulanır.
-            'earlyDate' => $dates->first()->format('Y-m-d'),
         ]);
     }
 
@@ -90,6 +98,7 @@ class CheckoutController extends Controller
         $commonRules = [
             'delivery_date' => ['nullable', 'date'],
             'delivery_slot' => ['nullable', 'string'],
+            'delivery_zone' => ['nullable', 'string', 'max:120'],
             'payment_method' => ['required', 'string', 'in:' . implode(',', $available)],
             'note' => ['nullable', 'string', 'max:500'],
             'agree' => ['accepted'],
@@ -149,7 +158,7 @@ class CheckoutController extends Controller
         }
 
         // Erken sipariş indirimi: adres teslimat bölgesinde + teslim tarihi yarın ise
-        $earlyPct = $this->orders->earlyDiscountPercent($shipping->city, $data['delivery_date'] ?? null);
+        $earlyPct = $this->orders->earlyDiscountPercent($shipping->city, $data['delivery_date'] ?? null, $data['delivery_zone'] ?? null);
 
         $order = $this->orders->placeFromCart(
             $user,

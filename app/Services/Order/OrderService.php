@@ -45,19 +45,19 @@ class OrderService
      * @return array{subtotal:float,coupon:?\App\Models\Coupon,coupon_discount:float,loyalty_used:float,shipping:float,discount_total:float,grand_total:float,redeemable:float}
      */
     /**
-     * Erken sipariş indirimi yüzdesi: adres teslimat bölgesindeyse VE teslim tarihi
-     * siparişten 1 gün sonrası (yarın) ise yapılandırılmış yüzde; aksi halde 0.
+     * Erken sipariş indirimi yüzdesi: adres bir teslimat bölgesi şehrindeyse,
+     * seçilen elden-teslim bölgesi geçerliyse VE teslim tarihi o bölgenin en erken
+     * teslim günüyse yapılandırılmış yüzde; aksi halde 0.
      */
-    public function earlyDiscountPercent(?string $city, $deliveryDate): int
+    public function earlyDiscountPercent(?string $city, $deliveryDate, ?string $zoneName = null): int
     {
         $s = app(\App\Settings\CheckoutSettings::class);
         $pct = (int) ($s->early_order_discount_percent ?? 0);
-        if ($pct <= 0 || ! $city || ! $deliveryDate) {
+        if ($pct <= 0 || ! $city || ! $deliveryDate || ! $zoneName) {
             return 0;
         }
 
-        // Şehir bir teslimat bölgesi mi — Türkçe karakterleri ASCII'ye indirip karşılaştır
-        // (sunucu ile istemcinin AYNI normalize ettiğinden emin olmak için).
+        // Şehir bir teslimat bölgesi mi — Türkçe karakterleri ASCII'ye indirip karşılaştır.
         $norm = function ($v) {
             $v = strtr((string) $v, [
                 'İ' => 'i', 'I' => 'i', 'ı' => 'i', 'Ş' => 's', 'ş' => 's', 'Ğ' => 'g', 'ğ' => 'g',
@@ -66,20 +66,37 @@ class OrderService
 
             return mb_strtolower(trim($v), 'UTF-8');
         };
-        $zones = array_map($norm, (array) ($s->delivery_zone_cities ?? []));
-        if (! in_array($norm($city), $zones, true)) {
+        $zoneCities = array_map($norm, (array) ($s->delivery_zone_cities ?? []));
+        if (! in_array($norm($city), $zoneCities, true)) {
             return 0;
         }
 
-        // Teslim tarihi, en erken seçilebilir teslim günü mü?
-        // delivery_lead_days kaç olursa olsun "en yakın teslim"i seçen müşteriye indirim uygulanır.
+        // Seçilen bölgenin teslim günleri (0=Pazar..6=Cumartesi)
+        $zone = collect((array) ($s->delivery_zones ?? []))->first(fn ($z) => ($z['name'] ?? null) === $zoneName);
+        $days = array_map('intval', (array) ($zone['days'] ?? []));
+        if (empty($days)) {
+            return 0;
+        }
+
+        // Bu bölge için en erken teslim günü (>= bugün + lead)
+        $lead = max(0, (int) $s->delivery_lead_days);
+        $earliest = null;
+        for ($i = 0; $i < 21; $i++) {
+            $cand = now()->addDays($lead + $i)->startOfDay();
+            if (in_array((int) $cand->dayOfWeek, $days, true)) {
+                $earliest = $cand;
+                break;
+            }
+        }
+        if (! $earliest) {
+            return 0;
+        }
+
         try {
             $d = \Illuminate\Support\Carbon::parse($deliveryDate)->startOfDay();
         } catch (\Throwable $e) {
             return 0;
         }
-
-        $earliest = now()->addDays(max(1, (int) $s->delivery_lead_days))->startOfDay();
 
         return $d->equalTo($earliest) ? $pct : 0;
     }
