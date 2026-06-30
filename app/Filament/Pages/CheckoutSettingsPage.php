@@ -37,6 +37,10 @@ class CheckoutSettingsPage extends SettingsPage
                     ->numeric()->required()->helperText('0 = bugün, 1 = yarın'),
                 Forms\Components\TagsInput::make('delivery_slots')->label('Zaman Aralıkları')
                     ->placeholder('09:00 - 12:00')->columnSpanFull(),
+                Forms\Components\Textarea::make('delivery_info_note')
+                    ->label('Teslimat Günleri Bilgi Notu')
+                    ->rows(4)->columnSpanFull()
+                    ->helperText('Ödeme sayfasında "Teslimat Günü" altında açılır bilgi kutusunda gösterilir. Her satır ayrı bir madde olur. Bölgeye göre teslim günlerini yazın.'),
             ])->columns(2),
 
             Forms\Components\Section::make('Erken Sipariş İndirimi')

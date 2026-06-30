@@ -64,6 +64,7 @@ class CheckoutController extends Controller
             'methods' => $this->payments->available(),
             'deliveryDates' => $dates,
             'deliverySlots' => $checkout->delivery_slots,
+            'deliveryInfoNote' => $checkout->delivery_info_note,
             // Erken sipariş indirimi (teslimat bölgeleri + yarın teslim → %)
             'deliveryZoneCities' => array_values((array) $checkout->delivery_zone_cities),
             'earlyPct' => (int) $checkout->early_order_discount_percent,

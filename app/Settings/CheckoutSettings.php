@@ -14,6 +14,7 @@ class CheckoutSettings extends Settings
     public int $delivery_lead_days;         // en erken teslim = bugün + N gün
     /** @var array<int, string> */
     public array $delivery_slots;           // zaman aralıkları
+    public ?string $delivery_info_note;     // bölgeye göre teslim günleri bilgilendirme notu
 
     // Teslimat bölgeleri (elden teslim yapılan + erken sipariş indirimi geçerli şehirler)
     /** @var array<int, string> */

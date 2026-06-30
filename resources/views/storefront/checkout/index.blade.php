@@ -146,6 +146,21 @@
                                 <option value="{{ $d->format('Y-m-d') }}">{{ $d->translatedFormat('d F Y, l') }}</option>
                             @endforeach
                         </select>
+
+                        @if(filled($deliveryInfoNote ?? null))
+                            {{-- Bölgeye göre teslimat günleri bilgilendirmesi --}}
+                            <div x-data="{ openInfo: false }" class="mt-2">
+                                <button type="button" @click="openInfo = !openInfo"
+                                        class="inline-flex items-center gap-1.5 text-[13px] font-600 text-leaf-700 hover:text-leaf-800">
+                                    <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"/></svg>
+                                    Teslimat günleri bölgeye göre değişir — ayrıntılar
+                                    <svg class="size-3.5 transition-transform duration-200" :class="openInfo ? 'rotate-180' : ''" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+                                </button>
+                                <div x-show="openInfo" x-cloak x-collapse
+                                     x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-1" x-transition:enter-end="opacity-100 translate-y-0"
+                                     class="mt-2 rounded-xl bg-leaf-50 border border-leaf-200 px-4 py-3 text-[13px] text-bark/80 leading-relaxed whitespace-pre-line">{{ $deliveryInfoNote }}</div>
+                            </div>
+                        @endif
                     </div>
                     <div>
                         <label class="block text-sm font-600 mb-1.5">Zaman Aralığı</label>
