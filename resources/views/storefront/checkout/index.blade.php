@@ -250,14 +250,13 @@
                 </div>
             </section>
 
-            {{-- Sözleşmeler --}}
-            <section class="rounded-2xl border border-paper bg-white p-5">
-                <label class="flex items-start gap-2 text-sm text-bark/80">
-                    <input type="checkbox" name="agree" value="1" class="mt-0.5 rounded border-paper text-leaf-600">
-                    <span><a href="{{ url('/sayfa/mesafeli-satis-sozlesmesi') }}" target="_blank" class="text-leaf-700 hover:underline">Mesafeli Satış Sözleşmesi</a> ve <a href="{{ url('/sayfa/on-bilgilendirme-formu') }}" target="_blank" class="text-leaf-700 hover:underline">Ön Bilgilendirme Formu</a>'nu okudum, onaylıyorum.</span>
-                </label>
-                @error('agree')<p class="mt-2 text-xs text-red-600">{{ $message }}</p>@enderror
-            </section>
+            {{-- Sözleşmeler (bilgilendirme — onay kutusu yok) --}}
+            <p class="text-xs text-bark/50 leading-relaxed px-1">
+                Siparişi tamamlayarak
+                <a href="{{ url('/sayfa/mesafeli-satis-sozlesmesi') }}" target="_blank" class="text-leaf-700 hover:underline">Mesafeli Satış Sözleşmesi</a>
+                ve <a href="{{ url('/sayfa/on-bilgilendirme-formu') }}" target="_blank" class="text-leaf-700 hover:underline">Ön Bilgilendirme Formu</a>'nu
+                okuduğunuzu ve kabul ettiğinizi onaylamış olursunuz.
+            </p>
         </div>
 
         {{-- Özet --}}

@@ -101,7 +101,7 @@ class CheckoutController extends Controller
             'delivery_zone' => ['nullable', 'string', 'max:120'],
             'payment_method' => ['required', 'string', 'in:' . implode(',', $available)],
             'note' => ['nullable', 'string', 'max:500'],
-            'agree' => ['accepted'],
+            'agree' => ['nullable'],
             'card_number' => ['nullable', 'string'],
         ];
 
