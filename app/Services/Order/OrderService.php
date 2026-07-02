@@ -189,6 +189,9 @@ class OrderService
                 'ip' => request()->ip(),
             ]);
 
+            // Kısa, akılda kalıcı sipariş no (havale/EFT açıklaması için) — otomatik artan id bazlı.
+            $order->forceFill(['order_number' => (string) (1000 + $order->id)])->save();
+
             foreach ($lines as $row) {
                 if ($row['type'] === 'bundle') {
                     // Hazır kutu kalemi (ürün/varyant bağı yok)
