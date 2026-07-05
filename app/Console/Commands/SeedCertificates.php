@@ -48,6 +48,7 @@ class SeedCertificates extends Command
                 [
                     'group' => $it['group'] ?? 'standart',
                     'description' => $it['description'] ?? null,
+                    'valid_until' => $it['valid_until'] ?? null,
                     'sort_order' => $it['sort_order'] ?? 0,
                     'is_active' => true,
                 ],
@@ -81,6 +82,19 @@ class SeedCertificates extends Command
                 if ($rel) {
                     $cert->image = $rel;
                     $cert->save();
+                }
+            }
+
+            // Opsiyonel PDF belgesi
+            if (! empty($it['pdf_url']) && ($this->option('reimages') || blank($cert->file))) {
+                $pdf = $this->download($it['pdf_url'], $it['referer'] ?? null);
+                if ($pdf !== null) {
+                    $relPdf = 'certificates/' . $it['key'] . '.pdf';
+                    $this->putBoth($relPdf, $pdf);
+                    $cert->file = $relPdf;
+                    $cert->save();
+                } else {
+                    $failed[] = $it['key'] . '(pdf)';
                 }
             }
         }
