@@ -33,25 +33,19 @@ class GeneralSettingsPage extends SettingsPage
                 Forms\Components\FileUpload::make('logo')
                     ->label('Logo')
                     ->image()
+                    ->disk('public')
                     ->directory('site')
-                    ->imageEditor()
-                    // Yüklemeden önce tarayıcıda küçült — büyük dosyada yükleme takılmasını önler
-                    ->imageResizeMode('contain')
-                    ->imageResizeUpscale(false)
-                    ->imageResizeTargetWidth('800')
-                    ->imageResizeTargetHeight('400')
-                    ->maxSize(8192)
-                    ->helperText('Şeffaf arka planlı PNG önerilir (yatay ~800×200). Büyük görseller otomatik küçültülür. Boş bırakılırsa yazı logosu kullanılır.'),
+                    ->visibility('public')
+                    ->maxSize(6144)
+                    ->helperText('Şeffaf arka planlı PNG önerilir (yatay ~800×200, en fazla 6 MB). Boş bırakılırsa yazı logosu kullanılır.'),
                 Forms\Components\FileUpload::make('favicon')
                     ->label('Favicon')
                     ->image()
+                    ->disk('public')
                     ->directory('site')
-                    ->imageResizeMode('contain')
-                    ->imageResizeUpscale(false)
-                    ->imageResizeTargetWidth('256')
-                    ->imageResizeTargetHeight('256')
-                    ->maxSize(4096)
-                    ->helperText('Tarayıcı sekmesi ikonu (kare .png önerilir). Büyük görseller otomatik küçültülür.'),
+                    ->visibility('public')
+                    ->maxSize(2048)
+                    ->helperText('Tarayıcı sekmesi ikonu (kare .png önerilir, en fazla 2 MB).'),
             ])->columns(2),
 
             Forms\Components\Section::make('Vitrin')->schema([
