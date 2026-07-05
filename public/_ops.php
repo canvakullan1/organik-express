@@ -132,6 +132,15 @@ if ($do === 'setup_site') {
     echo @shell_exec("cd $repo && $php artisan catalog:setup-site 2>&1");
     exit;
 }
+if ($do === 'purge_cat') {
+    // Belirli bir kategoriyi + urunlerini kalici sil (sabit komut, slug parametreli).
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(600);
+    $slug = preg_replace('/[^a-z0-9-]/', '', strtolower($_GET['slug'] ?? ''));
+    if ($slug === '') { exit("slug gerekli\n"); }
+    echo @shell_exec("cd $repo && $php artisan catalog:purge-category " . escapeshellarg($slug) . " 2>&1");
+    exit;
+}
 if ($do === 'cleanup_test') {
     // Yalnızca deneme ürünü temizleme komutu (sabit).
     if (! $php) { exit("php bulunamadi\n"); }
