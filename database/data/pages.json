@@ -20,16 +20,6 @@
         "content": "<p>İyi gıdanın iyi üreticiyle başladığına inanıyoruz. Organik Express olarak birlikte çalıştığımız çiftçi ve üreticileri; toprağa saygısı, üretim disiplini ve sertifikasyonu temelinde özenle seçiyoruz.</p><h2>Üretici Seçim İlkelerimiz</h2><ul><li><strong>Organik sertifika:</strong> Çalıştığımız üreticiler, yetkili kuruluşlarca verilmiş organik tarım sertifikasına sahiptir.</li><li><strong>İzlenebilirlik:</strong> Her ürünün hangi üreticiden, hangi koşullarda geldiği kayıt altındadır.</li><li><strong>Doğal üretim:</strong> Sentetik gübre, zirai ilaç ve hormon kullanılmayan; doğal döngülere saygılı üretim yöntemleri.</li><li><strong>Sürdürülebilirlik:</strong> Toprağı ve su kaynaklarını koruyan, gelecek nesilleri gözeten üretim anlayışı.</li></ul><h2>Şeffaflık Sözümüz</h2><p>Tedarik zincirimizin her halkasını açık tutmayı taahhüt ediyoruz. Üretici ağımızı sürekli genişletiyor ve değerlendiriyoruz; bu sayfada zaman içinde çalıştığımız üreticilerin hikâyelerini sizinle paylaşacağız.</p><p>Siz de organik üretim yapıyor ve bizimle çalışmak istiyorsanız <a href=\"/sayfa/iletisim\">İletişim</a> sayfamız üzerinden bize ulaşabilirsiniz.</p>"
     },
     {
-        "slug": "sertifikalar",
-        "title": "Sertifikalar ve Analizler",
-        "footer_group": "kurumsal",
-        "sort_order": 2,
-        "meta_title": "Sertifikalar ve Analizler | Organik Express",
-        "excerpt": "Organik sertifikalar ve analiz raporlarıyla güvenilirliğimizi belgeliyoruz.",
-        "meta_description": "Organik Express'in organik tarım sertifikaları ve ürün analizlerine ilişkin şeffaflık yaklaşımı. Kaynağı belli, belgeli organik gıda.",
-        "content": "<p>Güven, belgelerle başlar. Organik Express'te sunduğumuz ürünlerin organik niteliğini ve güvenilirliğini, ilgili sertifika ve analizlerle destekliyoruz.</p><h2>Organik Tarım Sertifikası</h2><p>Ürünlerimiz, yetkilendirilmiş kontrol ve sertifikasyon kuruluşları tarafından denetlenen üreticilerden tedarik edilir. Organik tarım mevzuatına uygun olarak üretilen ürünler, üretim aşamasından paketlemeye kadar belirli standartlara tabidir.</p><h2>Şeffaflık ve İzlenebilirlik</h2><ul><li>Ürünlerin kaynağı ve üreticisi kayıt altındadır.</li><li>Soğuk zincir gerektiren ürünler uygun koşullarda taşınır.</li><li>Talep hâlinde, ürün gruplarına ilişkin sertifika bilgilerini sizinle paylaşırız.</li></ul><h2>Bize Ulaşın</h2><p>Belirli bir ürünün sertifika veya analiz bilgisine ulaşmak isterseniz <a href=\"/sayfa/iletisim\">İletişim</a> kanallarımızdan bizimle iletişime geçebilirsiniz; en kısa sürede dönüş sağlarız.</p>"
-    },
-    {
         "slug": "sikca-sorulan-sorular",
         "title": "Sıkça Sorulan Sorular",
         "footer_group": "yardim",

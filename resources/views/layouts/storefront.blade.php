@@ -493,6 +493,7 @@
             <div class="mx-auto max-w-7xl px-4 py-5 text-xs text-leaf-400 flex flex-col sm:flex-row items-center justify-between gap-2">
                 <span>© {{ date('Y') }} {{ $general->site_name }}. Tüm hakları saklıdır.</span>
                 <span class="flex items-center gap-3">
+                    <a href="{{ route('certificates.index') }}" class="hover:text-white">Sertifikalar</a>
                     <a href="{{ route('producers.index') }}" class="hover:text-white">Üreticiler</a>
                     @if($seo->etbis_url)
                         <a href="{{ $seo->etbis_url }}" target="_blank" rel="noopener" class="inline-flex items-center gap-1 rounded-full border border-leaf-700 px-2.5 py-1 hover:text-white hover:border-leaf-500">

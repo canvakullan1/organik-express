@@ -56,6 +56,9 @@ class WritePages extends Command
         // Eski hatalı slug ile oluşmuş mükerrer sayfayı temizle
         Page::where('slug', 'sertifikalar-ve-analizler')->delete();
 
+        // 'sertifikalar' CMS sayfası kaldırıldı; tek sertifika sayfası /sertifikalar (CertificateController).
+        Page::where('slug', 'sertifikalar')->delete();
+
         $this->info("Sayfa: {$updated} güncellendi, {$created} oluşturuldu.");
 
         return self::SUCCESS;
