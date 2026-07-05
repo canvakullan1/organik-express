@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    @php
+        // Yüklenen görseller deploy'da silinmiş olabilir; dosya gerçekten varsa kullan, yoksa null'a düş.
+        $pub = \Illuminate\Support\Facades\Storage::disk('public');
+        $logoExists = $general->logo && $pub->exists($general->logo);
+        $logoUrl = $logoExists ? asset('storage/' . $general->logo) : null;
+        $faviconExists = $general->favicon && $pub->exists($general->favicon);
+        $ogImageUrl = ($seo->og_image && $pub->exists($seo->og_image))
+            ? asset('storage/' . $seo->og_image)
+            : ($logoUrl ?? '');
+    @endphp
+
     <title>@yield('title', ($seo->meta_title ?: $general->site_name))</title>
     <meta name="description" content="@yield('meta_description', $seo->meta_description ?: $general->tagline)">
 
     {{-- Favicon (admin panelinden yüklenebilir) --}}
-    @if($general->favicon)
+    @if($faviconExists)
         <link rel="icon" href="{{ asset('storage/' . $general->favicon) }}">
     @endif
 
@@ -21,7 +32,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:site_name" content="{{ $general->site_name }}">
-    <meta property="og:image" content="@yield('og_image', $seo->og_image ? asset('storage/' . $seo->og_image) : ($general->logo ? asset('storage/' . $general->logo) : ''))">
+    <meta property="og:image" content="@yield('og_image', $ogImageUrl)">
     <meta name="twitter:card" content="summary_large_image">
 
     {{-- Organization yapısal verisi (schema.org) --}}
@@ -31,7 +42,7 @@
             '@type' => 'Organization',
             'name' => $general->site_name,
             'url' => url('/'),
-            'logo' => $general->logo ? asset('storage/' . $general->logo) : null,
+            'logo' => $logoUrl,
             'description' => $general->tagline,
             'sameAs' => array_values(array_filter([$social->instagram, $social->facebook, $social->x, $social->youtube, $social->linkedin])),
         ]);
@@ -123,9 +134,6 @@
             <div class="mx-auto max-w-7xl px-4">
                 <div class="flex items-center gap-4 lg:gap-8 py-3">
                     {{-- Logo --}}
-                    @php
-                        $logoExists = $general->logo && \Illuminate\Support\Facades\Storage::disk('public')->exists($general->logo);
-                    @endphp
                     <a href="{{ route('home') }}" class="flex items-center gap-2 shrink-0">
                         @if($logoExists)
                             {{-- Yüklenmiş logo (dosya sunucuda gerçekten varsa). onerror ile ayrıca güvenli düşüş. --}}
@@ -392,8 +400,8 @@
 
         <div class="mx-auto max-w-7xl px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
             <div class="col-span-2 md:col-span-1">
-                @if($general->logo)
-                    <img src="{{ asset('storage/' . $general->logo) }}" alt="{{ $general->site_name }}" class="h-9 w-auto brightness-0 invert opacity-90">
+                @if($logoExists)
+                    <img src="{{ asset('storage/' . $general->logo) }}" alt="{{ $general->site_name }}" class="h-10 w-auto brightness-0 invert opacity-90">
                 @else
                     <span class="font-display text-2xl font-600 text-white">{{ $general->site_name }}<span class="text-clay-400">.</span></span>
                 @endif
