@@ -42,6 +42,35 @@ if ($do === 'ext') {
     echo 'PHP: ' . PHP_VERSION . "\n";
     exit;
 }
+if ($do === 'diag') {
+    // PHP yükleme limitleri
+    foreach (['file_uploads', 'upload_max_filesize', 'post_max_size', 'max_file_uploads', 'max_execution_time', 'max_input_time', 'memory_limit', 'upload_tmp_dir'] as $k) {
+        echo str_pad($k, 22) . ini_get($k) . "\n";
+    }
+    $tmp = ini_get('upload_tmp_dir') ?: sys_get_temp_dir();
+    echo str_pad('upload_tmp writable', 22) . (is_writable($tmp) ? 'EVET' : 'HAYIR <<<') . " ($tmp)\n";
+    echo str_pad('gd', 22) . (extension_loaded('gd') ? 'ACIK' : 'KAPALI <<<') . "\n";
+    // storage klasörleri
+    $dirs = [
+        'storage/app' => "$repo/storage/app",
+        'storage/app/private' => "$repo/storage/app/private",
+        'livewire-tmp' => "$repo/storage/app/private/livewire-tmp",
+        'storage/app/public' => "$repo/storage/app/public",
+        'framework/cache' => "$repo/storage/framework/cache",
+    ];
+    foreach ($dirs as $label => $path) {
+        $exists = is_dir($path);
+        $w = $exists ? (is_writable($path) ? 'yazilabilir' : 'YAZILAMAZ <<<') : 'YOK';
+        echo str_pad($label, 34) . ($exists ? "var, $w" : 'YOK <<<') . "\n";
+    }
+    // livewire-tmp oluşturmayı dene
+    $lw = "$repo/storage/app/private/livewire-tmp";
+    if (! is_dir($lw)) {
+        @mkdir($lw, 0775, true);
+        echo "livewire-tmp olusturuldu: " . (is_dir($lw) ? 'EVET' : 'HAYIR') . "\n";
+    }
+    exit;
+}
 if ($do === 'lsimg') {
     echo "public_html/storage: " . (is_link($publicStorage) ? 'symlink->' . readlink($publicStorage) : (is_dir($publicStorage) ? 'GERCEK-KLASOR' : 'YOK')) . "\n";
     echo "banners/photo-1.jpg: " . (file_exists("$publicStorage/banners/photo-1.jpg") ? 'VAR' : 'YOK') . "\n";
