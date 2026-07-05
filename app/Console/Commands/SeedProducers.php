@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Storage;
  */
 class SeedProducers extends Command
 {
-    protected $signature = 'producers:seed {--reimages : Mevcut görselleri de yeniden indir}';
+    protected $signature = 'producers:seed {--reimages : Mevcut görselleri de yeniden indir} {--prune : JSON dışındaki (demo) üreticileri sil}';
 
     protected $description = 'Üreticileri (Üreticilerimiz sayfası) JSON verisinden oluşturur/günceller';
 
@@ -76,6 +76,28 @@ class SeedProducers extends Command
         }
 
         $this->info("Üretici -> yeni: {$created}, güncellenen: {$updated}, görsel: {$images}");
+
+        // --prune: JSON'da olmayan (kurulumdan kalan demo) üreticileri kalıcı sil
+        if ($this->option('prune')) {
+            $keep = array_column($items, 'slug');
+            $stale = Producer::whereNotIn('slug', $keep)->get();
+            $pruned = 0;
+            foreach ($stale as $sp) {
+                if (! empty($sp->image)) {
+                    Storage::disk('public')->delete($sp->image);
+                    $repoFile = storage_path('app/public/' . $sp->image);
+                    if (is_file($repoFile)) {
+                        @unlink($repoFile);
+                    }
+                }
+                $sp->delete(); // products.producer_id FK -> nullOnDelete (güvenli)
+                $this->line("  silindi (demo): {$sp->slug}");
+                $pruned++;
+            }
+            $this->info("Silinen demo üretici: {$pruned}");
+        }
+
+        $this->info('Toplam üretici (DB): ' . Producer::count());
 
         return self::SUCCESS;
     }
