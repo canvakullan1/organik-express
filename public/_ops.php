@@ -63,6 +63,16 @@ if ($do === 'diag') {
         $w = $exists ? (is_writable($path) ? 'yazilabilir' : 'YAZILAMAZ <<<') : 'YOK';
         echo str_pad($label, 34) . ($exists ? "var, $w" : 'YOK <<<') . "\n";
     }
+    // public_html/.user.ini var mı
+    $ui = "$docroot/.user.ini";
+    echo str_pad('.user.ini (docroot)', 22) . (is_file($ui) ? 'VAR' : 'YOK <<<') . "\n";
+    if (is_file($ui)) {
+        foreach (file($ui, FILE_IGNORE_NEW_LINES) as $l) {
+            if (stripos($l, 'upload_max') !== false || stripos($l, 'post_max') !== false) {
+                echo '  ' . trim($l) . "\n";
+            }
+        }
+    }
     // livewire-tmp oluşturmayı dene
     $lw = "$repo/storage/app/private/livewire-tmp";
     if (! is_dir($lw)) {
