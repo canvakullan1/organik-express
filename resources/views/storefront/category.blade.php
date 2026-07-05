@@ -33,7 +33,7 @@
     <header class="mb-8">
         <h1 class="font-display text-3xl sm:text-4xl font-600 text-bark">{{ $category->name }}</h1>
         @if($category->description)
-            <p class="mt-2 text-bark/60 max-w-2xl">{{ $category->description }}</p>
+            <div class="prose prose-sm max-w-2xl mt-2 text-bark/60 prose-p:my-1">{!! $category->description !!}</div>
         @endif
     </header>
 
