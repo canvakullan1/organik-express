@@ -185,10 +185,11 @@ if ($do === 'deploy') {
     // index.php'yi repo konumunu isaret eden baslatici yap
     file_put_contents("$docroot/index.php", "<?php use Illuminate\\Foundation\\Application; use Illuminate\\Http\\Request; define('LARAVEL_START',microtime(true)); \$b='$repo'; if(file_exists(\$mm=\$b.'/storage/framework/maintenance.php'))require \$mm; require \$b.'/vendor/autoload.php'; (require_once \$b.'/bootstrap/app.php')->handleRequest(Request::capture());\n");
 
-    // STORAGE: symlink calismadigi icin GERCEK klasor + commit'li gorselleri kopyala
-    @shell_exec("rm -rf $publicStorage 2>&1");          // varsa symlink/eski klasoru kaldir
-    @mkdir($publicStorage, 0755, true);
-    echo @shell_exec("cp -R $repo/storage/app/public/. $publicStorage/ 2>&1");
+    // STORAGE: repo'daki tohum gorselleri public_html/storage'a BIRLESTIR.
+    // ONEMLI: rm -rf YOK — panelden yuklenen logo/favicon/urun gorselleri deploy'da SILINMEZ.
+    if (is_link($publicStorage)) { @unlink($publicStorage); }        // eski symlink varsa kaldir
+    if (! is_dir($publicStorage)) { @mkdir($publicStorage, 0755, true); }
+    echo @shell_exec("cp -R $repo/storage/app/public/. $publicStorage/ 2>&1"); // ustune yazar; admin dosyalarini korur
     @shell_exec("rm -f $publicStorage/.gitignore 2>&1");
 
     // Eski tek-seferlik deploy ucunu kaldir (artik _ops.php kullaniliyor)

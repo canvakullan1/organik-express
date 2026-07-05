@@ -125,13 +125,17 @@
                     {{-- Logo --}}
                     <a href="{{ route('home') }}" class="flex items-center gap-2 shrink-0">
                         @if($general->logo)
-                            <img src="{{ asset('storage/' . $general->logo) }}" alt="{{ $general->site_name }}" class="h-14 lg:h-16 w-auto max-w-[220px] object-contain">
-                        @else
-                            <span class="grid size-12 place-items-center rounded-xl bg-leaf-600 text-white">
-                                <svg class="size-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 0 0 0-18m0 18a9 9 0 0 1 0-18m0 18c2.5-2 4-5.5 4-9s-1.5-7-4-9m0 18c-2.5-2-4-5.5-4-9s1.5-7 4-9"/></svg>
-                            </span>
-                            <span class="font-display text-2xl sm:text-3xl font-700 text-leaf-800 leading-none tracking-tight">{{ $general->site_name }}</span>
+                            {{-- Yüklenmiş logo. Dosya bulunamazsa (404) otomatik olarak yazı-logoya düşer. --}}
+                            <img src="{{ asset('storage/' . $general->logo) }}" alt="{{ $general->site_name }}"
+                                 class="h-12 sm:h-14 lg:h-16 w-auto max-w-[180px] sm:max-w-[220px] object-contain"
+                                 onerror="this.remove(); document.getElementById('brand-fallback').classList.remove('hidden');">
                         @endif
+                        <span id="brand-fallback" class="flex items-center gap-2 {{ $general->logo ? 'hidden' : '' }}">
+                            <span class="grid size-11 sm:size-12 place-items-center rounded-xl bg-leaf-600 text-white shrink-0">
+                                <svg class="size-6 sm:size-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 0 0 0-18m0 18a9 9 0 0 1 0-18m0 18c2.5-2 4-5.5 4-9s-1.5-7-4-9m0 18c-2.5-2-4-5.5-4-9s1.5-7 4-9"/></svg>
+                            </span>
+                            <span class="font-display text-xl sm:text-2xl lg:text-3xl font-700 text-leaf-800 leading-none tracking-tight whitespace-nowrap">{{ $general->site_name }}</span>
+                        </span>
                     </a>
 
                     {{-- Arama (ortada, sınırlı genişlik) --}}

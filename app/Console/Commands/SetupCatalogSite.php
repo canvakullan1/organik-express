@@ -31,7 +31,7 @@ class SetupCatalogSite extends Command
         'et-tavuk' => ['Et & Tavuk', ['et-sarkuteri', 'hazir-yemek']],
         'bakkaliye' => ['Bakkaliye', ['bakliyat-makarna', 'baharat-aktar', 'sos-salca-sirke', 'firin-ekmek', 'kuruyemis-kurutulmus']],
         'icecek-atistirmalik' => ['İçecek & Atıştırmalık', ['icecek-cay', 'tatli-cikolata']],
-        'hediye-yasam' => ['Hediye & Yaşam', ['dogal-yasam-temizlik']],
+        'dogal-yasam-temizlik' => ['Doğal Yaşam & Temizlik', []],
     ];
 
     /** Anasayfada öne çıkacak ürünler (slug). */
