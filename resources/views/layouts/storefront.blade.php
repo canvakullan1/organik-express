@@ -401,7 +401,10 @@
         <div class="mx-auto max-w-7xl px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
             <div class="col-span-2 md:col-span-1">
                 @if($logoExists)
-                    <img src="{{ asset('storage/' . $general->logo) }}" alt="{{ $general->site_name }}" class="h-10 w-auto brightness-0 invert opacity-90">
+                    {{-- Renkli logo koyu zeminde bozulmasın diye header'daki gibi beyaz kart üstünde, doğal renklerle --}}
+                    <span class="inline-flex items-center rounded-xl bg-white px-4 py-2.5 shadow-sm ring-1 ring-black/5">
+                        <img src="{{ asset('storage/' . $general->logo) }}" alt="{{ $general->site_name }}" class="h-11 w-auto max-w-[200px] object-contain">
+                    </span>
                 @else
                     <span class="font-display text-2xl font-600 text-white">{{ $general->site_name }}<span class="text-clay-400">.</span></span>
                 @endif
