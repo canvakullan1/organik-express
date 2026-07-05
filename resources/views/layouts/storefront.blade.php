@@ -132,7 +132,7 @@
         {{-- Ana bar --}}
         <div class="bg-white border-b border-paper">
             <div class="mx-auto max-w-7xl px-4">
-                <div class="flex items-center gap-4 lg:gap-8 py-3">
+                <div class="flex items-center justify-between gap-4 lg:gap-8 py-3">
                     {{-- Logo --}}
                     <a href="{{ route('home') }}" class="flex items-center gap-2 shrink-0">
                         @if($logoExists)
