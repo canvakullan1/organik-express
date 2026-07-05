@@ -120,6 +120,14 @@ if ($do === 'fix_images') {
     echo @shell_exec("cd $repo && $php artisan products:fix-images$flags 2>&1");
     exit;
 }
+if ($do === 'seed_producers') {
+    // Üreticileri (Üreticilerimiz sayfası) JSON'dan içe aktar (sabit komut).
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(600);
+    $flags = (($_GET['reimages'] ?? '') === '1') ? ' --reimages' : '';
+    echo @shell_exec("cd $repo && $php artisan producers:seed$flags 2>&1");
+    exit;
+}
 if ($do === 'write_pages') {
     if (! $php) { exit("php bulunamadi\n"); }
     set_time_limit(300);

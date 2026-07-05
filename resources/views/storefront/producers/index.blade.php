@@ -32,7 +32,7 @@
                         <h2 class="font-display text-lg font-700 text-bark group-hover:text-leaf-700">{{ $producer->name }}</h2>
                         @if($producer->location)<p class="text-sm text-bark/50 flex items-center gap-1 mt-0.5"><svg class="size-3.5" fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>{{ $producer->location }}</p>@endif
                         @if($producer->short_description)<p class="mt-2 text-sm text-bark/60 line-clamp-2">{{ $producer->short_description }}</p>@endif
-                        <p class="mt-3 text-xs font-600 text-leaf-700">{{ $producer->products_count }} ürün →</p>
+                        <p class="mt-3 text-xs font-600 text-leaf-700">{{ $producer->products_count > 0 ? $producer->products_count . ' ürün' : 'Hikâyesini keşfet' }} →</p>
                     </div>
                 </a>
             @endforeach

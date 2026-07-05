@@ -140,8 +140,8 @@ class SetupCatalogSite extends Command
             }
         }
 
-        // 5) Katalogla eşleşmeyen demo üretici ve kutuları gizle (admin'den gerçekleri eklenebilir)
-        $prodOff = Producer::where('is_active', true)->update(['is_active' => false]);
+        // 5) Katalogla eşleşmeyen demo kutuları gizle. Üreticiler artık gerçek (Üreticilerimiz sayfası) — onlara DOKUNMA.
+        $prodOff = 0;
         $bundleOff = Bundle::where('is_active', true)->update(['is_active' => false]);
 
         // 6) Header menüsünü yeni kategorilere göre yeniden kur (eski/olmayan kategori linklerini temizler)

@@ -63,6 +63,27 @@ class ProducerResource extends Resource
                     ->columnSpanFull()
                     ->helperText('Şeffaflık ve güven için üretici hikâyesi.'),
 
+                Forms\Components\Repeater::make('videos')
+                    ->label('Tanıtım Videoları (YouTube)')
+                    ->schema([
+                        Forms\Components\TextInput::make('id')
+                            ->label('YouTube video ID veya linki')
+                            ->required()
+                            ->helperText('Örn: civG6SFTbl0 — tam link yapıştırırsan otomatik ayıklanır.')
+                            ->dehydrateStateUsing(function ($state) {
+                                if (preg_match('~(?:v=|youtu\.be/|embed/)([A-Za-z0-9_-]{11})~', (string) $state, $m)) {
+                                    return $m[1];
+                                }
+
+                                return trim((string) $state);
+                            }),
+                        Forms\Components\TextInput::make('title')->label('Başlık (opsiyonel)'),
+                    ])
+                    ->columns(2)
+                    ->collapsible()
+                    ->itemLabel(fn (array $state): ?string => $state['title'] ?? ($state['id'] ?? null))
+                    ->columnSpanFull(),
+
                 Forms\Components\TextInput::make('sort_order')->label('Sıra')->numeric()->default(0),
                 Forms\Components\Toggle::make('is_active')->label('Aktif')->default(true),
             ])->columns(2),
