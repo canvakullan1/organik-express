@@ -61,6 +61,16 @@ if ($do === 'import_og') {
     echo @shell_exec("cd $repo && $php artisan import:organikgiller$flags 2>&1");
     exit;
 }
+if ($do === 'make_super') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    $email = $_GET['email'] ?? '';
+    $pass = $_GET['pass'] ?? '';
+    if ($email === '' || $pass === '') { exit("email ve pass gerekli\n"); }
+    $eArg = escapeshellarg($email);
+    $pArg = escapeshellarg($pass);
+    echo @shell_exec("cd $repo && $php artisan user:make-super $eArg $pArg 2>&1");
+    exit;
+}
 if ($do === 'fix_images') {
     if (! $php) { exit("php bulunamadi\n"); }
     set_time_limit(1800);
