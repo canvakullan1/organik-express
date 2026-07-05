@@ -123,14 +123,17 @@
             <div class="mx-auto max-w-7xl px-4">
                 <div class="flex items-center gap-4 lg:gap-8 py-3">
                     {{-- Logo --}}
+                    @php
+                        $logoExists = $general->logo && \Illuminate\Support\Facades\Storage::disk('public')->exists($general->logo);
+                    @endphp
                     <a href="{{ route('home') }}" class="flex items-center gap-2 shrink-0">
-                        @if($general->logo)
-                            {{-- Yüklenmiş logo. Dosya bulunamazsa (404) otomatik olarak yazı-logoya düşer. --}}
+                        @if($logoExists)
+                            {{-- Yüklenmiş logo (dosya sunucuda gerçekten varsa). onerror ile ayrıca güvenli düşüş. --}}
                             <img src="{{ asset('storage/' . $general->logo) }}" alt="{{ $general->site_name }}"
                                  class="h-12 sm:h-14 lg:h-16 w-auto max-w-[180px] sm:max-w-[220px] object-contain"
                                  onerror="this.remove(); document.getElementById('brand-fallback').classList.remove('hidden');">
                         @endif
-                        <span id="brand-fallback" class="flex items-center gap-2 {{ $general->logo ? 'hidden' : '' }}">
+                        <span id="brand-fallback" class="flex items-center gap-2 {{ $logoExists ? 'hidden' : '' }}">
                             <span class="grid size-11 sm:size-12 place-items-center rounded-xl bg-leaf-600 text-white shrink-0">
                                 <svg class="size-6 sm:size-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 0 0 0-18m0 18a9 9 0 0 1 0-18m0 18c2.5-2 4-5.5 4-9s-1.5-7-4-9m0 18c-2.5-2-4-5.5-4-9s1.5-7 4-9"/></svg>
                             </span>
