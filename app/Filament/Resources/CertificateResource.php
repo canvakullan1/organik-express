@@ -31,7 +31,12 @@ class CertificateResource extends Resource
         return $form->schema([
             Forms\Components\Section::make()->schema([
                 Forms\Components\TextInput::make('name')->label('Sertifika Adı')->required()->placeholder('ECOCERT Organik Sertifikası'),
-                Forms\Components\TextInput::make('label')->label('Etiket')->placeholder('Organik, ISO 9001...'),
+                Forms\Components\TextInput::make('label')->label('Etiket / Sahip')->placeholder('Organik, ISO 9001 — ya da belge sahibi firma'),
+                Forms\Components\Select::make('group')->label('Bölüm')->options([
+                    'standart' => 'Standart (ürünlerimizin taşıdığı)',
+                    'tedarikci' => 'Üretici / Tedarikçi Belgesi',
+                ])->default('standart')->required()
+                    ->helperText('Tedarikçi belgelerinde "Etiket / Sahip" alanına belge sahibi firmayı yazın (ör. Elta-Ada).'),
                 Forms\Components\Textarea::make('description')->label('Açıklama')->rows(2)->columnSpanFull(),
                 Forms\Components\FileUpload::make('image')->label('Görsel / Logo')->image()->directory('certificates'),
                 Forms\Components\FileUpload::make('file')->label('Belge (PDF)')->directory('certificates')->acceptedFileTypes(['application/pdf', 'image/*']),

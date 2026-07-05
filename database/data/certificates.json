@@ -1,0 +1,135 @@
+[
+    {
+        "key": "std-organik-tarim",
+        "group": "standart",
+        "name": "Organik Tarım Sertifikası",
+        "label": "Organik",
+        "badge_color": "#2f7d20",
+        "sort_order": 1,
+        "description": "Sattığımız ürünler, T.C. Tarım ve Orman Bakanlığı'nca yetkilendirilmiş kuruluşlarca denetlenen organik tarım mevzuatına göre üretilir; sentetik gübre, pestisit ve GDO içermez, üretimden sofraya izlenebilir."
+    },
+    {
+        "key": "std-ecocert",
+        "group": "standart",
+        "name": "ECOCERT Organik Sertifikasyonu",
+        "label": "ECOCERT",
+        "badge_color": "#3f8f2e",
+        "sort_order": 2,
+        "description": "Uluslararası geçerliliğe sahip ECOCERT; üretim, işleme ve dağıtım süreçlerinin organik standartlara uygunluğunu bağımsız denetimle belgeler. Üretici ve tedarikçilerimizin birçoğu ECOCERT müteşebbis sertifikasına sahiptir."
+    },
+    {
+        "key": "std-iso-22000",
+        "group": "standart",
+        "name": "ISO 22000 Gıda Güvenliği Yönetimi",
+        "label": "ISO 22000",
+        "badge_color": "#b45a34",
+        "sort_order": 3,
+        "description": "Hammaddeden tüketiciye kadar gıda güvenliğini güvence altına alan uluslararası yönetim sistemi standardı. Tedarik zincirimizdeki işletmeler bu standarda göre denetlenir."
+    },
+    {
+        "key": "std-iso-9001",
+        "group": "standart",
+        "name": "ISO 9001 Kalite Yönetim Sistemi",
+        "label": "ISO 9001",
+        "badge_color": "#2b6cb0",
+        "sort_order": 4,
+        "description": "Süreçlerin tutarlılığını ve sürekli iyileştirmeyi esas alan kalite yönetim standardı; ürün ve hizmet kalitesinde ölçülebilir güvence sağlar."
+    },
+    {
+        "key": "std-iso-14001",
+        "group": "standart",
+        "name": "ISO 14001 Çevre Yönetim Sistemi",
+        "label": "ISO 14001",
+        "badge_color": "#2f855a",
+        "sort_order": 5,
+        "description": "Üretim ve işleme faaliyetlerinin çevresel etkilerini azaltmayı hedefleyen yönetim sistemi. Doğaya saygılı üretim ilkemizin uluslararası karşılığıdır."
+    },
+    {
+        "key": "std-helal",
+        "group": "standart",
+        "name": "Helal Gıda",
+        "label": "Helal",
+        "badge_color": "#1e7274",
+        "sort_order": 6,
+        "description": "İlgili ürün gruplarında helal gıda kriterlerine uygunluk; içerik ve üretim süreçlerinin şeffaf biçimde denetlenmesini kapsar."
+    },
+
+    {
+        "key": "sup-elta-ada-ecocert",
+        "group": "tedarikci",
+        "name": "ECOCERT Organik Müteşebbis Sertifikası",
+        "label": "Elta-Ada Organik Çiftlik",
+        "image_url": "https://elta-ada.com.tr/root-folder/wp-content/uploads/2024/02/m-s-1.jpg",
+        "referer": "https://elta-ada.com.tr/sertifikalarimiz/",
+        "sort_order": 11,
+        "description": "Gökçeada'daki üreticimiz Elta-Ada'nın organik üretim müteşebbis belgesi."
+    },
+    {
+        "key": "sup-elta-ada-ab-sut",
+        "group": "tedarikci",
+        "name": "AB Onaylı Süt Çiftliği Sertifikası",
+        "label": "Elta-Ada Organik Çiftlik",
+        "image_url": "https://elta-ada.com.tr/root-folder/wp-content/uploads/2024/02/onayli-sut-2024.jpg",
+        "referer": "https://elta-ada.com.tr/sertifikalarimiz/",
+        "sort_order": 12,
+        "description": "Süt üretiminin Avrupa Birliği standartlarına uygunluğunu belgeler."
+    },
+    {
+        "key": "sup-elta-ada-iso22000",
+        "group": "tedarikci",
+        "name": "ISO 22000 Gıda Güvenliği Sertifikası",
+        "label": "Elta-Ada Organik Çiftlik",
+        "image_url": "https://elta-ada.com.tr/root-folder/wp-content/uploads/2021/03/iso-2021-l-1.jpg",
+        "referer": "https://elta-ada.com.tr/sertifikalarimiz/",
+        "sort_order": 13,
+        "description": "İşletmenin gıda güvenliği yönetim sistemi belgesi."
+    },
+    {
+        "key": "sup-elta-ada-hastaliktan-ari",
+        "group": "tedarikci",
+        "name": "Hastalıktan Ari İşletme Sertifikası",
+        "label": "Elta-Ada Organik Çiftlik",
+        "image_url": "https://elta-ada.com.tr/root-folder/wp-content/uploads/2024/02/hastaliktan-ari-2024.jpg",
+        "referer": "https://elta-ada.com.tr/sertifikalarimiz/",
+        "sort_order": 14,
+        "description": "T.C. Tarım ve Orman Bakanlığı onaylı hayvan sağlığı belgesi."
+    },
+
+    {
+        "key": "sup-orvital-ecocert",
+        "group": "tedarikci",
+        "name": "ECOCERT Organik Müteşebbis Sertifikası",
+        "label": "Orvital Organik Gıda",
+        "image_url": "https://images.migrosone.com/tazedirekt/custom/orvitalsetitika-4a3b82ad.jpg",
+        "sort_order": 21,
+        "description": "Tedarikçimiz Orvital'in dağıtım, işleme ve ithalat faaliyetlerini kapsayan organik müteşebbis belgesi."
+    },
+
+    {
+        "key": "sup-sade-ecocert",
+        "group": "tedarikci",
+        "name": "ECOCERT Organik Sertifikası",
+        "label": "Sade Organik",
+        "image_url": "https://sadeorganik.com.tr/cdn/shop/files/Ekran_Resmi_2026-03-18_13.32.26.png?v=1773829952&width=1200",
+        "sort_order": 31,
+        "description": "Tedarikçimiz Sade Organik'in ECOCERT organik müteşebbis belgesi."
+    },
+    {
+        "key": "sup-sade-iso9001",
+        "group": "tedarikci",
+        "name": "ISO 9001:2015 Kalite Yönetim Sistemi",
+        "label": "Sade Organik",
+        "image_url": "https://sadeorganik.com.tr/cdn/shop/files/IQR-Kalite.png?v=1773829729&width=1200",
+        "sort_order": 32,
+        "description": "Kalite yönetim sistemi belgesi (IQR)."
+    },
+    {
+        "key": "sup-sade-iso14001",
+        "group": "tedarikci",
+        "name": "ISO 14001:2015 Çevre Yönetim Sistemi",
+        "label": "Sade Organik",
+        "image_url": "https://sadeorganik.com.tr/cdn/shop/files/IQR-Cevre.png?v=1773829776&width=1200",
+        "sort_order": 33,
+        "description": "Çevre yönetim sistemi belgesi (IQR)."
+    }
+]

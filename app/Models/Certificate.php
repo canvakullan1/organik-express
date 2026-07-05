@@ -9,7 +9,7 @@ class Certificate extends Model
     protected $table = 'site_certificates';
 
     protected $fillable = [
-        'name', 'label', 'description', 'image', 'file',
+        'name', 'label', 'group', 'description', 'image', 'file',
         'valid_until', 'is_active', 'sort_order',
     ];
 
