@@ -1,0 +1,144 @@
+{
+  "categories": [
+    {
+      "slug": "simit-pogaca",
+      "name": "Simit & Poğaça",
+      "sort_order": 12,
+      "meta_title": "Organik Simit & Poğaça | Siyez, Tam Buğday, Yarı Pişmiş",
+      "meta_description": "Organik unlardan simit, poğaça ve çörek çeşitleri. Siyezli ve tam buğdaylı, yarı pişmiş fırın taze seçenekler kapınıza gelsin.",
+      "description": "<p>Organik unlarla hazırlanan simit, poğaça ve çörek çeşitleri. Yarı pişmiş simitler fırınınızda dakikalar içinde taze pişer; poğaçalar günlük ve katkısız üretilir.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-pogaca-peynirli-80-gr-2-adet",
+      "category": "simit-pogaca",
+      "name": "Organik Peynirli Poğaça 2'li (80 gr)",
+      "slug": "organik-peynirli-pogaca-2-li",
+      "unit": "paket", "unit_amount": 1, "variant_name": "2 adet x 80 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Peynirli Poğaça 2'li | Tereyağlı & Günlük Taze",
+      "short_description": "Tereyağlı organik hamura doğal peynir dolgusu; günlük hazırlanan 2'li peynirli poğaça.",
+      "meta_description": "Organik peynirli poğaça 2'li paket. Tereyağlı, ekşi mayalı, doğal peynirli, katkısız. Günlük taze poğaça kapınıza gelsin.",
+      "storage_info": "Ağzı kapalı kapta oda sıcaklığında 1-2 gün, buzdolabında 4-5 gün saklanabilir. Tüketmeden önce fırında birkaç dakika ısıtın.",
+      "ingredients": "Organik buğday unu, tereyağı, yumurta, üzüm pekmezi, ekşi maya, tuz, peynir. Gluten, süt ürünleri ve yumurta içerir.",
+      "description": "<p>Günlük olarak, yüzde yüz organik malzemelerle hazırlanır: tereyağlı, ekşi mayalı hamurun içine doğal peynir dolgusu. Hamura katılan az miktarda üzüm pekmezi, poğaçaya hafif bir renk ve yumuşaklık verir; katkı maddesi kullanılmaz.</p><ul><li><strong>Doğal peynir</strong> dolgulu</li><li><strong>Tereyağlı</strong>, ekşi mayalı hamur</li><li>Günlük üretim, katkısız</li><li>2 adet x 80 gr porsiyon</li></ul><p><strong>Kullanım önerisi:</strong> Kahvaltıda çayın yanında ılık servis edin; beslenme çantası için pratik bir seçenektir.</p>"
+    },
+    {
+      "source_slug": "organik-pogaca-zeytinli-80-gr-2-adet",
+      "category": "simit-pogaca",
+      "name": "Organik Zeytinli Poğaça 2'li (80 gr)",
+      "slug": "organik-zeytinli-pogaca-2-li",
+      "unit": "paket", "unit_amount": 1, "variant_name": "2 adet x 80 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Zeytinli Poğaça 2'li | Tereyağlı & Günlük Taze",
+      "short_description": "Tereyağlı organik hamura zeytin dolgusu; günlük hazırlanan 2'li zeytinli poğaça.",
+      "meta_description": "Organik zeytinli poğaça 2'li paket. Tereyağlı, ekşi mayalı, zeytinli, katkısız. Günlük taze poğaça kapınıza gelsin.",
+      "storage_info": "Ağzı kapalı kapta oda sıcaklığında 1-2 gün, buzdolabında 4-5 gün saklanabilir. Tüketmeden önce fırında birkaç dakika ısıtın.",
+      "ingredients": "Organik buğday unu, tereyağı, yumurta, üzüm pekmezi, ekşi maya, tuz, zeytin. Gluten, süt ürünleri ve yumurta içerir.",
+      "description": "<p>Günlük hazırlanan tereyağlı, ekşi mayalı organik hamurun içinde zeytinin tuzlu, aromatik lezzeti. Yüzde yüz organik malzeme kullanılır; katkı maddesi ve koruyucu içermez.</p><ul><li><strong>Zeytin</strong> dolgulu</li><li><strong>Tereyağlı</strong>, ekşi mayalı hamur</li><li>Günlük üretim, katkısız</li><li>2 adet x 80 gr porsiyon</li></ul><p><strong>Kullanım önerisi:</strong> Kahvaltıda ya da ikindi çayında ılık olarak servis edin; domates ve salatalıkla hafif bir öğün olur.</p>"
+    },
+    {
+      "source_slug": "organik-sade-pogaca-80-gr-adet-2",
+      "category": "simit-pogaca",
+      "name": "Organik Sade Poğaça 2'li (80 gr)",
+      "slug": "organik-sade-pogaca-2-li",
+      "unit": "paket", "unit_amount": 1, "variant_name": "2 adet x 80 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Sade Poğaça 2'li | Yumuşak & Günlük Taze",
+      "short_description": "Yumuşacık iç dokusuyla günlük hazırlanan, katkısız 2'li sade poğaça.",
+      "meta_description": "Organik sade poğaça 2'li paket. Tereyağlı, ekşi mayalı, katkısız; yumuşacık dokulu. Günlük taze poğaça kapınıza gelsin.",
+      "storage_info": "Ağzı kapalı kapta oda sıcaklığında 1-2 gün, buzdolabında 4-5 gün saklanabilir. Tüketmeden önce fırında birkaç dakika ısıtın.",
+      "ingredients": "Organik buğday unu, tereyağı, yumurta, üzüm pekmezi, ekşi maya, tuz. Gluten, süt ürünleri ve yumurta içerir.",
+      "description": "<p>Gününüze taptaze bir başlangıç: yüzde yüz organik malzemelerle hazırlanan sade poğaça, yumuşacık iç yapısı ve tereyağı aromasıyla kahvaltıların klasiği. Katkı maddesi ve koruyucu içermez.</p><ul><li>Yumuşacık, <strong>tereyağlı</strong> hamur</li><li>Ekşi mayalı, günlük üretim</li><li>Katkısız, koruyucusuz</li><li>2 adet x 80 gr porsiyon</li></ul><p><strong>Kullanım önerisi:</strong> Sade hâliyle çay yanında; ortadan kesip beyaz peynir ve domatesle mini sandviç olarak da sunabilirsiniz.</p>"
+    },
+    {
+      "source_slug": "organik-siyez-aycekirdekli-simit-2-lu-yari-pismis-300-gr",
+      "category": "simit-pogaca",
+      "name": "Organik Siyez Ayçekirdekli Simit 2'li Yarı Pişmiş 300 gr",
+      "slug": "organik-siyez-aycekirdekli-simit-2-li-yari-pismis",
+      "unit": "paket", "unit_amount": 1, "variant_name": "2'li 300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyez Ayçekirdekli Simit 2'li | Yarı Pişmiş & Fırın Taze",
+      "short_description": "Siyez unlu, ayçekirdekli yarı pişmiş simit; fırınınızda dakikalar içinde çıtır çıtır pişer.",
+      "meta_description": "Organik siyez ayçekirdekli simit 2'li yarı pişmiş 300 gr. Ata buğdayı siyez, çıtır ayçekirdeği. Evde fırın taze simit keyfi.",
+      "storage_info": "Buzdolabında saklayın; uzun süre için derin dondurucuya alın. 220-250°C fırında 7-10 dakika pişirerek taze tüketin.",
+      "ingredients": "Organik siyez unu, tuz, su, ekşi maya, ayçekirdeği, zeytinyağı, tereyağı. Gluten ve süt ürünü içerir.",
+      "description": "<p>Özenle seçilmiş organik siyez unu ve çıtır ayçekirdekleriyle hazırlanan simitler, yarı pişmiş olarak paketlenir; kendi fırınınızda dakikalar içinde, ilk günün sıcaklığında pişer. Siyez unu, beyaz una göre daha lifli ve besleyicidir.</p><ul><li><strong>Yarı pişmiş</strong>: evde 7-10 dakikada fırın taze</li><li>Ata buğdayı <strong>siyez unu</strong></li><li>Çıtır <strong>ayçekirdekli</strong></li><li>2'li pratik paket (300 gr)</li></ul><p><strong>Kullanım önerisi:</strong> 220-250°C fırında 7-10 dakika pişirin; sıcak simidi beyaz peynir ve çayla klasik usul sunun.</p>"
+    },
+    {
+      "source_slug": "organik-siyez-aycekirdekli-simit-3-lu-yari-pismis-300-gr",
+      "category": "simit-pogaca",
+      "name": "Organik Siyez Ayçekirdekli Simit 3'lü Yarı Pişmiş 300 gr",
+      "slug": "organik-siyez-aycekirdekli-simit-3-lu-yari-pismis",
+      "unit": "paket", "unit_amount": 1, "variant_name": "3'lü 300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyez Ayçekirdekli Simit 3'lü | Yarı Pişmiş & Fırın Taze",
+      "short_description": "Siyez unlu, ayçekirdekli yarı pişmiş simit; 3'lü pakette, fırınınızda dakikalar içinde pişer.",
+      "meta_description": "Organik siyez ayçekirdekli simit 3'lü yarı pişmiş 300 gr. Ata buğdayı siyez, çıtır ayçekirdeği. Evde fırın taze simit keyfi.",
+      "storage_info": "Buzdolabında saklayın; uzun süre için derin dondurucuya alın. 220-250°C fırında 7-10 dakika pişirerek taze tüketin.",
+      "ingredients": "Organik siyez unu, tuz, su, ekşi maya, ayçekirdeği, zeytinyağı, tereyağı. Gluten ve süt ürünü içerir.",
+      "description": "<p>Organik siyez unundan mamul, ayçekirdekli simit; lifli yapısı ve besleyici özellikleriyle beyaz un yerine tercih edilen siyez, beyaz una göre çok daha az gluten içerir. Yarı pişmiş 3'lü paket, kalabalık kahvaltılar için pratiktir.</p><ul><li><strong>Yarı pişmiş</strong>: evde 7-10 dakikada fırın taze</li><li>Ata buğdayı <strong>siyez unu</strong>: lifli, besleyici</li><li>Çıtır <strong>ayçekirdekli</strong></li><li>3'lü aile paketi (300 gr)</li></ul><p><strong>Kullanım önerisi:</strong> Hafta sonu kahvaltısından hemen önce fırına verin; sıcak simit + kaşar + demli çay üçlüsü şaşmaz.</p>"
+    },
+    {
+      "source_slug": "organik-siyez-susamli-simit-2-lu-yari-pismis-300-gr",
+      "category": "simit-pogaca",
+      "name": "Organik Siyez Susamlı Simit 2'li Yarı Pişmiş 300 gr",
+      "slug": "organik-siyez-susamli-simit-2-li-yari-pismis",
+      "unit": "paket", "unit_amount": 1, "variant_name": "2'li 300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyez Susamlı Simit 2'li | Yarı Pişmiş & Fırın Taze",
+      "short_description": "Siyez unlu, bol susamlı yarı pişmiş simit; fırınınızda dakikalar içinde çıtır pişer.",
+      "meta_description": "Organik siyez susamlı simit 2'li yarı pişmiş 300 gr. Ata buğdayı siyez, bol susamlı. Evde fırın taze simit keyfi yaşayın.",
+      "storage_info": "Buzdolabında saklayın; uzun süre için derin dondurucuya alın. 220-250°C fırında 7-10 dakika pişirerek taze tüketin.",
+      "ingredients": "Organik siyez unu, tam buğday unu, tuz, su, ekşi maya, susam, zeytinyağı, tereyağı. Gluten, susam ve süt ürünü içerir.",
+      "description": "<p>Sokak simidinin bol susamlı klasik lezzeti, ata buğdayı siyezin besleyiciliğiyle evinizde. Yarı pişmiş olarak gelen simitler, fırınınızda dakikalar içinde çıtır kabuğuna kavuşur; katkı maddesi kullanılmaz.</p><ul><li><strong>Yarı pişmiş</strong>: evde 7-10 dakikada fırın taze</li><li>Ata buğdayı <strong>siyez</strong> + tam buğday unu</li><li><strong>Bol susamlı</strong> klasik kaplama</li><li>2'li pratik paket (300 gr)</li></ul><p><strong>Kullanım önerisi:</strong> Fırından çıkan sıcak simidi tereyağıyla açıp beyaz peynirle kapatın; İstanbul simitçisi keyfi evinizde.</p>"
+    },
+    {
+      "source_slug": "organik-siyez-susamli-simit-3-lu-yari-pismis-300-gr",
+      "category": "simit-pogaca",
+      "name": "Organik Siyez Susamlı Simit 3'lü Yarı Pişmiş 300 gr",
+      "slug": "organik-siyez-susamli-simit-3-lu-yari-pismis",
+      "unit": "paket", "unit_amount": 1, "variant_name": "3'lü 300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyez Susamlı Simit 3'lü | Yarı Pişmiş & Fırın Taze",
+      "short_description": "Siyez unlu, bol susamlı yarı pişmiş simit; 3'lü aile paketiyle fırınınızda taze pişer.",
+      "meta_description": "Organik siyez susamlı simit 3'lü yarı pişmiş 300 gr. Ata buğdayı siyez, bol susamlı. Aile boyu fırın taze simit keyfi.",
+      "storage_info": "Buzdolabında saklayın; uzun süre için derin dondurucuya alın. 220-250°C fırında 7-10 dakika pişirerek taze tüketin.",
+      "ingredients": "Organik siyez unu, tam buğday unu, tuz, su, ekşi maya, susam, zeytinyağı, tereyağı. Gluten, susam ve süt ürünü içerir.",
+      "description": "<p>Organik siyez unundan mamul, bol susamlı simidin 3'lü aile paketi. Siyez; lifli yapısı ve besleyici özellikleri nedeniyle beyaz un yerine önerilir, beyaz una göre çok daha az gluten içerir. Yarı pişmiş formatıyla her sabah taze simit mümkün.</p><ul><li><strong>Yarı pişmiş</strong>: evde 7-10 dakikada fırın taze</li><li>Ata buğdayı <strong>siyez unu</strong></li><li><strong>Bol susamlı</strong>, çıtır kabuk</li><li>3'lü aile paketi (300 gr)</li></ul><p><strong>Kullanım önerisi:</strong> Kahvaltı sofrasına fırından yeni çıkmış verin; kalanını akşam çayında ızgarada gevreterek değerlendirin.</p>"
+    },
+    {
+      "source_slug": "organik-tahinli-corek-200-gr",
+      "category": "simit-pogaca",
+      "name": "Organik Tahinli Çörek 200 gr",
+      "slug": "organik-tahinli-corek-200-gr",
+      "unit": "adet", "unit_amount": 1, "variant_name": "200 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tahinli Çörek 200 gr | Pekmezli & Geleneksel",
+      "short_description": "Tahin ve pekmezle katlanan geleneksel çörek; tereyağlı organik hamurla günlük hazırlanır.",
+      "meta_description": "Organik tahinli çörek 200 gr. Tahinli, pekmezli, tereyağlı; katkısız geleneksel çörek. Çay saatine taze gelsin.",
+      "storage_info": "Ağzı kapalı kapta oda sıcaklığında 2-3 gün saklanabilir. Tüketmeden önce hafifçe ısıtmanız tavsiye edilir.",
+      "ingredients": "Organik buğday unu, yumurta, tereyağı, karbonat, su, pekmez, zeytinyağı, tahin. Gluten, susam (tahin), süt ürünü ve yumurta içerir.",
+      "description": "<p>Anadolu'nun geleneksel tahinli çöreği: kat kat açılan tereyağlı organik hamurun arasına bolca tahin sürülür, pekmezle tatlandırılır. Rafine şeker yerine pekmezin doğal tatlılığını taşır; katkı maddesi kullanılmaz.</p><ul><li>Bol <strong>tahinli</strong>, kat kat dokulu</li><li><strong>Pekmezle</strong> tatlandırılmış, rafine şekersiz tarif</li><li>Tereyağlı organik hamur</li><li>Günlük üretim, katkısız</li></ul><p><strong>Kullanım önerisi:</strong> Çay ve kahve yanında dilimleyerek servis edin; hafif ısıtıldığında tahin aroması belirginleşir.</p>"
+    },
+    {
+      "source_slug": "organik-tam-bugday-aycekirdekli-simit-3-lu-yari-pismis-300-gr",
+      "category": "simit-pogaca",
+      "name": "Organik Tam Buğday Ayçekirdekli Simit 3'lü Yarı Pişmiş 300 gr",
+      "slug": "organik-tam-bugday-aycekirdekli-simit-3-lu-yari-pismis",
+      "unit": "paket", "unit_amount": 1, "variant_name": "3'lü 300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tam Buğday Ayçekirdekli Simit 3'lü | Yarı Pişmiş",
+      "short_description": "Tam buğday unlu, ayçekirdekli yarı pişmiş simit; 3'lü pakette fırınınızda taze pişer.",
+      "meta_description": "Organik tam buğday ayçekirdekli simit 3'lü yarı pişmiş 300 gr. Yüksek lifli, çıtır ayçekirdekli. Evde fırın taze simit.",
+      "storage_info": "Buzdolabında saklayın; uzun süre için derin dondurucuya alın. 220-250°C fırında 7-10 dakika pişirerek taze tüketin.",
+      "ingredients": "Organik tam buğday unu, tuz, su, ekşi maya, ayçekirdeği, zeytinyağı, tereyağı. Gluten ve süt ürünü içerir.",
+      "description": "<p>Tam buğday ununun lifli yapısı, ayçekirdeğinin çıtırtısıyla buluşuyor. Yarı pişmiş 3'lü paket; fırınınızda dakikalar içinde, simitçi fırını tazeliğinde pişer. Katkı maddesi kullanılmaz.</p><ul><li><strong>Yarı pişmiş</strong>: evde 7-10 dakikada fırın taze</li><li><strong>Tam buğday unu</strong>: yüksek lif</li><li>Çıtır <strong>ayçekirdekli</strong></li><li>3'lü aile paketi (300 gr)</li></ul><p><strong>Kullanım önerisi:</strong> Pişirdikten sonra ılıkken servis edin; söğüş domates, salatalık ve zeytinle hafif bir kahvaltı tabağı oluşturun.</p>"
+    },
+    {
+      "source_slug": "organik-tam-bugday-susamli-simit-3-lu-yari-pismis-300-gr",
+      "category": "simit-pogaca",
+      "name": "Organik Tam Buğday Susamlı Simit 3'lü Yarı Pişmiş 300 gr",
+      "slug": "organik-tam-bugday-susamli-simit-3-lu-yari-pismis",
+      "unit": "paket", "unit_amount": 1, "variant_name": "3'lü 300 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tam Buğday Susamlı Simit 3'lü | Yarı Pişmiş & Çıtır",
+      "short_description": "Tam buğday unlu, bol susamlı yarı pişmiş simit; dondurulmadan hazırlanır, fırınınızda taze pişer.",
+      "meta_description": "Organik tam buğday susamlı simit 3'lü yarı pişmiş 300 gr. Bol susamlı, yüksek lifli, dondurulmamış. Evde fırın taze simit.",
+      "storage_info": "Buzdolabında saklayın; uzun süre için derin dondurucuya alın. 220-250°C fırında 7-10 dakika pişirin; süre fırına göre değişebilir.",
+      "ingredients": "Organik tam buğday unu, buğday unu, tuz, su, ekşi maya, susam, zeytinyağı, tereyağı. Gluten, susam ve süt ürünü içerir.",
+      "description": "<p>Klasik susamlı simidin tam buğdaylı hâli; dondurulmuş ürün değildir, yarı pişmiş olarak taze gönderilir. 220-250°C fırında 7-10 dakikada altın rengi kabuğuna kavuşur; katkı maddesi kullanılmaz.</p><ul><li><strong>Dondurulmamış</strong>, yarı pişmiş taze ürün</li><li><strong>Tam buğday unu</strong>: yüksek lif</li><li><strong>Bol susamlı</strong> klasik kaplama</li><li>3'lü aile paketi (300 gr)</li></ul><p><strong>Kullanım önerisi:</strong> Fırın sıcaklığını 220-250°C'ye ayarlayıp 7-10 dakika pişirin; sıcak simidi kaşar ve çayla sunun.</p>"
+    }
+  ]
+}

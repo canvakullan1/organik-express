@@ -100,6 +100,19 @@ if ($do === 'import_og') {
     echo @shell_exec("cd $repo && $php artisan import:organikgiller$flags 2>&1");
     exit;
 }
+if ($do === 'import_eko') {
+    // Yalnızca ekotime+yumurta içe aktarma komutu (sabit, keyfi komut çalıştırmaz).
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(1800);
+    $flags = '';
+    if (($_GET['skipimg'] ?? '') === '1') { $flags .= ' --skip-images'; }
+    if (($_GET['status'] ?? '') === 'draft') { $flags .= ' --status=draft'; }
+    $lim = (int) ($_GET['limit'] ?? 0);
+    if ($lim > 0) { $flags .= ' --limit=' . $lim; }
+    if (($_GET['reimages'] ?? '') === '1') { $flags .= ' --reimages'; }
+    echo @shell_exec("cd $repo && $php artisan import:ekotime$flags 2>&1");
+    exit;
+}
 if ($do === 'make_super') {
     if (! $php) { exit("php bulunamadi\n"); }
     $email = $_GET['email'] ?? '';

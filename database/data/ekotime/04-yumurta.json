@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "slug": "yumurta",
+      "name": "Organik Yumurta",
+      "sort_order": 15,
+      "meta_title": "Organik Yumurta | Gezen Tavuk, Doğal Yemle",
+      "meta_description": "Doğal yemle beslenen, gezen tavuklardan organik yumurta. 10'lu ve 30'lu paket seçenekleriyle taze olarak kapınıza gelsin.",
+      "description": "<p>Açık alanda gezen, doğal yemle beslenen tavuklardan elde edilen organik yumurta. Antibiyotik ve hormon kullanılmadan üretilir; taze gönderilir.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "orvital-organik-yumurta-10lu-tazedirekt",
+      "category": "yumurta",
+      "name": "Orvital Organik Yumurta 10'lu (M Boy, 53-62 g)",
+      "slug": "orvital-organik-yumurta-10-lu-m-boy",
+      "unit": "paket", "unit_amount": 1, "variant_name": "10'lu M boy", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Orvital Organik Yumurta 10'lu M Boy | Gezen Tavuk & Sertifikalı",
+      "short_description": "Serbest gezen, GDO'suz organik yemle beslenen tavuklardan 10'lu M boy (53-62 g) organik yumurta.",
+      "meta_description": "Orvital organik yumurta 10'lu M boy 53-62 g. Gezen tavuk, GDO'suz organik yem, 0 kodlu sertifikalı yumurta kapınıza gelsin.",
+      "storage_info": "Satın aldıktan sonra buzdolabında, serin ve kuru ortamda muhafaza edin. Son tüketim tarihine dikkat edin.",
+      "ingredients": "Organik yumurta (0 kodlu). Alerjen: yumurta.",
+      "description": "<p>Orvital organik yumurtalar, açık alanda serbest ve stressiz gezen, GDO'suz organik yemle beslenen tavuklardan elde edilir. Kabuğundaki \"0\" kodu, organik üretimin resmî işaretidir; işletme kayıt numarası TR-55-0166 ile izlenebilir.</p><ul><li><strong>0 kodlu</strong> sertifikalı organik yumurta</li><li>Açık alanda <strong>serbest gezen tavuk</strong></li><li><strong>GDO'suz organik yem</strong>, antibiyotiksiz üretim</li><li>10'lu paket, M boy (53-62 g)</li></ul><p><strong>Kullanım önerisi:</strong> Turuncu-sarı kıvamlı sarısıyla kahvaltılık haşlamadan pastacılığa her tarifte kullanın.</p>"
+    },
+    {
+      "source_slug": "aoc-organik-yumurta-10lu-m-tazedirekt",
+      "category": "yumurta",
+      "name": "Atatürk Orman Çiftliği Organik Yumurta 10'lu (M Boy, 53-63 g)",
+      "slug": "ataturk-orman-ciftligi-organik-yumurta-10-lu-m-boy",
+      "unit": "paket", "unit_amount": 1, "variant_name": "10'lu M boy", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Atatürk Orman Çiftliği Organik Yumurta 10'lu M Boy | A Sınıfı",
+      "short_description": "Atatürk Orman Çiftliği güvencesiyle, organik tarım yöntemlerine göre üretilmiş A sınıfı 10'lu M boy yumurta.",
+      "meta_description": "Atatürk Orman Çiftliği organik yumurta 10'lu M boy 53-63 g. A sınıfı, organik tarım yöntemiyle üretilmiş; taze kapınıza gelsin.",
+      "storage_info": "Satın aldıktan sonra buzdolabında, serin ve kuru ortamda muhafaza edin. Son tüketim tarihine dikkat edin.",
+      "ingredients": "Organik yumurta (A sınıfı). Alerjen: yumurta.",
+      "description": "<p>Köklü Atatürk Orman Çiftliği markasının, organik tarım yöntemlerine göre üretilmiş A sınıfı organik yumurtası. Yerli üretimdir; tavuklar organik yemle beslenir ve doğal koşullarda yetiştirilir.</p><ul><li><strong>Atatürk Orman Çiftliği</strong> güvencesi</li><li><strong>A sınıfı</strong>, organik tarım sertifikalı</li><li>Yerli üretim, organik yem</li><li>10'lu paket, M boy (53-63 g)</li></ul><p><strong>Kullanım önerisi:</strong> Sahanda, çılbırda ya da ev yapımı sucuklu yumurtada; kekten omlete her tarifin temel malzemesi.</p>"
+    },
+    {
+      "source_slug": "raya-organik-8li-m-yumurta-migros",
+      "category": "yumurta",
+      "name": "Raya Organik Yumurta 8'li (M Boy, 53-62 g)",
+      "slug": "raya-organik-yumurta-8-li-m-boy",
+      "unit": "paket", "unit_amount": 1, "variant_name": "8'li M boy", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Raya Organik Yumurta 8'li M Boy | 0 Kodlu & Doğal",
+      "short_description": "0 kodlu organik tavuk yumurtası; 8'li M boy (53-62 g) pakette, küçük haneler için ideal.",
+      "meta_description": "Raya organik yumurta 8'li M boy 53-62 g. 0 kodlu sertifikalı organik tavuk yumurtası taze olarak kapınıza gelsin.",
+      "storage_info": "Satın aldıktan sonra buzdolabında, serin ve kuru ortamda muhafaza edin. Son tüketim tarihine dikkat edin.",
+      "ingredients": "Organik yumurta (0 kodlu). Alerjen: yumurta.",
+      "description": "<p>Raya organik yumurtalar, kabuğundaki \"0\" koduyla belgelenen organik üretimden gelir: tavuklar açık alanda gezer, organik yemle beslenir. 8'li paket, küçük haneler ve düzenli taze tüketim için ideal boydur.</p><ul><li><strong>0 kodlu</strong> sertifikalı organik yumurta</li><li>Gezen tavuk, <strong>organik yem</strong></li><li>Yerli üretim</li><li><strong>8'li</strong> paket, M boy (53-62 g)</li></ul><p><strong>Kullanım önerisi:</strong> Haftalık taze tüketim için ideal boy; kahvaltılık klasiklerden menemene her kullanıma uygun.</p>"
+    }
+  ]
+}

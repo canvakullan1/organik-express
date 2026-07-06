@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "slug": "bakliyat-makarna",
+      "name": "Bakliyat, Makarna & Tahıl",
+      "sort_order": 5,
+      "meta_title": "Organik Bakliyat & Makarna | Mercimek, Nohut, Bulgur",
+      "meta_description": "Organik mercimek, nohut, börülce, bulgur, pirinç ve tam buğday makarna. Katkısız, doğal kuru gıdalar kapınıza gelsin.",
+      "description": "<p>Organik tarımla yetiştirilen bakliyat, tahıl ve makarna çeşitleri. Sentetik gübre ve zirai ilaç kullanılmadan üretilen, katkısız kuru gıdalar.</p>"
+    }
+  ],
+  "products": [
+    {
+      "source_slug": "organik-beyaz-eriste-350-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Beyaz Erişte 350 gr",
+      "slug": "organik-beyaz-eriste-350-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "350 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Beyaz Erişte 350 gr | Ev Usulü & Yumurtalı",
+      "short_description": "Sertifikalı organik buğday unu ve yumurtayla ev usulü kesilen, katkısız beyaz erişte.",
+      "meta_description": "Organik beyaz erişte 350 gr. Organik buğday unu, yumurta, katkısız; ev usulü kesim. Anne eriştesi tadı kapınıza gelsin.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı şekilde saklayın. Nemden uzak tutun.",
+      "ingredients": "Organik buğday unu, yumurta, tuz, su. Gluten ve yumurta içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Sertifikalı organik buğday unu ve taze yumurtayla yoğrulan hamur, geleneksel yöntemle açılır, özenle kesilir ve doğal yolla kurutulur. Katkı maddesi kullanılmaz; anne eriştesinin o bildik, ev yapımı tadını sofranıza getirir.</p><ul><li>Organik buğday unu + <strong>yumurtalı</strong> ev usulü hamur</li><li>Geleneksel <strong>el kesimi</strong> görünüm ve doku</li><li>Katkısız, koruyucusuz</li><li>Haşlanınca dağılmaz, sos tutar</li></ul><p><strong>Kullanım önerisi:</strong> Bol kaynar tuzlu suda 8-10 dakika haşlayın; tereyağı ve cevizle klasik Anadolu usulü servis edin.</p>"
+    },
+    {
+      "source_slug": "organik-burgu-makarna-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Burgu Makarna 500 gr",
+      "slug": "organik-burgu-makarna-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Burgu Makarna 500 gr | Sert Buğday & Katkısız",
+      "short_description": "Yüzde yüz organik sert buğday unundan üretilen, sos tutan klasik burgu makarna.",
+      "meta_description": "Organik burgu makarna 500 gr. %100 organik sert buğday, katkısız, geleneksel üretim. Aile boyu makarna keyfi taze gelsin.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı şekilde saklayın. Nemden uzak tutun.",
+      "ingredients": "Organik sert buğday unu (durum), su. Gluten içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Kimyasal gübre ve pestisit kullanılmadan yetiştirilen yüzde yüz organik sert buğdaydan, geleneksel yöntemlerle üretilir. Burgu formunun kıvrımları sosu mükemmel tutar; doğal aroması ve besleyici değerleri korunmuştur.</p><ul><li>%100 <strong>organik sert buğday</strong> (durum)</li><li>Sos tutan klasik <strong>burgu formu</strong></li><li>Katkısız, geleneksel üretim</li><li>Lif açısından zengin, doyurucu</li></ul><p><strong>Kullanım önerisi:</strong> Domates soslu klasiklerden fırın makarnaya her tarife uyar; salata için haşlayıp soğutarak da kullanabilirsiniz.</p>"
+    },
+    {
+      "source_slug": "organik-kalem-makarna-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Kalem Makarna 500 gr",
+      "slug": "organik-kalem-makarna-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Kalem Makarna 500 gr | Sert Buğday & Katkısız",
+      "short_description": "Organik sert buğday unundan üretilen, fırın yemeklerinin klasiği kalem (penne) makarna.",
+      "meta_description": "Organik kalem makarna 500 gr. Organik sert buğday, katkısız. Penne klasikleri ve fırın makarnalar için taze gelsin.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı şekilde saklayın. Nemden uzak tutun.",
+      "ingredients": "Organik sert buğday unu (durum), su. Gluten içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Organik sert buğday unundan üretilen kalem (penne) makarna; eğik kesim uçları ve orta boy silindir formuyla sosu içine hapseder. Katkı maddesi ve koruyucu kullanılmaz.</p><ul><li>Organik <strong>sert buğday</strong> unu</li><li>Sosu içine alan <strong>kalem formu</strong></li><li>Katkısız, koruyucusuz</li><li>Pişince formunu korur</li></ul><p><strong>Kullanım önerisi:</strong> Penne arabiata, kremalı mantarlı soslar ve fırın makarna için idealdir; al dente için haşlama süresini 1 dakika kısaltın.</p>"
+    },
+    {
+      "source_slug": "organik-siyez-bugday-corbalik-eriste-400-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Siyez Buğday Çorbalık Erişte 400 gr",
+      "slug": "organik-siyez-bugday-corbalik-eriste-400-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyez Çorbalık Erişte 400 gr | Ata Buğdayı & Yumurtalı",
+      "short_description": "Ata buğdayı siyez unu ve yumurtayla hazırlanan, çorbalara besleyicilik katan ince kesim erişte.",
+      "meta_description": "Organik siyez buğday çorbalık erişte 400 gr. Ata buğdayı siyez, yumurtalı, katkısız. Çorbalarınıza doğal lezzet katın.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı şekilde saklayın. Nemden uzak tutun.",
+      "ingredients": "Organik siyez buğday unu, yumurta, tuz, su. Gluten ve yumurta içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Organik tarım sertifikalı siyez buğdayından, yumurtalı hamurla geleneksel yöntemle hazırlanan ince kesim çorbalık erişte. Katkı maddesi ve koruyucu içermez; çorbalara doğal lezzet ve besleyicilik katar.</p><ul><li>Ata buğdayı <strong>siyez</strong>: zengin mineral profili</li><li>İnce kesim <strong>çorbalık</strong> boy</li><li>Yumurtalı ev usulü hamur</li><li>Katkısız, koruyucusuz</li></ul><p><strong>Kullanım önerisi:</strong> Tavuk suyu çorbalara son 5 dakikada ekleyin; yoğurtlu erişte çorbası (Anadolu usulü) için de birebir.</p>"
+    },
+    {
+      "source_slug": "organik-siyez-eriste-350-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Siyez Erişte 350 gr",
+      "slug": "organik-siyez-eriste-350-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "350 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Siyez Erişte 350 gr | Ata Buğdayı & Ev Usulü",
+      "short_description": "Ata buğdayı siyez unundan ev usulü kesilen, yemeklik boy organik erişte.",
+      "meta_description": "Organik siyez erişte 350 gr. Ata buğdayı siyez unu, ev usulü kesim, katkısız. Besleyici erişte sofranıza taze gelsin.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı şekilde saklayın. Nemden uzak tutun.",
+      "ingredients": "Organik siyez unu, yumurta, tuz, su. Gluten ve yumurta içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Anadolu'nun 10.000 yıllık tahılı siyezden, ev usulü hazırlanan yemeklik erişte. Siyez; modern buğdaya göre daha yüksek protein ve mineral içeriğiyle bilinir, düşük glisemik indekslidir. Katkı maddesi kullanılmadan üretilir.</p><ul><li>Ata buğdayı <strong>siyez unu</strong></li><li>Ev usulü kesim, doğal kurutma</li><li>Katkısız, koruyucusuz</li><li>Protein ve mineral açısından zengin</li></ul><p><strong>Kullanım önerisi:</strong> Haşlayıp tereyağında çevirin; üzerine ceviz ve lor peyniri serpiştirerek servis edin.</p>"
+    },
+    {
+      "source_slug": "organik-tam-bugday-corbalik-eriste-400-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Tam Buğday Çorbalık Erişte 400 gr",
+      "slug": "organik-tam-bugday-corbalik-eriste-400-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "400 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tam Buğday Çorbalık Erişte 400 gr | İnce Kesim",
+      "short_description": "Tam buğday unuyla hazırlanan, çorbalar için ince kesim yumurtalı organik erişte.",
+      "meta_description": "Organik tam buğday çorbalık erişte 400 gr. İnce kesim, yumurtalı, yüksek lifli, katkısız. Çorbalara besleyici dokunuş.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı şekilde saklayın. Nemden uzak tutun.",
+      "ingredients": "Organik tam buğday unu, yumurta, tuz, su. Gluten ve yumurta içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Organik tam buğday unu ve yumurtayla hazırlanan ince kesim çorbalık erişte. Tam buğdayın lifi ve doygun aromasıyla çorbalarınızı hem lezzetlendirir hem besleyici kılar; katkı maddesi içermez.</p><ul><li><strong>Tam buğday unu</strong>: yüksek lif</li><li>İnce kesim <strong>çorbalık</strong> boy</li><li>Yumurtalı hamur, katkısız</li><li>Çabuk pişer, çorbada dağılmaz</li></ul><p><strong>Kullanım önerisi:</strong> Sebzeli kış çorbalarına son 5 dakikada bir avuç ekleyin; sütlü erişte tatlısında da kullanılabilir.</p>"
+    },
+    {
+      "source_slug": "organik-tam-bugday-eriste-350-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Tam Buğday Erişte 350 gr",
+      "slug": "organik-tam-bugday-eriste-350-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "350 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tam Buğday Erişte 350 gr | Yumurtalı & Yüksek Lif",
+      "short_description": "Tam buğday unu ve yumurtayla ev usulü kesilen, yemeklik boy organik erişte.",
+      "meta_description": "Organik tam buğday erişte 350 gr. Yumurtalı, yüksek lifli, katkısız; ev usulü kesim. Sağlıklı erişte sofranıza gelsin.",
+      "storage_info": "Serin, kuru ve ışık almayan bir yerde, ağzı kapalı şekilde saklayın. Nemden uzak tutun.",
+      "ingredients": "Organik tam buğday unu, yumurta, tuz, su. Gluten ve yumurta içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Çorbalarda, sulu yemeklerde veya tek başına makarna gibi tüketebileceğiniz tam buğdaylı erişte; hem sağlıklı hem lezzet dolu bir seçenek. Tam buğday unu ve yumurtayla ev usulü hazırlanır, katkı maddesi kullanılmaz.</p><ul><li><strong>Tam buğday unu</strong>: lif ve B vitamini kaynağı</li><li>Yumurtalı ev usulü hamur</li><li>Katkısız, koruyucusuz</li><li>Makarna gibi tek başına da tüketilir</li></ul><p><strong>Kullanım önerisi:</strong> Haşladıktan sonra tereyağında kavurun; peynir rendesi ve maydanozla ana öğün olarak servis edin.</p>"
+    },
+    {
+      "source_slug": "organik-tam-bugday-manti-500-gr",
+      "category": "bakliyat-makarna",
+      "name": "Organik Tam Buğday Mantı 500 gr",
+      "slug": "organik-tam-bugday-manti-500-gr",
+      "unit": "paket", "unit_amount": 1, "variant_name": "500 gr", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Organik Tam Buğday Mantı 500 gr | El Yapımı & Katkısız",
+      "short_description": "Tam buğday unlu hamuruyla el yapımı organik mantı; katkısız, doyurucu bir ana öğün.",
+      "meta_description": "Organik tam buğday mantı 500 gr. El yapımı, tam buğday hamuru, katkısız. Yoğurtlu mantı keyfi için kapınıza gelsin.",
+      "storage_info": "Derin dondurucuda (-18°C) saklayın. Çözdürmeden, doğrudan kaynar suda pişirin.",
+      "ingredients": "Organik tam buğday unu, yumurta, su, tuz ve iç harcı. Gluten ve yumurta içerir; gluten içeren ürünlerin işlendiği ortamda üretilmiştir.",
+      "description": "<p>Tam buğday unlu hamuruyla tek tek el emeğiyle kapatılan organik mantı. Katkı maddesi ve koruyucu kullanılmaz; tam buğdayın lifli yapısı sayesinde klasik mantıdan daha doyurucu ve dengelidir.</p><ul><li><strong>El yapımı</strong>, tek tek kapatılmış</li><li><strong>Tam buğday</strong> hamuru: yüksek lif</li><li>Katkısız, koruyucusuz</li><li>500 gr; 3-4 porsiyon</li></ul><p><strong>Kullanım önerisi:</strong> Kaynar tuzlu suda pişirin; sarımsaklı yoğurt ve kızdırılmış tereyağına pul biber ekleyerek klasik usul servis edin.</p>"
+    }
+  ]
+}
