@@ -4,7 +4,8 @@
 
 @section('content')
 @php
-    $threshold = app(\App\Settings\GeneralSettings::class)->free_shipping_threshold ?: 750;
+    $threshold = app(\App\Settings\GeneralSettings::class)->free_shipping_threshold ?: 3750;
+    $shipCost = app(\App\Settings\CheckoutSettings::class)->shipping_cost ?: 500;
     $remaining = max(0, $threshold - $subtotal);
     $progress = min(100, $subtotal / $threshold * 100);
 @endphp
@@ -29,6 +30,7 @@
                 <div class="rounded-2xl border border-leaf-100 bg-leaf-50/50 p-4">
                     @if($remaining > 0)
                         <p class="text-sm text-bark/70">Kargo bedava için <strong class="text-leaf-700 tnum">₺{{ number_format($remaining, 2, ',', '.') }}</strong> daha ekleyin.</p>
+                        <p class="mt-0.5 text-xs text-bark/50">{{ number_format($threshold, 0, ',', '.') }} TL altındaki siparişlerde {{ number_format($shipCost, 0, ',', '.') }} TL kargo ücreti uygulanır.</p>
                     @else
                         <p class="text-sm text-leaf-700 font-600 flex items-center gap-1.5">
                             <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>

@@ -231,7 +231,7 @@
 
             {{-- Buton altı güven satırı --}}
             <ul class="mt-5 space-y-2 text-sm text-bark/70">
-                <li class="flex items-center gap-2"><svg class="size-4 text-leaf-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>{{ number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") }} TL üzeri ücretsiz kargo</li>
+                <li class="flex items-center gap-2"><svg class="size-4 text-leaf-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>{{ number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") }} TL üzeri ücretsiz kargo (altında {{ number_format(app(\App\Settings\CheckoutSettings::class)->shipping_cost,0,",",".") }} TL)</li>
                 <li class="flex items-center gap-2"><svg class="size-4 text-leaf-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>Güvenli paketleme ve soğuk zincir</li>
                 <li class="flex items-center gap-2"><svg class="size-4 text-leaf-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5"/></svg>3D Secure ile güvenli ödeme</li>
             </ul>
@@ -276,9 +276,9 @@
                 <div x-show="tab==='delivery'" x-cloak>
                     <ul>
                         <li>Siparişiniz seçtiğiniz teslimat gününe göre hazırlanır; taze ürünlerde soğuk zincir korunur.</li>
-                        <li>{{ number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") }} TL ve üzeri siparişlerde kargo ücretsizdir.</li>
-                        <li>Standart ürünlerde 14 gün içinde cayma hakkınız vardır.</li>
-                        <li>Çabuk bozulan/taze gıdalarda cayma hakkının niteliği <a href="{{ url('/sayfa/iptal-iade-kosullari') }}" class="text-leaf-700">İptal &amp; İade</a> sayfamızda açıklanmıştır.</li>
+                        <li>{{ number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") }} TL ve üzeri siparişlerde kargo ücretsizdir; bu tutarın altındaki siparişlerde {{ number_format(app(\App\Settings\CheckoutSettings::class)->shipping_cost,0,",",".") }} TL kargo ücreti uygulanır.</li>
+                        <li>Ürünlerimiz çabuk bozulabilen gıda niteliğinde olduğundan, mevzuat gereği bu ürünlerde cayma hakkı/iade kabul edilmez.</li>
+                        <li>Yalnızca ayıplı, hasarlı veya yanlış gelen ürünlerde yasal haklarınız saklıdır; ayrıntılar <a href="{{ url('/sayfa/iptal-iade-kosullari') }}" class="text-leaf-700">İptal &amp; İade</a> sayfamızda.</li>
                     </ul>
                 </div>
             </div>

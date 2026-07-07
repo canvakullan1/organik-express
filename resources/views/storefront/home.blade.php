@@ -361,8 +361,8 @@
             @foreach([
                 ['Ürünleriniz gerçekten organik mi?', 'Tüm organik ürünlerimiz akredite kuruluşlardan sertifikalıdır; pestisit analiz raporları ve sertifika numaraları ürün sayfalarında paylaşılır. Şeffaflık önceliğimizdir.'],
                 ['Teslimat ne kadar sürer?', 'Siparişiniz seçtiğiniz teslimat gününe göre hazırlanır. Taze ürünlerde soğuk zincir korunur. Kargo durumunu Hesabım > Siparişlerim üzerinden takip edebilirsiniz.'],
-                ['Kargo ücreti ne kadar?', number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") . ' TL ve üzeri siparişlerde kargo ücretsizdir. Altındaki siparişlerde sabit kargo ücreti uygulanır.'],
-                ['İade ve cayma hakkım var mı?', 'Standart ürünlerde 14 gün içinde cayma hakkınız vardır. Çabuk bozulan/taze gıdalarda cayma hakkının niteliği İptal & İade sayfamızda açıklanmıştır.'],
+                ['Kargo ücreti ne kadar?', number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") . ' TL ve üzeri siparişlerde kargo ücretsizdir. Bu tutarın altındaki siparişlerde ' . number_format(app(\App\Settings\CheckoutSettings::class)->shipping_cost,0,",",".") . ' TL kargo ücreti uygulanır.'],
+                ['İade ve cayma hakkım var mı?', 'Ürünlerimiz çabuk bozulabilen gıda niteliğinde olduğundan, mevzuat gereği bu ürünlerde cayma hakkı/iade kabul edilmez. Yalnızca ayıplı, hasarlı veya yanlış gelen ürünlerde yasal haklarınız saklıdır; ayrıntılar İptal & İade sayfamızda.'],
                 ['Hangi ödeme yöntemlerini kabul ediyorsunuz?', 'Kredi/banka kartı (3D Secure ile iyzico ve PayTR) ve havale/EFT ile ödeme yapabilirsiniz.'],
             ] as $idx => [$q, $a])
                 <div class="rounded-xl border border-paper bg-white overflow-hidden">
