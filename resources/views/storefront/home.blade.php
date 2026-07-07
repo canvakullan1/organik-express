@@ -105,7 +105,7 @@
                 ['M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z', '%100 Doğal & Sertifikalı', 'Organik sertifika & analiz'],
                 ['M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6.75a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6.75a3 3 0 0 0-3-3v-3c0-2.9-2.35-5.25-5.25-5.25Z', 'Güvenli Ödeme', '3D Secure · iyzico/PayTR'],
                 ['M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25', 'Ücretsiz Kargo', number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") . ' TL üzeri'],
-                ['M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z', 'Taze Garanti', 'Soğuk zincirle taze teslim'],
+                ['m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9', 'Özenli Paketleme', 'Ürüne uygun güvenli paket'],
             ] as [$icon, $title, $sub])
                 <div class="flex items-center gap-3 rounded-xl border border-paper bg-white px-4 py-3.5">
                     <span class="grid size-10 place-items-center rounded-full bg-leaf-50 text-leaf-600 shrink-0">
@@ -360,7 +360,7 @@
         <div class="space-y-3" x-data="{ open: 0 }">
             @foreach([
                 ['Ürünleriniz gerçekten organik mi?', 'Tüm organik ürünlerimiz akredite kuruluşlardan sertifikalıdır; pestisit analiz raporları ve sertifika numaraları ürün sayfalarında paylaşılır. Şeffaflık önceliğimizdir.'],
-                ['Teslimat ne kadar sürer?', 'Siparişiniz seçtiğiniz teslimat gününe göre hazırlanır. Taze ürünlerde soğuk zincir korunur. Kargo durumunu Hesabım > Siparişlerim üzerinden takip edebilirsiniz.'],
+                ['Teslimat ne kadar sürer?', 'Siparişiniz özenle hazırlanır. Bölgesel teslimatta soğuk zincir korunur; kargo ile gönderilen ürünler niteliğine uygun şekilde sağlam paketlenir. Kargo durumunu Hesabım > Siparişlerim üzerinden takip edebilirsiniz.'],
                 ['Kargo ücreti ne kadar?', number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") . ' TL ve üzeri siparişlerde kargo ücretsizdir. Bu tutarın altındaki siparişlerde ' . number_format(app(\App\Settings\CheckoutSettings::class)->shipping_cost,0,",",".") . ' TL kargo ücreti uygulanır.'],
                 ['İade ve cayma hakkım var mı?', 'Ürünlerimiz çabuk bozulabilen gıda niteliğinde olduğundan, mevzuat gereği bu ürünlerde cayma hakkı/iade kabul edilmez. Yalnızca ayıplı, hasarlı veya yanlış gelen ürünlerde yasal haklarınız saklıdır; ayrıntılar İptal & İade sayfamızda.'],
                 ['Hangi ödeme yöntemlerini kabul ediyorsunuz?', 'Kredi/banka kartı (3D Secure ile iyzico ve PayTR) ve havale/EFT ile ödeme yapabilirsiniz.'],
