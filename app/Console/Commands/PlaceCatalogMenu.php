@@ -95,12 +95,16 @@ class PlaceCatalogMenu extends Command
         $tops = MenuItem::where('location', 'header')->whereNull('parent_id')
             ->orderBy('sort_order')->orderBy('id')->get();
 
-        $isMove = fn (MenuItem $m) => $m->type === 'category' && in_array($m->reference_id, $moveCatIds, true);
-        $isAnchor = fn (MenuItem $m) => $m->type === 'category' && (int) $m->reference_id === $anchorCat->id;
+        // reference_id bazı ortamlarda string döner → tip-güvenli karşılaştırma için int'e çevir
+        $moveCatIds = array_map('intval', $moveCatIds);
+        $anchorId = (int) $anchorCat->id;
+
+        $isMove = fn (MenuItem $m) => $m->type === 'category' && in_array((int) $m->reference_id, $moveCatIds, true);
+        $isAnchor = fn (MenuItem $m) => $m->type === 'category' && (int) $m->reference_id === $anchorId;
 
         // Taşınacak öğeleri $moveCatIds sırasına göre diz
         $moves = $tops->filter($isMove)
-            ->sortBy(fn (MenuItem $m) => array_search($m->reference_id, $moveCatIds))
+            ->sortBy(fn (MenuItem $m) => array_search((int) $m->reference_id, $moveCatIds, true))
             ->values();
         $rest = $tops->reject($isMove)->values();
 
