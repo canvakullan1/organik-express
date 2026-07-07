@@ -7,12 +7,16 @@ use App\Models\MenuItem;
 use Illuminate\Console\Command;
 
 /**
- * Sonradan eklenen kategorileri mevcut üst gruplara TEMİZ şekilde yerleştirir:
- *  - Kategori ağacı: child.parent_id = parent (mobil menü + breadcrumb düzelir)
- *  - Header mega menü: parent'ın header MenuItem'ı altına child MenuItem eklenir
+ * Fırın & Ekmek ve Simit & Poğaça kategorilerini AYRI ÜST-SEVİYE kategori yapar
+ * ve header mega menüsüne üst-seviye öğe olarak ekler (Bakkaliye'nin hemen ardına).
+ *
+ *  - Kategori ağacı: parent_id = null (kök), aktif, menüde. (mobil menü + breadcrumb)
+ *  - Header menü: Bakkaliye altındaki alt-öğe silinir, üst-seviye MenuItem oluşturulur.
+ *  - Sıralama: hem kök kategoriler hem üst-seviye MenuItem'lar Bakkaliye'den hemen
+ *    sonraya alınır; diğer öğelerin göreli sırası korunur. Tam idempotenttir.
  *
  * Tam `catalog:setup-site` çalıştırmadan (öne çıkan/mevsim ürünleri SIFIRLAMADAN)
- * sadece menü yerleşimini onarır. Idempotenttir; tekrar çalıştırmak zarar vermez.
+ * sadece menü yerleşimini onarır.
  *
  *   php artisan catalog:place-menu
  */
@@ -20,112 +24,134 @@ class PlaceCatalogMenu extends Command
 {
     protected $signature = 'catalog:place-menu';
 
-    protected $description = 'Sonradan eklenen kategorileri üst gruplara yerleştirir (kategori ağacı + header menü)';
+    protected $description = 'Fırın & Ekmek ve Simit & Poğaça\'yı ayrı üst-seviye kategori + header öğesi yapar';
 
-    /** child-slug => [parent-slug, kendisinden sonra sıralanacağı kardeş-slug|null] */
-    private array $placements = [
-        'simit-pogaca' => ['bakkaliye', 'firin-ekmek'],
+    /** Üst seviyeye çıkarılacak kategoriler: slug => görünen ad. Sıra = header sırası. */
+    private array $topLevel = [
+        'firin-ekmek' => 'Fırın & Ekmek',
+        'simit-pogaca' => 'Simit & Poğaça',
     ];
+
+    /** Bu üst-seviye kategoriler bu slug'ın hemen ardına dizilir. */
+    private string $anchorSlug = 'bakkaliye';
 
     public function handle(): int
     {
-        foreach ($this->placements as $childSlug => [$parentSlug, $afterSlug]) {
-            $child = Category::where('slug', $childSlug)->first();
-            $parent = Category::where('slug', $parentSlug)->first();
+        $moveCatIds = [];
 
-            if (! $child || ! $parent) {
-                $this->warn("Atlandı ({$childSlug}): kategori veya üst kategori yok.");
+        foreach ($this->topLevel as $slug => $label) {
+            $cat = Category::where('slug', $slug)->first();
+            if (! $cat) {
+                $this->warn("Atlandı ({$slug}): kategori yok.");
 
                 continue;
             }
 
-            $this->placeCategory($child, $parent, $afterSlug);
-            $this->placeMenuItem($child, $parent, $afterSlug);
-            $this->info("Yerleştirildi: {$childSlug} → {$parentSlug}");
+            // 1) Kategoriyi köke çıkar (Bakkaliye'den ayır)
+            $cat->update(['parent_id' => null, 'is_active' => true, 'show_in_menu' => true]);
+
+            // 2) Header: Bakkaliye altındaki alt-öğeyi sil, üst-seviye öğeyi garanti et
+            MenuItem::where('location', 'header')->where('type', 'category')
+                ->where('reference_id', $cat->id)->whereNotNull('parent_id')->delete();
+
+            MenuItem::updateOrCreate(
+                ['location' => 'header', 'type' => 'category', 'reference_id' => $cat->id, 'parent_id' => null],
+                ['label' => $label, 'is_active' => true],
+            );
+
+            $moveCatIds[] = $cat->id;
+            $this->info("Üst seviyeye alındı: {$slug} → {$label}");
         }
+
+        // 3) Sıralama (idempotent): anchor'dan hemen sonra
+        $this->reorderRoots(array_keys($this->topLevel));
+        $this->reorderHeaderTop($moveCatIds);
+
+        $this->info('Menü sıralaması güncellendi.');
 
         return self::SUCCESS;
     }
 
-    /** Kategori ağacında child'ı parent altına, afterSlug kardeşinden hemen sonraya al. */
-    private function placeCategory(Category $child, Category $parent, ?string $afterSlug): void
+    /** Kök kategorileri sırala: taşınanlar anchor kökünden hemen sonra (mobil menü/kısayollar). */
+    private function reorderRoots(array $moveSlugs): void
     {
-        $order = $this->slotAfter(
-            Category::where('parent_id', $parent->id),
-            'slug',
-            $afterSlug,
-            $child->slug,
-        );
+        $slugs = Category::whereNull('parent_id')->orderBy('sort_order')->orderBy('id')->pluck('slug')->all();
+        $ordered = $this->insertAfter($slugs, $this->anchorSlug, $moveSlugs);
 
-        $child->parent_id = $parent->id;
-        $child->is_active = true;
-        $child->show_in_menu = true;
-        $child->sort_order = $order;
-        $child->save();
+        $order = 1;
+        foreach ($ordered as $slug) {
+            Category::where('slug', $slug)->update(['sort_order' => $order++]);
+        }
     }
 
-    /** Header mega menüde parent'ın MenuItem'ı altına child için MenuItem oluştur/güncelle. */
-    private function placeMenuItem(Category $child, Category $parent, ?string $afterSlug): void
+    /** Üst-seviye header MenuItem'ları sırala: taşınanlar Bakkaliye öğesinden hemen sonra. */
+    private function reorderHeaderTop(array $moveCatIds): void
     {
-        // Header'da özel menü tanımlı değilse (fallback kategori menüsü) yapacak bir şey yok.
-        $parentItem = MenuItem::where('location', 'header')
-            ->where('type', 'category')
-            ->where('reference_id', $parent->id)
-            ->whereNull('parent_id')
-            ->first();
-
-        if (! $parentItem) {
-            return; // header menüsü kategori-fallback modunda; MenuItem gerekmez
+        $anchorCat = Category::where('slug', $this->anchorSlug)->first();
+        if (! $anchorCat) {
+            return; // header kategori-fallback modunda olabilir
         }
 
-        // afterSlug kardeşinin MenuItem'ından sonraya sırala
-        $afterRefId = $afterSlug ? Category::where('slug', $afterSlug)->value('id') : null;
-        $order = $this->slotAfterMenu($parentItem->id, $afterRefId);
+        $tops = MenuItem::where('location', 'header')->whereNull('parent_id')
+            ->orderBy('sort_order')->orderBy('id')->get();
 
-        MenuItem::updateOrCreate(
-            ['location' => 'header', 'parent_id' => $parentItem->id, 'type' => 'category', 'reference_id' => $child->id],
-            ['label' => $child->name, 'sort_order' => $order, 'is_active' => true],
-        );
+        $isMove = fn (MenuItem $m) => $m->type === 'category' && in_array($m->reference_id, $moveCatIds, true);
+        $isAnchor = fn (MenuItem $m) => $m->type === 'category' && (int) $m->reference_id === $anchorCat->id;
+
+        // Taşınacak öğeleri $moveCatIds sırasına göre diz
+        $moves = $tops->filter($isMove)
+            ->sortBy(fn (MenuItem $m) => array_search($m->reference_id, $moveCatIds))
+            ->values();
+        $rest = $tops->reject($isMove)->values();
+
+        $ordered = collect();
+        $anchorSeen = false;
+        foreach ($rest as $m) {
+            $ordered->push($m);
+            if ($isAnchor($m)) {
+                foreach ($moves as $mv) {
+                    $ordered->push($mv);
+                }
+                $anchorSeen = true;
+            }
+        }
+        if (! $anchorSeen) {
+            foreach ($moves as $mv) {
+                $ordered->push($mv);
+            }
+        }
+
+        $order = 0;
+        foreach ($ordered as $m) {
+            $m->update(['sort_order' => $order++]);
+        }
     }
 
     /**
-     * Bir grupta afterKey satırından hemen sonraki sort_order'ı döndürür ve
-     * çakışan sonraki kardeşleri bir kaydırır. afterKey yoksa sona ekler.
+     * $list'ten $moves'u çıkarır, $anchor'dan hemen sonraya ekler (sıra korunur).
+     * $anchor yoksa sona ekler. İdempotent.
      */
-    private function slotAfter($query, string $keyColumn, ?string $afterKey, string $selfKey): int
+    private function insertAfter(array $list, string $anchor, array $moves): array
     {
-        $siblings = (clone $query)->where($keyColumn, '!=', $selfKey)->get();
+        $list = array_values(array_filter($list, fn ($s) => ! in_array($s, $moves, true)));
 
-        if ($afterKey) {
-            $anchor = $siblings->firstWhere($keyColumn, $afterKey);
-            if ($anchor) {
-                $newOrder = ($anchor->sort_order ?? 0) + 1;
-                (clone $query)->where($keyColumn, '!=', $selfKey)
-                    ->where('sort_order', '>=', $newOrder)
-                    ->increment('sort_order');
-
-                return $newOrder;
+        $out = [];
+        $inserted = false;
+        foreach ($list as $s) {
+            $out[] = $s;
+            if ($s === $anchor) {
+                foreach ($moves as $m) {
+                    $out[] = $m;
+                }
+                $inserted = true;
+            }
+        }
+        if (! $inserted) {
+            foreach ($moves as $m) {
+                $out[] = $m;
             }
         }
 
-        return (int) ((clone $query)->max('sort_order') ?? 0) + 1;
-    }
-
-    /** MenuItem grubunda afterRefId'den sonraki sıra; yoksa sona. */
-    private function slotAfterMenu(int $parentItemId, ?int $afterRefId): int
-    {
-        $q = MenuItem::where('parent_id', $parentItemId);
-
-        if ($afterRefId) {
-            $anchor = (clone $q)->where('type', 'category')->where('reference_id', $afterRefId)->first();
-            if ($anchor) {
-                $newOrder = ($anchor->sort_order ?? 0) + 1;
-                (clone $q)->where('sort_order', '>=', $newOrder)->increment('sort_order');
-
-                return $newOrder;
-            }
-        }
-
-        return (int) ((clone $q)->max('sort_order') ?? 0) + 1;
+        return $out;
     }
 }

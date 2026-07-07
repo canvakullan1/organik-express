@@ -29,7 +29,9 @@ class SetupCatalogSite extends Command
         'meyve-sebze' => ['Meyve & Sebze', ['taze-meyve', 'taze-sebze']],
         'sut-kahvaltilik' => ['Süt & Kahvaltılık', ['sut-urunleri', 'yumurta', 'kahvaltilik-recel', 'zeytin-zeytinyagi-yag']],
         'et-tavuk' => ['Et & Tavuk', ['et-sarkuteri', 'hazir-yemek']],
-        'bakkaliye' => ['Bakkaliye', ['bakliyat-makarna', 'baharat-aktar', 'sos-salca-sirke', 'firin-ekmek', 'simit-pogaca', 'kuruyemis-kurutulmus']],
+        'bakkaliye' => ['Bakkaliye', ['bakliyat-makarna', 'baharat-aktar', 'sos-salca-sirke', 'kuruyemis-kurutulmus']],
+        'firin-ekmek' => ['Fırın & Ekmek', []],
+        'simit-pogaca' => ['Simit & Poğaça', []],
         'icecek-atistirmalik' => ['İçecek & Atıştırmalık', ['icecek-cay', 'tatli-cikolata']],
         'dogal-yasam-temizlik' => ['Doğal Yaşam & Temizlik', []],
     ];
