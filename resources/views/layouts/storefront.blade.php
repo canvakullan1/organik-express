@@ -358,7 +358,7 @@
                    pop(m) { this.msg = m; this.show = true; clearTimeout(this.t); this.t = setTimeout(() => this.show = false, 3200); } }"
          @toast.window="pop($event.detail)"
          @if(session('success')) x-init="pop(@js(session('success')))" @endif
-         class="fixed bottom-6 right-6 z-50">
+         class="fixed bottom-24 right-6 z-50 lg:bottom-6">
         <div x-show="show" x-cloak
              x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-3" x-transition:enter-end="opacity-100 translate-y-0"
              x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0 translate-y-2"
@@ -508,6 +508,9 @@
         </div>
     </footer>
 
+    {{-- Mobil alt aksiyon çubuğu için boşluk: içerik sabit çubuğun altında kalmasın --}}
+    <div class="lg:hidden" style="height:calc(3.5rem + env(safe-area-inset-bottom));" aria-hidden="true"></div>
+
     {{-- Çerez bandı (KVKK) --}}
     <div x-data="{ show: ! localStorage.getItem('cookie_consent') }" x-show="show" x-cloak x-transition
          class="fixed inset-x-0 bottom-0 z-50 p-4">
@@ -523,6 +526,40 @@
             </div>
         </div>
     </div>
+
+    {{-- Mobil alt aksiyon çubuğu: WhatsApp + Hemen Ara (mobilden dönüşümü artırır) --}}
+    @php
+        // WhatsApp numarasını wa.me formatına normalize et (rakam dışını sil, baştaki 0'ı at, ülke kodu ekle)
+        $waBar = preg_replace('/\D/', '', (string) $contact->whatsapp);
+        if ($waBar !== '') {
+            if (str_starts_with($waBar, '0')) { $waBar = substr($waBar, 1); }
+            if (! str_starts_with($waBar, '90') && strlen($waBar) <= 10) { $waBar = '90' . $waBar; }
+        }
+        $telBar = preg_replace('/[^0-9+]/', '', (string) $contact->phone);
+    @endphp
+    @if($waBar || $telBar)
+        <div class="lg:hidden fixed inset-x-0 bottom-0 z-40 flex items-stretch border-t border-black/10 shadow-[0_-6px_20px_-8px_rgba(0,0,0,0.35)]"
+             style="padding-bottom:env(safe-area-inset-bottom);">
+            @if($waBar)
+                <a href="https://wa.me/{{ $waBar }}?text={{ rawurlencode('Merhaba, Organik Express hakkında bilgi almak istiyorum.') }}"
+                   target="_blank" rel="noopener nofollow"
+                   class="flex flex-1 items-center justify-center gap-2 py-3.5 text-white font-700 tracking-wide active:brightness-95 transition"
+                   style="background:linear-gradient(135deg,#25D366 0%,#1ebe5d 60%,#12a350 100%);"
+                   aria-label="WhatsApp ile yazın">
+                    <svg class="size-[22px] shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.513 5.26l-.999 3.648 3.484-.913zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    <span class="text-[15px]">WhatsApp</span>
+                </a>
+            @endif
+            @if($telBar)
+                <a href="tel:{{ $telBar }}"
+                   class="flex flex-1 items-center justify-center gap-2 py-3.5 bg-leaf-700 text-white font-700 tracking-wide active:brightness-95 transition"
+                   aria-label="Hemen arayın">
+                    <svg class="size-[22px] shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
+                    <span class="text-[15px]">Hemen Ara</span>
+                </a>
+            @endif
+        </div>
+    @endif
 
     <script>
         function searchBox() {
