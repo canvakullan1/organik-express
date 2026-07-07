@@ -113,6 +113,12 @@ if ($do === 'import_eko') {
     echo @shell_exec("cd $repo && $php artisan import:ekotime$flags 2>&1");
     exit;
 }
+if ($do === 'place_menu') {
+    // Sonradan eklenen kategorileri üst gruplara yerleştir (kategori ağacı + header menü).
+    if (! $php) { exit("php bulunamadi\n"); }
+    echo @shell_exec("cd $repo && $php artisan catalog:place-menu 2>&1");
+    exit;
+}
 if ($do === 'make_super') {
     if (! $php) { exit("php bulunamadi\n"); }
     $email = $_GET['email'] ?? '';
