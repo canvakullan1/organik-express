@@ -648,6 +648,18 @@
                 "https://images.migrosone.com/sanalmarket/product/20001940/orvital-organik-10-lu-m-orta-boy-yumurta-53-62-gr-51e514.jpg",
                 "https://images.migrosone.com/sanalmarket/custom/sanalmarket-seo-34706362.png"
             ]
+        },
+        {
+            "source_url": "https://www.migros.com.tr/raya-gezen-tavuk-yumurtasi-10lu-m-boy-p-13134d1",
+            "slug": "raya-gezen-tavuk-yumurta-10lu-m-migros",
+            "name": "Raya Gezen Tavuk Yumurtası 10'lu M Boy",
+            "sku": "20002001",
+            "price": 117.95,
+            "currency": "TRY",
+            "source_description": null,
+            "images": [
+                "https://images.migrosone.com/sanalmarket/product/20002001/20002001-8c38be-1650x1650.jpg"
+            ]
         }
     ]
 }

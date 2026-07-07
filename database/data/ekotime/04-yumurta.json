@@ -48,6 +48,19 @@
       "storage_info": "Satın aldıktan sonra buzdolabında, serin ve kuru ortamda muhafaza edin. Son tüketim tarihine dikkat edin.",
       "ingredients": "Organik yumurta (0 kodlu). Alerjen: yumurta.",
       "description": "<p>Raya organik yumurtalar, kabuğundaki \"0\" koduyla belgelenen organik üretimden gelir: tavuklar açık alanda gezer, organik yemle beslenir. 8'li paket, küçük haneler ve düzenli taze tüketim için ideal boydur.</p><ul><li><strong>0 kodlu</strong> sertifikalı organik yumurta</li><li>Gezen tavuk, <strong>organik yem</strong></li><li>Yerli üretim</li><li><strong>8'li</strong> paket, M boy (53-62 g)</li></ul><p><strong>Kullanım önerisi:</strong> Haftalık taze tüketim için ideal boy; kahvaltılık klasiklerden menemene her kullanıma uygun.</p>"
+    },
+    {
+      "source_slug": "raya-gezen-tavuk-yumurta-10lu-m-migros",
+      "category": "yumurta",
+      "name": "Raya Gezen Tavuk Yumurtası 10'lu (M Boy)",
+      "slug": "raya-gezen-tavuk-yumurtasi-10-lu-m-boy",
+      "unit": "paket", "unit_amount": 1, "variant_name": "10'lu M boy", "is_weight_based": false, "tax_rate": 1,
+      "meta_title": "Raya Gezen Tavuk Yumurtası 10'lu M Boy | Serbest Dolaşan",
+      "short_description": "Serbest dolaşan (gezen) tavuklardan, kahverengi kabuklu 10'lu M boy taze yumurta.",
+      "meta_description": "Raya gezen tavuk yumurtası 10'lu M boy. Serbest dolaşan tavuklardan, kahverengi kabuklu, 1 kodlu taze yumurta kapınıza gelsin.",
+      "storage_info": "Satın aldıktan sonra buzdolabında, serin ve kuru ortamda muhafaza edin. Ürün son tüketim tarihine (yaklaşık 28 gün) dikkat edin.",
+      "ingredients": "Kahverengi gezen tavuk yumurtası (1 kodlu). Alerjen: yumurta.",
+      "description": "<p>Raya gezen tavuk yumurtası, serbest dolaşan (gezen) tavuklardan elde edilen, kabuğundaki \"1\" koduyla belgelenen kahverengi kabuklu taze yumurtadır. Tavuklar kapalı kafeslerde değil, açık alanda dolaşabildiği koşullarda yetiştirilir. 10'lu paket, günlük kahvaltı ve mutfak kullanımı için pratiktir.</p><ul><li><strong>1 kodlu</strong> serbest dolaşan (gezen) tavuk yumurtası</li><li>Kahverengi kabuklu, yerli üretim</li><li>10'lu paket, M boy</li><li>Yaklaşık 28 gün raf ömrü</li></ul><p><strong>Kullanım önerisi:</strong> Haşlamadan sahanda yumurtaya, kek ve pastadan menemene kadar her tarifte kullanın.</p>"
     }
   ]
 }
