@@ -1,0 +1,73 @@
+{
+    "categories": [],
+    "products": [
+        {
+            "source_slug": "i-yotlu-sofrada-ogutme-deniz-tuzu-450-gr",
+            "category": "baharat-aktar",
+            "name": "İyotlu Sofrada Öğütme Deniz Tuzu 450 gr",
+            "slug": "i-yotlu-sofrada-ogutme-deniz-tuzu-450-gr",
+            "unit": "adet",
+            "unit_amount": 1,
+            "variant_name": "450 gr",
+            "is_weight_based": false,
+            "tax_rate": 1,
+            "meta_title": "İyotlu Sofrada Öğütme Deniz Tuzu 450 gr | Organik & Katkısız",
+            "short_description": "İyotlu Sofrada Öğütme Deniz Tuzu 450 gr — katkısız, doğal içerikli organik ürün. Tardaş Egenin güvencesiyle taze şekilde kapınıza gelsin.",
+            "meta_description": "İyotlu Sofrada Öğütme Deniz Tuzu 450 gr uygun fiyatla Organik Express'te. Sertifikalı, katkısız doğal tuz & baharat; hızlı kargoyla kapınızda.",
+            "storage_info": "Serin, kuru ve doğrudan güneş almayan bir yerde, ağzı kapalı şekilde saklayın.",
+            "ingredients": null,
+            "description": "<p><strong>İyotlu Sofrada Öğütme Deniz Tuzu 450 gr</strong>, organik tarım anlayışıyla üretilen, katkı maddesi içermeyen doğal bir üründür. Tardaş Egenin markasının kalite ve tazelik güvencesiyle sofralarınıza gelir.</p><ul><li>Organik ve <strong>katkısız</strong> içerik</li><li>Doğal üretim, koruyucu içermez</li><li>Özenli paketleme ile gönderilir</li></ul><p><strong>Not:</strong> Görsel ve içerik üreticiden alınmıştır; ambalaj ve gramaj parti bazında küçük farklılık gösterebilir.</p>"
+        },
+        {
+            "source_slug": "ince-deniz-tuzu-500-gr",
+            "category": "baharat-aktar",
+            "name": "Ince Deniz Tuzu 500 gr",
+            "slug": "ince-deniz-tuzu-500-gr",
+            "unit": "adet",
+            "unit_amount": 1,
+            "variant_name": "500 gr",
+            "is_weight_based": false,
+            "tax_rate": 1,
+            "meta_title": "Ince Deniz Tuzu 500 gr | Organik & Katkısız",
+            "short_description": "Ince Deniz Tuzu 500 gr — katkısız, doğal içerikli organik ürün. Tardaş Egenin güvencesiyle taze şekilde kapınıza gelsin.",
+            "meta_description": "Ince Deniz Tuzu 500 gr uygun fiyatla Organik Express'te. Sertifikalı, katkısız doğal tuz & baharat; hızlı kargoyla kapınızda.",
+            "storage_info": "Serin, kuru ve doğrudan güneş almayan bir yerde, ağzı kapalı şekilde saklayın.",
+            "ingredients": null,
+            "description": "<p><strong>Ince Deniz Tuzu 500 gr</strong>, organik tarım anlayışıyla üretilen, katkı maddesi içermeyen doğal bir üründür. Tardaş Egenin markasının kalite ve tazelik güvencesiyle sofralarınıza gelir.</p><ul><li>Organik ve <strong>katkısız</strong> içerik</li><li>Doğal üretim, koruyucu içermez</li><li>Özenli paketleme ile gönderilir</li></ul><p><strong>Not:</strong> Görsel ve içerik üreticiden alınmıştır; ambalaj ve gramaj parti bazında küçük farklılık gösterebilir.</p>"
+        },
+        {
+            "source_slug": "cankiri-kaya-tuzu-500-gr",
+            "category": "baharat-aktar",
+            "name": "Çankırı Kaya Tuzu 500 gr",
+            "slug": "cankiri-kaya-tuzu-500-gr",
+            "unit": "adet",
+            "unit_amount": 1,
+            "variant_name": "500 gr",
+            "is_weight_based": false,
+            "tax_rate": 1,
+            "meta_title": "Çankırı Kaya Tuzu 500 gr | Organik & Katkısız",
+            "short_description": "Çankırı Kaya Tuzu 500 gr — katkısız, doğal içerikli organik ürün. Tardaş Egenin güvencesiyle taze şekilde kapınıza gelsin.",
+            "meta_description": "Çankırı Kaya Tuzu 500 gr uygun fiyatla Organik Express'te. Sertifikalı, katkısız doğal tuz & baharat; hızlı kargoyla kapınızda.",
+            "storage_info": "Serin, kuru ve doğrudan güneş almayan bir yerde, ağzı kapalı şekilde saklayın.",
+            "ingredients": null,
+            "description": "<p><strong>Çankırı Kaya Tuzu 500 gr</strong>, organik tarım anlayışıyla üretilen, katkı maddesi içermeyen doğal bir üründür. Tardaş Egenin markasının kalite ve tazelik güvencesiyle sofralarınıza gelir.</p><ul><li>Organik ve <strong>katkısız</strong> içerik</li><li>Doğal üretim, koruyucu içermez</li><li>Özenli paketleme ile gönderilir</li></ul><p><strong>Not:</strong> Görsel ve içerik üreticiden alınmıştır; ambalaj ve gramaj parti bazında küçük farklılık gösterebilir.</p>"
+        },
+        {
+            "source_slug": "organik-kaya-tuzu-500-gr",
+            "category": "baharat-aktar",
+            "name": "Organik Kaya Tuzu 500 gr",
+            "slug": "organik-kaya-tuzu-500-gr",
+            "unit": "adet",
+            "unit_amount": 1,
+            "variant_name": "500 gr",
+            "is_weight_based": false,
+            "tax_rate": 1,
+            "meta_title": "Organik Kaya Tuzu 500 gr | Organik & Katkısız",
+            "short_description": "Organik Kaya Tuzu 500 gr — katkısız, doğal içerikli organik ürün. Tardaş Egenin güvencesiyle taze şekilde kapınıza gelsin.",
+            "meta_description": "Organik Kaya Tuzu 500 gr uygun fiyatla Organik Express'te. Sertifikalı, katkısız doğal tuz & baharat; hızlı kargoyla kapınızda.",
+            "storage_info": "Serin, kuru ve doğrudan güneş almayan bir yerde, ağzı kapalı şekilde saklayın.",
+            "ingredients": null,
+            "description": "<p><strong>Organik Kaya Tuzu 500 gr</strong>, organik tarım anlayışıyla üretilen, katkı maddesi içermeyen doğal bir üründür. Tardaş Egenin markasının kalite ve tazelik güvencesiyle sofralarınıza gelir.</p><ul><li>Organik ve <strong>katkısız</strong> içerik</li><li>Doğal üretim, koruyucu içermez</li><li>Özenli paketleme ile gönderilir</li></ul><p><strong>Not:</strong> Görsel ve içerik üreticiden alınmıştır; ambalaj ve gramaj parti bazında küçük farklılık gösterebilir.</p>"
+        }
+    ]
+}
