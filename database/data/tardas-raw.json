@@ -9,7 +9,9 @@
             "sku": null,
             "price": 250,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/21/500-500/9940509556786.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin - Organik Sofralık Yağlı Siyah Zeytin 420 gr",
@@ -29,7 +31,9 @@
             "sku": null,
             "price": 271,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/186/chatgpt-image-4-tem-2026-08-14-44.png"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Patlak Mısır 500 gr",
@@ -38,7 +42,9 @@
             "sku": null,
             "price": 114,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/777/500-500/110001536404313.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Karabuğday (greçka) 500 gr",
@@ -157,7 +163,9 @@
             "sku": null,
             "price": 196.9,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/777/500-500/110001827680553.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin  Buğday Rüşeymi 500 gr",
@@ -166,7 +174,9 @@
             "sku": null,
             "price": 247,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/135/happy-life-organik-organik-bugday-ruseymi-200-gr.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Üzüm Pekmezi 800 gr",
@@ -197,7 +207,9 @@
             "sku": null,
             "price": 823,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/95/500-500/110000038308421.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Çiçek Balı 460 Gr",
@@ -294,7 +306,9 @@
             "sku": null,
             "price": 505,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/777/500-500/110001043433084.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Nohut 1 kg",
@@ -380,7 +394,9 @@
             "sku": null,
             "price": 457,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/42/500-500/10730359783474.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Çam Balı 225 Gr",
@@ -411,7 +427,9 @@
             "sku": null,
             "price": 265,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/128/500-500/110000078233696.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Yeşil Mercimek 1 kg",
@@ -519,7 +537,9 @@
             "sku": null,
             "price": 259,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/135/500-500/110000087065366.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Çiçek Balı 225 Gr",
@@ -693,7 +713,9 @@
             "sku": null,
             "price": 110,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/135/500-500/110000086518457.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Baldo Pirinç 500GR",
@@ -713,7 +735,9 @@
             "sku": null,
             "price": 130,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/236/tardas-organik-organik-kirmizi-mecimek-1-kg.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Siyez Bulguru 500GR",
@@ -733,7 +757,9 @@
             "sku": null,
             "price": 135,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/246/happy-life-organik-organik-irmik-500-gr.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Bulgur Pilavlık 1kg",
@@ -753,7 +779,9 @@
             "sku": null,
             "price": 148.88,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/159/happy-life-organik-organik-kirmizi-mercimek-500-gr.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Üzüm Sirkesi (Filtresiz) 500 ml",
@@ -795,7 +823,9 @@
             "sku": null,
             "price": 3619,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/204/tardas-organik-organik-zeytin-yagi-5-lt.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Zeytinyağı 500 ml",
@@ -804,7 +834,9 @@
             "sku": null,
             "price": 467.5,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/202/tardas-organik-naturel-sizma-zeytinyagi-500-ml-kopya.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Sertifikalı Elma Sirkesi 500 ml",
@@ -835,7 +867,9 @@
             "sku": null,
             "price": 3100,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/203/organik-zeytinyagi-3lt.jpeg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin  Organik Sızma 5lt",
@@ -844,7 +878,9 @@
             "sku": null,
             "price": 5500,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/204/tardas-organik-organik-zeytin-yagi-5-lt.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Kapari 100GR",
@@ -908,7 +944,9 @@
             "sku": null,
             "price": 188.75,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://productimages.hepsiburada.net/s/95/500-500/110000038308421.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Erişte 400 gr",
@@ -939,7 +977,9 @@
             "sku": null,
             "price": 350,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/215/tardas-organik-organik-tahin-340-gr.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Keçi Boynuzu Pekmezi 370 Gr",
@@ -948,7 +988,9 @@
             "sku": null,
             "price": 343,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/218/tardas-organik-organik-keciboynuzu-pekmezi-380-gr.jpg"
+            ]
         },
         {
             "source_url": "Tardaş Egenin Organik Biber Salçası Tatlı 650 gr",
@@ -1023,7 +1065,9 @@
             "sku": null,
             "price": 180,
             "currency": "TRY",
-            "images": []
+            "images": [
+                "https://satis.tardas.com.tr/idea/sf/29/myassets/products/222/tardas-organik-organik-spaghetti-400-gr.jpg"
+            ]
         }
     ]
 }
