@@ -5,7 +5,7 @@
         {
             "slug": "organik-elma-sirkesi-2x500-ml",
             "name": "Organik Elma Sirkesi 2X500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8681168100026",
             "price": 1249,
             "unit": "adet",
@@ -25,7 +25,7 @@
         {
             "slug": "organik-elma-ve-alic-sirke-paketi-2x500-ml",
             "name": "Organik Elma ve Alıç Sirke Paketi 2X500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8681168100019",
             "price": 1789,
             "unit": "adet",
@@ -45,7 +45,7 @@
         {
             "slug": "organik-alic-sirkesi-3x500-ml",
             "name": "Organik Alıç Sirkesi 3X500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8681168100010",
             "price": 1789,
             "unit": "adet",
@@ -65,7 +65,7 @@
         {
             "slug": "organik-alic-sirkesi-2x500-ml",
             "name": "Organik Alıç Sirkesi 2X500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8681168100009",
             "price": 1249,
             "unit": "adet",
@@ -85,7 +85,7 @@
         {
             "slug": "organik-elma-sirkesi-3x500-ml",
             "name": "Organik Elma Sirkesi 3X500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8681168100008",
             "price": 1789,
             "unit": "adet",
@@ -105,7 +105,7 @@
         {
             "slug": "organik-alic-sirkesi-500-ml",
             "name": "Organik Alıç Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8681161477867",
             "price": 669,
             "unit": "adet",
@@ -125,7 +125,7 @@
         {
             "slug": "organik-elma-sirkesi-500-ml",
             "name": "Organik Elma Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8681161477287",
             "price": 669,
             "unit": "adet",

@@ -22,7 +22,7 @@
         {
             "slug": "organik-bogurtlen-marmelati-280-g",
             "name": "Organik Böğürtlen Marmelatı 280 g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 475,
             "unit": "adet",
@@ -56,7 +56,7 @@
         {
             "slug": "organik-kusburnu-marmelati-280g",
             "name": "Organik Kuşburnu Marmelatı 280g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 475,
             "unit": "adet",
@@ -73,7 +73,7 @@
         {
             "slug": "organik-bogurtlen-receli-280g",
             "name": "Organik Böğürtlen Reçeli 280g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 475,
             "unit": "adet",
@@ -90,7 +90,7 @@
         {
             "slug": "organik-cilek-receli-280g",
             "name": "Organik Çilek Reçeli 280g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 475,
             "unit": "adet",
@@ -107,7 +107,7 @@
         {
             "slug": "organik-visne-receli-280g",
             "name": "Organik Vişne Reçeli 280g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 531,
             "unit": "adet",
@@ -124,7 +124,7 @@
         {
             "slug": "organik-tahin-230g",
             "name": "Organik Tahin 230g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 300,
             "unit": "adet",
@@ -141,7 +141,7 @@
         {
             "slug": "organik-uzum-pekmezi-280g",
             "name": "Organik Üzüm Pekmezi 280g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 339,
             "unit": "adet",
@@ -158,7 +158,7 @@
         {
             "slug": "organik-dut-pekmezi-280g",
             "name": "Organik Dut Pekmezi 280g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 339,
             "unit": "adet",
@@ -175,7 +175,7 @@
         {
             "slug": "organik-harnup-pekmezi-280g",
             "name": "Organik Harnup Pekmezi 280g",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 339,
             "unit": "adet",
@@ -209,7 +209,7 @@
         {
             "slug": "kakaolu-ceviz-soleni-500g",
             "name": "Kakaolu Ceviz Şöleni 500g",
-            "category": "kuru-gida-kuruyemis",
+            "category": "kuruyemis-kurutulmus",
             "sku": null,
             "price": 150,
             "unit": "adet",
@@ -294,7 +294,7 @@
         {
             "slug": "lutfiye-organik-aronya-marmelati-70-meyve",
             "name": "Lütfiye Organik Aronya Marmelatı %70 Meyve",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 515,
             "unit": "adet",
@@ -311,7 +311,7 @@
         {
             "slug": "ceviz-500g",
             "name": "Ceviz 500g",
-            "category": "kuru-gida-kuruyemis",
+            "category": "kuruyemis-kurutulmus",
             "sku": null,
             "price": 375,
             "unit": "adet",

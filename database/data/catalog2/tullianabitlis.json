@@ -5,7 +5,7 @@
         {
             "slug": "ari-poleni",
             "name": "Arı Poleni",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 200,
             "unit": "adet",
@@ -23,7 +23,7 @@
         {
             "slug": "ari-sutu",
             "name": "Arı Sütü",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 1350,
             "unit": "adet",
@@ -41,7 +41,7 @@
         {
             "slug": "tanisma-paketi",
             "name": "Tanışma Paketi",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 4000,
             "unit": "adet",
@@ -60,7 +60,7 @@
         {
             "slug": "tanisma-paketi-2",
             "name": "Tanışma Paketi 2",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 7000,
             "unit": "adet",
@@ -79,7 +79,7 @@
         {
             "slug": "dogal-bitlis-adilcevaz-ceviz-ici",
             "name": "Doğal Bitlis Adilcevaz Ceviz İçi",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 200,
             "unit": "adet",
@@ -96,7 +96,7 @@
         {
             "slug": "dogal-bitlis-adilcevaz-cevizi",
             "name": "Doğal Bitlis Adilcevaz Cevizi",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": "CVZ1",
             "price": 525,
             "unit": "adet",
@@ -113,7 +113,7 @@
         {
             "slug": "dogal-bitlis-armut-kurusu",
             "name": "Doğal Bitlis Armut Kurusu",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 125,
             "unit": "adet",
@@ -130,7 +130,7 @@
         {
             "slug": "dogal-bitlis-dut-kurusu",
             "name": "Doğal Bitlis Dut Kurusu",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 145,
             "unit": "adet",
@@ -147,7 +147,7 @@
         {
             "slug": "dogal-bitlis-fistigi",
             "name": "Doğal Bitlis Fıstığı",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 650,
             "unit": "adet",
@@ -164,7 +164,7 @@
         {
             "slug": "dogal-bitlis-kuru-uzum",
             "name": "Doğal Bitlis Kuru Üzüm",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 175,
             "unit": "adet",
@@ -181,7 +181,7 @@
         {
             "slug": "dogal-bitlis-tam-yagli-tulum-peyniri-keci",
             "name": "Doğal Bitlis Tam Yağlı Tulum Peyniri (Keçi)",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 750,
             "unit": "adet",
@@ -198,7 +198,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 600,
             "unit": "adet",
@@ -217,7 +217,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x300gr",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 1840,
             "unit": "adet",
@@ -236,7 +236,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x450gr",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 2070,
             "unit": "adet",
@@ -255,7 +255,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x850gr",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 3750,
             "unit": "adet",
@@ -274,7 +274,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x300gr",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 2645,
             "unit": "adet",
@@ -293,7 +293,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x450gr",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 2875,
             "unit": "adet",
@@ -312,7 +312,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x850gr",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 5175,
             "unit": "adet",
@@ -331,7 +331,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-cok-cicekli-karakovan-bitlis-bali",
             "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 2750,
             "unit": "adet",
@@ -350,7 +350,7 @@
         {
             "slug": "organik-sertifikali-poliflorali-karakovan-petek-bali",
             "name": "Organik Sertifikalı Polifloralı Karakovan Petek Balı",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 2100,
             "unit": "adet",
@@ -369,7 +369,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 900,
             "unit": "adet",
@@ -388,7 +388,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x300gr",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 2760,
             "unit": "adet",
@@ -407,7 +407,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x450gr",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 3105,
             "unit": "adet",
@@ -426,7 +426,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x850gr",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 5750,
             "unit": "adet",
@@ -445,7 +445,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x300gr",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 3795,
             "unit": "adet",
@@ -464,7 +464,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x450gr",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 4370,
             "unit": "adet",
@@ -483,7 +483,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x850gr",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 9975,
             "unit": "adet",
@@ -502,7 +502,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-karakovan-bitlis-bali",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 5000,
             "unit": "adet",
@@ -521,7 +521,7 @@
         {
             "slug": "premium-seri-poliflorali-cok-cicekli-karakovan-petek-bali",
             "name": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Petek Balı",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 3399,
             "unit": "adet",
@@ -540,7 +540,7 @@
         {
             "slug": "propolis",
             "name": "Propolis",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 575,
             "unit": "adet",
@@ -557,7 +557,7 @@
         {
             "slug": "salamura-bitlis-peyniri",
             "name": "Salamura Bitlis Peyniri",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 2400,
             "unit": "adet",
@@ -574,7 +574,7 @@
         {
             "slug": "tulliana-mix-organik-ham-bal-polen-propolis-ari-sutu",
             "name": "Tulliana Mix (Organik Ham Bal + Polen + Propolis + Arı Sütü)",
-            "category": "kahvaltilik-bal-recel",
+            "category": "kahvaltilik-recel",
             "sku": null,
             "price": 865,
             "unit": "adet",

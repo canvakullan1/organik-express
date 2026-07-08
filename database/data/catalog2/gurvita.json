@@ -5,7 +5,7 @@
         {
             "slug": "gurvita-organik-alic-sirkesi-500-ml-3-lu",
             "name": "Gurvita Organik Alıç Sirkesi 500 Ml 3'lü",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 1110,
             "unit": "adet",
@@ -22,7 +22,7 @@
         {
             "slug": "gurvita-organik-uzum-sirkesi-500-ml-3-lu",
             "name": "Gurvita Organik Üzüm Sirkesi 500 Ml 3'lü",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 1110,
             "unit": "adet",
@@ -39,7 +39,7 @@
         {
             "slug": "gurvita-organik-elma-sirkesi-500-ml-3-lu",
             "name": "Gurvita Organik Elma Sirkesi 500 Ml 3'lü",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 1110,
             "unit": "adet",
@@ -56,7 +56,7 @@
         {
             "slug": "gurvita-organik-uzum-sirkesi-500-ml",
             "name": "Gurvita Organik Üzüm Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 370,
             "unit": "adet",
@@ -73,7 +73,7 @@
         {
             "slug": "gurvita-organik-elma-sirkesi-500-ml",
             "name": "Gurvita Organik Elma Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 370,
             "unit": "adet",
@@ -90,7 +90,7 @@
         {
             "slug": "gurvita-organik-alic-sirkesi-500-ml",
             "name": "Gurvita Organik Alıç Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 370,
             "unit": "adet",
@@ -107,7 +107,7 @@
         {
             "slug": "gurvita-detoks-sirkesi-250-ml",
             "name": "Gurvita Detoks Sirkesi 250 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 300,
             "unit": "adet",
@@ -124,7 +124,7 @@
         {
             "slug": "gurvita-ananas-sirkesi-500-ml",
             "name": "Gurvita Ananas Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": null,
             "price": 300,
             "unit": "adet",

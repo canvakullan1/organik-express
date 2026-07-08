@@ -5,7 +5,7 @@
         {
             "slug": "og-natural-ananas-sirkesi-500-ml",
             "name": "OG natural Ananas Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792213084",
             "price": 245,
             "unit": "adet",
@@ -22,7 +22,7 @@
         {
             "slug": "og-natural-enginarli-elma-sirkesi-500-ml",
             "name": "OG natural Enginarlı Elma Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792213466",
             "price": 219,
             "unit": "adet",
@@ -39,7 +39,7 @@
         {
             "slug": "og-natural-organik-alic-sirkesi-500-ml",
             "name": "OG natural Organik Alıç Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792200053",
             "price": 219,
             "unit": "adet",
@@ -56,7 +56,7 @@
         {
             "slug": "og-natural-gul-sirkesi-500-ml",
             "name": "OG natural Gül Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792201401",
             "price": 214,
             "unit": "adet",
@@ -73,7 +73,7 @@
         {
             "slug": "og-natural-organik-elma-sirkesi-500-ml",
             "name": "OG natural Organik Elma Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792200008",
             "price": 219,
             "unit": "adet",
@@ -90,7 +90,7 @@
         {
             "slug": "og-natural-zerdecalli-elma-sirkesi-500-ml",
             "name": "OG natural Zerdeçallı Elma Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792205898",
             "price": 222,
             "unit": "adet",
@@ -107,7 +107,7 @@
         {
             "slug": "og-natural-organik-uzum-sirkesi-500-ml",
             "name": "OG natural Organik Üzüm Sirkesi 500 Ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792200015",
             "price": 219,
             "unit": "adet",
@@ -124,7 +124,7 @@
         {
             "slug": "og-natural-dort-hirsiz-sirkesi-500-ml",
             "name": "OG natural Dört Hırsız Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8682792209155",
             "price": 222,
             "unit": "adet",

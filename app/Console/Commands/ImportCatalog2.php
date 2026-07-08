@@ -43,17 +43,18 @@ class ImportCatalog2 extends Command
      * Mevcut slug'lar zaten DB'de varsa DOKUNULMAZ (firstOrCreate).
      */
     private array $catTree = [
-        // mevcut ağaca eklenenler
-        'sirke-salca-sos' => ['Sirke, Salça & Sos', 'bakkaliye', 30],
-        'baharat-aktar' => ['Baharat & Aktar', 'bakkaliye', 31],
-        // yeni kök kategoriler
+        // YENİ kök kategoriler (prod'da yok — oluşturulur, menüde görünür)
         'bebek' => ['Organik Bebek', null, 40],
         'glutensiz' => ['Glutensiz Ürünler', null, 41],
-        // olası üst kategoriler (yoksa)
+        // Prod'da MEVCUT olanlar (bulunur, oluşturulmaz). Yerelde yoksa doğru üst ile açılsın:
         'bakkaliye' => ['Bakkaliye', null, 20],
-        'kuru-gida' => ['Kuru Gıda', null, 21],
-        'kahvaltilik' => ['Kahvaltılık', null, 22],
-        'zeytin-zeytinyagi' => ['Zeytin & Zeytinyağı', null, 23],
+        'sut-kahvaltilik' => ['Süt & Kahvaltılık', null, 21],
+        'bakliyat-makarna' => ['Bakliyat & Makarna', 'bakkaliye', 22],
+        'baharat-aktar' => ['Baharat & Aktar', 'bakkaliye', 23],
+        'sos-salca-sirke' => ['Sos, Salça & Sirke', 'bakkaliye', 24],
+        'kuruyemis-kurutulmus' => ['Kuruyemiş & Kurutulmuş', 'bakkaliye', 25],
+        'kahvaltilik-recel' => ['Kahvaltılık & Reçel', 'sut-kahvaltilik', 26],
+        'zeytin-zeytinyagi-yag' => ['Zeytin & Zeytinyağı', 'sut-kahvaltilik', 27],
     ];
 
     public function handle(): int

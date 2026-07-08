@@ -180,7 +180,7 @@
         {
             "slug": "sade-organik-kalem-makarna-500-gr",
             "name": "Sade Organik Kalem Makarna 500 GR",
-            "category": "kuru-gida-un-makarna",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.01.0500",
             "price": 139.9,
             "unit": "adet",
@@ -197,7 +197,7 @@
         {
             "slug": "sade-organik-burgu-makarna-500-gr",
             "name": "Sade Organik Burgu Makarna 500 Gr",
-            "category": "kuru-gida-un-makarna",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.02.0500",
             "price": 139.9,
             "unit": "adet",
@@ -214,7 +214,7 @@
         {
             "slug": "sade-organik-spagetti-makarna-500-gr-dogal-ve-katkisiz-organik-makarna",
             "name": "Sade Organik Spagetti Makarna - 500 Gr",
-            "category": "kuru-gida-un-makarna",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.04.0500",
             "price": 139.9,
             "unit": "adet",
@@ -232,7 +232,7 @@
         {
             "slug": "sade-organik-dirsek-makarna-500-gr",
             "name": "Sade Organik Dirsek Makarna 500 gr.",
-            "category": "kuru-gida-un-makarna",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.10.0001",
             "price": 139.9,
             "unit": "adet",
@@ -249,7 +249,7 @@
         {
             "slug": "sade-organik-burgu-makarna-500-gr-5-li",
             "name": "Sade Organik Burgu Makarna 500 gr 5 Li",
-            "category": "kuru-gida-un-makarna",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.07.0501",
             "price": 629.9,
             "unit": "adet",
@@ -266,7 +266,7 @@
         {
             "slug": "sade-organik-sade-eriste-400-gr",
             "name": "Sade Organik Sade Erişte 400 gr",
-            "category": "kuru-gida-un-makarna",
+            "category": "bakliyat-makarna",
             "sku": "SM28.01.01.1001",
             "price": 349.99,
             "unit": "adet",
@@ -283,7 +283,7 @@
         {
             "slug": "sade-organik-sebzeli-eriste-400-gr",
             "name": "Sade Organik Sebzeli Erişte 400 gr",
-            "category": "kuru-gida-un-makarna",
+            "category": "bakliyat-makarna",
             "sku": "SM28.01.01.1002",
             "price": 349.99,
             "unit": "adet",
@@ -301,7 +301,7 @@
         {
             "slug": "sade-organik-kirmizi-mercimek-1000-gr",
             "name": "Sade Organik Kırmızı Mercimek 1000 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.03.02.1000",
             "price": 309.9,
             "unit": "adet",
@@ -318,7 +318,7 @@
         {
             "slug": "sade-organik-cin-misir-500-gr",
             "name": "Sade Organik Cin Mısır 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.10.01.0500",
             "price": 239.9,
             "unit": "adet",
@@ -337,7 +337,7 @@
         {
             "slug": "sade-organik-pirinc-1000-gr",
             "name": "Sade Organik Pirinç 1000 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.01.01.1000",
             "price": 309.9,
             "unit": "adet",
@@ -354,7 +354,7 @@
         {
             "slug": "sade-organik-yesil-mercimek-1000-gr",
             "name": "Sade Organik Yeşil Mercimek 1000 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.03.01.1000",
             "price": 249.9,
             "unit": "adet",
@@ -371,7 +371,7 @@
         {
             "slug": "sade-gurme-basmati-pirinc-500-gr",
             "name": "Sade Gurme Basmati Pirinç 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM42.14.01.0500",
             "price": 209.9,
             "unit": "adet",
@@ -388,7 +388,7 @@
         {
             "slug": "sade-organik-nohut-1000-gr",
             "name": "Sade Organik Nohut 1000 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.04.01.1000",
             "price": 259.9,
             "unit": "adet",
@@ -405,7 +405,7 @@
         {
             "slug": "sade-organik-pilavlik-bulgur-1000-gr",
             "name": "Sade Organik Pilavlık Bulgur 1000 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.05.01.1000",
             "price": 259.9,
             "unit": "adet",
@@ -422,7 +422,7 @@
         {
             "slug": "sade-organik-misir-unu",
             "name": "Sade Organik Mısır Unu 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM20.03.01.0500",
             "price": 239.9,
             "unit": "adet",
@@ -439,7 +439,7 @@
         {
             "slug": "sade-organik-kuru-fasulye-1000-gr",
             "name": "Sade Organik Kuru Fasulye 1000 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.02.01.1000",
             "price": 309.9,
             "unit": "adet",
@@ -456,7 +456,7 @@
         {
             "slug": "sade-organik-koftelik-bulgur-1000-gr",
             "name": "Sade Organik Köftelik Bulgur 1000 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.05.02.1000",
             "price": 209.9,
             "unit": "adet",
@@ -473,7 +473,7 @@
         {
             "slug": "sade-organik-arpa-sehriye-500-gr",
             "name": "Sade Organik Arpa Şehriye 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.06.0500",
             "price": 189.9,
             "unit": "adet",
@@ -490,7 +490,7 @@
         {
             "slug": "sade-gurme-mas-fasulye-500-gr",
             "name": "Sade Gurme Maş Fasulye 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM42.06.01.0500",
             "price": 259.9,
             "unit": "adet",
@@ -507,7 +507,7 @@
         {
             "slug": "sade-organik-yesil-mercimek-500-gr",
             "name": "Sade Organik Yeşil Mercimek 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.03.01.0500",
             "price": 229.9,
             "unit": "adet",
@@ -524,7 +524,7 @@
         {
             "slug": "sade-organik-kuru-fasulye-500-gr",
             "name": "Sade Organik Kuru Fasulye 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.02.01.0500",
             "price": 139.9,
             "unit": "adet",
@@ -541,7 +541,7 @@
         {
             "slug": "sade-organik-haslanmis-nohut-konserve-400-gr",
             "name": "Sade Organik Haşlanmış Nohut Konserve 400 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM56.01.02.0650",
             "price": 249.9,
             "unit": "adet",
@@ -558,7 +558,7 @@
         {
             "slug": "sade-organik-kirmizi-mercimek-500-gr",
             "name": "Sade Organik Kırmızı Mercimek 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.03.02.0500",
             "price": 139.9,
             "unit": "adet",
@@ -575,7 +575,7 @@
         {
             "slug": "sade-organik-haslanmis-bezelye-400-gr-dogal-ve-katkisiz-haslanmis-bezelye",
             "name": "Sade Organik Haşlanmış Bezelye - 400 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM56.01.01.0650",
             "price": 159.9,
             "unit": "adet",
@@ -592,7 +592,7 @@
         {
             "slug": "sade-organik-karabugday-500-g",
             "name": "Sade Organik Karabuğday 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.06.01.0500",
             "price": 219.9,
             "unit": "adet",
@@ -609,7 +609,7 @@
         {
             "slug": "sade-organik-pirinc-unu-500-gr",
             "name": "Sade Organik Pirinç Unu 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM20.04.01.0500",
             "price": 128.61,
             "unit": "adet",
@@ -626,7 +626,7 @@
         {
             "slug": "sade-organik-haslanmis-kuru-fasulye-400-gr-organik-ve-dogal-kuru-fasulye",
             "name": "Sade Organik Haşlanmış Kuru Fasulye - 400 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM56.01.03.0650",
             "price": 189.9,
             "unit": "adet",
@@ -643,7 +643,7 @@
         {
             "slug": "sade-organik-pilavlik-bulgur-500-gr",
             "name": "Sade Organik Pilavlık Bulgur 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.05.01.0500",
             "price": 129.9,
             "unit": "adet",
@@ -660,7 +660,7 @@
         {
             "slug": "sade-organik-nohut-500-gr",
             "name": "Sade Organik Nohut 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.04.01.0500",
             "price": 169.9,
             "unit": "adet",
@@ -677,7 +677,7 @@
         {
             "slug": "sade-gurme-siyah-fasulye-500-g",
             "name": "Sade Gurme Siyah Fasulye - 500 g.",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM42.14.03.0500",
             "price": 259.9,
             "unit": "adet",
@@ -694,7 +694,7 @@
         {
             "slug": "sade-organil-tel-sehriye-500-gr",
             "name": "Sade Organil Tel Şehriye 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.05.0500",
             "price": 149.9,
             "unit": "adet",
@@ -711,7 +711,7 @@
         {
             "slug": "sade-organik-pirinc-500-gr",
             "name": "Sade Organik Pirinç 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.01.01.0500",
             "price": 179.9,
             "unit": "adet",
@@ -728,7 +728,7 @@
         {
             "slug": "sade-organik-koftelik-bulgur-500-gr",
             "name": "Sade Organik Köftelik Bulgur 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.05.02.0500",
             "price": 119.9,
             "unit": "adet",
@@ -745,7 +745,7 @@
         {
             "slug": "sade-organik-barbunya-500-g",
             "name": "Sade Organik Barbunya 500 g.",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 309.9,
             "unit": "adet",
@@ -763,7 +763,7 @@
         {
             "slug": "sade-organi̇k-asureli̇k-bugday-500-gr",
             "name": "SADE ORGANİK AŞURELİK BUĞDAY 500 GR",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.07.01.0500",
             "price": 229.9,
             "unit": "adet",
@@ -780,7 +780,7 @@
         {
             "slug": "sade-organik-pirinc-500gr-2li-paket",
             "name": "Sade Organik Pirinç 500gr 2Li paket",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.01.01.0502",
             "price": 199.9,
             "unit": "adet",
@@ -797,7 +797,7 @@
         {
             "slug": "kuru-fasulye-nohut-ve-asurelik-bugday-3x500-g",
             "name": "Aşure Paketi  1",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM34.01.03.252",
             "price": 459.9,
             "unit": "adet",
@@ -814,7 +814,7 @@
         {
             "slug": "sade-organik-kuru-fasulye-500-gr-2-li-pket",
             "name": "Sade Organik Kuru Fasulye 500 gr 2 Li Paket",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.02.01.0502",
             "price": 299.9,
             "unit": "adet",
@@ -831,7 +831,7 @@
         {
             "slug": "sade-organi̇k-ci̇n-misir-500-gr-2-li̇-paket",
             "name": "Sade Organik Cin Mısır 500 gr 2 Li Paket",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM28.10.01.0502",
             "price": 429.9,
             "unit": "adet",
@@ -849,7 +849,7 @@
         {
             "slug": "asure-paketi-2",
             "name": "Aşure Paketi 2",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM34.01.03.253",
             "price": 549.9,
             "unit": "adet",
@@ -866,7 +866,7 @@
         {
             "slug": "sade-organi̇k-arpa-ve-tel-sehri̇ye-500-gr-2-li̇-pkt",
             "name": "Sade Organik Arpa ve Tel Şehriye 500 gr. 2 Li Paket",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SM22.01.09.0502",
             "price": 390.9,
             "unit": "adet",
@@ -883,7 +883,7 @@
         {
             "slug": "sade-organik-domates-salcasi-650-gr",
             "name": "Sade Organik Domates Salçası 650 g.",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.01.01.0650",
             "price": 287.9,
             "unit": "adet",
@@ -903,7 +903,7 @@
         {
             "slug": "sade-organik-nar-eksisi-330-gr",
             "name": "Sade Organik Nar Ekşisi 330 Gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM18.01.01.0330",
             "price": 297.9,
             "unit": "adet",
@@ -920,7 +920,7 @@
         {
             "slug": "sade-organik-domates-puresi-680-gr-1",
             "name": "Sade Organik Domates Püresi 680 gr.",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.01.05.0680",
             "price": 219.9,
             "unit": "adet",
@@ -937,7 +937,7 @@
         {
             "slug": "sade-organik-ketcap",
             "name": "Sade Organik Ketçap 280 Gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM46.04.01.0350",
             "price": 279.9,
             "unit": "adet",
@@ -954,7 +954,7 @@
         {
             "slug": "sade-organik-elma-sirkesi-500ml",
             "name": "Sade Organik Elma Sirkesi 500ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM40.01.01.0500",
             "price": 289.9,
             "unit": "adet",
@@ -971,7 +971,7 @@
         {
             "slug": "sade-organik-balzamik-sirke-500ml",
             "name": "Sade Organik Balzamik Sirke 500ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM42.10.01.0001",
             "price": 229.9,
             "unit": "adet",
@@ -988,7 +988,7 @@
         {
             "slug": "sade-organik-ketcap-aci-300-gr",
             "name": "Sade Organik Acı Ketçap 300 gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.02.20.0001",
             "price": 279.9,
             "unit": "adet",
@@ -1005,7 +1005,7 @@
         {
             "slug": "sade-organik-alic-sirkesi",
             "name": "Sade Organik Alıç Sirkesi 500 Gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM40.01.02.0500",
             "price": 289.9,
             "unit": "adet",
@@ -1024,7 +1024,7 @@
         {
             "slug": "sade-organik-barbeku-sos-300-gr",
             "name": "Sade Organik Barbekü Sos 300 gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.04.04.0002",
             "price": 279.9,
             "unit": "adet",
@@ -1041,7 +1041,7 @@
         {
             "slug": "sade-organik-paprika-sos",
             "name": "Sade Organik Paprika Sos",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.04.04.0001",
             "price": 279.9,
             "unit": "adet",
@@ -1059,7 +1059,7 @@
         {
             "slug": "sade-gurme-detoks-sirkesi-500-ml-dogal-ve-katkisiz-detoks-sirkesi",
             "name": "Sade Gurme Katkısız Detoks Sirkesi - 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM42.10.10.0500",
             "price": 289.9,
             "unit": "adet",
@@ -1076,7 +1076,7 @@
         {
             "slug": "sade-organik-uzum-sirkesi-500-ml-dogal-ve-katkisiz-uzum-sirkesi",
             "name": "Sade Organik Üzüm Sirkesi - 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM40.01.05.0500",
             "price": 319.9,
             "unit": "adet",
@@ -1094,7 +1094,7 @@
         {
             "slug": "sade-organik-enginar-sirkesi-500-ml-katkisiz-ve-dogal",
             "name": "Sade Organik Enginar Sirkesi - 500 Gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM42.10.05.0500",
             "price": 309.9,
             "unit": "adet",
@@ -1111,7 +1111,7 @@
         {
             "slug": "sade-organik-elma-suyu-konsantresi-330-gr",
             "name": "Sade Organik Elma Suyu Konsantresi 330 Gr.",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM34.01.03.0330",
             "price": 259.9,
             "unit": "adet",
@@ -1129,7 +1129,7 @@
         {
             "slug": "sade-gurme-ananas-sirkesi-500-ml-dogal-ve-katkisiz-ananas-sirkesi",
             "name": "Sade Gurme Katkısız Ananas Sirkesi - 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM42.10.04.0500",
             "price": 289.9,
             "unit": "adet",
@@ -1146,7 +1146,7 @@
         {
             "slug": "sade-organik-dort-hirsiz-sirkesi-500-ml-geleneksel-tarifle-dogal-sirke",
             "name": "Sade Gurme Dört Hırsız Sirkesi - 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM42.10.02.0500",
             "price": 289.9,
             "unit": "adet",
@@ -1163,7 +1163,7 @@
         {
             "slug": "sade-organik-zeytinyagi-naturel-sizma-250-ml",
             "name": "Sade Organik Zeytinyağı – Naturel Sızma 250 ml",
-            "category": "zeytin-zeytinyagi",
+            "category": "zeytin-zeytinyagi-yag",
             "sku": "SM54.01.01.0007",
             "price": 389.9,
             "unit": "adet",
@@ -1180,7 +1180,7 @@
         {
             "slug": "sade-organik-nar-eksisi-2x330-g-2li-paket",
             "name": "Sade Organik Nar Ekşisi 2x330 g.- 2'li Paket",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM18.01.01.0332",
             "price": 559.9,
             "unit": "adet",
@@ -1197,7 +1197,7 @@
         {
             "slug": "sade-organik-domates-salcasi-2x650-g-2li-paket",
             "name": "Sade Organik Domates Salçası 2x650 g. 2'li Paket",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.01.06.0651",
             "price": 559.9,
             "unit": "adet",
@@ -1215,7 +1215,7 @@
         {
             "slug": "sade-organik-zeytinyagi-dogal-sizma-500-ml",
             "name": "Sade Organik Zeytinyağı – Doğal Sızma 500 ml",
-            "category": "zeytin-zeytinyagi",
+            "category": "zeytin-zeytinyagi-yag",
             "sku": "SM16.01.01.0500",
             "price": 605.9,
             "unit": "adet",
@@ -1232,7 +1232,7 @@
         {
             "slug": "sade-organik-zerdecalli-elma-sirkesi-500-ml-katkisiz-ve-dogal",
             "name": "Sade Organik Zerdeçallı Elma Sirkesi - 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM42.10.12.0500",
             "price": 173.17,
             "unit": "adet",
@@ -1249,7 +1249,7 @@
         {
             "slug": "sade-organik-nar-eksisi-4lu-paket-4x330-g",
             "name": "Sade Organik Nar Ekşisi 4'lü Paket 4x330 g.",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM18.01.01.0334",
             "price": 1009.9,
             "unit": "adet",
@@ -1266,7 +1266,7 @@
         {
             "slug": "sade-organik-sweet-chili-sos-300-g",
             "name": "Sade Organik Sweet Chili sos 300 g.",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.04.04.0003",
             "price": 389.9,
             "unit": "adet",
@@ -1284,7 +1284,7 @@
         {
             "slug": "sandaloz-sakizli-elma-sirkesi-500-ml",
             "name": "Sandaloz Sakızlı Elma Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM42.10.12.0501",
             "price": 389.9,
             "unit": "adet",
@@ -1303,7 +1303,7 @@
         {
             "slug": "sade-organi̇k-elma-si̇rkesi̇-5-x-500-ml",
             "name": "Sade Organik Elma Sirkesi 5 x 500 ML",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM40.01.01.0502",
             "price": 1149.99,
             "unit": "adet",
@@ -1320,7 +1320,7 @@
         {
             "slug": "sade-organi̇k-alic-si̇rkesi̇-5-x-500-ml",
             "name": "Sade Organik Alıç Sirkesi 5x 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM40.01.02.0501",
             "price": 899.9,
             "unit": "adet",
@@ -1337,7 +1337,7 @@
         {
             "slug": "sade-organik-tatli-ketcap-4-lu-paket",
             "name": "Sade Organik Tatlı Ketçap 4 lü Paket",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "SM14.01.02.0284",
             "price": 959.9,
             "unit": "adet",

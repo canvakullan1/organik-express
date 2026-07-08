@@ -5,7 +5,7 @@
         {
             "slug": "organik-kirmizi-mercimek-500gr",
             "name": "Organik Kırmızı Mercimek 500gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375061",
             "price": 290.9,
             "unit": "adet",
@@ -24,7 +24,7 @@
         {
             "slug": "organik-ruseymli-bezelye-corbasi-50gr-10-dakikada-hazir-12ay",
             "name": "Organik Ruşeymli Bezelye Çorbası 50gr 10 Dakikada Hazır +12ay",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125482095",
             "price": 100.9,
             "unit": "adet",
@@ -43,7 +43,7 @@
         {
             "slug": "organik-3-tahilli-yulaf-pirinc-irmik-350gr-6ay",
             "name": "Organik 3 Tahıllı Yulaf Pirinç İrmik 350gr +6ay",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "EKGıDA-1-2",
             "price": 237.9,
             "unit": "adet",
@@ -62,7 +62,7 @@
         {
             "slug": "organik-pirinc-unu-250gr",
             "name": "Organik Pirinç Unu 250gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125481760",
             "price": 98,
             "unit": "adet",
@@ -79,7 +79,7 @@
         {
             "slug": "organik-siyez-pilavlik-bulgur-500gr",
             "name": "Organik Siyez Pilavlık Bulgur 500gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375337",
             "price": 199.9,
             "unit": "adet",
@@ -98,7 +98,7 @@
         {
             "slug": "organik-tel-sehriye-35-sebzeli-ispanakli-pancarli-balkabakli-200gr",
             "name": "Organik Tel şehriye %35 Sebzeli Ispanaklı Pancarlı Balkabaklı 200gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "86821254849454",
             "price": 133,
             "unit": "adet",
@@ -117,7 +117,7 @@
         {
             "slug": "organik-pirinc-baldo-2-5kg",
             "name": "Organik Pirinç Baldo 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "beybaldo3",
             "price": 733,
             "unit": "adet",
@@ -136,7 +136,7 @@
         {
             "slug": "organik-pirinc-osmancik-2-5kg",
             "name": "Organik Pirinç Osmancık 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125484624",
             "price": 610.9,
             "unit": "adet",
@@ -155,7 +155,7 @@
         {
             "slug": "organik-koftelik-bulgur-2-5kg",
             "name": "Organik Köftelik Bulgur 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125484662",
             "price": 292.2,
             "unit": "adet",
@@ -174,7 +174,7 @@
         {
             "slug": "organik-pilavlik-bulgur-2-5kg",
             "name": "Organik Pilavlık Bulgur 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125485655",
             "price": 298.9,
             "unit": "adet",
@@ -193,7 +193,7 @@
         {
             "slug": "organik-yesil-mercimek-2-5kg",
             "name": "Organik Yeşil Mercimek 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "86821254846481",
             "price": 702.9,
             "unit": "adet",
@@ -212,7 +212,7 @@
         {
             "slug": "organik-kirmizi-mercimek-2-5kg",
             "name": "Organik Kırmızı Mercimek 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125484631",
             "price": 699.2,
             "unit": "adet",
@@ -231,7 +231,7 @@
         {
             "slug": "organik-siyez-pilavlik-bulgur-1kg",
             "name": "Organik Siyez Pilavlık Bulgur 1kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375436",
             "price": 299.9,
             "unit": "adet",
@@ -250,7 +250,7 @@
         {
             "slug": "organik-pirinc-osmancik-1kg",
             "name": "Organik Pirinç Osmancık 1kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375405",
             "price": 399,
             "unit": "adet",
@@ -269,7 +269,7 @@
         {
             "slug": "organik-pirinc-karacadag-1kg",
             "name": "Organik Pirinç Karacadağ 1kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125485829",
             "price": 684,
             "unit": "adet",
@@ -288,7 +288,7 @@
         {
             "slug": "organik-pirinc-karacadag-500gr",
             "name": "Organik Pirinç Karacadağ 500gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125485812",
             "price": 399,
             "unit": "adet",
@@ -307,7 +307,7 @@
         {
             "slug": "organik-tel-sehriye-250gr",
             "name": "Organik Tel Şehriye 250gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "BEYTELŞEHRİYE4",
             "price": 179,
             "unit": "adet",
@@ -326,7 +326,7 @@
         {
             "slug": "organik-karabugday-tane-440gr",
             "name": "Organik Karabuğday Tane 440gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "BEY-KARABUĞDAYTANE-1",
             "price": 135.99,
             "unit": "adet",
@@ -345,7 +345,7 @@
         {
             "slug": "organik-tahil-karisimi-440gr-anadolu-karabugdayli",
             "name": "Organik Tahıl Karışımı 440gr Anadolu KARABUĞDAYLI",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125484266",
             "price": 249,
             "unit": "adet",
@@ -364,7 +364,7 @@
         {
             "slug": "organik-patlak-misir-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Patlak Mısır 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125485348",
             "price": 340.9,
             "unit": "adet",
@@ -383,7 +383,7 @@
         {
             "slug": "organik-pirinc-baldo-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Pirinç Baldo 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375238",
             "price": 199.9,
             "unit": "adet",
@@ -402,7 +402,7 @@
         {
             "slug": "organik-pirinc-baldo-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Pirinç Baldo 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "55306007",
             "price": 399.9,
             "unit": "adet",
@@ -421,7 +421,7 @@
         {
             "slug": "organik-cig-karabugday-unu-1000gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Çiğ Karabuğday Unu 1000gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375801",
             "price": 291.9,
             "unit": "adet",
@@ -440,7 +440,7 @@
         {
             "slug": "organik-pirinc-unu-ruseymli-350gr-8ay-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Pirinç Unu Ruşeymli 350gr +8ay (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "ENT-HB8680419375320",
             "price": 149.9,
             "unit": "adet",
@@ -459,7 +459,7 @@
         {
             "slug": "organik-nohut-unu-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Nohut Unu 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375245",
             "price": 199,
             "unit": "adet",
@@ -478,7 +478,7 @@
         {
             "slug": "organik-misir-unu-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Mısır Unu 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375177",
             "price": 199.9,
             "unit": "adet",
@@ -497,7 +497,7 @@
         {
             "slug": "organik-tam-bugday-unu-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Tam Buğday Unu 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375726",
             "price": 249.9,
             "unit": "adet",
@@ -516,7 +516,7 @@
         {
             "slug": "organik-bugday-unu-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Buğday Unu 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "BEY355",
             "price": 249.9,
             "unit": "adet",
@@ -535,7 +535,7 @@
         {
             "slug": "organik-arpa-sehriye-300gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Arpa Şehriye 300gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "BEY-ARPA-300",
             "price": 130,
             "unit": "adet",
@@ -554,7 +554,7 @@
         {
             "slug": "organik-koftelik-bulgur-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Köftelik Bulgur 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375634",
             "price": 199,
             "unit": "adet",
@@ -573,7 +573,7 @@
         {
             "slug": "organik-pilavlik-bulgur-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Pilavlık Bulgur 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375399",
             "price": 230,
             "unit": "adet",
@@ -592,7 +592,7 @@
         {
             "slug": "organik-nohut-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Nohut 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375573",
             "price": 296.9,
             "unit": "adet",
@@ -611,7 +611,7 @@
         {
             "slug": "organik-kuru-fasulye-1kg-dermason-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Kuru Fasulye 1kg DERMASON (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "BEY229",
             "price": 274.9,
             "unit": "adet",
@@ -630,7 +630,7 @@
         {
             "slug": "organik-sari-mercimek-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Sarı Mercimek 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "BEYSARI1000",
             "price": 321.9,
             "unit": "adet",
@@ -649,7 +649,7 @@
         {
             "slug": "organik-yesil-mercimek-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Yeşil Mercimek 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SKT-226",
             "price": 396.9,
             "unit": "adet",
@@ -668,7 +668,7 @@
         {
             "slug": "organik-patlak-misir-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Patlak Mısır 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375535",
             "price": 229.9,
             "unit": "adet",
@@ -687,7 +687,7 @@
         {
             "slug": "organik-mas-fasulyesi-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Maş Fasulyesi 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375528",
             "price": 199,
             "unit": "adet",
@@ -706,7 +706,7 @@
         {
             "slug": "organik-koftelik-bulgur-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Köftelik Bulgur 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375658",
             "price": 199,
             "unit": "adet",
@@ -725,7 +725,7 @@
         {
             "slug": "organik-pilavlik-bulgur-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Pilavlık Bulgur 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375016",
             "price": 199,
             "unit": "adet",
@@ -744,7 +744,7 @@
         {
             "slug": "organik-nohut-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Nohut 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375030",
             "price": 142.9,
             "unit": "adet",
@@ -763,7 +763,7 @@
         {
             "slug": "organik-kuru-fasulye-500gr-dermason-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Kuru Fasulye 500gr DERMASON (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375009",
             "price": 198.9,
             "unit": "adet",
@@ -782,7 +782,7 @@
         {
             "slug": "organik-sari-mercimek-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Sarı Mercimek 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375047",
             "price": 191.98,
             "unit": "adet",
@@ -801,7 +801,7 @@
         {
             "slug": "organik-yesil-mercimek-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Yeşil Mercimek 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375054",
             "price": 290.9,
             "unit": "adet",
@@ -820,7 +820,7 @@
         {
             "slug": "organik-bugday-ruseymi-250gr-8ay-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Buğday Ruşeymi 250gr +8ay (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "86804193751912",
             "price": 149.25,
             "unit": "adet",
@@ -839,7 +839,7 @@
         {
             "slug": "organik-kirmizi-mercimek-1kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Kırmızı Mercimek 1kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375559",
             "price": 383.9,
             "unit": "adet",
@@ -858,7 +858,7 @@
         {
             "slug": "organik-bebek-pirinc-unu-500gr-6ay-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Bebek Pirinç Unu 500gr +6ay (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375078",
             "price": 201.75,
             "unit": "adet",
@@ -877,7 +877,7 @@
         {
             "slug": "organik-bugday-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Buğday 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "SKT-264",
             "price": 199,
             "unit": "adet",
@@ -896,7 +896,7 @@
         {
             "slug": "organik-pirinc-osmancik-500gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Pirinç Osmancık 500gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8680419375023",
             "price": 199,
             "unit": "adet",
@@ -915,7 +915,7 @@
         {
             "slug": "beygurme-glutensiz-mercimek-corbasi-70gr",
             "name": "BEYGURME Glutensiz Mercimek Çorbası 70gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8683391481867",
             "price": 166.9,
             "unit": "adet",
@@ -933,7 +933,7 @@
         {
             "slug": "organik-nohut-2-5kg",
             "name": "Organik Nohut 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "nohut-22",
             "price": 630,
             "unit": "adet",
@@ -950,7 +950,7 @@
         {
             "slug": "organik-kuru-fasulye-cali-2-5kg",
             "name": "Organik Kuru Fasulye Çalı 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "ENT-HBKURUFASULYE-2-2",
             "price": 644.9,
             "unit": "adet",
@@ -969,7 +969,7 @@
         {
             "slug": "organik-siyez-pilavlik-bulgur-2-5kg",
             "name": "Organik Siyez Pilavlık Bulgur 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "sıyez-bulgur-2",
             "price": 550,
             "unit": "adet",
@@ -988,7 +988,7 @@
         {
             "slug": "organik-pirinc-karacadag-2-5kg",
             "name": "Organik Pirinç Karacadağ 2,5kg",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "7289932",
             "price": 1349,
             "unit": "adet",
@@ -1007,7 +1007,7 @@
         {
             "slug": "organik-tam-bugday-eriste-500gr",
             "name": "Organik Tam Buğday Erişte 500gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125485454",
             "price": 200,
             "unit": "adet",
@@ -1025,7 +1025,7 @@
         {
             "slug": "organik-basmati-pirinc-500gr",
             "name": "Organik Basmati Pirinç 500gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "86821235678",
             "price": 299,
             "unit": "adet",
@@ -1044,7 +1044,7 @@
         {
             "slug": "organik-basmati-pirinc-1000gr-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Basmati pirinç 1000gr (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "868212456789",
             "price": 399.9,
             "unit": "adet",
@@ -1063,7 +1063,7 @@
         {
             "slug": "organik-basmati-pirinc-2-5kg-pestisit-ve-aflatoksin-analizli",
             "name": "Organik Basmati Pirinç 2,5kg (Pestisit ve Aflatoksin Analizli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "868212567986",
             "price": 760.9,
             "unit": "adet",
@@ -1082,7 +1082,7 @@
         {
             "slug": "organik-sebzeli-arpa-sehriye-25-100gr",
             "name": "Organik Sebzeli Arpa Şehriye %25 100gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "868212548142",
             "price": 129.9,
             "unit": "adet",
@@ -1100,7 +1100,7 @@
         {
             "slug": "organik-asurelik-bugday-500gr",
             "name": "Organik Aşurelik Buğday 500gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125486696",
             "price": 152.9,
             "unit": "adet",
@@ -1119,7 +1119,7 @@
         {
             "slug": "organik-siyez-misir-un-mix-350gr",
             "name": "Organik Siyez-Mısır Un Mix 350gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125489698",
             "price": 130.68,
             "unit": "adet",
@@ -1137,7 +1137,7 @@
         {
             "slug": "organik-pirinc-unu-350gr-cam",
             "name": "Organik Pirinç Unu 350gr (CAM)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125484568",
             "price": 220,
             "unit": "adet",
@@ -1155,7 +1155,7 @@
         {
             "slug": "organik-bugday-ruseymi-30gr-tekli",
             "name": "Organik Buğday Ruşeymi 30gr (tekli)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125488325",
             "price": 89.9,
             "unit": "adet",
@@ -1172,7 +1172,7 @@
         {
             "slug": "organik-bugday-ruseymi-10x30gr",
             "name": "Organik Buğday Ruşeymi 10x30gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125489209",
             "price": 900,
             "unit": "adet",
@@ -1191,7 +1191,7 @@
         {
             "slug": "beygurme-bakla-ici-200-gr",
             "name": "Beygurme Bakla İçi 200 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125489735",
             "price": 299,
             "unit": "adet",
@@ -1208,7 +1208,7 @@
         {
             "slug": "organik-yesil-mercimek-unu-350gr",
             "name": "Organik Yeşil Mercimek Unu 350gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125481746",
             "price": 239.2,
             "unit": "adet",
@@ -1225,7 +1225,7 @@
         {
             "slug": "beygurme-karisik-kinoa-kirmizi-siyah-beyaz-kinoa-250gr",
             "name": "Beygurme Karışık Kinoa (kırmızı-siyah-beyaz kinoa) 250gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125480183",
             "price": 500,
             "unit": "adet",
@@ -1244,7 +1244,7 @@
         {
             "slug": "beygurme-beyaz-kinoa-245gr",
             "name": "Beygurme Beyaz Kinoa 245gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8682125480175",
             "price": 500,
             "unit": "adet",

@@ -5,7 +5,7 @@
         {
             "slug": "organik-aci-biber-salca-tuzsuz-610-gr",
             "name": "Organik Acı Biber Salça (TUZSUZ) 610 GR",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "orgacı",
             "price": 315,
             "unit": "adet",
@@ -22,7 +22,7 @@
         {
             "slug": "essen-gurme-ananas-sirkesi",
             "name": "Essen Gurme Ananas Sirkesi",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "14530",
             "price": 320,
             "unit": "adet",
@@ -39,7 +39,7 @@
         {
             "slug": "essen-organik-pirinc-unu-500-gr",
             "name": "Essen Organik Pirinç Unu 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "14526",
             "price": 164,
             "unit": "adet",
@@ -56,7 +56,7 @@
         {
             "slug": "essen-organik-nohut-unu-500-gr",
             "name": "Essen Organik Nohut Unu 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "14515",
             "price": 221,
             "unit": "adet",
@@ -73,7 +73,7 @@
         {
             "slug": "organik-paprika-sosu-aci-biber-sosu-320gr",
             "name": "Organik Paprika Sosu (Acı Biber Sosu) 320gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "14215",
             "price": 357,
             "unit": "adet",
@@ -90,7 +90,7 @@
         {
             "slug": "organik-zencefilli-zerdecalli-elma-sirkesi-500ml",
             "name": "Organik Zencefilli Zerdeçallı Elma Sirkesi 500ML",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "11293",
             "price": 224,
             "unit": "adet",
@@ -107,7 +107,7 @@
         {
             "slug": "organik-mercimek-karisimi-400-gr",
             "name": "Organik Mercimek Karışımı 400 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "11267",
             "price": 260,
             "unit": "adet",
@@ -124,7 +124,7 @@
         {
             "slug": "organik-pirinc-unu-320-gr",
             "name": "Organik Pirinç Unu 320 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "11259",
             "price": 197,
             "unit": "adet",
@@ -141,7 +141,7 @@
         {
             "slug": "organik-tatli-ketcap-280-gr",
             "name": "Organik Tatlı Ketçap 280 Gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8699",
             "price": 345,
             "unit": "adet",
@@ -158,7 +158,7 @@
         {
             "slug": "organik-cin-misir-500-gr",
             "name": "Organik Cin Mısır 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8663",
             "price": 159,
             "unit": "adet",
@@ -175,7 +175,7 @@
         {
             "slug": "organik-arpa-sehriye",
             "name": "Organik Arpa Şehriye",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8655",
             "price": 161,
             "unit": "adet",
@@ -192,7 +192,7 @@
         {
             "slug": "organik-tel-sehriye-500-gr",
             "name": "Organik Tel Şehriye 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8654",
             "price": 161,
             "unit": "adet",
@@ -209,7 +209,7 @@
         {
             "slug": "organik-kalem-makarna-500-gr",
             "name": "Organik Kalem Makarna 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8653",
             "price": 159,
             "unit": "adet",
@@ -226,7 +226,7 @@
         {
             "slug": "organik-spagetti-500-gr",
             "name": "Organik Spagetti 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8652",
             "price": 145,
             "unit": "adet",
@@ -243,7 +243,7 @@
         {
             "slug": "organik-burgu-makarna-500-gr",
             "name": "Organik Burgu Makarna 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8651",
             "price": 155,
             "unit": "adet",
@@ -260,7 +260,7 @@
         {
             "slug": "organik-alic-sirkesi-500-ml",
             "name": "Organik Alıç Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8605",
             "price": 232,
             "unit": "adet",
@@ -277,7 +277,7 @@
         {
             "slug": "organik-elma-sirkesi-500-ml",
             "name": "Organik Elma Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8604",
             "price": 232,
             "unit": "adet",
@@ -294,7 +294,7 @@
         {
             "slug": "organik-uzum-sirkesi-500-ml",
             "name": "Organik Üzüm Sirkesi 500 ml",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8603",
             "price": 232,
             "unit": "adet",
@@ -311,7 +311,7 @@
         {
             "slug": "organik-sari-mercimek-500-gr",
             "name": "Organik Sarı Mercimek 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8602",
             "price": 288,
             "unit": "adet",
@@ -328,7 +328,7 @@
         {
             "slug": "organik-corbalik-tahil-karisimi-500-gr",
             "name": "Organik Çorbalık Tahıl Karışımı 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8601",
             "price": 206,
             "unit": "adet",
@@ -345,7 +345,7 @@
         {
             "slug": "organik-corbalik-mercimek-karisimi-500-gr",
             "name": "Organik Çorbalık Mercimek Karışımı 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8600",
             "price": 246,
             "unit": "adet",
@@ -362,7 +362,7 @@
         {
             "slug": "organik-asurelik-bugday-500-gr",
             "name": "Organik Aşurelik Buğday 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8599",
             "price": 155,
             "unit": "adet",
@@ -379,7 +379,7 @@
         {
             "slug": "organik-pirinc-750-gr",
             "name": "Organik Pirinç 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8598",
             "price": 344,
             "unit": "adet",
@@ -396,7 +396,7 @@
         {
             "slug": "organik-pirinc-500-gr",
             "name": "Organik Pirinç 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8597",
             "price": 220,
             "unit": "adet",
@@ -413,7 +413,7 @@
         {
             "slug": "organik-koftelik-bulgur-750-gr",
             "name": "Organik Köftelik Bulgur 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8596",
             "price": 162,
             "unit": "adet",
@@ -430,7 +430,7 @@
         {
             "slug": "organik-koftelik-bulgur-500-gr",
             "name": "Organik Köftelik Bulgur 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8559",
             "price": 141,
             "unit": "adet",
@@ -447,7 +447,7 @@
         {
             "slug": "organik-pilavlik-bulgur-750-gr",
             "name": "Organik Pilavlık Bulgur 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8558",
             "price": 165,
             "unit": "adet",
@@ -464,7 +464,7 @@
         {
             "slug": "organik-pilavlik-bulgur-500-gr",
             "name": "Organik Pilavlık Bulgur 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8557",
             "price": 145,
             "unit": "adet",
@@ -481,7 +481,7 @@
         {
             "slug": "organik-borulce-750-gr",
             "name": "Organik Börülce 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8556",
             "price": 378,
             "unit": "adet",
@@ -498,7 +498,7 @@
         {
             "slug": "organik-borulce-500-gr",
             "name": "Organik Börülce 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8555",
             "price": 265,
             "unit": "adet",
@@ -515,7 +515,7 @@
         {
             "slug": "organik-kuru-nohut-750-gr",
             "name": "Organik Kuru Nohut 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8554",
             "price": 315,
             "unit": "adet",
@@ -532,7 +532,7 @@
         {
             "slug": "organik-kuru-nohut-500-gr",
             "name": "Organik Kuru Nohut 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8553",
             "price": 188,
             "unit": "adet",
@@ -549,7 +549,7 @@
         {
             "slug": "organik-kuru-fasulye-750-gr",
             "name": "Organik Kuru Fasulye 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8552",
             "price": 259,
             "unit": "adet",
@@ -566,7 +566,7 @@
         {
             "slug": "organik-kuru-fasulye-500-gr",
             "name": "Organik Kuru Fasulye 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8551",
             "price": 189,
             "unit": "adet",
@@ -583,7 +583,7 @@
         {
             "slug": "organik-yesil-mercimek-750-gr",
             "name": "Organik Yeşil Mercimek 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8550",
             "price": 249,
             "unit": "adet",
@@ -600,7 +600,7 @@
         {
             "slug": "organik-yesil-mercimek-500-gr",
             "name": "Organik Yeşil Mercimek 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8549",
             "price": 199,
             "unit": "adet",
@@ -617,7 +617,7 @@
         {
             "slug": "organik-kirmizi-mercimek-750-gr",
             "name": "Organik Kırmızı Mercimek 750 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8548",
             "price": 210,
             "unit": "adet",
@@ -634,7 +634,7 @@
         {
             "slug": "organik-kirmizi-mercimek-500-gr",
             "name": "Organik Kırmızı Mercimek 500 Gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": "8547",
             "price": 199,
             "unit": "adet",
@@ -651,7 +651,7 @@
         {
             "slug": "organik-lutenitsa-300-cc-odun-atesinde",
             "name": "Organik Lütenitsa 300 cc (Odun Ateşinde)",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8545",
             "price": 300,
             "unit": "adet",
@@ -668,7 +668,7 @@
         {
             "slug": "organik-menemen-harci-345-gr",
             "name": "Organik Menemen Harcı 345 Gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8543",
             "price": 124,
             "unit": "adet",
@@ -685,7 +685,7 @@
         {
             "slug": "organik-rendelenmis-domates-345-gr",
             "name": "Organik Rendelenmiş Domates 345 Gr",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8542",
             "price": 109.13,
             "unit": "adet",
@@ -702,7 +702,7 @@
         {
             "slug": "organik-domates",
             "name": "Organik Domates",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8541",
             "price": 248,
             "unit": "adet",
@@ -719,7 +719,7 @@
         {
             "slug": "organik-domates-salcasi-tuzsuz-650gr",
             "name": "Organik Domates Salçası (TUZSUZ) 650GR",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8540",
             "price": 225,
             "unit": "adet",
@@ -736,7 +736,7 @@
         {
             "slug": "organik-tatli-biber-salca-tuzsuz-610-gr",
             "name": "Organik Tatlı Biber Salça (TUZSUZ) 610 GR",
-            "category": "sirke-salca-sos",
+            "category": "sos-salca-sirke",
             "sku": "8539",
             "price": 265,
             "unit": "adet",

@@ -17,14 +17,14 @@ $outDir = $root . '/database/data/catalog2';
 @mkdir($outDir, 0775, true);
 
 $sources = [
-    'egricayir' => ['sitemaps' => ['https://www.egricayir.com/sitemap.xml'], 'filter' => '~/tr/urun/~', 'category' => 'kahvaltilik-bal-recel', 'brand' => 'Eğriçayır'],
+    'egricayir' => ['sitemaps' => ['https://www.egricayir.com/sitemap.xml'], 'filter' => '~/tr/urun/~', 'category' => 'kahvaltilik-recel', 'brand' => 'Eğriçayır'],
     'tullianabitlis' => ['sitemaps' => ['https://tullianabitlisbali.com/products.xml'], 'category' => 'auto', 'brand' => 'Tulliana Bitlis'],
-    'ekozel' => ['sitemaps' => ['https://www.ekozelorganik.com/sitemap/products/0.xml'], 'category' => 'kuru-gida-kuruyemis', 'require' => '~kuru|kayısı|kayisi|incir|dut|üzüm|uzum|erik|hurma|cranberry|yaban mersini|meyve~iu', 'brand' => 'Ekozel'],
-    'gurvita' => ['sitemaps' => ['https://www.gurvita.com.tr/sitemap/products/0.xml'], 'category' => 'sirke-salca-sos', 'require' => '~sirke~iu', 'list_price' => true, 'brand' => 'Gürvita'],
-    'beyorganik' => ['sitemaps' => ['https://www.beyorganik.com/sitemap/products/0.xml'], 'category' => 'kuru-gida-bakliyat-tahil', 'require' => '~bakliyat|mercimek|nohut|fasulye|bulgur|pirinç|pirinc|bezelye|barbunya|buğday|bugday|kinoa|bakla|şehriye|sehriye|mısır|misir|börülce|borulce~iu', 'brand' => 'Bey Organik'],
-    'organikgurme' => ['sitemaps' => ['https://www.organikgurme.com/xml/sitemap_product_1.xml'], 'category' => 'kuru-gida-bakliyat-tahil', 'require' => '~bakliyat|mercimek|nohut|fasulye|bulgur|pirinç|pirinc|bezelye|barbunya|buğday|bugday|kinoa|bakla|şehriye|sehriye|mısır|misir|börülce|borulce~iu', 'brand' => 'Organik Gurme'],
+    'ekozel' => ['sitemaps' => ['https://www.ekozelorganik.com/sitemap/products/0.xml'], 'category' => 'kuruyemis-kurutulmus', 'require' => '~kuru|kayısı|kayisi|incir|dut|üzüm|uzum|erik|hurma|cranberry|yaban mersini|meyve~iu', 'brand' => 'Ekozel'],
+    'gurvita' => ['sitemaps' => ['https://www.gurvita.com.tr/sitemap/products/0.xml'], 'category' => 'sos-salca-sirke', 'require' => '~sirke~iu', 'list_price' => true, 'brand' => 'Gürvita'],
+    'beyorganik' => ['sitemaps' => ['https://www.beyorganik.com/sitemap/products/0.xml'], 'category' => 'bakliyat-makarna', 'require' => '~bakliyat|mercimek|nohut|fasulye|bulgur|pirinç|pirinc|bezelye|barbunya|buğday|bugday|kinoa|bakla|şehriye|sehriye|mısır|misir|börülce|borulce~iu', 'brand' => 'Bey Organik'],
+    'organikgurme' => ['sitemaps' => ['https://www.organikgurme.com/xml/sitemap_product_1.xml'], 'category' => 'bakliyat-makarna', 'require' => '~bakliyat|mercimek|nohut|fasulye|bulgur|pirinç|pirinc|bezelye|barbunya|buğday|bugday|kinoa|bakla|şehriye|sehriye|mısır|misir|börülce|borulce~iu', 'brand' => 'Organik Gurme'],
     'lutfiye' => ['sitemaps' => ['https://www.lutfiye.com/xml/sitemap_product_1.xml'], 'category' => 'auto', 'brand' => 'Lütfiye'],
-    'ogstore' => ['sitemaps' => ['https://www.ogstore.com.tr/sitemap.xml'], 'category' => 'sirke-salca-sos', 'require' => '~sirke~iu', 'brand' => 'OG Natural'],
+    'ogstore' => ['sitemaps' => ['https://www.ogstore.com.tr/sitemap.xml'], 'category' => 'sos-salca-sirke', 'require' => '~sirke~iu', 'brand' => 'OG Natural'],
     'essen' => ['sitemaps' => ['https://www.essenorganik.com/urunler1.xml'], 'category' => 'auto_essen', 'brand' => 'Essen Organik'],
 ];
 
@@ -158,25 +158,25 @@ function mapCategory(string $text): ?string
     $t = mb_strtolower($text, 'UTF-8');
     $has = fn ($kw) => str_contains($t, $kw);
     if ($has('bal') && ! $has('balık') && ! $has('balsamik')) {
-        return 'kahvaltilik-bal-recel';
+        return 'kahvaltilik-recel';
     }
     if ($has('reçel') || $has('recel') || $has('marmelat') || $has('marmelât') || $has('pekmez') || $has('tahin') || $has('kahvalt')) {
-        return 'kahvaltilik-bal-recel';
+        return 'kahvaltilik-recel';
     }
     if ($has('sirke') || $has('salça') || $has('salca') || $has('sos') || $has('ketçap') || $has('ketchup')) {
-        return 'sirke-salca-sos';
+        return 'sos-salca-sirke';
     }
     if ($has('zeytinyağ') || $has('zeytinyag') || $has('zeytin')) {
-        return 'zeytin-zeytinyagi';
+        return 'zeytin-zeytinyagi-yag';
     }
     if ($has('mercimek') || $has('nohut') || $has('fasulye') || $has('bulgur') || $has('pirinç') || $has('pirinc') || $has('bakliyat') || $has('bezelye') || $has('barbunya') || $has('şehriye') || $has('bakla')) {
-        return 'kuru-gida-bakliyat-tahil';
+        return 'bakliyat-makarna';
     }
     if ($has('makarna') || $has('erişte') || $has('eriste')) {
-        return 'kuru-gida-un-makarna';
+        return 'bakliyat-makarna';
     }
     if ($has('kuru') || $has('kayısı') || $has('kayisi') || $has('incir') || $has('dut') || $has('üzüm') || $has('uzum') || $has('ceviz') || $has('fındık') || $has('findik') || $has('badem') || $has('kuruyemiş')) {
-        return 'kuru-gida-kuruyemis';
+        return 'kuruyemis-kurutulmus';
     }
 
     return null;
@@ -317,7 +317,7 @@ foreach ($pages as $url => $html) {
         $cat = mapCategory($text) ?? 'bakkaliye';
     } elseif ($decision === 'auto_essen') {
         $cat = mapCategory($text);
-        if (! in_array($cat, ['kuru-gida-bakliyat-tahil', 'sirke-salca-sos'], true)) {
+        if (! in_array($cat, ['bakliyat-makarna', 'sos-salca-sirke'], true)) {
             continue; // essen: yalnız bakliyat + salça/sos
         }
     } else {

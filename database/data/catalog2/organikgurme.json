@@ -5,7 +5,7 @@
         {
             "slug": "organik-siyez-bulguru-500-gr",
             "name": "Organik Siyez Bulguru 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 87,
             "unit": "adet",
@@ -22,7 +22,7 @@
         {
             "slug": "organik-pirinc-1000-gr",
             "name": "Organik Pirinç 1000 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 234,
             "unit": "adet",
@@ -39,7 +39,7 @@
         {
             "slug": "organik-kuru-fasulye-1000-gr",
             "name": "Organik Kuru Fasulye 1000 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 239,
             "unit": "adet",
@@ -56,7 +56,7 @@
         {
             "slug": "organik-pilavlik-bulgur-1000-gr",
             "name": "Organik Pilavlık Bulgur 1000 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 117,
             "unit": "adet",
@@ -73,7 +73,7 @@
         {
             "slug": "organik-patlamalik-misir-500-gr",
             "name": "Organik Patlamalık Mısır 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 75,
             "unit": "adet",
@@ -90,7 +90,7 @@
         {
             "slug": "organik-kirmizi-mercimek-1000-gr",
             "name": "Organik Kırmızı Mercimek 1000 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 210,
             "unit": "adet",
@@ -107,7 +107,7 @@
         {
             "slug": "organik-nohut-1000-gr",
             "name": "Organik Nohut 1000 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 335,
             "unit": "adet",
@@ -124,7 +124,7 @@
         {
             "slug": "organik-tam-bugday-unu-ve-organik-bugday-unu-paketi",
             "name": "Organik Tam Buğday Unu ve Organik Buğday Unu Paketi",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 192,
             "unit": "adet",
@@ -141,7 +141,7 @@
         {
             "slug": "organik-kurufasulye-ve-organik-nohut-paketi",
             "name": "Organik Kurufasulye ve Organik Nohut Paketi",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 728,
             "unit": "adet",
@@ -158,7 +158,7 @@
         {
             "slug": "organik-cavdar-unu-ve-organik-karabugday-unu-paketi",
             "name": "Organik Çavdar Unu ve Organik Karabuğday Unu Paketi",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 227,
             "unit": "adet",
@@ -175,7 +175,7 @@
         {
             "slug": "organik-pirinc-ve-organik-nohut-paketi",
             "name": "Organik Pirinç ve Organik Nohut Paketi",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 477,
             "unit": "adet",
@@ -192,7 +192,7 @@
         {
             "slug": "arpa-sehriye-500gr",
             "name": "Arpa Şehriye 500gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 175,
             "unit": "adet",
@@ -209,7 +209,7 @@
         {
             "slug": "tel-sehriye-500-gr",
             "name": "Tel Şehriye 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 250,
             "unit": "adet",
@@ -226,7 +226,7 @@
         {
             "slug": "organik-bugday-nisastasi-500-gr",
             "name": "Organik Buğday Nişastası 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 124,
             "unit": "adet",
@@ -243,7 +243,7 @@
         {
             "slug": "organik-tam-bugdayli-biskuvi-80-gr",
             "name": "Organik Tam Buğdaylı Bisküvi 80 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 160,
             "unit": "adet",
@@ -260,7 +260,7 @@
         {
             "slug": "organik-borulce-500-gr",
             "name": "Organik Börülce 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 175,
             "unit": "adet",
@@ -277,7 +277,7 @@
         {
             "slug": "organik-misir-unu-500-gr",
             "name": "Organik Mısır Unu 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 68,
             "unit": "adet",
@@ -294,7 +294,7 @@
         {
             "slug": "organik-karabugday-unu-500-gr",
             "name": "Organik Karabuğday Unu 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 117,
             "unit": "adet",
@@ -311,7 +311,7 @@
         {
             "slug": "organik-pirinc-unu-500-gr",
             "name": "Organik Pirinç Unu 500 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 83,
             "unit": "adet",
@@ -328,7 +328,7 @@
         {
             "slug": "organik-cok-amacli-bugday-unu-1000-gr",
             "name": "Organik Çok Amaçlı Buğday Unu 1000 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 112,
             "unit": "adet",
@@ -345,7 +345,7 @@
         {
             "slug": "organik-tam-bugday-unu-1000-gr",
             "name": "Organik Tam Buğday Unu 1000 gr",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 115,
             "unit": "adet",
@@ -362,7 +362,7 @@
         {
             "slug": "organik-yulaf-unu-ve-organik-pirinc-unu-paketi",
             "name": "Organik Yulaf Unu ve Organik Pirinç Unu Paketi",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 235,
             "unit": "adet",
@@ -379,7 +379,7 @@
         {
             "slug": "organik-ruseym-250-gr-bugday-ozu",
             "name": "Organik Ruşeym 250 gr (Buğday Özü)",
-            "category": "kuru-gida-bakliyat-tahil",
+            "category": "bakliyat-makarna",
             "sku": null,
             "price": 102,
             "unit": "adet",

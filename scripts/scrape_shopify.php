@@ -21,9 +21,9 @@ $sources = [
         // öncelik: en spesifik önce (aynı ürün birden çok koleksiyonda olabilir)
         'collections' => [
             'organik-bebek-urunleri' => 'bebek',
-            'organik-makarnalar' => 'kuru-gida-un-makarna',
-            'organik-bakliyatlar' => 'kuru-gida-bakliyat-tahil',
-            'organik-soslar-ve-yaglar' => 'sirke-salca-sos', // yağ olanlar başlıktan zeytin-zeytinyagi'ya taşınır
+            'organik-makarnalar' => 'bakliyat-makarna',
+            'organik-bakliyatlar' => 'bakliyat-makarna',
+            'organik-soslar-ve-yaglar' => 'sos-salca-sirke', // yağ olanlar başlıktan zeytin-zeytinyagi'ya taşınır
         ],
     ],
     'wefood' => [
@@ -38,7 +38,7 @@ $sources = [
         'brand' => 'Güzel Gıda',
         'all_products' => true,          // /products.json + başlık filtresi
         'title_filter' => '~sirke~iu',   // yalnız sirkeler
-        'category' => 'sirke-salca-sos',
+        'category' => 'sos-salca-sirke',
         'collections' => [],
     ],
 ];
@@ -137,7 +137,7 @@ foreach ($sources as $sourceName => $cfg) {
                 }
                 $cat = $catSlug;
                 if ($handle === 'organik-soslar-ve-yaglar' && isOil($title)) {
-                    $cat = 'zeytin-zeytinyagi';
+                    $cat = 'zeytin-zeytinyagi-yag';
                 }
 
                 $images = [];
