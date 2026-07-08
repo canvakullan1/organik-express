@@ -141,6 +141,16 @@ if ($do === 'import_cat2') {
     echo @shell_exec("cd $repo && $php artisan import:catalog2$flags 2>&1");
     exit;
 }
+if ($do === 'purge_source') {
+    // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(600);
+    $src = preg_replace('/[^a-z0-9_-]/', '', strtolower($_GET['source'] ?? ''));
+    if ($src === '') { exit("source gerekli\n"); }
+    $flags = (($_GET['dryrun'] ?? '') === '1') ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan catalog:purge-source " . escapeshellarg($src) . "$flags 2>&1");
+    exit;
+}
 if ($do === 'place_menu') {
     // Sonradan eklenen kategorileri üst gruplara yerleştir (kategori ağacı + header menü).
     if (! $php) { exit("php bulunamadi\n"); }

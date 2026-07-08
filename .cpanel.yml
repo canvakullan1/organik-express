@@ -23,10 +23,11 @@ deployment:
     # Önbellekleri tazele (config + route + view + event)
     - /bin/bash -c "cd $APPDIR && $PHP artisan optimize:clear 2>&1"
     - /bin/bash -c "cd $APPDIR && $PHP artisan optimize 2>&1"
-    # --- Katalog: 2. dalga ürünleri içe aktar (idempotent; görseller CDN'den iner) ---
-    # || true: uzun süren görsel indirmesi kesilse bile deploy başarısız sayılmaz;
-    # bir sonraki push'ta eksik görseller tamamlanır (import görseli olmayanı atlar).
-    - /bin/bash -c "cd $APPDIR && $PHP artisan import:catalog2 2>&1 || true"
+    # --- Katalog: 2. dalga ürünleri içe aktar (HIZLI: görsel indirmesi YOK) ---
+    # Görsel indirmesi deploy'u uzatıp zaman aşımına uğratıyordu; --skip-images ile
+    # ürünler saniyeler içinde girer. Görseller repoya commit'li dosyalardan bağlanır
+    # (import yerel products/*.jpg varsa DB kaydı açar, indirme yapmaz).
+    - /bin/bash -c "cd $APPDIR && $PHP artisan import:catalog2 --skip-images 2>&1 || true"
     # İlk kurulumda organikgiller'den çekilen ürünleri kaldır (soft-delete, geri alınabilir)
     - /bin/bash -c "cd $APPDIR && $PHP artisan catalog:purge-source organikgiller 2>&1 || true"
     # --- public_html'e yayınla ---

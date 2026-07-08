@@ -153,26 +153,33 @@ class ImportCatalog2 extends Command
                     ],
                 );
 
-                if (! $this->option('skip-images') && $product->images()->count() === 0 && ! empty($p['images'])) {
-                    if ($limit && $imgProducts >= $limit) {
-                        $remaining++;
-                    } else {
-                        $got = false;
-                        foreach (array_slice($p['images'], 0, 2) as $idx => $url) {
-                            $stored = $this->downloadImage((string) $url, $p['slug'], $idx);
-                            if ($stored) {
-                                ProductImage::create([
-                                    'product_id' => $product->id,
-                                    'path' => $stored,
-                                    'alt' => $p['name'],
-                                    'sort_order' => $idx,
-                                ]);
-                                $imgCount++;
-                                $got = true;
+                if ($product->images()->count() === 0) {
+                    // 1) Repoda commit'li yerel görselleri bağla (indirme yok — deploy dostu)
+                    $local = $this->registerLocalImages($product->id, $p['slug'], $p['name']);
+                    $imgCount += $local;
+
+                    // 2) Yerel görsel yoksa ve --skip-images verilmediyse URL'den indir
+                    if ($local === 0 && ! $this->option('skip-images') && ! empty($p['images'])) {
+                        if ($limit && $imgProducts >= $limit) {
+                            $remaining++;
+                        } else {
+                            $got = false;
+                            foreach (array_slice($p['images'], 0, 2) as $idx => $url) {
+                                $stored = $this->downloadImage((string) $url, $p['slug'], $idx);
+                                if ($stored) {
+                                    ProductImage::create([
+                                        'product_id' => $product->id,
+                                        'path' => $stored,
+                                        'alt' => $p['name'],
+                                        'sort_order' => $idx,
+                                    ]);
+                                    $imgCount++;
+                                    $got = true;
+                                }
                             }
-                        }
-                        if ($got) {
-                            $imgProducts++;
+                            if ($got) {
+                                $imgProducts++;
+                            }
                         }
                     }
                 }
@@ -214,6 +221,26 @@ class ImportCatalog2 extends Command
         ]);
 
         return $cat->id;
+    }
+
+    /** Repoda hazır yerel görselleri (products/{slug}-N.*) DB'ye bağla; indirme yok. */
+    private function registerLocalImages(int $productId, string $slug, string $name): int
+    {
+        $base = storage_path('app/public/products/');
+        $files = glob($base . $slug . '-*.{jpg,jpeg,png,webp}', GLOB_BRACE) ?: [];
+        sort($files);
+        $n = 0;
+        foreach ($files as $full) {
+            ProductImage::create([
+                'product_id' => $productId,
+                'path' => 'products/' . basename($full),
+                'alt' => $name,
+                'sort_order' => $n,
+            ]);
+            $n++;
+        }
+
+        return $n;
     }
 
     private function downloadImage(string $url, string $slug, int $idx): ?string
