@@ -10,6 +10,7 @@ use App\Models\ProductVariant;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Storage;
 
 /**
  * Tardaş Egenin kataloğunu içe aktarır (Hepsiburada fiyatı + satis.tardas.com.tr görselleri).
@@ -174,9 +175,13 @@ class ImportTardas extends Command
             }
             $ext = str_contains($url, '.png') ? 'png' : (str_contains($url, '.webp') ? 'webp' : 'jpg');
             $path = "products/{$slug}-" . ($idx + 1) . ".{$ext}";
+            $body = $res->body();
+
+            // 1) Repo storage (deploy korumalı) + 2) servis diski (public_html/storage) → anında görünür
             $full = storage_path('app/public/' . $path);
             File::ensureDirectoryExists(dirname($full));
-            File::put($full, $res->body());
+            File::put($full, $body);
+            Storage::disk('public')->put($path, $body);
 
             return $path;
         } catch (\Throwable $e) {
