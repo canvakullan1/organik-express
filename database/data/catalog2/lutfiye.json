@@ -1,0 +1,329 @@
+{
+    "source": "lutfiye",
+    "scraped_at": "2026-07-08T23:47:22+02:00",
+    "products": [
+        {
+            "slug": "lutfiye-sade-helva-200g",
+            "name": "Lutfiye Sade Helva 200g",
+            "category": "bakkaliye",
+            "sku": null,
+            "price": 300,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/009\/1.png?revision=1777880403"
+            ],
+            "short_description": "Lutfiye Sade Helva 200g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Lutfiye Sade Helva 200g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Lutfiye Sade Helva 200g | Organik Express",
+            "meta_description": "Lutfiye Sade Helva 200g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-bogurtlen-marmelati-280-g",
+            "name": "Organik Böğürtlen Marmelatı 280 g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 475,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/010\/2.jpg?revision=1775473219"
+            ],
+            "short_description": "Organik Böğürtlen Marmelatı 280 g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Böğürtlen Marmelatı 280 g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Böğürtlen Marmelatı 280 g | Organik Express",
+            "meta_description": "Organik Böğürtlen Marmelatı 280 g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "kizilcik",
+            "name": "kızılcık",
+            "category": "bakkaliye",
+            "sku": null,
+            "price": 475,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/011\/chatgpt-image-may-22-2026-at-11-21-22-am-1.png?revision=1779438832"
+            ],
+            "short_description": "kızılcık, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>kızılcık<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "kızılcık | Organik Express",
+            "meta_description": "kızılcık, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kusburnu-marmelati-280g",
+            "name": "Organik Kuşburnu Marmelatı 280g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 475,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/012\/8.jpg?revision=1780301761"
+            ],
+            "short_description": "Organik Kuşburnu Marmelatı 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuşburnu Marmelatı 280g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuşburnu Marmelatı 280g | Organik Express",
+            "meta_description": "Organik Kuşburnu Marmelatı 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-bogurtlen-receli-280g",
+            "name": "Organik Böğürtlen Reçeli 280g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 475,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/013\/6.jpg?revision=1780301747"
+            ],
+            "short_description": "Organik Böğürtlen Reçeli 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Böğürtlen Reçeli 280g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Böğürtlen Reçeli 280g | Organik Express",
+            "meta_description": "Organik Böğürtlen Reçeli 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-cilek-receli-280g",
+            "name": "Organik Çilek Reçeli 280g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 475,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/014\/5.jpg?revision=1778745089"
+            ],
+            "short_description": "Organik Çilek Reçeli 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Çilek Reçeli 280g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Çilek Reçeli 280g | Organik Express",
+            "meta_description": "Organik Çilek Reçeli 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-visne-receli-280g",
+            "name": "Organik Vişne Reçeli 280g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 531,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/015\/1.jpg?revision=1778745124"
+            ],
+            "short_description": "Organik Vişne Reçeli 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Vişne Reçeli 280g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Vişne Reçeli 280g | Organik Express",
+            "meta_description": "Organik Vişne Reçeli 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-tahin-230g",
+            "name": "Organik Tahin 230g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 300,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/016\/9.jpg?revision=1778745072"
+            ],
+            "short_description": "Organik Tahin 230g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Tahin 230g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Tahin 230g | Organik Express",
+            "meta_description": "Organik Tahin 230g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-uzum-pekmezi-280g",
+            "name": "Organik Üzüm Pekmezi 280g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 339,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/017\/3.jpg?revision=1775473363"
+            ],
+            "short_description": "Organik Üzüm Pekmezi 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Üzüm Pekmezi 280g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Üzüm Pekmezi 280g | Organik Express",
+            "meta_description": "Organik Üzüm Pekmezi 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-dut-pekmezi-280g",
+            "name": "Organik Dut Pekmezi 280g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 339,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/018\/4.jpg?revision=1775473298"
+            ],
+            "short_description": "Organik Dut Pekmezi 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Dut Pekmezi 280g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Dut Pekmezi 280g | Organik Express",
+            "meta_description": "Organik Dut Pekmezi 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-harnup-pekmezi-280g",
+            "name": "Organik Harnup Pekmezi 280g",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 339,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/019\/7.jpg?revision=1775473400"
+            ],
+            "short_description": "Organik Harnup Pekmezi 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Harnup Pekmezi 280g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Harnup Pekmezi 280g | Organik Express",
+            "meta_description": "Organik Harnup Pekmezi 280g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "lokum-duble-fistikli-500g",
+            "name": "Lokum Duble Fıstıklı 500g",
+            "category": "bakkaliye",
+            "sku": null,
+            "price": 467,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/020\/1.png?revision=1781162753"
+            ],
+            "short_description": "Lokum Duble Fıstıklı 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Lokum Duble Fıstıklı 500g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Lokum Duble Fıstıklı 500g | Organik Express",
+            "meta_description": "Lokum Duble Fıstıklı 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "kakaolu-ceviz-soleni-500g",
+            "name": "Kakaolu Ceviz Şöleni 500g",
+            "category": "kuru-gida-kuruyemis",
+            "sku": null,
+            "price": 150,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/022\/1.png?revision=1780906337"
+            ],
+            "short_description": "Kakaolu Ceviz Şöleni 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Kakaolu Ceviz Şöleni 500g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Kakaolu Ceviz Şöleni 500g | Organik Express",
+            "meta_description": "Kakaolu Ceviz Şöleni 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "karamelli-yazlik-helva-500g",
+            "name": "Karamelli Yazlık Helva 500g",
+            "category": "bakkaliye",
+            "sku": null,
+            "price": 89,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/023\/2.png?revision=1771492254"
+            ],
+            "short_description": "Karamelli Yazlık Helva 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Karamelli Yazlık Helva 500g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Karamelli Yazlık Helva 500g | Organik Express",
+            "meta_description": "Karamelli Yazlık Helva 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "helva-sade-500g",
+            "name": "Helva Sade 500g",
+            "category": "bakkaliye",
+            "sku": null,
+            "price": 122,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/024\/1.png?revision=1781162793"
+            ],
+            "short_description": "Helva Sade 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Helva Sade 500g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Helva Sade 500g | Organik Express",
+            "meta_description": "Helva Sade 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "helva-antep-fistikli-500g",
+            "name": "Helva Antep Fıstıklı 500g",
+            "category": "bakkaliye",
+            "sku": null,
+            "price": 253,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/026\/1.png?revision=1781162737"
+            ],
+            "short_description": "Helva Antep Fıstıklı 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Helva Antep Fıstıklı 500g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Helva Antep Fıstıklı 500g | Organik Express",
+            "meta_description": "Helva Antep Fıstıklı 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "helva-kakaolu-500g",
+            "name": "Helva Kakaolu 500g",
+            "category": "bakkaliye",
+            "sku": null,
+            "price": 122,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/028\/1.png?revision=1781162721"
+            ],
+            "short_description": "Helva Kakaolu 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Helva Kakaolu 500g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Helva Kakaolu 500g | Organik Express",
+            "meta_description": "Helva Kakaolu 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "lutfiye-organik-aronya-marmelati-70-meyve",
+            "name": "Lütfiye Organik Aronya Marmelatı %70 Meyve",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 515,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/031\/chatgpt-image-mar-23-2026-at-03-02-45-pm.png?revision=1781162707"
+            ],
+            "short_description": "Lütfiye Organik Aronya Marmelatı %70 Meyve, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Lütfiye Organik Aronya Marmelatı %70 Meyve<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Lütfiye Organik Aronya Marmelatı %70 Meyve | Organik Express",
+            "meta_description": "Lütfiye Organik Aronya Marmelatı %70 Meyve, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "ceviz-500g",
+            "name": "Ceviz 500g",
+            "category": "kuru-gida-kuruyemis",
+            "sku": null,
+            "price": 375,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.lutfiye.com\/idea\/rs\/52\/myassets\/products\/032\/chatgpt-image-jun-29-2026-at-06-48-06-pm.png?revision=1782748646"
+            ],
+            "short_description": "Ceviz 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Ceviz 500g<\/strong>, Lütfiye güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Ceviz 500g | Organik Express",
+            "meta_description": "Ceviz 500g, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        }
+    ]
+}

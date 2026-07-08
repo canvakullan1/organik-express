@@ -1,0 +1,397 @@
+{
+    "source": "organikgurme",
+    "scraped_at": "2026-07-08T23:44:17+02:00",
+    "products": [
+        {
+            "slug": "organik-siyez-bulguru-500-gr",
+            "name": "Organik Siyez Bulguru 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 87,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/001\/siyezbulgur.png?revision=1782914393"
+            ],
+            "short_description": "Organik Siyez Bulguru 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Siyez Bulguru 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Siyez Bulguru 500 gr | Organik Express",
+            "meta_description": "Organik Siyez Bulguru 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-pirinc-1000-gr",
+            "name": "Organik Pirinç 1000 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 234,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/002\/pirinc.png?revision=1782891975"
+            ],
+            "short_description": "Organik Pirinç 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Pirinç 1000 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Pirinç 1000 gr | Organik Express",
+            "meta_description": "Organik Pirinç 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-fasulye-1000-gr",
+            "name": "Organik Kuru Fasulye 1000 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 239,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/009\/kurufasulye.png?revision=1782891938"
+            ],
+            "short_description": "Organik Kuru Fasulye 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Fasulye 1000 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Fasulye 1000 gr | Organik Express",
+            "meta_description": "Organik Kuru Fasulye 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-pilavlik-bulgur-1000-gr",
+            "name": "Organik Pilavlık Bulgur 1000 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 117,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/010\/pilavlikbulgur.png?revision=1782891933"
+            ],
+            "short_description": "Organik Pilavlık Bulgur 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Pilavlık Bulgur 1000 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Pilavlık Bulgur 1000 gr | Organik Express",
+            "meta_description": "Organik Pilavlık Bulgur 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-patlamalik-misir-500-gr",
+            "name": "Organik Patlamalık Mısır 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 75,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/012\/misir.png?revision=1782891928"
+            ],
+            "short_description": "Organik Patlamalık Mısır 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Patlamalık Mısır 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Patlamalık Mısır 500 gr | Organik Express",
+            "meta_description": "Organik Patlamalık Mısır 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kirmizi-mercimek-1000-gr",
+            "name": "Organik Kırmızı Mercimek 1000 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 210,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/013\/kirmizimercimek.png?revision=1783087370"
+            ],
+            "short_description": "Organik Kırmızı Mercimek 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kırmızı Mercimek 1000 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kırmızı Mercimek 1000 gr | Organik Express",
+            "meta_description": "Organik Kırmızı Mercimek 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-nohut-1000-gr",
+            "name": "Organik Nohut 1000 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 335,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/016\/nohut.png?revision=1782891901"
+            ],
+            "short_description": "Organik Nohut 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Nohut 1000 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Nohut 1000 gr | Organik Express",
+            "meta_description": "Organik Nohut 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-tam-bugday-unu-ve-organik-bugday-unu-paketi",
+            "name": "Organik Tam Buğday Unu ve Organik Buğday Unu Paketi",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 192,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/057\/tambugday-bugday.png?revision=1782891652"
+            ],
+            "short_description": "Organik Tam Buğday Unu ve Organik Buğday Unu Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Tam Buğday Unu ve Organik Buğday Unu Paketi<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Tam Buğday Unu ve Organik Buğday Unu Paketi | Organik Express",
+            "meta_description": "Organik Tam Buğday Unu ve Organik Buğday Unu Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kurufasulye-ve-organik-nohut-paketi",
+            "name": "Organik Kurufasulye ve Organik Nohut Paketi",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 728,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/060\/nohut-kuru-fasulye.png?revision=1782891633"
+            ],
+            "short_description": "Organik Kurufasulye ve Organik Nohut Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kurufasulye ve Organik Nohut Paketi<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kurufasulye ve Organik Nohut Paketi | Organik Express",
+            "meta_description": "Organik Kurufasulye ve Organik Nohut Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-cavdar-unu-ve-organik-karabugday-unu-paketi",
+            "name": "Organik Çavdar Unu ve Organik Karabuğday Unu Paketi",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 227,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/065\/cavdar-karabugday.png?revision=1782891606"
+            ],
+            "short_description": "Organik Çavdar Unu ve Organik Karabuğday Unu Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Çavdar Unu ve Organik Karabuğday Unu Paketi<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Çavdar Unu ve Organik Karabuğday Unu Paketi | Organik Express",
+            "meta_description": "Organik Çavdar Unu ve Organik Karabuğday Unu Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-pirinc-ve-organik-nohut-paketi",
+            "name": "Organik Pirinç ve Organik Nohut Paketi",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 477,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/069\/pirinc-nohut.png?revision=1782891578"
+            ],
+            "short_description": "Organik Pirinç ve Organik Nohut Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Pirinç ve Organik Nohut Paketi<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Pirinç ve Organik Nohut Paketi | Organik Express",
+            "meta_description": "Organik Pirinç ve Organik Nohut Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "arpa-sehriye-500gr",
+            "name": "Arpa Şehriye 500gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 175,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/071\/arpasehriye.png?revision=1782891565"
+            ],
+            "short_description": "Arpa Şehriye 500gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Arpa Şehriye 500gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Arpa Şehriye 500gr | Organik Express",
+            "meta_description": "Arpa Şehriye 500gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "tel-sehriye-500-gr",
+            "name": "Tel Şehriye 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 250,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/072\/telsehriye.png?revision=1782891559"
+            ],
+            "short_description": "Tel Şehriye 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Tel Şehriye 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Tel Şehriye 500 gr | Organik Express",
+            "meta_description": "Tel Şehriye 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-bugday-nisastasi-500-gr",
+            "name": "Organik Buğday Nişastası 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 124,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/076\/bugdaynisastasi.png?revision=1782891533"
+            ],
+            "short_description": "Organik Buğday Nişastası 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Buğday Nişastası 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Buğday Nişastası 500 gr | Organik Express",
+            "meta_description": "Organik Buğday Nişastası 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-tam-bugdayli-biskuvi-80-gr",
+            "name": "Organik Tam Buğdaylı Bisküvi 80 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 160,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/095\/tambugdaybiskuvi.jpg?revision=1782892161"
+            ],
+            "short_description": "Organik Tam Buğdaylı Bisküvi 80 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Tam Buğdaylı Bisküvi 80 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Tam Buğdaylı Bisküvi 80 gr | Organik Express",
+            "meta_description": "Organik Tam Buğdaylı Bisküvi 80 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-borulce-500-gr",
+            "name": "Organik Börülce 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 175,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/104\/borulce.png?revision=1782891223"
+            ],
+            "short_description": "Organik Börülce 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Börülce 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Börülce 500 gr | Organik Express",
+            "meta_description": "Organik Börülce 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-misir-unu-500-gr",
+            "name": "Organik Mısır Unu 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 68,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/108\/web-0000s-0001s-0007-misir-unu.jpg?revision=1782894366"
+            ],
+            "short_description": "Organik Mısır Unu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Mısır Unu 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Mısır Unu 500 gr | Organik Express",
+            "meta_description": "Organik Mısır Unu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-karabugday-unu-500-gr",
+            "name": "Organik Karabuğday Unu 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 117,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/109\/web-0000s-0001s-0006-karabugday.jpg?revision=1782914339"
+            ],
+            "short_description": "Organik Karabuğday Unu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Karabuğday Unu 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Karabuğday Unu 500 gr | Organik Express",
+            "meta_description": "Organik Karabuğday Unu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-pirinc-unu-500-gr",
+            "name": "Organik Pirinç Unu 500 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 83,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/128\/web-0000s-0001s-0010-pirinc-unu.jpg?revision=1782914313"
+            ],
+            "short_description": "Organik Pirinç Unu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Pirinç Unu 500 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Pirinç Unu 500 gr | Organik Express",
+            "meta_description": "Organik Pirinç Unu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-cok-amacli-bugday-unu-1000-gr",
+            "name": "Organik Çok Amaçlı Buğday Unu 1000 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 112,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/130\/web-0000s-0001s-0001-bugday-unu.jpg?revision=1782891163"
+            ],
+            "short_description": "Organik Çok Amaçlı Buğday Unu 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Çok Amaçlı Buğday Unu 1000 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Çok Amaçlı Buğday Unu 1000 gr | Organik Express",
+            "meta_description": "Organik Çok Amaçlı Buğday Unu 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-tam-bugday-unu-1000-gr",
+            "name": "Organik Tam Buğday Unu 1000 gr",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 115,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/131\/web-0000s-0001s-0002-tam-bugday-unu.jpg?revision=1782891160"
+            ],
+            "short_description": "Organik Tam Buğday Unu 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Tam Buğday Unu 1000 gr<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Tam Buğday Unu 1000 gr | Organik Express",
+            "meta_description": "Organik Tam Buğday Unu 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-yulaf-unu-ve-organik-pirinc-unu-paketi",
+            "name": "Organik Yulaf Unu ve Organik Pirinç Unu Paketi",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 235,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/204\/pirinc-yulaf.png?revision=1782890899"
+            ],
+            "short_description": "Organik Yulaf Unu ve Organik Pirinç Unu Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Yulaf Unu ve Organik Pirinç Unu Paketi<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Yulaf Unu ve Organik Pirinç Unu Paketi | Organik Express",
+            "meta_description": "Organik Yulaf Unu ve Organik Pirinç Unu Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-ruseym-250-gr-bugday-ozu",
+            "name": "Organik Ruşeym 250 gr (Buğday Özü)",
+            "category": "kuru-gida-bakliyat-tahil",
+            "sku": null,
+            "price": 102,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/www.organikgurme.com\/idea\/ri\/50\/myassets\/products\/263\/web-0000s-0001s-0004-ruseym.jpg?revision=1782890866"
+            ],
+            "short_description": "Organik Ruşeym 250 gr (Buğday Özü), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Ruşeym 250 gr (Buğday Özü)<\/strong>, Organik Gurme güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Ruşeym 250 gr (Buğday Özü) | Organik Express",
+            "meta_description": "Organik Ruşeym 250 gr (Buğday Özü), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        }
+    ]
+}

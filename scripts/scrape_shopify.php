@@ -33,6 +33,14 @@ $sources = [
             'glutensiz-urunler' => 'glutensiz',
         ],
     ],
+    'guzelgida' => [
+        'domain' => 'https://siparis-guzelgida.com',
+        'brand' => 'Güzel Gıda',
+        'all_products' => true,          // /products.json + başlık filtresi
+        'title_filter' => '~sirke~iu',   // yalnız sirkeler
+        'category' => 'sirke-salca-sos',
+        'collections' => [],
+    ],
 ];
 
 function fetch(string $url): ?array
@@ -95,10 +103,16 @@ foreach ($sources as $sourceName => $cfg) {
     $seen = [];
     $products = [];
 
-    foreach ($cfg['collections'] as $handle => $catSlug) {
+    $endpoints = ! empty($cfg['all_products'])
+        ? ['__all__' => $cfg['category']]
+        : $cfg['collections'];
+    foreach ($endpoints as $handle => $catSlug) {
         $page = 1;
         while (true) {
-            $url = "{$cfg['domain']}/collections/{$handle}/products.json?limit=250&page={$page}";
+            $base = $handle === '__all__'
+                ? "{$cfg['domain']}/products.json"
+                : "{$cfg['domain']}/collections/{$handle}/products.json";
+            $url = "{$base}?limit=250&page={$page}";
             $data = fetch($url);
             $items = $data['products'] ?? [];
             if (! $items) {
@@ -118,6 +132,9 @@ foreach ($sources as $sourceName => $cfg) {
                 }
 
                 $title = trim($it['title'] ?? '');
+                if (! empty($cfg['title_filter']) && ! preg_match($cfg['title_filter'], $title)) {
+                    continue;
+                }
                 $cat = $catSlug;
                 if ($handle === 'organik-soslar-ve-yaglar' && isOil($title)) {
                     $cat = 'zeytin-zeytinyagi';

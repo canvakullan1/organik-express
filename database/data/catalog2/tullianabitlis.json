@@ -1,0 +1,593 @@
+{
+    "source": "tullianabitlis",
+    "scraped_at": "2026-07-08T23:35:40+02:00",
+    "products": [
+        {
+            "slug": "ari-poleni",
+            "name": "Arı Poleni",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 200,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/182a630b-187b-4d0b-9e92-bb2b694a6eea\/1080\/tulliana-bitlisbali-0030-layer-1.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/27166173-cf82-4b46-bfdf-db3ab156f0c4\/1080\/kargo-paketleme.webp"
+            ],
+            "short_description": "Arı Poleni, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Arı Poleni<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Arı Poleni | Organik Express",
+            "meta_description": "Arı Poleni, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "ari-sutu",
+            "name": "Arı Sütü",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 1350,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/f871e739-3b95-480b-b0a8-a515d86717f2\/image_1080.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/2330a19a-826e-4c6c-bcca-803e8cd68535\/1080\/kargo-paketleme.webp"
+            ],
+            "short_description": "Arı Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Arı Sütü<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Arı Sütü | Organik Express",
+            "meta_description": "Arı Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "tanisma-paketi",
+            "name": "Tanışma Paketi",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 4000,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/fda95826-dbd8-46ce-b48e-de432c878880\/1080\/tulliana-bitlisbali-tanisma-paket-2.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/848fdc00-2028-4a0f-b550-8ebaa7b0584d\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0002-generative-fill.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/d6142a8b-8138-40c0-90c3-f2d0076ce2e5\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0005-0g3a0166.webp"
+            ],
+            "short_description": "Tanışma Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Tanışma Paketi<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Tanışma Paketi | Organik Express",
+            "meta_description": "Tanışma Paketi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "tanisma-paketi-2",
+            "name": "Tanışma Paketi 2",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 7000,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/44800de3-ce9e-48e3-ae44-f0593dd7f84b\/1080\/tanisma-paketi-tulliana-bitlisbali.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/dcd5015d-3dc0-4116-a8c6-7e3269c1d411\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-450gr-0001-0g3a0357-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/5fc644d6-ce8f-41d7-9df4-4b201d3b5c30\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-450gr-0000-0g3a0599-copy.webp"
+            ],
+            "short_description": "Tanışma Paketi 2, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Tanışma Paketi 2<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Tanışma Paketi 2 | Organik Express",
+            "meta_description": "Tanışma Paketi 2, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "dogal-bitlis-adilcevaz-ceviz-ici",
+            "name": "Doğal Bitlis Adilcevaz Ceviz İçi",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 200,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/ef52a089-8f82-461f-a127-44964a970bb9\/image_1080.webp"
+            ],
+            "short_description": "Doğal Bitlis Adilcevaz Ceviz İçi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Doğal Bitlis Adilcevaz Ceviz İçi<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Doğal Bitlis Adilcevaz Ceviz İçi | Organik Express",
+            "meta_description": "Doğal Bitlis Adilcevaz Ceviz İçi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "dogal-bitlis-adilcevaz-cevizi",
+            "name": "Doğal Bitlis Adilcevaz Cevizi",
+            "category": "kahvaltilik-bal-recel",
+            "sku": "CVZ1",
+            "price": 525,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/988368fb-1059-48e5-b2c4-15f02fb01abf\/image_1080.webp"
+            ],
+            "short_description": "Doğal Bitlis Adilcevaz Cevizi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Doğal Bitlis Adilcevaz Cevizi<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Doğal Bitlis Adilcevaz Cevizi | Organik Express",
+            "meta_description": "Doğal Bitlis Adilcevaz Cevizi, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "dogal-bitlis-armut-kurusu",
+            "name": "Doğal Bitlis Armut Kurusu",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 125,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/5998c2d2-9773-4b0b-889b-2c13a816be6d\/image_1080.webp"
+            ],
+            "short_description": "Doğal Bitlis Armut Kurusu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Doğal Bitlis Armut Kurusu<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Doğal Bitlis Armut Kurusu | Organik Express",
+            "meta_description": "Doğal Bitlis Armut Kurusu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "dogal-bitlis-dut-kurusu",
+            "name": "Doğal Bitlis Dut Kurusu",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 145,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/d30f81ff-47d5-4203-ae30-f080beeb34e1\/image_1080.webp"
+            ],
+            "short_description": "Doğal Bitlis Dut Kurusu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Doğal Bitlis Dut Kurusu<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Doğal Bitlis Dut Kurusu | Organik Express",
+            "meta_description": "Doğal Bitlis Dut Kurusu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "dogal-bitlis-fistigi",
+            "name": "Doğal Bitlis Fıstığı",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 650,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/1aaa25bf-1125-42c0-8f54-6bcbad9a6cf2\/image_1080.webp"
+            ],
+            "short_description": "Doğal Bitlis Fıstığı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Doğal Bitlis Fıstığı<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Doğal Bitlis Fıstığı | Organik Express",
+            "meta_description": "Doğal Bitlis Fıstığı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "dogal-bitlis-kuru-uzum",
+            "name": "Doğal Bitlis Kuru Üzüm",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 175,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/0f74d380-76e2-4a74-b97f-a2854012c0e3\/image_1080.webp"
+            ],
+            "short_description": "Doğal Bitlis Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Doğal Bitlis Kuru Üzüm<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Doğal Bitlis Kuru Üzüm | Organik Express",
+            "meta_description": "Doğal Bitlis Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "dogal-bitlis-tam-yagli-tulum-peyniri-keci",
+            "name": "Doğal Bitlis Tam Yağlı Tulum Peyniri (Keçi)",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 750,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/0fdf8012-dc69-478b-a20c-24fee6a8653f\/image_1080.webp"
+            ],
+            "short_description": "Doğal Bitlis Tam Yağlı Tulum Peyniri (Keçi), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Doğal Bitlis Tam Yağlı Tulum Peyniri (Keçi)<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Doğal Bitlis Tam Yağlı Tulum Peyniri (Keçi) | Organik Express",
+            "meta_description": "Doğal Bitlis Tam Yağlı Tulum Peyniri (Keçi), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 600,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/3f2e1b8d-1fe3-4c9c-9105-b2cf8acbccf4\/1080\/tulliana-bitlisbali-bitlisbali-0031-layer-4-copy-31.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/1122bdaf-3166-4a95-86b6-d29b15c61551\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300-gr-0001-0g3a9653-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/72f93867-d25c-4a73-973c-3a2142f078c6\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300-gr-0000-0g3a9666-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x300gr",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 1840,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/8f07fb4e-412f-401d-832a-a61ba39fdf4a\/1080\/tulliana-bitlisbali-bitlisbali-0029-layer-4-copy-23.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/054d97c7-b76e-4903-8bf0-6cb07e2630cc\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300-gr-0001-0g3a9653-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/8b4cb879-9870-47bc-8ccc-014ce6e936e8\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300-gr-0000-0g3a9666-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x450gr",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 2070,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/3f80f097-09c1-4749-921e-34d2fb90cbc3\/1080\/tulliana-bitlisbali-bitlisbali-0014-layer-4-copy-14.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/67d21811-af2d-4191-b697-5a1bb4c365b0\/1080\/0g3a0357-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/de31da46-7010-4060-b751-ad64cf65ea95\/1080\/0g3a0407-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x850gr",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 3750,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/67c51979-c3fa-4237-9c9a-f830c13924e2\/1080\/tulliana-bitlisbali-bitlisbali-0023-layer-4-copy-24.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/e7cb5523-0510-4da6-af4e-c688d0d83432\/1080\/bitlis-bali-850-cicek-0000-generative-fill-2.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/4038a9c6-bfdc-461e-a519-c04eca2f4638\/1080\/bitlis-bali-850-cicek-0001-0g3a9565-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x300gr",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 2645,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/a3c296f6-50fe-491f-9a58-d168c5ec577f\/1080\/tulliana-bitlisbali-bitlisbali-0026-layer-4-copy-27.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/bd163413-1728-412b-93b5-85e596461586\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300-gr-0001-0g3a9653-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/a6c5b416-a855-487b-a200-21e1a1fcdc65\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300-gr-0000-0g3a9666-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x450gr",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 2875,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/3bb59e56-3428-4421-9073-87beffe48466\/1080\/tulliana-bitlisbali-bitlisbali-0020-layer-4-copy-20.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/49da8e5b-9ba9-4cde-b9aa-31e9dad52c8f\/1080\/0g3a0407-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/48ffea64-ba82-4ce8-8aef-726727d866eb\/1080\/0g3a0357-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x850gr",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 5175,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/74560437-6fe6-4fa3-a8f7-e468d4b6a01e\/1080\/tulliana-bitlisbali-bitlisbali-0021-layer-4-copy-21.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/23746ac8-cfda-44d6-9306-8ca812ff7c84\/1080\/bitlis-bali-850-cicek-0000-generative-fill-2.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/bd055d77-b166-49ef-a9c5-c17283c62dab\/1080\/bitlis-bali-850-cicek-0001-0g3a9565-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-cok-cicekli-karakovan-bitlis-bali",
+            "name": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 2750,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/9cebea81-1e56-4a63-b28a-02171c850c81\/1080\/tulliana-bitlisbali-bitlisbali-0015-layer-4-copy-15.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/2d42c5a6-67dd-4343-ae17-c6296c6f06a9\/1080\/bitlisbali-petekbal-tulliana-bali-0002-generative-fill.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/c1b40d05-c962-4cfa-aa74-02b632a1f4f0\/1080\/kargo-paketleme.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-sertifikali-poliflorali-karakovan-petek-bali",
+            "name": "Organik Sertifikalı Polifloralı Karakovan Petek Balı",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 2100,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/4e9d92ea-9450-4c1d-afdb-6843d83ceeeb\/1080\/organik-poliflorali-karakovan-petek-bal-ahsap.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/1b12dc26-9846-4a37-b589-17c0128a24cc\/1080\/bitlisbali-petekbal-tulliana-bali-0002-generative-fill.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/1eabab8c-0244-4355-a9cc-91261b9c1e24\/1080\/bitlisbali-petekbal-tulliana-bali-0001-0g3a9722-copy.webp"
+            ],
+            "short_description": "Organik Sertifikalı Polifloralı Karakovan Petek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Sertifikalı Polifloralı Karakovan Petek Balı<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Sertifikalı Polifloralı Karakovan Petek Balı | Organik Express",
+            "meta_description": "Organik Sertifikalı Polifloralı Karakovan Petek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 900,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/c1b9a4e5-4cc6-451a-b671-71b228fc498c\/1080\/tulliana-bitlisbali-bitlisbali-0033-layer-4-copy-33.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/38b4d12b-3bf0-42db-af72-9be96b008b4e\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0003-0g3a0245.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/ca24c0b4-861b-401a-b325-a0d1b0578ab7\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0002-generative-fill.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x300gr",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 2760,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/1ab00331-59f2-4342-beb7-001bd491fbcd\/1080\/tulliana-bitlisbali-bitlisbali-0028-layer-4-copy-29.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/7d58b5a5-9b74-4c33-95cb-353f70e9d183\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0004-0g3a0230.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/5abc709b-98f8-4e42-a719-11b825251dac\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0001-0g3a0357-copy.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x450gr",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 3105,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/b602e0a9-a2b9-4620-8155-93641aef67d3\/1080\/tulliana-bitlisbali-bitlisbali-0025-layer-4-copy-26.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/a924d3e9-5a51-4222-937e-1ec0946874b5\/1080\/tulliana-bitlisbali-infografik-0001-urun-infogreafik-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/665a26df-979f-4f51-be13-537afbfe9a5d\/1080\/tulliana-bitlisbali-infografik-0000-analiz-sonucu.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-4x850gr",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 5750,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/a55c6e88-5d2e-4007-9649-70cb10245dab\/1080\/tulliana-bitlisbali-bitlisbali-0024-layer-4-copy-25.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/b174e064-e340-498a-8389-85184f72f18a\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-850gr.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/d6bcfaa3-41ab-4e7d-a1d4-ee9515fdbe12\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-850gr2.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 4x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x300gr",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 3795,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/92c336cd-2c35-46b3-8939-d3c0d5dd6921\/1080\/tulliana-bitlisbali-bitlisbali-0027-layer-4-copy-28.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/36f77cb7-d150-4cee-b899-2b675c460193\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0004-0g3a0230.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/5e69b5af-1b31-4795-ad43-47257673d984\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-300gr-0001-0g3a0357-copy.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x300gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x450gr",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 4370,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/1c93f19d-3a08-4ed0-af73-150aefb326a6\/1080\/tulliana-bitlisbali-bitlisbali-0030-layer-4-copy-30.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/50330b84-aa55-4f60-90a7-2d873a584405\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-450gr-0000-0g3a0599-copy.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/c1c48936-0360-4821-803a-1e0732fb3964\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-450gr-0002-0g3a0357-copy.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x450gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-ham-suzme-cicek-bali-6x850gr",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 9975,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/07e5df8b-5c56-43e1-b4f1-57b3a9b4a44b\/1080\/tulliana-bitlisbali-bitlisbali-0022-layer-4-copy-22.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/2bd59550-e9e7-4ed7-99ac-2a3f4254a3f0\/1080\/tulliana-bitlisbali-bitlis-cicek-bali-850gr.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/c44d43d4-f579-40e9-9a01-37cecc85ae90\/1080\/tulliana-bitlisbali-infografik-0001-urun-infogreafik-copy.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Ham Süzme Çiçek Balı 6x850gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-karakovan-bitlis-bali",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 5000,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/f0b1ce44-c33d-4b8b-90e7-223489500cc9\/1080\/tulliana-bitlisbali-bitlisbali-0002-layer-4-copy-2.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/a438f148-e78f-4a23-88e1-25c24ee03b7c\/1080\/urunler-detay-premium-karakovan.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/bd19c2bd-1e81-4674-8487-c456ed0fdfa9\/1080\/urunler-detay-premium-karakovan-yarim.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Bitlis Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "premium-seri-poliflorali-cok-cicekli-karakovan-petek-bali",
+            "name": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Petek Balı",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 3399,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/458b399f-f7fc-40c2-b96d-c6dedd4380a4\/1080\/tulliana-bitlisbali-bitlis-petek-bali-0003-layer-4-copy-38.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/02793b49-43a0-4209-bb3a-a61b8c6325c1\/1080\/bitlisbali-petekbal-tulliana-bali-0002-generative-fill.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/1634772a-b965-424d-a70f-3efe1f6f7bba\/1080\/bitlisbali-petekbal-tulliana-bali-0001-0g3a9722-copy.webp"
+            ],
+            "short_description": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Petek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Premium Seri Polifloralı (Çok Çiçekli) Karakovan Petek Balı<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Petek Balı | Organik Express",
+            "meta_description": "Premium Seri Polifloralı (Çok Çiçekli) Karakovan Petek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "propolis",
+            "name": "Propolis",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 575,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/c767c3c0-36d2-4a3c-99f4-4e3f064870ee\/image_1080.webp"
+            ],
+            "short_description": "Propolis, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Propolis<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Propolis | Organik Express",
+            "meta_description": "Propolis, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "salamura-bitlis-peyniri",
+            "name": "Salamura Bitlis Peyniri",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 2400,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/2e2f8c95-8804-45f9-ab7a-45ff8c0aa9d0\/1080\/salamura-bitlis-peyniri.webp"
+            ],
+            "short_description": "Salamura Bitlis Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Salamura Bitlis Peyniri<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Salamura Bitlis Peyniri | Organik Express",
+            "meta_description": "Salamura Bitlis Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "tulliana-mix-organik-ham-bal-polen-propolis-ari-sutu",
+            "name": "Tulliana Mix (Organik Ham Bal + Polen + Propolis + Arı Sütü)",
+            "category": "kahvaltilik-bal-recel",
+            "sku": null,
+            "price": 865,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/75298b8d-e2c6-4356-8067-f2407569cf88\/1080\/tulliana-bitlisbali-karisim-250gr.webp",
+                "https:\/\/cdn.myikas.com\/images\/9778796a-6582-44df-81d0-21988dfb3e02\/17076ef1-33eb-4ee3-b2d2-da8ebba270c7\/1080\/kargo-paketleme.webp"
+            ],
+            "short_description": "Tulliana Mix (Organik Ham Bal + Polen + Propolis + Arı Sütü), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Tulliana Mix (Organik Ham Bal + Polen + Propolis + Arı Sütü)<\/strong>, Tulliana Bitlis güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Tulliana Mix (Organik Ham Bal + Polen + Propolis + Arı Sütü) | Organik Express",
+            "meta_description": "Tulliana Mix (Organik Ham Bal + Polen + Propolis + Arı Sütü), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        }
+    ]
+}

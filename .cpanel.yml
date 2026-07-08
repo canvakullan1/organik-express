@@ -23,6 +23,12 @@ deployment:
     # Önbellekleri tazele (config + route + view + event)
     - /bin/bash -c "cd $APPDIR && $PHP artisan optimize:clear 2>&1"
     - /bin/bash -c "cd $APPDIR && $PHP artisan optimize 2>&1"
+    # --- Katalog: 2. dalga ürünleri içe aktar (idempotent; görseller CDN'den iner) ---
+    # || true: uzun süren görsel indirmesi kesilse bile deploy başarısız sayılmaz;
+    # bir sonraki push'ta eksik görseller tamamlanır (import görseli olmayanı atlar).
+    - /bin/bash -c "cd $APPDIR && $PHP artisan import:catalog2 2>&1 || true"
+    # İlk kurulumda organikgiller'den çekilen ürünleri kaldır (soft-delete, geri alınabilir)
+    - /bin/bash -c "cd $APPDIR && $PHP artisan catalog:purge-source organikgiller 2>&1 || true"
     # --- public_html'e yayınla ---
     # Varsayılan cPanel index dosyalarını kaldır (Laravel index.php gölgelenmesin)
     - /bin/bash -c "rm -f $DOCROOT/index.html $DOCROOT/default.html 2>&1 || true"

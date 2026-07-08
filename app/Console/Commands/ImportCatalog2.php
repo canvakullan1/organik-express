@@ -157,7 +157,7 @@ class ImportCatalog2 extends Command
                         $remaining++;
                     } else {
                         $got = false;
-                        foreach (array_slice($p['images'], 0, 4) as $idx => $url) {
+                        foreach (array_slice($p['images'], 0, 2) as $idx => $url) {
                             $stored = $this->downloadImage((string) $url, $p['slug'], $idx);
                             if ($stored) {
                                 ProductImage::create([

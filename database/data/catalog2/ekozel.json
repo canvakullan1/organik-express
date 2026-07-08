@@ -1,0 +1,441 @@
+{
+    "source": "ekozel",
+    "scraped_at": "2026-07-08T23:36:03+02:00",
+    "products": [
+        {
+            "slug": "organik-kuru-kayisi",
+            "name": "Organik Kuru Kayısı",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "01",
+            "price": 729.81,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-kayisi--eca8-4.jpg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-kayisi---ab8ff.jpg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-kayisi--711-4a.jpg"
+            ],
+            "short_description": "Organik Kuru Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Kayısı<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Kayısı | Organik Express",
+            "meta_description": "Organik Kuru Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-incir",
+            "name": "Organik Kuru İncir",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "02",
+            "price": 619.65,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-incir-f3-40e.jpeg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-incir-37-470.jpg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-incir-4fad-a.jpg"
+            ],
+            "short_description": "Organik Kuru İncir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru İncir<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru İncir | Organik Express",
+            "meta_description": "Organik Kuru İncir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-domates",
+            "name": "Organik Kuru Domates",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "09",
+            "price": 270.81,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-domates-539a15.png"
+            ],
+            "short_description": "Organik Kuru Domates, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Domates<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Domates | Organik Express",
+            "meta_description": "Organik Kuru Domates, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kayisi-cekirdegi",
+            "name": "Organik Kayısı Çekirdeği",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "11",
+            "price": 180,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kayisi-cekirdegi-15-4ec.png"
+            ],
+            "short_description": "Organik Kayısı Çekirdeği, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kayısı Çekirdeği<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kayısı Çekirdeği | Organik Express",
+            "meta_description": "Organik Kayısı Çekirdeği, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "naturel-medjoul-hurma",
+            "name": "Naturel Medjoul Hurma",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "10",
+            "price": 344.25,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/naturel-medjoul-hurma--e143f.jpg"
+            ],
+            "short_description": "Naturel Medjoul Hurma, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Naturel Medjoul Hurma<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Naturel Medjoul Hurma | Organik Express",
+            "meta_description": "Naturel Medjoul Hurma, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-uzum",
+            "name": "Organik Kuru Üzüm",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "19",
+            "price": 247.86,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-uzum--4eda-.png"
+            ],
+            "short_description": "Organik Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Üzüm<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Üzüm | Organik Express",
+            "meta_description": "Organik Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-armut",
+            "name": "Organik Kuru Armut",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "20",
+            "price": 422.28,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-armut--684c-.png"
+            ],
+            "short_description": "Organik Kuru Armut, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Armut<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Armut | Organik Express",
+            "meta_description": "Organik Kuru Armut, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-erik",
+            "name": "Organik Kuru Erik",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "21",
+            "price": 339.66,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-erik-0cacf6.png",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-erik-b8ad05.jpg"
+            ],
+            "short_description": "Organik Kuru Erik, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Erik<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Erik | Organik Express",
+            "meta_description": "Organik Kuru Erik, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-elma",
+            "name": "Organik Kuru Elma",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "22",
+            "price": 449.82,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-elma-10-9f0.png"
+            ],
+            "short_description": "Organik Kuru Elma, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Elma<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Elma | Organik Express",
+            "meta_description": "Organik Kuru Elma, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-hurma",
+            "name": "Organik Kuru Hurma",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "23",
+            "price": 362.61,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-hurma-c-4e5e.png"
+            ],
+            "short_description": "Organik Kuru Hurma, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Hurma<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Hurma | Organik Express",
+            "meta_description": "Organik Kuru Hurma, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "kuru-kayisi",
+            "name": "Kuru Kayısı",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "25",
+            "price": 541.62,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/kuru-kayisi-eb372f.png"
+            ],
+            "short_description": "Kuru Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Kuru Kayısı<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Kuru Kayısı | Organik Express",
+            "meta_description": "Kuru Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "kuru-cilek",
+            "name": "Kuru Çilek",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "34",
+            "price": 431.46,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/kuru-cilek-bfff13.jpg"
+            ],
+            "short_description": "Kuru Çilek, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Kuru Çilek<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Kuru Çilek | Organik Express",
+            "meta_description": "Kuru Çilek, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "turna-yemisi-cranberry",
+            "name": "Turna Yemişi Cranberry",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "35",
+            "price": 270.81,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/turna-yemisi-cranberry-07-18a.jpg"
+            ],
+            "short_description": "Turna Yemişi Cranberry, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Turna Yemişi Cranberry<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Turna Yemişi Cranberry | Organik Express",
+            "meta_description": "Turna Yemişi Cranberry, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "yaban-mersini",
+            "name": "Yaban Mersini",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "36",
+            "price": 422.28,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/yaban-mersini-4812-8.jpg"
+            ],
+            "short_description": "Yaban Mersini, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Yaban Mersini<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Yaban Mersini | Organik Express",
+            "meta_description": "Yaban Mersini, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "mandalina-kurusu",
+            "name": "Mandalina Kurusu",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "41",
+            "price": 319.5,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/mandalina-kurusu--ae05-.jpg"
+            ],
+            "short_description": "Mandalina Kurusu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Mandalina Kurusu<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Mandalina Kurusu | Organik Express",
+            "meta_description": "Mandalina Kurusu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-yaban-mersini",
+            "name": "Organik Kuru Yaban Mersini",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "54",
+            "price": 344.25,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-yaban-mersini-dd6-8c.png"
+            ],
+            "short_description": "Organik Kuru Yaban Mersini, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Yaban Mersini<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Yaban Mersini | Organik Express",
+            "meta_description": "Organik Kuru Yaban Mersini, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "cekirdekli-siyah-kuru-uzum",
+            "name": "Çekirdekli Siyah Kuru Üzüm",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "55",
+            "price": 360,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/cekirdekli-siyah-kuru-uzum-d0c614.png"
+            ],
+            "short_description": "Çekirdekli Siyah Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Çekirdekli Siyah Kuru Üzüm<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Çekirdekli Siyah Kuru Üzüm | Organik Express",
+            "meta_description": "Çekirdekli Siyah Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-kara-dut",
+            "name": "Organik Kuru Kara Dut",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "67",
+            "price": 344.48,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-kara-dut-f50b-4.png"
+            ],
+            "short_description": "Organik Kuru Kara Dut, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Kara Dut<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Kara Dut | Organik Express",
+            "meta_description": "Organik Kuru Kara Dut, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-gun-kurusu-kayisi",
+            "name": "Organik Gün Kurusu Kayısı",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "68",
+            "price": 1236.6,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-gun-kurusu-kayisi-ed-43d.jpeg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-gun-kurusu-kayisi-e2c5c9.jpg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-gun-kurusu-kayisi-dcc2-4.png"
+            ],
+            "short_description": "Organik Gün Kurusu Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Gün Kurusu Kayısı<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Gün Kurusu Kayısı | Organik Express",
+            "meta_description": "Organik Gün Kurusu Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-dut",
+            "name": "Organik Kuru Dut",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "71",
+            "price": 316.71,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-dut--8c38-.png"
+            ],
+            "short_description": "Organik Kuru Dut, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Dut<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Dut | Organik Express",
+            "meta_description": "Organik Kuru Dut, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "ispir-kuru-fasulye",
+            "name": "İspir Kuru Fasulye",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "75",
+            "price": 716.04,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/ispir-kuru-fasulye-9-88b9.jpg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/ispir-fasulyesi-65-d2a.png"
+            ],
+            "short_description": "İspir Kuru Fasulye, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>İspir Kuru Fasulye<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "İspir Kuru Fasulye | Organik Express",
+            "meta_description": "İspir Kuru Fasulye, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-hosaflik-kuru-kayisi",
+            "name": "Organik Hoşaflık Kuru Kayısı",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "78",
+            "price": 229.5,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-hosaflik-kuru-kayisi-72-7cf.jpg",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-hosaflik-kuru-kayisi--45b2-.jpg"
+            ],
+            "short_description": "Organik Hoşaflık Kuru Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Hoşaflık Kuru Kayısı<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Hoşaflık Kuru Kayısı | Organik Express",
+            "meta_description": "Organik Hoşaflık Kuru Kayısı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuruyemisler",
+            "name": "Organik Kuruyemişler",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "88",
+            "price": 2749.41,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuruyemisler--c7-4ec.png",
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuruyemisler--0c-b7f.png"
+            ],
+            "short_description": "Organik Kuruyemişler, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuruyemişler<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuruyemişler | Organik Express",
+            "meta_description": "Organik Kuruyemişler, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-kuru-meyveler",
+            "name": "Organik Kuru Meyveler",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "89",
+            "price": 2593.35,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-kuru-meyveler--cc0e14.jpg"
+            ],
+            "short_description": "Organik Kuru Meyveler, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Kuru Meyveler<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Kuru Meyveler | Organik Express",
+            "meta_description": "Organik Kuru Meyveler, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        },
+        {
+            "slug": "organik-siyah-kuru-uzum",
+            "name": "Organik Siyah Kuru Üzüm",
+            "category": "kuru-gida-kuruyemis",
+            "sku": "93",
+            "price": 274.48,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https:\/\/static.ticimax.cloud\/37844\/uploads\/urunresimleri\/buyuk\/organik-siyah-kuru-uzum-cc7-8d.png"
+            ],
+            "short_description": "Organik Siyah Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+            "description": "<p><strong>Organik Siyah Kuru Üzüm<\/strong>, Ekozel güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.<\/p><ul><li>Organik içerik, katkısız üretim<\/li><li>Özenli paketleme ile taze teslim<\/li><li>Güvenle sipariş verin, kapınıza gelsin<\/li><\/ul>",
+            "meta_title": "Organik Siyah Kuru Üzüm | Organik Express",
+            "meta_description": "Organik Siyah Kuru Üzüm, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+        }
+    ]
+}
