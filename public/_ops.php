@@ -126,6 +126,21 @@ if ($do === 'import_tardas') {
     echo @shell_exec("cd $repo && $php artisan import:tardas$flags 2>&1");
     exit;
 }
+if ($do === 'import_cat2') {
+    // İkinci dalga çok kaynaklı katalog (sabit komut; source paramı sadece dosya adı filtreler).
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(1800);
+    $flags = '';
+    $src = preg_replace('/[^a-z0-9_-]/', '', strtolower($_GET['source'] ?? ''));
+    if ($src !== '') { $flags .= ' --source=' . escapeshellarg($src); }
+    if (($_GET['skipimg'] ?? '') === '1') { $flags .= ' --skip-images'; }
+    if (($_GET['status'] ?? '') === 'draft') { $flags .= ' --status=draft'; }
+    $lim = (int) ($_GET['limit'] ?? 0);
+    if ($lim > 0) { $flags .= ' --limit=' . $lim; }
+    if (($_GET['reimages'] ?? '') === '1') { $flags .= ' --reimages'; }
+    echo @shell_exec("cd $repo && $php artisan import:catalog2$flags 2>&1");
+    exit;
+}
 if ($do === 'place_menu') {
     // Sonradan eklenen kategorileri üst gruplara yerleştir (kategori ağacı + header menü).
     if (! $php) { exit("php bulunamadi\n"); }
