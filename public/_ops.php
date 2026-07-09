@@ -246,6 +246,10 @@ if ($do === 'deploy') {
         echo @shell_exec("cd $repo && $php artisan optimize:clear 2>&1");
         // View'ları yeniden derle (taze .php dosyaları diske yazılır)
         echo @shell_exec("cd $repo && $php artisan view:cache 2>&1");
+        // ÖNEMLİ: config'i CLI'dan cache'le → web istekleri ayarları CANLI çözmez
+        // (web opcache'i eski Settings sınıfını tutuyorsa spatie docblock fatal'ini önler).
+        echo @shell_exec("cd $repo && $php artisan config:cache 2>&1");
+        echo @shell_exec("cd $repo && $php artisan event:cache 2>&1");
     }
 
     // Web SAPI opcache: derlenmiş view + uygulama PHP'lerini tek tek geçersiz kıl
@@ -253,7 +257,10 @@ if ($do === 'deploy') {
     if (function_exists('opcache_invalidate')) {
         foreach (glob("$repo/storage/framework/views/*.php") ?: [] as $f) { @opcache_invalidate($f, true); }
         foreach (glob("$repo/bootstrap/cache/*.php") ?: [] as $f) { @opcache_invalidate($f, true); }
-        echo "opcache view/bootstrap invalidated\n";
+        // Uygulama PHP sınıflarını da geçersiz kıl (Settings sınıflarının eski docblock'u kalmasın)
+        $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator("$repo/app", FilesystemIterator::SKIP_DOTS));
+        foreach ($it as $f) { if ($f->getExtension() === 'php') { @opcache_invalidate($f->getPathname(), true); } }
+        echo "opcache view/bootstrap/app invalidated\n";
     }
 
     // public/ -> public_html (build, htaccess, favicon...)
