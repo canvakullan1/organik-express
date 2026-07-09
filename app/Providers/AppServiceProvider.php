@@ -34,6 +34,7 @@ class AppServiceProvider extends ServiceProvider
 
         $this->applyMailSettings();
         $this->localizeAuthEmails();
+        $this->debugUploadRequests(); // GEÇİCİ: görsel upload teşhisi (sorun çözülünce kaldır)
 
         // Vitrin layout'una mega menü, sepet/favori sayaçları ve TÜM site ayarlarını paylaş.
         View::composer('layouts.storefront', function ($view) {
@@ -78,6 +79,37 @@ class AppServiceProvider extends ServiceProvider
                 ->orderBy('sort_order')
                 ->get());
         });
+    }
+
+    /**
+     * GEÇİCİ TEŞHİS: Livewire görsel upload isteğinin gerçek sonucunu laravel.log'a yazar.
+     * Sorun (FilePond sonsuz dönme) çözülünce bu metod ve çağrısı kaldırılacak.
+     */
+    private function debugUploadRequests(): void
+    {
+        \Illuminate\Support\Facades\Event::listen(
+            \Illuminate\Foundation\Http\Events\RequestHandled::class,
+            function ($event): void {
+                try {
+                    $path = $event->request->path();
+                    if (! str_contains($path, 'livewire/upload-file') && ! str_contains($path, 'livewire/preview-file')) {
+                        return;
+                    }
+                    \Illuminate\Support\Facades\Log::info('UPLOAD-DEBUG', [
+                        'path' => $path,
+                        'status' => $event->response->getStatusCode(),
+                        'secure' => $event->request->isSecure(),
+                        'scheme' => $event->request->getScheme(),
+                        'host' => $event->request->getHost(),
+                        'xfproto' => $event->request->header('X-Forwarded-Proto'),
+                        'sig_valid' => $event->request->hasValidSignature(),
+                        'files' => count($event->request->allFiles()),
+                    ]);
+                } catch (\Throwable $e) {
+                    \Illuminate\Support\Facades\Log::warning('UPLOAD-DEBUG-ERR: ' . $e->getMessage());
+                }
+            }
+        );
     }
 
     /** Admin'den girilen mail (SMTP) ayarlarını çalışma zamanı config'e uygular. */
