@@ -73,7 +73,7 @@ class OrderFinalizer
             }
 
             // Yönetici bildirimi: yeni sipariş iletisim@organikexpress.com'a düşsün.
-            if ($adminTo = config('mail.admin_notifications')) {
+            if ($adminTo = config('mail.admin_notifications', 'iletisim@organikexpress.com')) {
                 Mail::to($adminTo)->send(new OrderPlacedMail($order, forAdmin: true));
             }
         } catch (\Throwable) {

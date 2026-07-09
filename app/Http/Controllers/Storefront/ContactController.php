@@ -29,7 +29,7 @@ class ContactController extends Controller
             'message.required' => 'Lütfen mesajınızı yazın.',
         ]);
 
-        if ($to = config('mail.admin_notifications')) {
+        if ($to = config('mail.admin_notifications', 'iletisim@organikexpress.com')) {
             Mail::to($to)->send(new ContactMessageMail(
                 $data['name'],
                 $data['email'],
