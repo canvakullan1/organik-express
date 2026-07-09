@@ -95,18 +95,18 @@ class AppServiceProvider extends ServiceProvider
                     if (! str_contains($path, 'livewire/upload-file') && ! str_contains($path, 'livewire/preview-file')) {
                         return;
                     }
-                    \Illuminate\Support\Facades\Log::info('UPLOAD-DEBUG', [
+                    \Illuminate\Support\Facades\Log::error('UPLOAD-DEBUG ' . json_encode([
                         'path' => $path,
                         'status' => $event->response->getStatusCode(),
                         'secure' => $event->request->isSecure(),
                         'scheme' => $event->request->getScheme(),
                         'host' => $event->request->getHost(),
-                        'xfproto' => $event->request->header('X-Forwarded-Proto'),
                         'sig_valid' => $event->request->hasValidSignature(),
                         'files' => count($event->request->allFiles()),
-                    ]);
+                        'body' => substr((string) $event->response->getContent(), 0, 300),
+                    ]));
                 } catch (\Throwable $e) {
-                    \Illuminate\Support\Facades\Log::warning('UPLOAD-DEBUG-ERR: ' . $e->getMessage());
+                    \Illuminate\Support\Facades\Log::error('UPLOAD-DEBUG-ERR: ' . $e->getMessage());
                 }
             }
         );
