@@ -17,6 +17,13 @@ return [
     'default' => env('MAIL_MAILER', 'log'),
 
     /*
+    | Yönetici bildirim adresi: yeni sipariş uyarıları ve iletişim formu
+    | mesajları buraya gönderilir. .env'de ADMIN_NOTIFICATION_EMAIL ile
+    | değiştirilebilir; tanımlı değilse aşağıdaki varsayılan kullanılır.
+    */
+    'admin_notifications' => env('ADMIN_NOTIFICATION_EMAIL', 'iletisim@organikexpress.com'),
+
+    /*
     |--------------------------------------------------------------------------
     | Mailer Configurations
     |--------------------------------------------------------------------------

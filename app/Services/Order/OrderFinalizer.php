@@ -71,6 +71,11 @@ class OrderFinalizer
             if (! $sent) {
                 Mail::to($order->contact_email)->send(new OrderPlacedMail($order));
             }
+
+            // Yönetici bildirimi: yeni sipariş iletisim@organikexpress.com'a düşsün.
+            if ($adminTo = config('mail.admin_notifications')) {
+                Mail::to($adminTo)->send(new OrderPlacedMail($order, forAdmin: true));
+            }
         } catch (\Throwable) {
             // mail hatası siparişi engellemesin
         }

@@ -8,6 +8,7 @@ use App\Http\Controllers\Storefront\AccountController;
 use App\Http\Controllers\Storefront\AddressController;
 use App\Http\Controllers\Storefront\CartController;
 use App\Http\Controllers\Storefront\CertificateController;
+use App\Http\Controllers\Storefront\ContactController;
 use App\Http\Controllers\Storefront\CheckoutController;
 use App\Http\Controllers\Storefront\OrdersController;
 use App\Http\Controllers\Storefront\CategoryController;
@@ -48,6 +49,9 @@ Route::middleware('auth')->group(function () {
 
 // E-bülten aboneliği
 Route::post('/bulten', [NewsletterController::class, 'store'])->name('newsletter.store')->middleware('throttle:8,1');
+
+// İletişim formu → yönetici e-postasına (config mail.admin_notifications).
+Route::post('/iletisim/gonder', [ContactController::class, 'send'])->name('contact.send')->middleware('throttle:5,1');
 
 // Katalog
 Route::get('/kategori/{category:slug}', [CategoryController::class, 'show'])->name('category.show');

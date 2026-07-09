@@ -13,14 +13,16 @@ class OrderPlacedMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public function __construct(public Order $order)
+    public function __construct(public Order $order, public bool $forAdmin = false)
     {
     }
 
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Siparişiniz Alındı — ' . $this->order->order_number,
+            subject: $this->forAdmin
+                ? 'Yeni Sipariş: ' . $this->order->order_number
+                : 'Siparişiniz Alındı — ' . $this->order->order_number,
         );
     }
 
