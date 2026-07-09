@@ -13,6 +13,16 @@ class EditBanner extends EditRecord
     protected function getHeaderActions(): array
     {
         return [
+            Actions\Action::make('manageImage')
+                ->label('Masaüstü Görsel')
+                ->icon('heroicon-o-photo')
+                ->color('success')
+                ->url(fn () => route('admin.image-field.show', ['key' => 'banner', 'id' => $this->getRecord()->getKey()])),
+            Actions\Action::make('manageMobileImage')
+                ->label('Mobil Görsel')
+                ->icon('heroicon-o-device-phone-mobile')
+                ->color('success')
+                ->url(fn () => route('admin.image-field.show', ['key' => 'banner-mobile', 'id' => $this->getRecord()->getKey()])),
             Actions\DeleteAction::make(),
         ];
     }

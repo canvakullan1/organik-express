@@ -13,6 +13,11 @@ class EditPost extends EditRecord
     protected function getHeaderActions(): array
     {
         return [
+            Actions\Action::make('manageImage')
+                ->label('Kapak Görseli Yükle')
+                ->icon('heroicon-o-photo')
+                ->color('success')
+                ->url(fn () => route('admin.image-field.show', ['key' => 'post', 'id' => $this->getRecord()->getKey()])),
             Actions\DeleteAction::make(),
         ];
     }

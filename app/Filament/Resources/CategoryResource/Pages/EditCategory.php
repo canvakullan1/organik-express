@@ -13,6 +13,11 @@ class EditCategory extends EditRecord
     protected function getHeaderActions(): array
     {
         return [
+            Actions\Action::make('manageImage')
+                ->label('Görsel Yükle')
+                ->icon('heroicon-o-photo')
+                ->color('success')
+                ->url(fn () => route('admin.image-field.show', ['key' => 'category', 'id' => $this->getRecord()->getKey()])),
             Actions\DeleteAction::make(),
         ];
     }
