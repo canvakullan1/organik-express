@@ -87,6 +87,26 @@ class AppServiceProvider extends ServiceProvider
      */
     private function debugUploadRequests(): void
     {
+        // İstek GİRİŞİ (CSRF'den önce): upload isteği Laravel'e ulaştı mı?
+        \Illuminate\Support\Facades\Event::listen(
+            \Illuminate\Routing\Events\RouteMatched::class,
+            function ($event): void {
+                try {
+                    $path = $event->request->path();
+                    if (str_contains($path, 'livewire/upload-file') || str_contains($path, 'livewire/preview-file')) {
+                        \Illuminate\Support\Facades\Log::error('UPLOAD-ENTRY ' . json_encode([
+                            'path' => $path,
+                            'method' => $event->request->method(),
+                            'files' => count($event->request->allFiles()),
+                            'ct' => substr((string) $event->request->header('Content-Type'), 0, 40),
+                        ]));
+                    }
+                } catch (\Throwable $e) {
+                    \Illuminate\Support\Facades\Log::error('UPLOAD-ENTRY-ERR: ' . $e->getMessage());
+                }
+            }
+        );
+
         \Illuminate\Support\Facades\Event::listen(
             \Illuminate\Foundation\Http\Events\RequestHandled::class,
             function ($event): void {
