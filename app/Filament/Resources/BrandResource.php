@@ -47,7 +47,13 @@ class BrandResource extends Resource
                 Forms\Components\FileUpload::make('logo')
                     ->label('Logo')
                     ->image()
+                    ->disk('public')
                     ->directory('brands')
+                    ->visibility('public')
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1600')
+                    ->imageResizeTargetHeight('1600')
+                    ->maxSize(30720)
                     ->columnSpanFull(),
 
                 Forms\Components\Textarea::make('description')

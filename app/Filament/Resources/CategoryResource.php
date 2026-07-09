@@ -62,8 +62,14 @@ class CategoryResource extends Resource
                 Forms\Components\FileUpload::make('image')
                     ->label('Kategori Görseli')
                     ->image()
+                    ->disk('public')
                     ->directory('categories')
-                    ->imageEditor(),
+                    ->visibility('public')
+                    ->imageEditor()
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1600')
+                    ->imageResizeTargetHeight('1600')
+                    ->maxSize(30720),
 
                 Forms\Components\TextInput::make('icon')
                     ->label('İkon (heroicon adı)')

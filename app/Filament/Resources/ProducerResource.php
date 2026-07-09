@@ -51,7 +51,13 @@ class ProducerResource extends Resource
                 Forms\Components\FileUpload::make('image')
                     ->label('Görsel')
                     ->image()
-                    ->directory('producers'),
+                    ->disk('public')
+                    ->directory('producers')
+                    ->visibility('public')
+                    ->imageResizeMode('contain')
+                    ->imageResizeTargetWidth('1600')
+                    ->imageResizeTargetHeight('1600')
+                    ->maxSize(30720),
 
                 Forms\Components\Textarea::make('short_description')
                     ->label('Kısa Açıklama')

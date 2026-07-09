@@ -72,7 +72,8 @@ class BundleResource extends Resource
                     Forms\Components\TextInput::make('sort_order')->label('Sıra')->numeric()->default(0),
                 ]),
                 Forms\Components\Section::make('Görsel')->schema([
-                    Forms\Components\FileUpload::make('image')->label('Kutu Görseli')->image()->directory('bundles')->imageEditor(),
+                    Forms\Components\FileUpload::make('image')->label('Kutu Görseli')->image()->disk('public')->directory('bundles')->visibility('public')->imageEditor()
+                        ->imageResizeMode('contain')->imageResizeTargetWidth('1600')->imageResizeTargetHeight('1600')->maxSize(30720),
                 ]),
                 Forms\Components\Section::make('SEO')->schema([
                     Forms\Components\TextInput::make('meta_title')->label('Meta Başlık'),

@@ -32,11 +32,15 @@ class BannerResource extends Resource
             Forms\Components\Section::make('Görseller')->schema([
                 Forms\Components\FileUpload::make('image')
                     ->label('Görsel (masaüstü)')
-                    ->image()->directory('banners')->imageEditor()
+                    ->image()->disk('public')->directory('banners')->visibility('public')->imageEditor()
+                    ->imageResizeMode('contain')->imageResizeTargetWidth('2000')->imageResizeTargetHeight('2000')
+                    ->maxSize(30720)
                     ->required()->columnSpanFull(),
                 Forms\Components\FileUpload::make('mobile_image')
                     ->label('Mobil Görsel (opsiyonel)')
-                    ->image()->directory('banners')->columnSpanFull(),
+                    ->image()->disk('public')->directory('banners')->visibility('public')
+                    ->imageResizeMode('contain')->imageResizeTargetWidth('1200')->imageResizeTargetHeight('1600')
+                    ->maxSize(30720)->columnSpanFull(),
             ])->columns(1),
 
             Forms\Components\Section::make('İçerik')->schema([

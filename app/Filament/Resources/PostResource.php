@@ -70,7 +70,8 @@ class PostResource extends Resource
                             Forms\Components\TextInput::make('name')->label('Ad')->required(),
                         ]),
                     Forms\Components\FileUpload::make('cover_image')
-                        ->label('Kapak Görseli')->image()->directory('blog')->imageEditor(),
+                        ->label('Kapak Görseli')->image()->disk('public')->directory('blog')->visibility('public')->imageEditor()
+                        ->imageResizeMode('contain')->imageResizeTargetWidth('1600')->imageResizeTargetHeight('1600')->maxSize(30720),
                 ]),
             ])->columnSpan(['lg' => 1]),
         ])->columns(3);

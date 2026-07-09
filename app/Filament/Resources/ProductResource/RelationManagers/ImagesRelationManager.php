@@ -20,8 +20,17 @@ class ImagesRelationManager extends RelationManager
             Forms\Components\FileUpload::make('path')
                 ->label('Görsel')
                 ->image()
+                ->disk('public')
                 ->directory('products')
+                ->visibility('public')
                 ->imageEditor()
+                // Büyük ürün fotoğrafları tarayıcıda 1600px'e küçültülür → upload payload'ı küçük
+                // kalır, yükleme sunucu limitine/yavaş bağlantıya takılmaz ("Yükleniyor / Boyut
+                // hesaplanıyor"). maxSize cömert (30MB): büyük PNG orijinaller de geçer, resize eder.
+                ->imageResizeMode('contain')
+                ->imageResizeTargetWidth('1600')
+                ->imageResizeTargetHeight('1600')
+                ->maxSize(30720)
                 ->required()
                 ->columnSpanFull(),
 
