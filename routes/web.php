@@ -22,9 +22,18 @@ use App\Http\Controllers\Storefront\ProductController;
 use App\Http\Controllers\Storefront\SearchController;
 use App\Http\Controllers\Storefront\SitemapController;
 use App\Http\Controllers\Storefront\WishlistController;
+use App\Http\Controllers\Admin\ProductImageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', HomeController::class)->name('home');
+
+// Ürün görselleri — BASİT klasik yükleme/silme (Filament FilePond yerine, güvenilir).
+// Sadece panele erişebilen kullanıcılar; standart multipart form POST kullanır.
+Route::middleware(['web', 'auth'])->prefix('gorsel-yonet')->name('admin.product-images.')->group(function () {
+    Route::get('/{product}', [ProductImageController::class, 'index'])->name('index');
+    Route::post('/{product}', [ProductImageController::class, 'store'])->name('store');
+    Route::delete('/{product}/{image}', [ProductImageController::class, 'destroy'])->name('destroy');
+});
 
 // E-bülten aboneliği
 Route::post('/bulten', [NewsletterController::class, 'store'])->name('newsletter.store')->middleware('throttle:8,1');

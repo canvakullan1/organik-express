@@ -13,6 +13,11 @@ class EditProduct extends EditRecord
     protected function getHeaderActions(): array
     {
         return [
+            Actions\Action::make('manageImages')
+                ->label('Görselleri Yönet')
+                ->icon('heroicon-o-photo')
+                ->color('success')
+                ->url(fn () => route('admin.product-images.index', $this->getRecord())),
             Actions\DeleteAction::make(),
         ];
     }
