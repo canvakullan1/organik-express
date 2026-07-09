@@ -98,7 +98,25 @@ class PlaceCatalogMenu extends Command
             $this->info("Kök kategori header'a eklendi: {$slug}");
         }
 
-        $this->info('Tamam: Fırın & Ekmek + Simit & Poğaça yerleşti, yeni kök kategoriler (Bal/Bebek/Glutensiz) header\'a eklendi.');
+        // 7) Kaldırılacak kategoriler (boş, satılmıyor): pasifleştir + header MenuItem'larını sil.
+        //    et-tavuk (+ alt: et-sarkuteri, hazir-yemek) ve dogal-yasam-temizlik.
+        $remove = ['et-tavuk', 'et-sarkuteri', 'hazir-yemek', 'dogal-yasam-temizlik'];
+        $removeIds = Category::whereIn('slug', $remove)->pluck('id')->all();
+        if ($removeIds) {
+            Category::whereIn('id', $removeIds)->update(['is_active' => false, 'show_in_menu' => false]);
+
+            // header MenuItem'ları: bu kategorilere işaret eden üst-öğelerin altlarını + kendilerini sil
+            $parentItems = MenuItem::where('location', 'header')->whereNull('parent_id')
+                ->whereIn('reference_id', $removeIds)->pluck('id')->all();
+            if ($parentItems) {
+                MenuItem::where('location', 'header')->whereIn('parent_id', $parentItems)->delete();
+            }
+            MenuItem::where('location', 'header')->whereIn('reference_id', $removeIds)->delete();
+
+            $this->info('Kaldırıldı (pasif + header MenuItem silindi): ' . implode(', ', $remove));
+        }
+
+        $this->info('Tamam: menü yerleşimi + yeni kök kategoriler + Et-Tavuk/Doğal-Yaşam kaldırıldı.');
 
         return self::SUCCESS;
     }
