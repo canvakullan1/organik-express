@@ -55,6 +55,30 @@ class PurgeSource extends Command
             return self::SUCCESS;
         }
 
+        // GÜVENLİK: başka kaynaklarda (catalog2/ekotime/tardas...) da geçen slug'ları KORU.
+        // updateOrCreate ile o ürün artık başka kaynağa ait olabilir; yanlışlıkla silme.
+        $others = [];
+        foreach (glob(database_path('data/*'), GLOB_ONLYDIR) ?: [] as $dir) {
+            if (basename($dir) === $source) {
+                continue;
+            }
+            foreach (glob($dir . '/*.json') ?: [] as $part) {
+                $d = json_decode((string) file_get_contents($part), true);
+                $ps = $d['products'] ?? (is_array($d) ? $d : []);
+                foreach ($ps as $p) {
+                    if (! empty($p['slug'])) {
+                        $others[$p['slug']] = true;
+                    }
+                }
+            }
+        }
+        $before = count($slugs);
+        $slugs = array_values(array_filter($slugs, fn ($s) => ! isset($others[$s])));
+        $kept = $before - count($slugs);
+        if ($kept > 0) {
+            $this->info("Başka kaynakta da geçen {$kept} slug korundu (silinmeyecek).");
+        }
+
         $query = Product::whereIn('slug', $slugs);
         $count = $query->count();
 
