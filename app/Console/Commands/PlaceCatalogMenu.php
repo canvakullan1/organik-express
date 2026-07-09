@@ -71,7 +71,34 @@ class PlaceCatalogMenu extends Command
         $this->reorderRoots(['firin-ekmek', 'simit-pogaca']);
         $this->reorderHeaderTop([(int) $firin->id]);
 
-        $this->info('Tamam: Fırın & Ekmek üst-seviye, Simit & Poğaça onun alt menüsünde. Görseller atandı.');
+        // 6) Yeni kök kategoriler (Bal, Bebek, Glutensiz) → üst-seviye header MenuItem + görsel.
+        //    Ana sayfa "Kategoriler" bölümü kökleri gösterir; header MenuItem tabanlı olduğu için
+        //    kök olmaları yetmez, üst-seviye MenuItem de gerekir.
+        foreach (['bal', 'bebek', 'glutensiz'] as $slug) {
+            $cat = Category::where('slug', $slug)->first();
+            if (! $cat) {
+                continue;
+            }
+            $cat->update(['parent_id' => null, 'is_active' => true, 'show_in_menu' => true]);
+
+            // nested kopya varsa sil, üst-seviye MenuItem garanti et
+            MenuItem::where('location', 'header')->where('type', 'category')
+                ->where('reference_id', $cat->id)->whereNotNull('parent_id')->delete();
+
+            $item = MenuItem::updateOrCreate(
+                ['location' => 'header', 'type' => 'category', 'reference_id' => $cat->id, 'parent_id' => null],
+                ['label' => $cat->name, 'is_active' => true],
+            );
+            if ($item->wasRecentlyCreated) {
+                $maxTop = (int) MenuItem::where('location', 'header')->whereNull('parent_id')->max('sort_order');
+                $item->update(['sort_order' => $maxTop + 1]);
+            }
+
+            $this->ensureImage($cat);
+            $this->info("Kök kategori header'a eklendi: {$slug}");
+        }
+
+        $this->info('Tamam: Fırın & Ekmek + Simit & Poğaça yerleşti, yeni kök kategoriler (Bal/Bebek/Glutensiz) header\'a eklendi.');
 
         return self::SUCCESS;
     }

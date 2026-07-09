@@ -44,6 +44,7 @@ class ImportCatalog2 extends Command
      */
     private array $catTree = [
         // YENİ kök kategoriler (prod'da yok — oluşturulur, menüde görünür)
+        'bal' => ['Bal & Arı Ürünleri', null, 9],
         'bebek' => ['Organik Bebek', null, 40],
         'glutensiz' => ['Glutensiz Ürünler', null, 41],
         // Prod'da MEVCUT olanlar (bulunur, oluşturulmaz). Yerelde yoksa doğru üst ile açılsın:

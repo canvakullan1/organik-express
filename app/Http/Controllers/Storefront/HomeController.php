@@ -48,7 +48,7 @@ class HomeController extends Controller
             'seasonal' => $seasonal,
             'newest' => $newest,
             'bestsellers' => $bestsellers,
-            'shortcutCategories' => Category::active()->roots()->orderBy('sort_order')->take(8)->get(),
+            'shortcutCategories' => Category::active()->roots()->where('show_in_menu', true)->orderBy('sort_order')->take(14)->get(),
             'producers' => Producer::active()->orderBy('sort_order')->take(4)->get(),
             'recipes' => $recipes,
         ]);
