@@ -42,6 +42,23 @@ if ($do === 'ext') {
     echo 'PHP: ' . PHP_VERSION . "\n";
     exit;
 }
+if ($do === 'githead') {
+    echo 'repo HEAD:   ' . @shell_exec("cd $repo && $git rev-parse --short HEAD 2>&1");
+    echo 'origin/main: ' . @shell_exec("cd $repo && $git rev-parse --short origin/main 2>&1");
+    echo 'son commit:  ' . @shell_exec("cd $repo && $git log -1 --oneline 2>&1");
+    exit;
+}
+if ($do === 'srv') {
+    // İsteğin PHP'ye http mi https mi ulaştığını gösterir (trustProxies teşhisi).
+    foreach (['HTTPS', 'REQUEST_SCHEME', 'SERVER_PORT', 'SERVER_PROTOCOL', 'HTTP_HOST',
+        'HTTP_X_FORWARDED_PROTO', 'HTTP_X_FORWARDED_SSL', 'HTTP_X_FORWARDED_HOST',
+        'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED_PORT'] as $k) {
+        echo str_pad($k, 26) . '= ' . ($_SERVER[$k] ?? '(yok)') . "\n";
+    }
+    echo 'opcache.validate_timestamps = ' . var_export(ini_get('opcache.validate_timestamps'), true) . "\n";
+    echo 'opcache.enable              = ' . var_export(ini_get('opcache.enable'), true) . "\n";
+    exit;
+}
 if ($do === 'diag') {
     // PHP yükleme limitleri
     foreach (['file_uploads', 'upload_max_filesize', 'post_max_size', 'max_file_uploads', 'max_execution_time', 'max_input_time', 'memory_limit', 'upload_tmp_dir'] as $k) {
