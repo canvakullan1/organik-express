@@ -118,9 +118,26 @@ class FixMeyveSebze extends Command
             }
         }
 
+        // TEMİZLİK: taze-meyve/taze-sebze'de JSON'da OLMAYAN slug'ları KALICI sil
+        // (eski ekoorganik kalıntıları). Bu iki kategoride yalnız meyve-sebze ürünleri olur.
+        $purged = 0;
+        if (! $dry) {
+            $jsonSlugs = collect($data['products'] ?? [])->pluck('slug')->filter()->all();
+            $msCats = Category::whereIn('slug', ['taze-meyve', 'taze-sebze'])->pluck('id')->all();
+            if ($msCats && $jsonSlugs) {
+                foreach (Product::withTrashed()->whereIn('category_id', $msCats)->whereNotIn('slug', $jsonSlugs)->get() as $stale) {
+                    $stale->images()->delete();
+                    $stale->variants()->delete();
+                    $stale->forceDelete();
+                    $this->line("Silindi (eski): {$stale->slug}");
+                    $purged++;
+                }
+            }
+        }
+
         $this->info($dry
             ? '[DRY-RUN] Yukarıdaki durum. Çalıştırmak için --dry-run olmadan tekrar edin.'
-            : "Tamam: {$fixed} ürün aktif+kategori düzeltildi, {$deduped} duplika temizlendi.");
+            : "Tamam: {$fixed} ürün düzeltildi, {$deduped} duplika, {$purged} eski ürün silindi.");
 
         return self::SUCCESS;
     }
