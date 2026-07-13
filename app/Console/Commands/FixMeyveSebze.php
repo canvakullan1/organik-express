@@ -63,10 +63,12 @@ class FixMeyveSebze extends Command
             $this->line("{$slug}: keep #{$keep->id} | " . $rows->count() . " kayit: {$state}");
 
             if (! $dry) {
+                if ($keep->trashed()) {
+                    $keep->restore(); // düzgün un-trash (deleted_at fillable değil)
+                }
                 $keep->forceFill([
                     'category_id' => $catId,
                     'status' => ProductStatus::Active->value,
-                    'deleted_at' => null,
                 ])->save();
                 $fixed++;
 
