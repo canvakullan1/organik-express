@@ -88,6 +88,22 @@ class FixMeyveSebze extends Command
                 foreach ($imgs->skip(1) as $extra) {
                     $extra->delete();
                 }
+
+                // VARYANT SIFIRLA: eski (organikgiller) varyantları sil, JSON'dan TEK doğru
+                // varyant oluştur. kg ürünlerde is_weight_based=true → kilo bazlı fiyat.
+                // name boş → storefront "1 kg" / "1 adet" / "1 demet" gösterir.
+                $keep->variants()->delete();
+                $keep->variants()->create([
+                    'name' => null,
+                    'unit' => $p['unit'] ?? 'adet',
+                    'unit_amount' => 1,
+                    'price' => $p['price'] ?? 0,
+                    'stock' => 100,
+                    'track_stock' => false,
+                    'is_weight_based' => (bool) ($p['is_weight_based'] ?? false),
+                    'is_default' => true,
+                    'is_active' => true,
+                ]);
             }
         }
 
