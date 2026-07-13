@@ -237,9 +237,16 @@ class ImportCatalog2 extends Command
         sort($files);
         $n = 0;
         foreach ($files as $full) {
+            $rel = 'products/' . basename($full);
+            // ÖNEMLİ: repodaki görseli SERVİS diskine (prod: public_html/storage) de kopyala.
+            // Aksi halde kayıt oluşur ama dosya yalnız repo storage'da kalır → HTTP 404
+            // (deploy'un yavaş storage cp'si timeout'ta yarım kalabiliyor).
+            if (! Storage::disk('public')->exists($rel)) {
+                Storage::disk('public')->put($rel, File::get($full));
+            }
             ProductImage::create([
                 'product_id' => $productId,
-                'path' => 'products/' . basename($full),
+                'path' => $rel,
                 'alt' => $name,
                 'sort_order' => $n,
             ]);
