@@ -82,6 +82,12 @@ class FixMeyveSebze extends Command
                     $r->delete();
                     $deduped++;
                 }
+
+                // Görsel dedup: yalnız ilk görseli tut (eski organikgiller ikincil görselini sil)
+                $imgs = $keep->images()->orderBy('sort_order')->orderBy('id')->get();
+                foreach ($imgs->skip(1) as $extra) {
+                    $extra->delete();
+                }
             }
         }
 
