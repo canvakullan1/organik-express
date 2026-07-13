@@ -618,7 +618,7 @@
         {
             "slug": "organik-taze-zencefil",
             "name": "Organik Taze Zencefil",
-            "category": "taze-sebze",
+            "category": "baharat-aktar",
             "sku": "MS-037",
             "price": 1200,
             "unit": "kg",
@@ -652,7 +652,7 @@
         {
             "slug": "organik-taze-nane",
             "name": "Organik Taze Nane",
-            "category": "taze-sebze",
+            "category": "baharat-aktar",
             "sku": "MS-039",
             "price": 70,
             "unit": "demet",
@@ -737,7 +737,7 @@
         {
             "slug": "organik-reyhan",
             "name": "Organik Reyhan",
-            "category": "taze-sebze",
+            "category": "baharat-aktar",
             "sku": "MS-044",
             "price": 85,
             "unit": "adet",
@@ -771,7 +771,7 @@
         {
             "slug": "organik-kekik",
             "name": "Organik Kekik",
-            "category": "taze-sebze",
+            "category": "baharat-aktar",
             "sku": "MS-046",
             "price": 85,
             "unit": "demet",
@@ -788,7 +788,7 @@
         {
             "slug": "organik-taze-adacayi",
             "name": "Organik Taze Adaçayı",
-            "category": "taze-sebze",
+            "category": "baharat-aktar",
             "sku": "MS-047",
             "price": 85,
             "unit": "adet",
