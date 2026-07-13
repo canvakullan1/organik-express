@@ -42,6 +42,13 @@ if ($do === 'ext') {
     echo 'PHP: ' . PHP_VERSION . "\n";
     exit;
 }
+if ($do === 'fix_ms') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(300);
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan catalog:fix-meyve-sebze$flags 2>&1");
+    exit;
+}
 if ($do === 'githead') {
     echo 'repo HEAD:   ' . @shell_exec("cd $repo && $git rev-parse --short HEAD 2>&1");
     echo 'origin/main: ' . @shell_exec("cd $repo && $git rev-parse --short origin/main 2>&1");
