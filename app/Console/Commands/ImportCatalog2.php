@@ -48,6 +48,9 @@ class ImportCatalog2 extends Command
         'bebek' => ['Organik Bebek', null, 40],
         'glutensiz' => ['Glutensiz Ürünler', null, 41],
         // Prod'da MEVCUT olanlar (bulunur, oluşturulmaz). Yerelde yoksa doğru üst ile açılsın:
+        'meyve-sebze' => ['Meyve & Sebze', null, 1],
+        'taze-meyve' => ['Taze Meyve', 'meyve-sebze', 2],
+        'taze-sebze' => ['Taze Sebze', 'meyve-sebze', 3],
         'bakkaliye' => ['Bakkaliye', null, 20],
         'sut-kahvaltilik' => ['Süt & Kahvaltılık', null, 21],
         'bakliyat-makarna' => ['Bakliyat & Makarna', 'bakkaliye', 22],

@@ -1,0 +1,857 @@
+{
+    "source": "meyve-sebze",
+    "scraped_at": "2026-07-13T08:18:41+02:00",
+    "note": "ekoorganik.com + eskitadinda.com taze meyve-sebze; SEO dostu baslik/aciklama.",
+    "products": [
+        {
+            "slug": "organik-elma",
+            "name": "Organik Elma",
+            "category": "taze-meyve",
+            "sku": "MS-001",
+            "price": 250,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-kirmizi-elma.jpg"
+            ],
+            "short_description": "Organik Elma, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Elma</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik elma, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Elma | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Elma en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-cilek",
+            "name": "Organik Çilek",
+            "category": "taze-meyve",
+            "sku": "MS-002",
+            "price": 495,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_cilek.jpg"
+            ],
+            "short_description": "Organik Çilek, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Çilek</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik çilek, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Çilek | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Çilek en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-limon",
+            "name": "Organik Limon",
+            "category": "taze-meyve",
+            "sku": "MS-003",
+            "price": 250,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_limon.jpg"
+            ],
+            "short_description": "Organik Limon, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Limon</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik limon, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Limon | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Limon en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-yerli-anamur-muzu",
+            "name": "Organik Yerli Anamur Muzu",
+            "category": "taze-meyve",
+            "sku": "MS-004",
+            "price": 240,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_muz.jpg"
+            ],
+            "short_description": "Organik Yerli Anamur Muzu, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Yerli Anamur Muzu</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik yerli anamur muzu, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Yerli Anamur Muzu | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Yerli Anamur Muzu en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kayisi",
+            "name": "Organik Kayısı",
+            "category": "taze-meyve",
+            "sku": "MS-005",
+            "price": 580,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_kayisi.jpg"
+            ],
+            "short_description": "Organik Kayısı, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kayısı</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kayısı, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kayısı | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Kayısı en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-armut",
+            "name": "Organik Armut",
+            "category": "taze-meyve",
+            "sku": "MS-006",
+            "price": 480,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-deveci-armut.jpg"
+            ],
+            "short_description": "Organik Armut, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Armut</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik armut, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Armut | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Armut en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kiraz",
+            "name": "Organik Kiraz",
+            "category": "taze-meyve",
+            "sku": "MS-007",
+            "price": 690,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_kiraz.jpg"
+            ],
+            "short_description": "Organik Kiraz, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kiraz</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kiraz, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kiraz | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Kiraz en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-yaban-mersini",
+            "name": "Organik Yaban Mersini",
+            "category": "taze-meyve",
+            "sku": "MS-008",
+            "price": 1200,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_yabanmersini.jpg"
+            ],
+            "short_description": "Organik Yaban Mersini, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Yaban Mersini</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik yaban mersini, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Yaban Mersini | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Yaban Mersini en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-seftali",
+            "name": "Organik Şeftali",
+            "category": "taze-meyve",
+            "sku": "MS-009",
+            "price": 590,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_seftali.jpg"
+            ],
+            "short_description": "Organik Şeftali, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Şeftali</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik şeftali, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Şeftali | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Şeftali en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-karpuz",
+            "name": "Organik Karpuz",
+            "category": "taze-meyve",
+            "sku": "MS-010",
+            "price": 115,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_karpuz.jpg"
+            ],
+            "short_description": "Organik Karpuz, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Karpuz</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik karpuz, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Karpuz | Taze Organik Meyve - Organik Express",
+            "meta_description": "Organik Karpuz en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-koy-domatesi",
+            "name": "Organik Köy Domatesi",
+            "category": "taze-sebze",
+            "sku": "MS-011",
+            "price": 160,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-yildiz-domates.jpg"
+            ],
+            "short_description": "Organik Köy Domatesi, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Köy Domatesi</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik köy domatesi, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Köy Domatesi | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Köy Domatesi en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-salatalik",
+            "name": "Organik Salatalık",
+            "category": "taze-sebze",
+            "sku": "MS-012",
+            "price": 125,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_salatalik.jpg"
+            ],
+            "short_description": "Organik Salatalık, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Salatalık</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik salatalık, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Salatalık | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Salatalık en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kabak",
+            "name": "Organik Kabak",
+            "category": "taze-sebze",
+            "sku": "MS-013",
+            "price": 390,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-sakiz-kabak.jpg"
+            ],
+            "short_description": "Organik Kabak, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kabak</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kabak, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kabak | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Kabak en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-ceri-domates",
+            "name": "Organik Çeri Domates",
+            "category": "taze-sebze",
+            "sku": "MS-014",
+            "price": 420,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-kiraz-domates.jpg"
+            ],
+            "short_description": "Organik Çeri Domates, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Çeri Domates</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik çeri domates, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Çeri Domates | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Çeri Domates en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-patates",
+            "name": "Organik Patates",
+            "category": "taze-sebze",
+            "sku": "MS-015",
+            "price": 95,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-patates.jpg"
+            ],
+            "short_description": "Organik Patates, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Patates</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik patates, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Patates | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Patates en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-beypazari-havuc",
+            "name": "Organik Beypazarı Havuç",
+            "category": "taze-sebze",
+            "sku": "MS-016",
+            "price": 100,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_havuc.jpg"
+            ],
+            "short_description": "Organik Beypazarı Havuç, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Beypazarı Havuç</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik beypazarı havuç, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Beypazarı Havuç | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Beypazarı Havuç en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-patlican",
+            "name": "Organik Patlıcan",
+            "category": "taze-sebze",
+            "sku": "MS-017",
+            "price": 260,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_patlican.jpg"
+            ],
+            "short_description": "Organik Patlıcan, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Patlıcan</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik patlıcan, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Patlıcan | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Patlıcan en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kirmizi-kapya-biber",
+            "name": "Organik Kırmızı Kapya Biber",
+            "category": "taze-sebze",
+            "sku": "MS-018",
+            "price": 395,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_kirmizi_biber.jpg"
+            ],
+            "short_description": "Organik Kırmızı Kapya Biber, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kırmızı Kapya Biber</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kırmızı kapya biber, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kırmızı Kapya Biber | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Kırmızı Kapya Biber en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-maydanoz",
+            "name": "Organik Maydanoz",
+            "category": "taze-sebze",
+            "sku": "MS-019",
+            "price": 80,
+            "unit": "demet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_maydanoz.jpg"
+            ],
+            "short_description": "Organik Maydanoz, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Maydanoz</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik maydanoz, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Maydanoz | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Maydanoz en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kuru-sogan",
+            "name": "Organik Kuru Soğan",
+            "category": "taze-sebze",
+            "sku": "MS-020",
+            "price": 100,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_sogan.jpg"
+            ],
+            "short_description": "Organik Kuru Soğan, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kuru Soğan</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kuru soğan, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kuru Soğan | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Kuru Soğan en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-koy-biberi",
+            "name": "Organik Köy Biberi",
+            "category": "taze-sebze",
+            "sku": "MS-021",
+            "price": 395,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-uc-burun-koy-biberi.jpg"
+            ],
+            "short_description": "Organik Köy Biberi, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Köy Biberi</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik köy biberi, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Köy Biberi | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Köy Biberi en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kivircik",
+            "name": "Organik Kıvırcık",
+            "category": "taze-sebze",
+            "sku": "MS-022",
+            "price": 150,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-kivircik.jpg"
+            ],
+            "short_description": "Organik Kıvırcık, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kıvırcık</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kıvırcık, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kıvırcık | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Kıvırcık en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-pembe-domates",
+            "name": "Organik Pembe Domates",
+            "category": "taze-sebze",
+            "sku": "MS-023",
+            "price": 190,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-pembe-domates.jpg"
+            ],
+            "short_description": "Organik Pembe Domates, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Pembe Domates</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik pembe domates, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Pembe Domates | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Pembe Domates en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-sut-misir",
+            "name": "Organik Süt Mısır",
+            "category": "taze-sebze",
+            "sku": "MS-024",
+            "price": 120,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_tatli_misir.jpg"
+            ],
+            "short_description": "Organik Süt Mısır, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Süt Mısır</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik süt mısır, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Süt Mısır | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Süt Mısır en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-roka",
+            "name": "Organik Roka",
+            "category": "taze-sebze",
+            "sku": "MS-025",
+            "price": 75,
+            "unit": "demet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_roka.jpg"
+            ],
+            "short_description": "Organik Roka, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Roka</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik roka, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Roka | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Roka en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-soyulmus-enginar",
+            "name": "Organik Soyulmuş Enginar",
+            "category": "taze-sebze",
+            "sku": "MS-026",
+            "price": 120,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/ersoz-organik-soyulmus-enginar.jpg"
+            ],
+            "short_description": "Organik Soyulmuş Enginar, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Soyulmuş Enginar</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik soyulmuş enginar, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Soyulmuş Enginar | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Soyulmuş Enginar en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-seker-domates",
+            "name": "Organik Şeker Domates",
+            "category": "taze-sebze",
+            "sku": "MS-027",
+            "price": 270,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-seker-domates.jpg"
+            ],
+            "short_description": "Organik Şeker Domates, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Şeker Domates</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik şeker domates, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Şeker Domates | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Şeker Domates en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-taze-sogan",
+            "name": "Organik Taze Soğan",
+            "category": "taze-sebze",
+            "sku": "MS-028",
+            "price": 100,
+            "unit": "demet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_taze_sogan.jpg"
+            ],
+            "short_description": "Organik Taze Soğan, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Taze Soğan</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik taze soğan, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Taze Soğan | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Taze Soğan en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-mor-lahana",
+            "name": "Organik Mor Lahana",
+            "category": "taze-sebze",
+            "sku": "MS-029",
+            "price": 170,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_kirmizi_lahana.jpg"
+            ],
+            "short_description": "Organik Mor Lahana, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Mor Lahana</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik mor lahana, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Mor Lahana | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Mor Lahana en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-ayiklanmis-balkabagi",
+            "name": "Organik Ayıklanmış Balkabağı",
+            "category": "taze-sebze",
+            "sku": "MS-030",
+            "price": 150,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-dilimli-balkabagi.jpg"
+            ],
+            "short_description": "Organik Ayıklanmış Balkabağı, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Ayıklanmış Balkabağı</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik ayıklanmış balkabağı, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Ayıklanmış Balkabağı | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Ayıklanmış Balkabağı en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-semizotu",
+            "name": "Organik Semizotu",
+            "category": "taze-sebze",
+            "sku": "MS-031",
+            "price": 170,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_semizotu.jpg"
+            ],
+            "short_description": "Organik Semizotu, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Semizotu</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik semizotu, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Semizotu | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Semizotu en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-sarimsak",
+            "name": "Organik Sarımsak",
+            "category": "taze-sebze",
+            "sku": "MS-032",
+            "price": 500,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-sarimsak.jpg"
+            ],
+            "short_description": "Organik Sarımsak, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Sarımsak</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik sarımsak, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Sarımsak | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Sarımsak en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-bezelye",
+            "name": "Organik Bezelye",
+            "category": "taze-sebze",
+            "sku": "MS-033",
+            "price": 440,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_bezelye.jpg"
+            ],
+            "short_description": "Organik Bezelye, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Bezelye</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik bezelye, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Bezelye | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Bezelye en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-bakla",
+            "name": "Organik Bakla",
+            "category": "taze-sebze",
+            "sku": "MS-034",
+            "price": 250,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_bakla.jpg"
+            ],
+            "short_description": "Organik Bakla, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Bakla</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik bakla, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Bakla | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Bakla en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-alabas",
+            "name": "Organik Alabaş",
+            "category": "taze-sebze",
+            "sku": "MS-035",
+            "price": 135,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-alabas.jpg"
+            ],
+            "short_description": "Organik Alabaş, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Alabaş</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik alabaş, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Alabaş | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Alabaş en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kuzukulagi",
+            "name": "Organik Kuzukulağı",
+            "category": "taze-sebze",
+            "sku": "MS-036",
+            "price": 60,
+            "unit": "demet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-kuzu-kulagi.jpg"
+            ],
+            "short_description": "Organik Kuzukulağı, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kuzukulağı</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kuzukulağı, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kuzukulağı | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Kuzukulağı en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-taze-zencefil",
+            "name": "Organik Taze Zencefil",
+            "category": "taze-sebze",
+            "sku": "MS-037",
+            "price": 1200,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-taze-zencefil.jpg"
+            ],
+            "short_description": "Organik Taze Zencefil, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Taze Zencefil</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik taze zencefil, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Taze Zencefil | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Taze Zencefil en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-taze-fasulye",
+            "name": "Organik Taze Fasulye",
+            "category": "taze-sebze",
+            "sku": "MS-038",
+            "price": 350,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_taze_fasulye.jpg"
+            ],
+            "short_description": "Organik Taze Fasulye, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Taze Fasulye</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik taze fasulye, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Taze Fasulye | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Taze Fasulye en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-taze-nane",
+            "name": "Organik Taze Nane",
+            "category": "taze-sebze",
+            "sku": "MS-039",
+            "price": 70,
+            "unit": "demet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik_nane.jpg"
+            ],
+            "short_description": "Organik Taze Nane, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Taze Nane</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik taze nane, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Taze Nane | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Taze Nane en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kil-biber",
+            "name": "Organik Kıl Biber",
+            "category": "taze-sebze",
+            "sku": "MS-040",
+            "price": 395,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-kil-biber.jpg"
+            ],
+            "short_description": "Organik Kıl Biber, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kıl Biber</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kıl biber, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kıl Biber | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Kıl Biber en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-rezene",
+            "name": "Organik Rezene",
+            "category": "taze-sebze",
+            "sku": "MS-041",
+            "price": 135,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-rezene.jpg"
+            ],
+            "short_description": "Organik Rezene, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Rezene</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik rezene, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Rezene | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Rezene en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-topan-patlican",
+            "name": "Organik Topan Patlıcan",
+            "category": "taze-sebze",
+            "sku": "MS-042",
+            "price": 260,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-bostan-patlican.jpg"
+            ],
+            "short_description": "Organik Topan Patlıcan, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Topan Patlıcan</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik topan patlıcan, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Topan Patlıcan | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Topan Patlıcan en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-balkabagi",
+            "name": "Organik Balkabağı",
+            "category": "taze-sebze",
+            "sku": "MS-043",
+            "price": 120,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-balkabagi-butun.jpg"
+            ],
+            "short_description": "Organik Balkabağı, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Balkabağı</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik balkabağı, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Balkabağı | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Balkabağı en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-reyhan",
+            "name": "Organik Reyhan",
+            "category": "taze-sebze",
+            "sku": "MS-044",
+            "price": 85,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-reyhan.jpg"
+            ],
+            "short_description": "Organik Reyhan, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Reyhan</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik reyhan, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Reyhan | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Reyhan en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-frenk-sogani",
+            "name": "Organik Frenk Soğanı",
+            "category": "taze-sebze",
+            "sku": "MS-045",
+            "price": 100,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-frenk-sogani.jpg"
+            ],
+            "short_description": "Organik Frenk Soğanı, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Frenk Soğanı</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik frenk soğanı, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Frenk Soğanı | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Frenk Soğanı en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-kekik",
+            "name": "Organik Kekik",
+            "category": "taze-sebze",
+            "sku": "MS-046",
+            "price": 85,
+            "unit": "demet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/city-farm-organik-kekik.jpg"
+            ],
+            "short_description": "Organik Kekik, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Kekik</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik kekik, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Kekik | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Kekik en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-taze-adacayi",
+            "name": "Organik Taze Adaçayı",
+            "category": "taze-sebze",
+            "sku": "MS-047",
+            "price": 85,
+            "unit": "adet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.ekoorganik.com/images/products/organik-taze-adacayi.jpg"
+            ],
+            "short_description": "Organik Taze Adaçayı, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Taze Adaçayı</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik taze adaçayı, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Taze Adaçayı | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Taze Adaçayı en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-dereotu",
+            "name": "Organik Dereotu",
+            "category": "taze-sebze",
+            "sku": "MS-048",
+            "price": 59,
+            "unit": "demet",
+            "unit_amount": 1,
+            "is_weight_based": false,
+            "images": [
+                "https://www.eskitadinda.com/img/dereotu_259_2654_2.png"
+            ],
+            "short_description": "Organik Dereotu, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Dereotu</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik dereotu, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Dereotu | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Dereotu en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-dolmalik-biber",
+            "name": "Organik Dolmalık Biber",
+            "category": "taze-sebze",
+            "sku": "MS-049",
+            "price": 330,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.eskitadinda.com/img/dolmalik-biber_151_4_2.png"
+            ],
+            "short_description": "Organik Dolmalık Biber, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Dolmalık Biber</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik dolmalık biber, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Dolmalık Biber | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Dolmalık Biber en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        },
+        {
+            "slug": "organik-salkim-domates",
+            "name": "Organik Salkım Domates",
+            "category": "taze-sebze",
+            "sku": "MS-050",
+            "price": 230,
+            "unit": "kg",
+            "unit_amount": 1,
+            "is_weight_based": true,
+            "images": [
+                "https://www.eskitadinda.com/img/salkim-domates_1574_3950_2.png"
+            ],
+            "short_description": "Organik Salkım Domates, doğal tarım yöntemleriyle yetiştirilir; ilaçsız, katkısız ve taze olarak özenle kapınıza gelir.",
+            "description": "<p><strong>Organik Salkım Domates</strong>, bereketli topraklarda doğal tarım yöntemleriyle yetiştirilir ve en taze haliyle sofranıza ulaşır. Sentetik gübre ve zirai ilaç kullanılmadan üretilen organik salkım domates, ailenizin sağlıklı ve dengeli beslenmesi için ideal bir seçimdir.</p><ul><li>%100 organik; ilaçsız, katkısız ve GDO'suz</li><li>Doğal tarımdan taze hasat</li><li>Özenli paketleme ile güvenli teslimat</li><li>Doğal lezzet ve yüksek besin değeri</li></ul>",
+            "meta_title": "Organik Salkım Domates | Taze Organik Sebze - Organik Express",
+            "meta_description": "Organik Salkım Domates en taze haliyle Organik Express'te. Doğal tarımdan, ilaçsız ve GDO'suz; özenle paketlenip güvenle kapınıza gelir."
+        }
+    ]
+}
