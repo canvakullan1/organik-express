@@ -49,6 +49,11 @@ if ($do === 'fix_ms') {
     echo @shell_exec("cd $repo && $php artisan catalog:fix-meyve-sebze$flags 2>&1");
     exit;
 }
+if ($do === 'fix_footer') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    echo @shell_exec("cd $repo && $php artisan catalog:fix-footer-links 2>&1");
+    exit;
+}
 if ($do === 'purge_trashed') {
     if (! $php) { exit("php bulunamadi\n"); }
     set_time_limit(600);
