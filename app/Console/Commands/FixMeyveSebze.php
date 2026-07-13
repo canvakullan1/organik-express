@@ -69,6 +69,7 @@ class FixMeyveSebze extends Command
                 $keep->forceFill([
                     'category_id' => $catId,
                     'status' => ProductStatus::Active->value,
+                    'meta_title' => $p['meta_title'] ?? $keep->meta_title,
                 ])->save();
                 $fixed++;
 
