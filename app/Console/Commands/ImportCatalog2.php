@@ -231,7 +231,9 @@ class ImportCatalog2 extends Command
     private function registerLocalImages(int $productId, string $slug, string $name): int
     {
         $base = storage_path('app/public/products/');
-        $files = glob($base . $slug . '-*.{jpg,jpeg,png,webp}', GLOB_BRACE) ?: [];
+        // ÖNEMLİ: slug'dan sonra RAKAM zorunlu ({slug}-1.jpg). Aksi halde "organik-elma"
+        // glob'u "organik-elma-sirkesi-500-ml-1.jpg" (elma sirkesi!) ile yanlış eşleşir.
+        $files = glob($base . $slug . '-[0-9]*.{jpg,jpeg,png,webp}', GLOB_BRACE) ?: [];
         sort($files);
         $n = 0;
         foreach ($files as $full) {
