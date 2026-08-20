@@ -1,0 +1,438 @@
+{
+  "source": "elta-ada",
+  "scraped_at": "2026-08-20T19:11:26.220Z",
+  "products": [
+    {
+      "slug": "organik-dana-kiyma-kusbasi-bonfile",
+      "name": "Organik Dana (Kıyma, Kuşbaşı, Bonfile)",
+      "category": "et-sarkuteri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-dana-kusbasi.jpg"
+      ],
+      "short_description": "Organik Dana (Kıyma, Kuşbaşı, Bonfile), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Dana (Kıyma, Kuşbaşı, Bonfile)</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Dana (Kıyma, Kuşbaşı, Bonfile) | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Dana (Kıyma, Kuşbaşı, Bonfile), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-dana-sucuk",
+      "name": "Organik Dana Sucuk",
+      "category": "et-sarkuteri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/03/sucuk-2021.jpg"
+      ],
+      "short_description": "Organik Dana Sucuk, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Dana Sucuk</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Dana Sucuk | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Dana Sucuk, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-cicek-bali",
+      "name": "Organik Çiçek Balı",
+      "category": "kahvaltilik-recel",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-bal.jpg"
+      ],
+      "short_description": "Organik Çiçek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çiçek Balı</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çiçek Balı | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Çiçek Balı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-ladolia-organik-sizma-zeytinyagi",
+      "name": "Ladolia Organik Sızma Zeytinyağı",
+      "category": "zeytin-zeytinyagi-yag",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/03/organik-ladoia.jpg"
+      ],
+      "short_description": "Ladolia Organik Sızma Zeytinyağı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ladolia Organik Sızma Zeytinyağı</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ladolia Organik Sızma Zeytinyağı | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Ladolia Organik Sızma Zeytinyağı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-elta-ada-organik-sizma-zeytinyagi",
+      "name": "Elta Ada Organik Sızma Zeytinyağı",
+      "category": "zeytin-zeytinyagi-yag",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/03/zeytinyaglari-2021-2.jpg"
+      ],
+      "short_description": "Elta Ada Organik Sızma Zeytinyağı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Elta Ada Organik Sızma Zeytinyağı</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Elta Ada Organik Sızma Zeytinyağı | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Elta Ada Organik Sızma Zeytinyağı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-kuzu-pirzola-kulbasti-sote",
+      "name": "Organik Kuzu (Pirzola, Külbastı, Sote)",
+      "category": "et-sarkuteri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-kuzu-pirzola.jpg"
+      ],
+      "short_description": "Organik Kuzu (Pirzola, Külbastı, Sote), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kuzu (Pirzola, Külbastı, Sote)</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kuzu (Pirzola, Külbastı, Sote) | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Kuzu (Pirzola, Külbastı, Sote), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-tam-yagli-beyaz-peynir",
+      "name": "Organik Tam Yağlı Beyaz Peynir",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-beyaz-peynir.jpg"
+      ],
+      "short_description": "Organik Tam Yağlı Beyaz Peynir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tam Yağlı Beyaz Peynir</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tam Yağlı Beyaz Peynir | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Tam Yağlı Beyaz Peynir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-lor-peyniri",
+      "name": "Organik Lor Peyniri",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-lor-peyniri.jpg"
+      ],
+      "short_description": "Organik Lor Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Lor Peyniri</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Lor Peyniri | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Lor Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-dil-peyniri",
+      "name": "Organik Dil Peyniri",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-dil-peyniri.jpg"
+      ],
+      "short_description": "Organik Dil Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Dil Peyniri</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Dil Peyniri | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Dil Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-kasar-peyniri",
+      "name": "Organik Kaşar Peyniri",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-kasar-peyniri.jpg"
+      ],
+      "short_description": "Organik Kaşar Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kaşar Peyniri</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kaşar Peyniri | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Kaşar Peyniri, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-tam-yagli-taze-beyaz-peynir",
+      "name": "Organik Tam Yağlı Taze Beyaz Peynir",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/03/e-p-2021-1.jpg"
+      ],
+      "short_description": "Organik Tam Yağlı Taze Beyaz Peynir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tam Yağlı Taze Beyaz Peynir</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tam Yağlı Taze Beyaz Peynir | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Tam Yağlı Taze Beyaz Peynir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-olgunlastirilmis-beyaz-peynir",
+      "name": "Organik Olgunlaştırılmış Beyaz Peynir",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/03/e-p-2021-2.jpg"
+      ],
+      "short_description": "Organik Olgunlaştırılmış Beyaz Peynir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Olgunlaştırılmış Beyaz Peynir</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Olgunlaştırılmış Beyaz Peynir | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Olgunlaştırılmış Beyaz Peynir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-tereyagi",
+      "name": "Organik Tereyağı",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-tereyagi.jpg"
+      ],
+      "short_description": "Organik Tereyağı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tereyağı</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tereyağı | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Tereyağı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-gunluk-pastorize-inek-sutu",
+      "name": "Organik Günlük Pastörize İnek Sütü",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-inek-sutu.jpg"
+      ],
+      "short_description": "Organik Günlük Pastörize İnek Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Günlük Pastörize İnek Sütü</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Günlük Pastörize İnek Sütü | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Günlük Pastörize İnek Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-kaymak",
+      "name": "Organik Kaymak",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-kaymak.jpg"
+      ],
+      "short_description": "Organik Kaymak, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kaymak</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kaymak | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Kaymak, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-keci-sutu",
+      "name": "Organik Keçi Sütü",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-keci-sutu.jpg"
+      ],
+      "short_description": "Organik Keçi Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Keçi Sütü</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Keçi Sütü | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Keçi Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-jersey-sutu",
+      "name": "Organik Jersey Sütü",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-jersey-sutu.jpg"
+      ],
+      "short_description": "Organik Jersey Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Jersey Sütü</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Jersey Sütü | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Jersey Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-cig-inek-sutu",
+      "name": "Organik Çiğ İnek Sütü",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2021/03/cig-sut-3lt-2021.jpg"
+      ],
+      "short_description": "Organik Çiğ İnek Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çiğ İnek Sütü</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çiğ İnek Sütü | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Çiğ İnek Sütü, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-keci-kefir",
+      "name": "Organik Keçi Kefir",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/03/e-s-2021-1.jpg"
+      ],
+      "short_description": "Organik Keçi Kefir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Keçi Kefir</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Keçi Kefir | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Keçi Kefir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-kefir",
+      "name": "Organik Kefir",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-kefir.jpg"
+      ],
+      "short_description": "Organik Kefir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kefir</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kefir | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Kefir, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-tava-yogurdu",
+      "name": "Organik Tava Yoğurdu",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-tava-yogurdu.jpg"
+      ],
+      "short_description": "Organik Tava Yoğurdu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tava Yoğurdu</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tava Yoğurdu | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Tava Yoğurdu, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-suzme-yogurt",
+      "name": "Organik Süzme Yoğurt",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-suzme-yogurt.jpg"
+      ],
+      "short_description": "Organik Süzme Yoğurt, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Süzme Yoğurt</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Süzme Yoğurt | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Süzme Yoğurt, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-yarim-yagli-yogurt",
+      "name": "Organik Yarım Yağlı Yoğurt",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-yarim-yagli-yogurt.jpg"
+      ],
+      "short_description": "Organik Yarım Yağlı Yoğurt, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Yarım Yağlı Yoğurt</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Yarım Yağlı Yoğurt | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Yarım Yağlı Yoğurt, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    },
+    {
+      "slug": "organik-tam-yagli-yogurt",
+      "name": "Organik Tam Yağlı Yoğurt",
+      "category": "sut-urunleri",
+      "sku": null,
+      "price": 0,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://elta-ada.com.tr/root-folder/wp-content/uploads/2019/02/organik-tam-yagli-yogurt.jpg"
+      ],
+      "short_description": "Organik Tam Yağlı Yoğurt, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tam Yağlı Yoğurt</strong>, Elta-Ada güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tam Yağlı Yoğurt | Organik Çiftlik Ürünü - Organik Express",
+      "meta_description": "Organik Tam Yağlı Yoğurt, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "status": "draft"
+    }
+  ]
+}

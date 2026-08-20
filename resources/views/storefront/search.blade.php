@@ -28,7 +28,7 @@
                     <x-product-card :product="$product" />
                 @endforeach
             </div>
-            <div class="mt-10">{{ $products->links() }}</div>
+            <div class="mt-10">{{ $products->links(data: ['itemLabel' => 'ürün']) }}</div>
         @endif
     @endif
 </div>

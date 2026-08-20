@@ -33,7 +33,7 @@
                 </div>
             @endforeach
         </div>
-        <div class="mt-6">{{ $transactions->links() }}</div>
+        <div class="mt-6">{{ $transactions->links(data: ['itemLabel' => 'işlem']) }}</div>
     @endif
 </div>
 @endsection

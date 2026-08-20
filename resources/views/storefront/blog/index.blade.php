@@ -58,7 +58,7 @@
                 </article>
             @endforeach
         </div>
-        <div class="mt-10">{{ $posts->links() }}</div>
+        <div class="mt-10">{{ $posts->links(data: ['itemLabel' => 'yazı']) }}</div>
     @endif
 </div>
 @endsection

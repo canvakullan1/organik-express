@@ -1,0 +1,426 @@
+{
+  "source": "ogstore-baharat",
+  "scraped_at": "2026-08-20T19:11:08.104Z",
+  "products": [
+    {
+      "slug": "karmalife-dogal-kori-40gr",
+      "name": "Karmalife Doğal Köri 40Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986095",
+      "price": 92,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-dogal-kori-40gr--resim-13424.jpeg"
+      ],
+      "short_description": "Karmalife Doğal Köri 40Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Doğal Köri 40Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Doğal Köri 40Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Doğal Köri 40Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-tane-karabiber-50-gr",
+      "name": "Karmalife Tane Karabiber 50 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986293",
+      "price": 176,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-tane-karabiber-50-g-resim-13407.jpg"
+      ],
+      "short_description": "Karmalife Tane Karabiber 50 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Tane Karabiber 50 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Tane Karabiber 50 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Tane Karabiber 50 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-pizza-baharati-40-gr",
+      "name": "Karmalife Pizza Baharatı 40 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986286",
+      "price": 142,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-pizza-baharati-40-g-resim-13406.webp"
+      ],
+      "short_description": "Karmalife Pizza Baharatı 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Pizza Baharatı 40 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Pizza Baharatı 40 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Pizza Baharatı 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-kofte-baharati-45-gr",
+      "name": "Karmalife Köfte Baharatı 45 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986262",
+      "price": 142,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-kofte-baharati-45-g-resim-13404.webp"
+      ],
+      "short_description": "Karmalife Köfte Baharatı 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Köfte Baharatı 45 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Köfte Baharatı 45 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Köfte Baharatı 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-susam-65-gr",
+      "name": "Karmalife Susam 65 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986248",
+      "price": 132,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-susam-65-g-resim-13402.webp"
+      ],
+      "short_description": "Karmalife Susam 65 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Susam 65 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Susam 65 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Susam 65 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-tatli-pul-biber-45-gr",
+      "name": "Karmalife Tatlı Pul Biber 45 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986156",
+      "price": 142,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-tatli-pul-biber-45-g-resim-13398.webp"
+      ],
+      "short_description": "Karmalife Tatlı Pul Biber 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Tatlı Pul Biber 45 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Tatlı Pul Biber 45 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Tatlı Pul Biber 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-kimyon-40-gr",
+      "name": "Karmalife Kimyon 40 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986118",
+      "price": 136,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-kimyon-40-g-resim-13394.webp"
+      ],
+      "short_description": "Karmalife Kimyon 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Kimyon 40 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Kimyon 40 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Kimyon 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-sumak-45-gr",
+      "name": "Karmalife Sumak 45 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986125",
+      "price": 157,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-sumak-45-g-resim-13395.webp"
+      ],
+      "short_description": "Karmalife Sumak 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Sumak 45 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Sumak 45 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Sumak 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-karabiber-toz-50-gr",
+      "name": "Karmalife Karabiber Toz 50 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986101",
+      "price": 207,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-karabiber-toz-50-g-resim-13393.webp"
+      ],
+      "short_description": "Karmalife Karabiber Toz 50 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Karabiber Toz 50 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Karabiber Toz 50 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Karabiber Toz 50 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-kajun-baharati-40-gr",
+      "name": "Karmalife Kajun Baharatı 40 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986088",
+      "price": 155,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-kajun-baharati-40-g-resim-13392.webp"
+      ],
+      "short_description": "Karmalife Kajun Baharatı 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Kajun Baharatı 40 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Kajun Baharatı 40 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Kajun Baharatı 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-nane-14-gr",
+      "name": "Karmalife Nane 14 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986071",
+      "price": 127,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-nane-14-g-resim-13391.webp"
+      ],
+      "short_description": "Karmalife Nane 14 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Nane 14 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Nane 14 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Nane 14 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-kekik-10-gr",
+      "name": "Karmalife Kekik 10 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986064",
+      "price": 127,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-kekik-10-g-resim-13390.webp"
+      ],
+      "short_description": "Karmalife Kekik 10 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Kekik 10 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Kekik 10 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Kekik 10 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-ipek-pul-biber-45-gr",
+      "name": "Karmalife İpek Pul Biber 45 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986040",
+      "price": 141,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-ipek-pul-biber-45-g-resim-13388.webp"
+      ],
+      "short_description": "Karmalife İpek Pul Biber 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife İpek Pul Biber 45 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife İpek Pul Biber 45 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife İpek Pul Biber 45 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-zerdecal-50-gr",
+      "name": "Karmalife Zerdeçal 50 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986026",
+      "price": 132,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-zerdecal-50-g-resim-13386.webp"
+      ],
+      "short_description": "Karmalife Zerdeçal 50 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Zerdeçal 50 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Zerdeçal 50 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Zerdeçal 50 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "karmalife-zencefil-40-gr",
+      "name": "Karmalife Zencefil 40 Gr",
+      "category": "baharat-aktar",
+      "sku": "8684917986033",
+      "price": 141,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/karmalife-zencefil-40-g-resim-13387.webp"
+      ],
+      "short_description": "Karmalife Zencefil 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Karmalife Zencefil 40 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Karmalife Zencefil 40 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Karmalife Zencefil 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "kekik-yagi-10-ml",
+      "name": "Kekik Yağı 10 ml",
+      "category": "baharat-aktar",
+      "sku": "8682792211974",
+      "price": 238,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/kekik-yagi-10-ml-13119-1.jpg",
+        "https://www.ogstore.com.tr/images/urunler/kekik-yagi-10-ml-13119-2.jpg",
+        "https://www.ogstore.com.tr/images/urunler/kekik-yagi-10-ml-13119-3.jpg"
+      ],
+      "short_description": "Kekik Yağı 10 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Kekik Yağı 10 ml</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Kekik Yağı 10 ml | Organik Baharat - Organik Express",
+      "meta_description": "Kekik Yağı 10 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-toz-karabiber-120-gr",
+      "name": "Organik Toz Karabiber 120 Gr",
+      "category": "baharat-aktar",
+      "sku": "8682792211653",
+      "price": 471,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-karabiber-120-gr-13050-1.jpg"
+      ],
+      "short_description": "Organik Toz Karabiber 120 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Toz Karabiber 120 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Toz Karabiber 120 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Organik Toz Karabiber 120 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "nane-yagi-10-ml",
+      "name": "Nane Yağı 10 Ml",
+      "category": "baharat-aktar",
+      "sku": "8682792210953",
+      "price": 205,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/nane-yagi-10-ml-13002-1.jpg",
+        "https://www.ogstore.com.tr/images/urunler/nane-yagi-10-ml-13002-2.jpg",
+        "https://www.ogstore.com.tr/images/urunler/nane-yagi-10-ml-13002-3.jpg"
+      ],
+      "short_description": "Nane Yağı 10 Ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Nane Yağı 10 Ml</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Nane Yağı 10 Ml | Organik Baharat - Organik Express",
+      "meta_description": "Nane Yağı 10 Ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-baharat-seti-toz-tarcin-toz-zerdecal-toz-zencefil",
+      "name": "Organik Baharat Seti ( Toz Tarçın, Toz Zerdeçal, Toz Zencefil)",
+      "category": "baharat-aktar",
+      "sku": "8682792209919",
+      "price": 685,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/organik-baharat-seti-toz-tarcin-toz-zerdecal-toz-zencefil-12888-1.jpg"
+      ],
+      "short_description": "Organik Baharat Seti ( Toz Tarçın, Toz Zerdeçal, Toz Zencefil), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Baharat Seti ( Toz Tarçın, Toz Zerdeçal, Toz Zencefil)</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Baharat Seti ( Toz Tarçın, Toz Zerdeçal, Toz Zencefil) | Organik Baharat - Organik Express",
+      "meta_description": "Organik Baharat Seti ( Toz Tarçın, Toz Zerdeçal, Toz Zencefil), özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kabuk-tarcin-20-gr",
+      "name": "Organik Kabuk Tarçın 20 Gr",
+      "category": "baharat-aktar",
+      "sku": "8682792209841",
+      "price": 167,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/organik-kabuk-tarcin-20-gr-12881-1.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-kabuk-tarcin-20-gr-12881-2.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-kabuk-tarcin-20-gr-12881-3.jpg"
+      ],
+      "short_description": "Organik Kabuk Tarçın 20 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kabuk Tarçın 20 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kabuk Tarçın 20 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Organik Kabuk Tarçın 20 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-toz-tarcin-40-gr",
+      "name": "Organik Toz Tarçın 40 Gr",
+      "category": "baharat-aktar",
+      "sku": "8682792209834",
+      "price": 168,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-tarcin-40-gr-12880-1.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-tarcin-40-gr-12880-2.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-tarcin-40-gr-12880-3.jpg"
+      ],
+      "short_description": "Organik Toz Tarçın 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Toz Tarçın 40 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Toz Tarçın 40 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Organik Toz Tarçın 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-toz-zerdecal-60-gr",
+      "name": "Organik Toz Zerdeçal 60 Gr",
+      "category": "baharat-aktar",
+      "sku": "8682792209858",
+      "price": 236,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-zerdecal-60-gr-12879-1.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-zerdecal-60-gr-12879-2.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-zerdecal-60-gr-12879-3.jpg"
+      ],
+      "short_description": "Organik Toz Zerdeçal 60 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Toz Zerdeçal 60 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Toz Zerdeçal 60 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Organik Toz Zerdeçal 60 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-toz-zencefil-40-gr",
+      "name": "Organik Toz Zencefil 40 Gr",
+      "category": "baharat-aktar",
+      "sku": "8682792209810",
+      "price": 330,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-zencefil-40-gr-12878-1.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-zencefil-40-gr-12878-2.jpg",
+        "https://www.ogstore.com.tr/images/urunler/organik-toz-zencefil-40-gr-12878-3.jpg"
+      ],
+      "short_description": "Organik Toz Zencefil 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Toz Zencefil 40 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Toz Zencefil 40 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Organik Toz Zencefil 40 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "toz-kimyon-70-gr",
+      "name": "Toz Kimyon 70 Gr",
+      "category": "baharat-aktar",
+      "sku": "8682792200442",
+      "price": 89,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "https://www.ogstore.com.tr/images/urunler/toz-kimyon-70-gr-resim-749.jpg"
+      ],
+      "short_description": "Toz Kimyon 70 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Toz Kimyon 70 Gr</strong>, OG Store güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Toz Kimyon 70 Gr | Organik Baharat - Organik Express",
+      "meta_description": "Toz Kimyon 70 Gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    }
+  ]
+}

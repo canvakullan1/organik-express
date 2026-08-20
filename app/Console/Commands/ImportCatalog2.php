@@ -124,6 +124,10 @@ class ImportCatalog2 extends Command
 
                 $existed = Product::withTrashed()->where('slug', $p['slug'])->exists();
 
+                // Ürün bazlı durum: kaynakta "status":"draft" varsa (ör. fiyatı sonra
+                // girilecek Elta-Ada ürünleri) yayına alma — admin fiyatı girip aktifler.
+                $rowStatus = ($p['status'] ?? null) === 'draft' ? ProductStatus::Draft->value : $status;
+
                 $product = Product::withTrashed()->updateOrCreate(
                     ['slug' => $p['slug']],
                     [
@@ -137,7 +141,7 @@ class ImportCatalog2 extends Command
                         'meta_title' => $p['meta_title'] ?? null,
                         'meta_description' => $p['meta_description'] ?? null,
                         'tax_rate' => $p['tax_rate'] ?? 1,
-                        'status' => $status,
+                        'status' => $rowStatus,
                         'is_new' => true,
                         'deleted_at' => null,
                     ],

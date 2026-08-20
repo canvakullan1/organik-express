@@ -28,7 +28,7 @@
                 </a>
             @endforeach
         </div>
-        <div class="mt-6">{{ $orders->links() }}</div>
+        <div class="mt-6">{{ $orders->links(data: ['itemLabel' => 'sipariş']) }}</div>
     @endif
 </div>
 @endsection
