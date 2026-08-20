@@ -128,12 +128,20 @@ class ImportCatalog2 extends Command
                 // girilecek Elta-Ada ürünleri) yayına alma — admin fiyatı girip aktifler.
                 $rowStatus = ($p['status'] ?? null) === 'draft' ? ProductStatus::Draft->value : $status;
 
+                // products.sku UNIQUE: kaynaktaki kod başka bir üründe kullanılıyorsa
+                // (Ticimax/Wix iç id'leri çakışabiliyor) boş bırak — import patlamasın.
+                $sku = $p['sku'] ?? null;
+                if ($sku !== null && Product::withTrashed()
+                    ->where('sku', $sku)->where('slug', '!=', $p['slug'])->exists()) {
+                    $sku = null;
+                }
+
                 $product = Product::withTrashed()->updateOrCreate(
                     ['slug' => $p['slug']],
                     [
                         'category_id' => $catId,
                         'name' => $p['name'],
-                        'sku' => $p['sku'] ?? null,
+                        'sku' => $sku,
                         'short_description' => $p['short_description'] ?? null,
                         'description' => $p['description'] ?? null,
                         'storage_info' => $p['storage_info'] ?? null,
