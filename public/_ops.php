@@ -187,6 +187,17 @@ if ($do === 'purge_source') {
     echo @shell_exec("cd $repo && $php artisan catalog:purge-source " . escapeshellarg($src) . "$flags 2>&1");
     exit;
 }
+if ($do === 'stats') {
+    // Katalog teshis raporu (durum + kaynak bazli sayim).
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(300);
+    $flags = '';
+    $src = preg_replace('/[^a-z0-9_-]/', '', strtolower($_GET['source'] ?? ''));
+    if ($src !== '') { $flags .= ' --source=' . escapeshellarg($src); }
+    echo @shell_exec("cd $repo && $php artisan catalog:stats$flags 2>&1");
+    exit;
+}
 if ($do === 'place_menu') {
     // Sonradan eklenen kategorileri üst gruplara yerleştir (kategori ağacı + header menü).
     if (! $php) { exit("php bulunamadi\n"); }
