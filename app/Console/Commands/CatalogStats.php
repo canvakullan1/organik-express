@@ -20,6 +20,7 @@ class CatalogStats extends Command
 
     public function handle(): int
     {
+        $this->line('PHP memory_limit (Laravel bootstrap sonrasi): ' . ini_get('memory_limit'));
         $this->line('TOPLAM (silinmemiş): ' . Product::count());
         $this->line('  aktif  : ' . Product::where('status', 'active')->count());
         $this->line('  taslak : ' . Product::where('status', 'draft')->count());
