@@ -47,15 +47,33 @@ class SearchController extends Controller
         return response()->json($results);
     }
 
+    /**
+     * MySQL ci collation'ı ç/ş/ü/ö'yü ASCII karşılığıyla eşler ama "ğ" ve "ı" eşlemez:
+     * kullanıcı "zeytinyagi" yazınca "Zeytinyağı" bulunamıyordu. Sorguyu ve sütunu
+     * aynı şekilde sadeleştirip karşılaştırıyoruz.
+     */
+    private function normalize(string $v): string
+    {
+        return str_replace(['ğ', 'Ğ', 'ı', 'İ'], ['g', 'g', 'i', 'i'], $v);
+    }
+
+    private function normalizedColumn(string $column): string
+    {
+        return "REPLACE(REPLACE(REPLACE(REPLACE({$column},'ğ','g'),'Ğ','g'),'ı','i'),'İ','i')";
+    }
+
     private function query(string $q)
     {
+        $like = '%' . $this->normalize($q) . '%';
+        $name = $this->normalizedColumn('name');
+
         return Product::active()
-            ->where(function ($query) use ($q) {
-                $query->where('name', 'like', "%{$q}%")
-                    ->orWhere('short_description', 'like', "%{$q}%")
+            ->where(function ($query) use ($q, $like, $name) {
+                $query->whereRaw("{$name} LIKE ?", [$like])
+                    ->orWhereRaw($this->normalizedColumn('short_description') . ' LIKE ?', [$like])
                     ->orWhere('sku', 'like', "%{$q}%")
-                    ->orWhereHas('brand', fn ($b) => $b->where('name', 'like', "%{$q}%"))
-                    ->orWhereHas('category', fn ($c) => $c->where('name', 'like', "%{$q}%"));
+                    ->orWhereHas('brand', fn ($b) => $b->whereRaw("{$name} LIKE ?", [$like]))
+                    ->orWhereHas('category', fn ($c) => $c->whereRaw("{$name} LIKE ?", [$like]));
             });
     }
 }
