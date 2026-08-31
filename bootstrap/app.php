@@ -5,6 +5,14 @@ use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
 use Illuminate\Http\Request;
 
+// Paylasimli hostingde .user.ini uygulanmiyor (memory_limit 128M kaliyor) ve
+// Filament admin listeleri 1000+ urunde bellegi tuketip 500 veriyordu.
+// Mevcut limit daha yuksekse dokunma.
+$currentLimit = (int) ini_get('memory_limit');
+if ($currentLimit > 0 && $currentLimit < 512) {
+    @ini_set('memory_limit', '512M');
+}
+
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
