@@ -108,4 +108,44 @@ class Order extends Model
     {
         return $this->payment_status === PaymentStatus::Paid;
     }
+
+    /**
+     * Adres anlik goruntusunu (JSON) okunakli metne cevirir.
+     *
+     * Filament'te `TextEntry::make('shipping_address')` + `formatStateUsing()` calismaz:
+     * state bir DIZI oldugu icin Filament onu "coklu deger" sanip formatlayiciyi her
+     * eleman icin ayri cagirir, `is_array($state)` false doner ve panelde adres "-"
+     * gorunur (mail'de dogru cikar, cunku Blade dizide dogrudan gezinir).
+     * Bu yuzden infolist `->state(fn ($record) => $record->addressText(...))` kullanir.
+     */
+    public function addressText(?array $a): string
+    {
+        if (empty($a)) {
+            return '—';
+        }
+
+        $lines = [$a['name'] ?? null];
+
+        if (! empty($a['is_corporate'])) {
+            $lines[] = trim(($a['company_name'] ?? '') . ' (Kurumsal)');
+            $tax = array_filter([$a['tax_office'] ?? null, $a['tax_number'] ?? null]);
+            if ($tax) {
+                $lines[] = 'VD/VKN: ' . implode(' / ', $tax);
+            }
+        }
+
+        $lines[] = $a['phone'] ?? null;
+        $lines[] = trim(implode(' ', array_filter([$a['neighborhood'] ?? null, $a['address'] ?? null])));
+
+        $cityLine = implode(' / ', array_filter([$a['district'] ?? null, $a['city'] ?? null]));
+        if (! empty($a['postal_code'])) {
+            $cityLine = trim($cityLine . ' ' . $a['postal_code']);
+        }
+        $lines[] = $cityLine;
+
+        $lines = array_values(array_filter($lines, fn ($l) => trim((string) $l) !== ''));
+
+        return $lines ? implode("
+", $lines) : '—';
+    }
 }

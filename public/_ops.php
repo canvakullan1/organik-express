@@ -187,6 +187,16 @@ if ($do === 'purge_source') {
     echo @shell_exec("cd $repo && $php artisan catalog:purge-source " . escapeshellarg($src) . "$flags 2>&1");
     exit;
 }
+if ($do === 'order_addr') {
+    // Son siparislerin adres verisi + panelde gorunecek metin (teshis).
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(120);
+    $lim = (int) ($_GET['limit'] ?? 3);
+    if ($lim < 1 || $lim > 20) { $lim = 3; }
+    echo @shell_exec("cd $repo && $php artisan orders:address-check --limit=$lim 2>&1");
+    exit;
+}
 if ($do === 'stats') {
     // Katalog teshis raporu (durum + kaynak bazli sayim).
     if (! $php) { exit("php bulunamadi

@@ -138,10 +138,15 @@ class OrderResource extends Resource
             Infolists\Components\Section::make('Müşteri & Teslimat')->schema([
                 Infolists\Components\TextEntry::make('contact_email')->label('E-posta'),
                 Infolists\Components\TextEntry::make('contact_phone')->label('Telefon'),
-                Infolists\Components\TextEntry::make('shipping_address')->label('Teslimat Adresi')
-                    ->formatStateUsing(fn ($state) => is_array($state)
-                        ? ($state['name'] ?? '') . "\n" . ($state['address'] ?? '') . ', ' . ($state['district'] ?? '') . '/' . ($state['city'] ?? '')
-                        : '—')
+                Infolists\Components\TextEntry::make('shipping_address_text')->label('Teslimat Adresi')
+                    ->state(fn (Order $record) => $record->addressText($record->shipping_address))
+                    ->extraAttributes(['style' => 'white-space: pre-line'])
+                    ->columnSpanFull(),
+                Infolists\Components\TextEntry::make('billing_address_text')->label('Fatura Adresi')
+                    ->state(fn (Order $record) => $record->billing_address === $record->shipping_address
+                        ? 'Teslimat adresi ile aynı'
+                        : $record->addressText($record->billing_address))
+                    ->extraAttributes(['style' => 'white-space: pre-line'])
                     ->columnSpanFull(),
                 Infolists\Components\TextEntry::make('delivery_date')->label('Teslimat Günü')->date('d.m.Y')->placeholder('—'),
                 Infolists\Components\TextEntry::make('delivery_slot')->label('Zaman')->placeholder('—'),
