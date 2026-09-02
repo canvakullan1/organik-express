@@ -38,10 +38,14 @@ class PurgeSource extends Command
                     }
                 }
             }
+        } elseif (is_file($cat2 = database_path("data/catalog2/{$source}.json"))) {
+            // 2. dalga kaynaklari (catalog2/<kaynak>.json)
+            $data = json_decode((string) file_get_contents($cat2), true);
+            $slugs = array_column($data['products'] ?? [], 'slug');
         } else {
             $file = database_path("data/{$source}-raw.json");
             if (! is_file($file)) {
-                $this->error("Kaynak verisi yok: database/data/{$source}/ veya {$source}-raw.json");
+                $this->error("Kaynak verisi yok: database/data/{$source}/, catalog2/{$source}.json veya {$source}-raw.json");
 
                 return self::FAILURE;
             }
@@ -63,6 +67,11 @@ class PurgeSource extends Command
                 continue;
             }
             foreach (glob($dir . '/*.json') ?: [] as $part) {
+                // Kaynagin KENDI dosyasi (or. catalog2/elta-ada.json) "baska kaynak" sayilmamali,
+                // yoksa tum slug'lar korunur ve hicbir sey silinmez.
+                if (basename($part, '.json') === $source) {
+                    continue;
+                }
                 $d = json_decode((string) file_get_contents($part), true);
                 $ps = $d['products'] ?? (is_array($d) ? $d : []);
                 foreach ($ps as $p) {
