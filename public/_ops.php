@@ -197,6 +197,14 @@ if ($do === 'order_addr') {
     echo @shell_exec("cd $repo && $php artisan orders:address-check --limit=$lim 2>&1");
     exit;
 }
+if ($do === 'fix_cats') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(300);
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan catalog:fix-category-visibility$flags 2>&1");
+    exit;
+}
 if ($do === 'stats') {
     // Katalog teshis raporu (durum + kaynak bazli sayim).
     if (! $php) { exit("php bulunamadi
