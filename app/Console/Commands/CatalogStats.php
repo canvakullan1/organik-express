@@ -26,6 +26,19 @@ class CatalogStats extends Command
         $this->line('  taslak : ' . Product::where('status', 'draft')->count());
         $this->line('  silinmiş (soft): ' . Product::onlyTrashed()->count());
 
+        // Kategori durumu: pasif ama urunu olan kategoriler siteden erisilemez (404).
+        $this->line('');
+        $this->line('KATEGORILER (urunu olup pasif olanlar <<< ile isaretli):');
+        foreach (\App\Models\Category::withCount('products')->orderBy('slug')->get() as $c) {
+            $flag = ($c->products_count > 0 && (! $c->is_active || ! $c->show_in_menu)) ? '  <<< ERISILEMEZ' : '';
+            if ($c->products_count > 0 || $flag) {
+                $this->line(sprintf('  %-26s urun:%4d  aktif:%s  menu:%s%s',
+                    $c->slug, $c->products_count,
+                    $c->is_active ? 'E' : 'H', $c->show_in_menu ? 'E' : 'H', $flag));
+            }
+        }
+        $this->line('');
+
         $dir = database_path('data/catalog2');
         $only = trim((string) $this->option('source'));
 
