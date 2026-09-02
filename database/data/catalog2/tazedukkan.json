@@ -1,0 +1,142 @@
+{
+  "source": "tazedukkan",
+  "scraped_at": "2026-09-02T23:08:00.459Z",
+  "products": [
+    {
+      "slug": "seftali",
+      "name": "Şeftali",
+      "category": "taze-meyve",
+      "sku": null,
+      "price": 400,
+      "unit": "kg",
+      "unit_amount": 1,
+      "is_weight_based": true,
+      "images": [
+        "products/seftali-1.jpg"
+      ],
+      "short_description": "Şeftali, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır.",
+      "description": "<p><strong>Şeftali</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li><li>Fiyat 1 kg içindir</li></ul>",
+      "meta_title": "Şeftali | Taze Meyve - Organik Express",
+      "meta_description": "Şeftali, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır."
+    },
+    {
+      "slug": "nektarin",
+      "name": "Nektarin",
+      "category": "taze-meyve",
+      "sku": null,
+      "price": 350,
+      "unit": "kg",
+      "unit_amount": 1,
+      "is_weight_based": true,
+      "images": [
+        "products/nektarin-1.jpg"
+      ],
+      "short_description": "Nektarin, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır.",
+      "description": "<p><strong>Nektarin</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li><li>Fiyat 1 kg içindir</li></ul>",
+      "meta_title": "Nektarin | Taze Meyve - Organik Express",
+      "meta_description": "Nektarin, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır."
+    },
+    {
+      "slug": "cekirdeksiz-uzum",
+      "name": "Çekirdeksiz Üzüm",
+      "category": "taze-meyve",
+      "sku": null,
+      "price": 400,
+      "unit": "kg",
+      "unit_amount": 1,
+      "is_weight_based": true,
+      "images": [
+        "products/cekirdeksiz-uzum-1.jpg"
+      ],
+      "short_description": "Çekirdeksiz Üzüm, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır.",
+      "description": "<p><strong>Çekirdeksiz Üzüm</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li><li>Fiyat 1 kg içindir</li></ul>",
+      "meta_title": "Çekirdeksiz Üzüm | Taze Meyve - Organik Express",
+      "meta_description": "Çekirdeksiz Üzüm, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır."
+    },
+    {
+      "slug": "taze-incir",
+      "name": "Taze İncir",
+      "category": "taze-meyve",
+      "sku": null,
+      "price": 500,
+      "unit": "kg",
+      "unit_amount": 1,
+      "is_weight_based": true,
+      "images": [
+        "products/taze-incir-1.jpg"
+      ],
+      "short_description": "Taze İncir, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır.",
+      "description": "<p><strong>Taze İncir</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li><li>Fiyat 1 kg içindir</li></ul>",
+      "meta_title": "Taze İncir | Taze Meyve - Organik Express",
+      "meta_description": "Taze İncir, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır."
+    },
+    {
+      "slug": "bogurtlen-250-g",
+      "name": "Böğürtlen 250 g",
+      "category": "taze-meyve",
+      "sku": null,
+      "price": 300,
+      "unit": "paket",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/bogurtlen-250-g-1.jpg"
+      ],
+      "short_description": "Böğürtlen 250 g, mevsiminde özenle seçilip taze haliyle kapınıza gelir.",
+      "description": "<p><strong>Böğürtlen 250 g</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li></ul>",
+      "meta_title": "Böğürtlen 250 g | Taze Meyve - Organik Express",
+      "meta_description": "Böğürtlen 250 g, mevsiminde özenle seçilip taze haliyle kapınıza gelir."
+    },
+    {
+      "slug": "ahududu-250-g",
+      "name": "Ahududu 250 g",
+      "category": "taze-meyve",
+      "sku": null,
+      "price": 300,
+      "unit": "paket",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ahududu-250-g-1.jpg"
+      ],
+      "short_description": "Ahududu 250 g, mevsiminde özenle seçilip taze haliyle kapınıza gelir.",
+      "description": "<p><strong>Ahududu 250 g</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li></ul>",
+      "meta_title": "Ahududu 250 g | Taze Meyve - Organik Express",
+      "meta_description": "Ahududu 250 g, mevsiminde özenle seçilip taze haliyle kapınıza gelir."
+    },
+    {
+      "slug": "salcalik-domates",
+      "name": "Salçalık Domates",
+      "category": "taze-sebze",
+      "sku": null,
+      "price": 80,
+      "unit": "kg",
+      "unit_amount": 1,
+      "is_weight_based": true,
+      "images": [
+        "products/salcalik-domates-1.jpg"
+      ],
+      "short_description": "Salçalık Domates, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır.",
+      "description": "<p><strong>Salçalık Domates</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li><li>Fiyat 1 kg içindir</li></ul>",
+      "meta_title": "Salçalık Domates | Taze Sebze - Organik Express",
+      "meta_description": "Salçalık Domates, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır."
+    },
+    {
+      "slug": "salcalik-domates-10-kg",
+      "name": "Salçalık Domates 10 kg Kasa",
+      "category": "taze-sebze",
+      "sku": null,
+      "price": 750,
+      "unit": "paket",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/salcalik-domates-10-kg-1.jpg"
+      ],
+      "short_description": "Salçalık Domates 10 kg Kasa, mevsiminde özenle seçilip taze haliyle kapınıza gelir.",
+      "description": "<p><strong>Salçalık Domates 10 kg Kasa</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li></ul>",
+      "meta_title": "Salçalık Domates 10 kg Kasa | Taze Sebze - Organik Express",
+      "meta_description": "Salçalık Domates 10 kg Kasa, mevsiminde özenle seçilip taze haliyle kapınıza gelir."
+    }
+  ]
+}
