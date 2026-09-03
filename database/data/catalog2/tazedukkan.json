@@ -137,6 +137,23 @@
       "description": "<p><strong>Salçalık Domates 10 kg Kasa</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li></ul>",
       "meta_title": "Salçalık Domates 10 kg Kasa | Taze Sebze - Organik Express",
       "meta_description": "Salçalık Domates 10 kg Kasa, mevsiminde özenle seçilip taze haliyle kapınıza gelir."
+    },
+    {
+      "slug": "kavun",
+      "name": "Kavun",
+      "category": "taze-meyve",
+      "sku": null,
+      "price": 160,
+      "unit": "kg",
+      "unit_amount": 1,
+      "is_weight_based": true,
+      "images": [
+        "products/kavun-1.jpg"
+      ],
+      "short_description": "Kavun, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır.",
+      "description": "<p><strong>Kavun</strong>, hasat sonrası özenle ayıklanır ve tazeliğini koruyacak şekilde paketlenerek gönderilir. Sofranıza mevsimin en taze halini getirmek için seçilmiştir.</p><ul><li>Mevsiminde taze hasat</li><li>Özenle ayıklanmış, seçilmiş ürün</li><li>Tazeliği koruyan özenli paketleme</li><li>Fiyat 1 kg içindir</li></ul>",
+      "meta_title": "Kavun | Taze Meyve - Organik Express",
+      "meta_description": "Kavun, mevsiminde özenle seçilip taze haliyle kapınıza gelir; kilogram fiyatıdır."
     }
   ]
 }
