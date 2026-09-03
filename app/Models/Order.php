@@ -6,12 +6,15 @@ use App\Enums\OrderStatus;
 use App\Enums\PaymentMethod;
 use App\Enums\PaymentStatus;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Order extends Model
 {
+    use SoftDeletes;
+
     protected $fillable = [
         'order_number', 'user_id', 'status', 'payment_status', 'payment_method',
         'subtotal', 'shipping_cost', 'discount_total', 'grand_total', 'currency',

@@ -12,6 +12,8 @@ use Filament\Infolists\Infolist;
 use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Tables\Table;
 
 class OrderResource extends Resource
@@ -57,6 +59,7 @@ class OrderResource extends Resource
             ->filters([
                 Tables\Filters\SelectFilter::make('status')->label('Durum')->options(OrderStatus::class),
                 Tables\Filters\SelectFilter::make('payment_status')->label('Ödeme')->options(PaymentStatus::class),
+                Tables\Filters\TrashedFilter::make()->label('Silinmiş kayıtlar'),
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
@@ -120,6 +123,29 @@ class OrderResource extends Resource
                         $r->changeStatus(OrderStatus::Shipped, "Kargoya verildi: {$carrier?->name} - {$data['tracking_number']}", auth()->id());
                         Notification::make()->title('Sipariş kargoya verildi.')->success()->send();
                     }),
+
+                // Silme: varsayılan olarak geri alınabilir (soft-delete). Kalıcı silme
+                // yalnızca "Silinmiş kayıtlar" filtresindeyken görünür.
+                Tables\Actions\DeleteAction::make()
+                    ->label('Sil')
+                    ->modalHeading('Siparişi sil')
+                    ->modalDescription('Sipariş listeden kaldırılacak. "Silinmiş kayıtlar" filtresinden geri alabilirsiniz.')
+                    ->successNotificationTitle('Sipariş silindi.'),
+                Tables\Actions\RestoreAction::make()
+                    ->label('Geri Al')
+                    ->successNotificationTitle('Sipariş geri alındı.'),
+                Tables\Actions\ForceDeleteAction::make()
+                    ->label('Kalıcı Sil')
+                    ->modalHeading('Siparişi kalıcı sil')
+                    ->modalDescription('Bu işlem geri alınamaz; sipariş ve kalemleri tamamen silinir.')
+                    ->successNotificationTitle('Sipariş kalıcı olarak silindi.'),
+            ])
+            ->bulkActions([
+                Tables\Actions\BulkActionGroup::make([
+                    Tables\Actions\DeleteBulkAction::make()->label('Seçilenleri sil'),
+                    Tables\Actions\RestoreBulkAction::make()->label('Seçilenleri geri al'),
+                    Tables\Actions\ForceDeleteBulkAction::make()->label('Seçilenleri kalıcı sil'),
+                ]),
             ]);
     }
 
@@ -175,6 +201,16 @@ class OrderResource extends Resource
     public static function getRelations(): array
     {
         return [];
+    }
+
+
+    /**
+     * Silinmiş siparişler "Silinmiş kayıtlar" filtresiyle görülebilsin diye
+     * SoftDeletingScope kaldırılır (varsayılan liste yine yalnız aktifleri gösterir).
+     */
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()->withoutGlobalScopes([SoftDeletingScope::class]);
     }
 
     public static function getPages(): array

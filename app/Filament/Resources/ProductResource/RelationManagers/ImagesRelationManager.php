@@ -8,6 +8,14 @@ use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Table;
 
+/**
+ * Ürün görselleri: listeleme, sıralama, alt metin ve silme.
+ *
+ * YÜKLEME BURADA YAPILMAZ. Filament FileUpload (FilePond + Livewire geçici-upload)
+ * bu LiteSpeed/cPanel ortamında tamamlanmıyor; yükleme çubuğu %100'de takılı kalıyordu.
+ * Bu yüzden yükleme, klasik multipart form kullanan "Görselleri Yönet" sayfasına
+ * (admin.product-images.index) taşındı; buradaki buton oraya götürür.
+ */
 class ImagesRelationManager extends RelationManager
 {
     protected static string $relationship = 'images';
@@ -16,27 +24,12 @@ class ImagesRelationManager extends RelationManager
 
     public function form(Form $form): Form
     {
+        // Yalnızca alt metin düzenlenir; görsel dosyası "Görselleri Yönet" sayfasından.
         return $form->schema([
-            Forms\Components\FileUpload::make('path')
-                ->label('Görsel')
-                ->image()
-                ->disk('public')
-                ->directory('products')
-                ->visibility('public')
-                ->imageEditor()
-                // Büyük ürün fotoğrafları tarayıcıda 1600px'e küçültülür → upload payload'ı küçük
-                // kalır, yükleme sunucu limitine/yavaş bağlantıya takılmaz ("Yükleniyor / Boyut
-                // hesaplanıyor"). maxSize cömert (30MB): büyük PNG orijinaller de geçer, resize eder.
-                ->imageResizeMode('contain')
-                ->imageResizeTargetWidth('1600')
-                ->imageResizeTargetHeight('1600')
-                ->maxSize(30720)
-                ->required()
-                ->columnSpanFull(),
-
             Forms\Components\TextInput::make('alt')
                 ->label('Alt Metin (SEO/erişilebilirlik)')
-                ->maxLength(255),
+                ->maxLength(255)
+                ->columnSpanFull(),
         ]);
     }
 
@@ -49,11 +42,17 @@ class ImagesRelationManager extends RelationManager
             ])
             ->reorderable('sort_order')
             ->defaultSort('sort_order')
+            ->emptyStateHeading('Henüz görsel yok')
+            ->emptyStateDescription('Görsel eklemek için "Görsel Yükle" düğmesini kullanın.')
             ->headerActions([
-                Tables\Actions\CreateAction::make()->label('Görsel Ekle'),
+                Tables\Actions\Action::make('uploadImages')
+                    ->label('Görsel Yükle')
+                    ->icon('heroicon-o-arrow-up-tray')
+                    ->color('success')
+                    ->url(fn () => route('admin.product-images.index', $this->getOwnerRecord())),
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\EditAction::make()->label('Alt Metin'),
                 Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
