@@ -67,13 +67,17 @@ class SearchController extends Controller
         $like = '%' . $this->normalize($q) . '%';
         $name = $this->normalizedColumn('name');
 
+        // AÇIKLAMADA ARAMA YOK: açıklamalar şablon metin olduğu için alakasız
+        // sonuç üretiyordu — "incir" araması "soğuk zincirle" geçen 28 süt/et
+        // ürününü getiriyordu. Arama artık ürün adı, marka, kategori ve stok kodu
+        // üzerinden; isimde geçenler listenin başında.
         return Product::active()
             ->where(function ($query) use ($q, $like, $name) {
                 $query->whereRaw("{$name} LIKE ?", [$like])
-                    ->orWhereRaw($this->normalizedColumn('short_description') . ' LIKE ?', [$like])
                     ->orWhere('sku', 'like', "%{$q}%")
                     ->orWhereHas('brand', fn ($b) => $b->whereRaw("{$name} LIKE ?", [$like]))
                     ->orWhereHas('category', fn ($c) => $c->whereRaw("{$name} LIKE ?", [$like]));
-            });
+            })
+            ->orderByRaw("CASE WHEN {$name} LIKE ? THEN 0 ELSE 1 END", [$like]);
     }
 }
