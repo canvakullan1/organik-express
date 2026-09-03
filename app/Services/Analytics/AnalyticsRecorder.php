@@ -23,27 +23,39 @@ class AnalyticsRecorder
     {
         $attr = (array) session('attribution', []);
 
-        AnalyticsEvent::create([
-            'session_id' => session()->getId(),
-            'user_id' => Auth::id(),
-            'type' => $type,
-            'product_id' => $data['product_id'] ?? null,
-            'variant_id' => $data['variant_id'] ?? null,
-            'order_id' => $data['order_id'] ?? null,
-            'quantity' => $data['quantity'] ?? null,
-            'value' => $data['value'] ?? 0,
-            'channel' => $attr['channel'] ?? 'direct',
-            'source' => $attr['source'] ?? null,
-            'medium' => $attr['medium'] ?? null,
-            'campaign' => $attr['campaign'] ?? null,
-            'term' => $attr['term'] ?? null,
-            'content' => $attr['content'] ?? null,
-            'referrer' => $attr['referrer'] ?? null,
-            'landing_page' => $attr['landing_page'] ?? null,
-            'url' => $this->request->fullUrl(),
-            'device' => $this->detectDevice(),
-            'created_at' => now(),
-        ]);
+        try {
+            AnalyticsEvent::create([
+                'session_id' => session()->getId(),
+                'user_id' => Auth::id(),
+                'type' => $type,
+                'product_id' => $data['product_id'] ?? null,
+                'variant_id' => $data['variant_id'] ?? null,
+                'order_id' => $data['order_id'] ?? null,
+                'quantity' => $data['quantity'] ?? null,
+                'value' => $data['value'] ?? 0,
+                'channel' => $attr['channel'] ?? 'direct',
+                'source' => $attr['source'] ?? null,
+                'medium' => $attr['medium'] ?? null,
+                'campaign' => $attr['campaign'] ?? null,
+                'term' => $attr['term'] ?? null,
+                'content' => $attr['content'] ?? null,
+                'referrer' => $this->clip($attr['referrer'] ?? null),
+                'landing_page' => $this->clip($attr['landing_page'] ?? null),
+                'url' => $this->clip($this->request->fullUrl()),
+                'device' => $this->detectDevice(),
+                'created_at' => now(),
+            ]);
+        } catch (\Throwable $e) {
+            // Analitik kaydı hiçbir zaman ziyaretçinin isteğini bozmamalı.
+            report($e);
+        }
+    }
+
+
+    /** Uzun reklam URL'lerini sütun sınırına göre kırpar (kayıt patlamasın). */
+    private function clip(?string $value, int $max = 2000): ?string
+    {
+        return $value === null ? null : mb_substr($value, 0, $max);
     }
 
     /**
@@ -56,17 +68,22 @@ class AnalyticsRecorder
             return; // çift kayıt önle
         }
 
-        \App\Models\AnalyticsEvent::create([
-            'session_id' => 'order-' . $order->id,
-            'user_id' => $order->user_id,
-            'type' => 'purchase',
-            'order_id' => $order->id,
-            'value' => (float) $order->grand_total,
-            'channel' => $order->channel ?: 'direct',
-            'source' => $order->source,
-            'medium' => $order->medium,
-            'created_at' => now(),
-        ]);
+        try {
+            \App\Models\AnalyticsEvent::create([
+                'session_id' => 'order-' . $order->id,
+                'user_id' => $order->user_id,
+                'type' => 'purchase',
+                'order_id' => $order->id,
+                'value' => (float) $order->grand_total,
+                'channel' => $order->channel ?: 'direct',
+                'source' => $this->clip($order->source, 250),
+                'medium' => $this->clip($order->medium, 250),
+                'created_at' => now(),
+            ]);
+        } catch (\Throwable $e) {
+            // Sipariş tamamlanırken analitik hatası akışı bozmamalı.
+            report($e);
+        }
     }
 
     private function detectDevice(): string
