@@ -1,0 +1,2301 @@
+{
+  "source": "itirorganik",
+  "scraped_at": "2026-09-04T19:46:09.836Z",
+  "products": [
+    {
+      "slug": "organik-nar-eksisi-350-ml",
+      "name": "Organik Nar Ekşisi 350 ml",
+      "category": "sos-salca-sirke",
+      "sku": "B06120",
+      "price": 185,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-nar-eksisi-350-ml-1.jpg"
+      ],
+      "short_description": "Organik Nar Ekşisi 350 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Nar Ekşisi 350 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Nar Ekşisi 350 ml | Organik Express",
+      "meta_description": "Organik Nar Ekşisi 350 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ketcap-300-gr-aci",
+      "name": "Organik Ketçap 300 gr acı",
+      "category": "sos-salca-sirke",
+      "sku": "SH0107",
+      "price": 269,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ketcap-300-gr-aci-1.jpg"
+      ],
+      "short_description": "Organik Ketçap 300 gr acı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Ketçap 300 gr acı</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Ketçap 300 gr acı | Organik Express",
+      "meta_description": "Organik Ketçap 300 gr acı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-yesil-mercimekli-cubuk-makarna-400-gr",
+      "name": "Organik Yeşil Mercimekli Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0206",
+      "price": 295,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-yesil-mercimekli-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Yeşil Mercimekli Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Yeşil Mercimekli Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Yeşil Mercimekli Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Yeşil Mercimekli Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kestane-bali-500-gr",
+      "name": "Organik Kestane Balı 500 gr",
+      "category": "bal",
+      "sku": "IT0107",
+      "price": 2600,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kestane-bali-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Kestane Balı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kestane Balı 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kestane Balı 500 gr | Organik Express",
+      "meta_description": "Organik Kestane Balı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-sivi-sabun-aloe-vera-500-ml",
+      "name": "Ecos3 Organik Sıvı Sabun Aloe Vera 500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KEC31718",
+      "price": 254.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-sivi-sabun-aloe-vera-500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Sıvı Sabun Aloe Vera 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Sıvı Sabun Aloe Vera 500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Sıvı Sabun Aloe Vera 500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Sıvı Sabun Aloe Vera 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kadin-roll-on-75-ml",
+      "name": "Organik Kadın Roll On 75 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO3316",
+      "price": 461.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kadin-roll-on-75-ml-1.jpg"
+      ],
+      "short_description": "Organik Kadın Roll On 75 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kadın Roll On 75 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kadın Roll On 75 ml | Organik Express",
+      "meta_description": "Organik Kadın Roll On 75 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kavrulmus-findik-500-gr",
+      "name": "Organik Kavrulmuş Fındık 500 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03044",
+      "price": 945,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kavrulmus-findik-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Kavrulmuş Fındık 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kavrulmuş Fındık 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kavrulmuş Fındık 500 gr | Organik Express",
+      "meta_description": "Organik Kavrulmuş Fındık 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-badem-250-gr",
+      "name": "Organik Badem 250 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03051",
+      "price": 425,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-badem-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Badem 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Badem 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Badem 250 gr | Organik Express",
+      "meta_description": "Organik Badem 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-yumurta-15",
+      "name": "Organik Yumurta 15",
+      "category": "yumurta",
+      "sku": "IT1036",
+      "price": 195,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-yumurta-15-1.jpg"
+      ],
+      "short_description": "Organik Yumurta 15, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Yumurta 15</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Yumurta 15 | Organik Express",
+      "meta_description": "Organik Yumurta 15, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-sivi-sabun-floral-500-ml",
+      "name": "Ecos3 Organik Sıvı Sabun Floral 500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KEC31725",
+      "price": 254.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-sivi-sabun-floral-500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Sıvı Sabun Floral 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Sıvı Sabun Floral 500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Sıvı Sabun Floral 500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Sıvı Sabun Floral 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ormangulu-bali-250-gr",
+      "name": "Organik Ormangülü Balı 250 gr",
+      "category": "bal",
+      "sku": "IT0145",
+      "price": 1250,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ormangulu-bali-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Ormangülü Balı 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Ormangülü Balı 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Ormangülü Balı 250 gr | Organik Express",
+      "meta_description": "Organik Ormangülü Balı 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-sumak-100-gr",
+      "name": "Organik Sumak 100 gr",
+      "category": "baharat-aktar",
+      "sku": "B05642",
+      "price": 165,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-sumak-100-gr-1.jpg"
+      ],
+      "short_description": "Organik Sumak 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Sumak 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Sumak 100 gr | Organik Express",
+      "meta_description": "Organik Sumak 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-bebek-sampuani-300-ml",
+      "name": "Organik Bebek Şampuanı 300 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO1565",
+      "price": 461.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-bebek-sampuani-300-ml-1.jpg"
+      ],
+      "short_description": "Organik Bebek Şampuanı 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Bebek Şampuanı 300 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Bebek Şampuanı 300 ml | Organik Express",
+      "meta_description": "Organik Bebek Şampuanı 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-sivi-sabun-beyaz-manolya-2500-ml",
+      "name": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 2500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KEC32227",
+      "price": 764.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-sivi-sabun-beyaz-manolya-2500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 2500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Sıvı Sabun Beyaz Manolya 2500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 2500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 2500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-aloe-vera-jel-200ml",
+      "name": "Organik Aloe Vera Jel 200ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO3422",
+      "price": 461.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-aloe-vera-jel-200ml-1.jpg"
+      ],
+      "short_description": "Organik Aloe Vera Jel 200ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Aloe Vera Jel 200ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Aloe Vera Jel 200ml | Organik Express",
+      "meta_description": "Organik Aloe Vera Jel 200ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-bulasik-makinesi-deterjani-2500-ml-100-yikama",
+      "name": "Ecos3 Organik Bulaşık Makinesi Deterjanı 2500 ml | 100 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC32234",
+      "price": 1274.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-bulasik-makinesi-deterjani-2500-ml-100-yikama-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Bulaşık Makinesi Deterjanı 2500 ml | 100 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Bulaşık Makinesi Deterjanı 2500 ml | 100 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Bulaşık Makinesi Deterjanı 2500 ml | 100 Yıkama | Organik Express",
+      "meta_description": "Ecos3 Organik Bulaşık Makinesi Deterjanı 2500 ml | 100 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-yumurta-6",
+      "name": "Organik Yumurta 6",
+      "category": "yumurta",
+      "sku": "IT0176",
+      "price": 90,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-yumurta-6-1.jpg"
+      ],
+      "short_description": "Organik Yumurta 6, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Yumurta 6</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Yumurta 6 | Organik Express",
+      "meta_description": "Organik Yumurta 6, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-cig-findik-100-gr",
+      "name": "Organik Çiğ Fındık 100 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09664",
+      "price": 195,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-cig-findik-100-gr-1.jpg"
+      ],
+      "short_description": "Organik Çiğ Fındık 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çiğ Fındık 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çiğ Fındık 100 gr | Organik Express",
+      "meta_description": "Organik Çiğ Fındık 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-cig-findik-500-gr",
+      "name": "Organik Çiğ Fındık 500 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03020",
+      "price": 925,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-cig-findik-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Çiğ Fındık 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çiğ Fındık 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çiğ Fındık 500 gr | Organik Express",
+      "meta_description": "Organik Çiğ Fındık 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kimyon-100-gr",
+      "name": "Organik Kimyon 100 gr",
+      "category": "baharat-aktar",
+      "sku": "B05628",
+      "price": 165,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kimyon-100-gr-1.jpg"
+      ],
+      "short_description": "Organik Kimyon 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kimyon 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kimyon 100 gr | Organik Express",
+      "meta_description": "Organik Kimyon 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-filtre-kahve-200-gr-ogutulmus",
+      "name": "Organik Filtre Kahve 200 gr öğütülmüş",
+      "category": "icecek-cay",
+      "sku": "EV0102",
+      "price": 552.5,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-filtre-kahve-200-gr-ogutulmus-1.jpg"
+      ],
+      "short_description": "Organik Filtre Kahve 200 gr öğütülmüş, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Filtre Kahve 200 gr öğütülmüş</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Filtre Kahve 200 gr öğütülmüş | Organik Express",
+      "meta_description": "Organik Filtre Kahve 200 gr öğütülmüş, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "iyotlu-deniz-tuzu-500-gr",
+      "name": "İyotlu Deniz Tuzu 500 gr",
+      "category": "baharat-aktar",
+      "sku": "B03150",
+      "price": 115,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/iyotlu-deniz-tuzu-500-gr-1.jpg"
+      ],
+      "short_description": "İyotlu Deniz Tuzu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>İyotlu Deniz Tuzu 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "İyotlu Deniz Tuzu 500 gr | Organik Express",
+      "meta_description": "İyotlu Deniz Tuzu 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-tam-cavdar-ekmegi-700-gr",
+      "name": "Organik Tam Çavdar Ekmeği 700 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0105",
+      "price": 280,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-tam-cavdar-ekmegi-700-gr-1.jpg"
+      ],
+      "short_description": "Organik Tam Çavdar Ekmeği 700 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tam Çavdar Ekmeği 700 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tam Çavdar Ekmeği 700 gr | Organik Express",
+      "meta_description": "Organik Tam Çavdar Ekmeği 700 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kirmizi-toz-biber-50-gr",
+      "name": "Organik Kırmızı Toz Biber 50 gr",
+      "category": "baharat-aktar",
+      "sku": "B05550",
+      "price": 75,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kirmizi-toz-biber-50-gr-1.jpg"
+      ],
+      "short_description": "Organik Kırmızı Toz Biber 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kırmızı Toz Biber 50 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kırmızı Toz Biber 50 gr | Organik Express",
+      "meta_description": "Organik Kırmızı Toz Biber 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "bugday-kepegi-250-gr",
+      "name": "Buğday Kepeği 250 gr",
+      "category": "bakliyat-makarna",
+      "sku": "B05369",
+      "price": 85,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/bugday-kepegi-250-gr-1.jpg"
+      ],
+      "short_description": "Buğday Kepeği 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Buğday Kepeği 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Buğday Kepeği 250 gr | Organik Express",
+      "meta_description": "Buğday Kepeği 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-zerdecalli-cubuk-makarna-400-gr",
+      "name": "Organik Zerdeçallı Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0204",
+      "price": 275,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-zerdecalli-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Zerdeçallı Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Zerdeçallı Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Zerdeçallı Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Zerdeçallı Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-siyez-bulguru-1-kg",
+      "name": "Organik Siyez Bulguru 1 kg",
+      "category": "bakliyat-makarna",
+      "sku": "B05260",
+      "price": 135,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-siyez-bulguru-1-kg-1.jpg"
+      ],
+      "short_description": "Organik Siyez Bulguru 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Siyez Bulguru 1 kg</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Siyez Bulguru 1 kg | Organik Express",
+      "meta_description": "Organik Siyez Bulguru 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-badem-100-gr",
+      "name": "Organik Badem 100 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09787",
+      "price": 175,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-badem-100-gr-1.jpg"
+      ],
+      "short_description": "Organik Badem 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Badem 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Badem 100 gr | Organik Express",
+      "meta_description": "Organik Badem 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-biberon-ve-oyuncak-temizleyici-500-ml",
+      "name": "Ecos3 Organik Biberon ve Oyuncak Temizleyici 500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC31657",
+      "price": 339.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-biberon-ve-oyuncak-temizleyici-500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Biberon ve Oyuncak Temizleyici 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Biberon ve Oyuncak Temizleyici 500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Biberon ve Oyuncak Temizleyici 500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Biberon ve Oyuncak Temizleyici 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kirmizi-pul-biber-50-gr",
+      "name": "Organik Kırmızı Pul Biber 50 gr",
+      "category": "baharat-aktar",
+      "sku": "B05536",
+      "price": 75,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kirmizi-pul-biber-50-gr-1.jpg"
+      ],
+      "short_description": "Organik Kırmızı Pul Biber 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kırmızı Pul Biber 50 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kırmızı Pul Biber 50 gr | Organik Express",
+      "meta_description": "Organik Kırmızı Pul Biber 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-keten-tohumu-150-gr",
+      "name": "Organik Keten Tohumu 150 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09909",
+      "price": 65,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-keten-tohumu-150-gr-1.jpg"
+      ],
+      "short_description": "Organik Keten Tohumu 150 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Keten Tohumu 150 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Keten Tohumu 150 gr | Organik Express",
+      "meta_description": "Organik Keten Tohumu 150 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ic-ceviz-80-gr",
+      "name": "Organik İç Ceviz 80 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09282",
+      "price": 135,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ic-ceviz-80-gr-1.jpg"
+      ],
+      "short_description": "Organik İç Ceviz 80 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik İç Ceviz 80 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik İç Ceviz 80 gr | Organik Express",
+      "meta_description": "Organik İç Ceviz 80 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kapya-biberli-cubuk-makarna-400-gr",
+      "name": "Organik Kapya Biberli Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0202",
+      "price": 275,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kapya-biberli-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Kapya Biberli Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kapya Biberli Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kapya Biberli Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Kapya Biberli Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "bugday-kepegi-500-gr",
+      "name": "Buğday Kepeği 500 gr",
+      "category": "bakliyat-makarna",
+      "sku": "B05376",
+      "price": 160,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/bugday-kepegi-500-gr-1.jpg"
+      ],
+      "short_description": "Buğday Kepeği 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Buğday Kepeği 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Buğday Kepeği 500 gr | Organik Express",
+      "meta_description": "Buğday Kepeği 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-keciboynuzu-pekmezi-450-gr",
+      "name": "Organik Keçiboynuzu Pekmezi 450 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0404",
+      "price": 185,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-keciboynuzu-pekmezi-450-gr-1.jpg"
+      ],
+      "short_description": "Organik Keçiboynuzu Pekmezi 450 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Keçiboynuzu Pekmezi 450 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Keçiboynuzu Pekmezi 450 gr | Organik Express",
+      "meta_description": "Organik Keçiboynuzu Pekmezi 450 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kuru-fasulye-1-kg",
+      "name": "Organik Kuru Fasülye 1 kg",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B02047",
+      "price": 195,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kuru-fasulye-1-kg-1.jpg"
+      ],
+      "short_description": "Organik Kuru Fasülye 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kuru Fasülye 1 kg</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kuru Fasülye 1 kg | Organik Express",
+      "meta_description": "Organik Kuru Fasülye 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-camasir-yumusatici-2500-ml-100-yikama",
+      "name": "Ecos3 Organik Çamaşır Yumuşatıcı 2500 ml | 100 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC32326",
+      "price": 755.65,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-camasir-yumusatici-2500-ml-100-yikama-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Çamaşır Yumuşatıcı 2500 ml | 100 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Çamaşır Yumuşatıcı 2500 ml | 100 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Çamaşır Yumuşatıcı 2500 ml | 100 Yıkama | Organik Express",
+      "meta_description": "Ecos3 Organik Çamaşır Yumuşatıcı 2500 ml | 100 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-domates-salcasi-650-gr",
+      "name": "Organik Domates Salçası 650 gr",
+      "category": "sos-salca-sirke",
+      "sku": "B06168",
+      "price": 245,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-domates-salcasi-650-gr-1.jpg"
+      ],
+      "short_description": "Organik Domates Salçası 650 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Domates Salçası 650 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Domates Salçası 650 gr | Organik Express",
+      "meta_description": "Organik Domates Salçası 650 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "eksi-mayali-bolu-koy-somunu-1000-gr",
+      "name": "Ekşi Mayalı Bolu Köy Somunu 1000 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0102",
+      "price": 225,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/eksi-mayali-bolu-koy-somunu-1000-gr-1.jpg"
+      ],
+      "short_description": "Ekşi Mayalı Bolu Köy Somunu 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ekşi Mayalı Bolu Köy Somunu 1000 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ekşi Mayalı Bolu Köy Somunu 1000 gr | Organik Express",
+      "meta_description": "Ekşi Mayalı Bolu Köy Somunu 1000 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-keciboynuzu-pekmezi-800-gr",
+      "name": "Organik Keçiboynuzu Pekmezi 800 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0405",
+      "price": 325,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-keciboynuzu-pekmezi-800-gr-1.jpg"
+      ],
+      "short_description": "Organik Keçiboynuzu Pekmezi 800 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Keçiboynuzu Pekmezi 800 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Keçiboynuzu Pekmezi 800 gr | Organik Express",
+      "meta_description": "Organik Keçiboynuzu Pekmezi 800 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-karabugday-grecka-500-gr",
+      "name": "Organik Karabuğday Greçka 500 gr",
+      "category": "bakliyat-makarna",
+      "sku": "B02115",
+      "price": 90,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-karabugday-grecka-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Karabuğday Greçka 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Karabuğday Greçka 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Karabuğday Greçka 500 gr | Organik Express",
+      "meta_description": "Organik Karabuğday Greçka 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "bambu-cocuk-dis-fircasi",
+      "name": "Bambu Çocuk Diş Fırçası",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO4955",
+      "price": 279.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/bambu-cocuk-dis-fircasi-1.jpg"
+      ],
+      "short_description": "Bambu Çocuk Diş Fırçası, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Bambu Çocuk Diş Fırçası</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Bambu Çocuk Diş Fırçası | Organik Express",
+      "meta_description": "Bambu Çocuk Diş Fırçası, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-cig-findik-250-gr",
+      "name": "Organik Çiğ Fındık 250 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03013",
+      "price": 475,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-cig-findik-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Çiğ Fındık 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çiğ Fındık 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çiğ Fındık 250 gr | Organik Express",
+      "meta_description": "Organik Çiğ Fındık 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-uzum-pekmezi-800-gr",
+      "name": "Organik Üzüm Pekmezi 800 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0429",
+      "price": 290,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-uzum-pekmezi-800-gr-1.jpg"
+      ],
+      "short_description": "Organik Üzüm Pekmezi 800 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Üzüm Pekmezi 800 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Üzüm Pekmezi 800 gr | Organik Express",
+      "meta_description": "Organik Üzüm Pekmezi 800 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-bebek-camasir-yumusatici-1000-ml-40-yikama",
+      "name": "Ecos3 Organik Bebek Çamaşır Yumuşatıcı 1000 ml | 40 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC31756",
+      "price": 390.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-bebek-camasir-yumusatici-1000-ml-40-yikama-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Bebek Çamaşır Yumuşatıcı 1000 ml | 40 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Bebek Çamaşır Yumuşatıcı 1000 ml | 40 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Bebek Çamaşır Yumuşatıcı 1000 ml | 40 Yıkama | Organik Express",
+      "meta_description": "Ecos3 Organik Bebek Çamaşır Yumuşatıcı 1000 ml | 40 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-gunes-kremi-spf-50-110-gr",
+      "name": "Organik Güneş Kremi SPF 50 - 110 gr",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO3408",
+      "price": 979.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-gunes-kremi-spf-50-110-gr-1.jpg"
+      ],
+      "short_description": "Organik Güneş Kremi SPF 50 - 110 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Güneş Kremi SPF 50 - 110 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Güneş Kremi SPF 50 - 110 gr | Organik Express",
+      "meta_description": "Organik Güneş Kremi SPF 50 - 110 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "tam-bugday-ekmegi-750-gr",
+      "name": "Tam Buğday Ekmeği 750 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0103",
+      "price": 210,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/tam-bugday-ekmegi-750-gr-1.jpg"
+      ],
+      "short_description": "Tam Buğday Ekmeği 750 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Tam Buğday Ekmeği 750 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Tam Buğday Ekmeği 750 gr | Organik Express",
+      "meta_description": "Tam Buğday Ekmeği 750 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-bebek-losyonu-300-ml",
+      "name": "Organik Bebek Losyonu 300 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO1572",
+      "price": 531.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-bebek-losyonu-300-ml-1.jpg"
+      ],
+      "short_description": "Organik Bebek Losyonu 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Bebek Losyonu 300 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Bebek Losyonu 300 ml | Organik Express",
+      "meta_description": "Organik Bebek Losyonu 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-pisik-kremi-110-gr",
+      "name": "Organik Pişik Kremi 110 gr",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO3439",
+      "price": 601.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-pisik-kremi-110-gr-1.jpg"
+      ],
+      "short_description": "Organik Pişik Kremi 110 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Pişik Kremi 110 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Pişik Kremi 110 gr | Organik Express",
+      "meta_description": "Organik Pişik Kremi 110 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-sivi-sabun-beyaz-manolya-500-ml",
+      "name": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KEC31121",
+      "price": 254.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-sivi-sabun-beyaz-manolya-500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Sıvı Sabun Beyaz Manolya 500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Sıvı Sabun Beyaz Manolya 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-vucut-koruyucu-sprey-125-ml",
+      "name": "Organik Vücut Koruyucu Sprey 125 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO4870",
+      "price": 531.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-vucut-koruyucu-sprey-125-ml-1.jpg"
+      ],
+      "short_description": "Organik Vücut Koruyucu Sprey 125 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Vücut Koruyucu Sprey 125 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Vücut Koruyucu Sprey 125 ml | Organik Express",
+      "meta_description": "Organik Vücut Koruyucu Sprey 125 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ketcap-280-gr-tatli",
+      "name": "Organik Ketçap 280 gr tatlı",
+      "category": "sos-salca-sirke",
+      "sku": "SH0106",
+      "price": 269,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ketcap-280-gr-tatli-1.jpg"
+      ],
+      "short_description": "Organik Ketçap 280 gr tatlı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Ketçap 280 gr tatlı</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Ketçap 280 gr tatlı | Organik Express",
+      "meta_description": "Organik Ketçap 280 gr tatlı, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-badem-500-gr",
+      "name": "Organik Badem 500 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03068",
+      "price": 825,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-badem-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Badem 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Badem 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Badem 500 gr | Organik Express",
+      "meta_description": "Organik Badem 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-corek-otu-250-gr",
+      "name": "Organik Çörek Otu 250 gr",
+      "category": "baharat-aktar",
+      "sku": "B09954",
+      "price": 120,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-corek-otu-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Çörek Otu 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çörek Otu 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çörek Otu 250 gr | Organik Express",
+      "meta_description": "Organik Çörek Otu 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-bulasik-makinesi-deterjani-750-ml-30-yikama",
+      "name": "Organik Bulaşık Makinesi Deterjanı 750 ml | 30 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC30193",
+      "price": 560.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-bulasik-makinesi-deterjani-750-ml-30-yikama-1.jpg"
+      ],
+      "short_description": "Organik Bulaşık Makinesi Deterjanı 750 ml | 30 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Bulaşık Makinesi Deterjanı 750 ml | 30 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Bulaşık Makinesi Deterjanı 750 ml | 30 Yıkama | Organik Express",
+      "meta_description": "Organik Bulaşık Makinesi Deterjanı 750 ml | 30 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-biberiye-32-gr",
+      "name": "Organik Biberiye 32 gr",
+      "category": "baharat-aktar",
+      "sku": "B05734",
+      "price": 160,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-biberiye-32-gr-1.jpg"
+      ],
+      "short_description": "Organik Biberiye 32 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Biberiye 32 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Biberiye 32 gr | Organik Express",
+      "meta_description": "Organik Biberiye 32 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-cocuk-dis-macunu-75-gr",
+      "name": "Organik Çocuk Diş Macunu 75 gr",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO3378",
+      "price": 349.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-cocuk-dis-macunu-75-gr-1.jpg"
+      ],
+      "short_description": "Organik Çocuk Diş Macunu 75 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çocuk Diş Macunu 75 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çocuk Diş Macunu 75 gr | Organik Express",
+      "meta_description": "Organik Çocuk Diş Macunu 75 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ic-ceviz-300-gr",
+      "name": "Organik İç Ceviz 300 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09305",
+      "price": 475,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ic-ceviz-300-gr-1.jpg"
+      ],
+      "short_description": "Organik İç Ceviz 300 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik İç Ceviz 300 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik İç Ceviz 300 gr | Organik Express",
+      "meta_description": "Organik İç Ceviz 300 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-baldo-pirinc-1-kg",
+      "name": "Organik Baldo Pirinç 1 kg",
+      "category": "bakliyat-makarna",
+      "sku": "B02146",
+      "price": 210,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-baldo-pirinc-1-kg-1.jpg"
+      ],
+      "short_description": "Organik Baldo Pirinç 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Baldo Pirinç 1 kg</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Baldo Pirinç 1 kg | Organik Express",
+      "meta_description": "Organik Baldo Pirinç 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-nane-15-gr",
+      "name": "Organik Nane 15 gr",
+      "category": "baharat-aktar",
+      "sku": "B05574",
+      "price": 45,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-nane-15-gr-1.jpg"
+      ],
+      "short_description": "Organik Nane 15 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Nane 15 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Nane 15 gr | Organik Express",
+      "meta_description": "Organik Nane 15 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-camasir-yumusatici-750-ml-30-yikama",
+      "name": "Ecos3 Organik Çamaşır Yumuşatıcı 750 ml | 30 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC30209",
+      "price": 339.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-camasir-yumusatici-750-ml-30-yikama-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Çamaşır Yumuşatıcı 750 ml | 30 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Çamaşır Yumuşatıcı 750 ml | 30 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Çamaşır Yumuşatıcı 750 ml | 30 Yıkama | Organik Express",
+      "meta_description": "Ecos3 Organik Çamaşır Yumuşatıcı 750 ml | 30 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-cicek-bali-raw-500-gr",
+      "name": "Organik Çiçek Balı Raw 500 gr",
+      "category": "bal",
+      "sku": "IT0207",
+      "price": 620,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-cicek-bali-raw-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Çiçek Balı Raw 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çiçek Balı Raw 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çiçek Balı Raw 500 gr | Organik Express",
+      "meta_description": "Organik Çiçek Balı Raw 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-filtre-kahve-200-gr-cekirdek",
+      "name": "Organik Filtre Kahve 200 gr çekirdek",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "EV0103",
+      "price": 552.5,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-filtre-kahve-200-gr-cekirdek-1.jpg"
+      ],
+      "short_description": "Organik Filtre Kahve 200 gr çekirdek, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Filtre Kahve 200 gr çekirdek</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Filtre Kahve 200 gr çekirdek | Organik Express",
+      "meta_description": "Organik Filtre Kahve 200 gr çekirdek, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "himalaya-kaya-tuzu-pembe-ogutulmus-500-gr",
+      "name": "Himalaya Kaya Tuzu Pembe Öğütülmüş 500 gr",
+      "category": "baharat-aktar",
+      "sku": "B03168",
+      "price": 125,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/himalaya-kaya-tuzu-pembe-ogutulmus-500-gr-1.jpg"
+      ],
+      "short_description": "Himalaya Kaya Tuzu Pembe Öğütülmüş 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Himalaya Kaya Tuzu Pembe Öğütülmüş 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Himalaya Kaya Tuzu Pembe Öğütülmüş 500 gr | Organik Express",
+      "meta_description": "Himalaya Kaya Tuzu Pembe Öğütülmüş 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-patlatmalik-misir-460-gr",
+      "name": "Organik Patlatmalık Mısır 460 gr",
+      "category": "bakliyat-makarna",
+      "sku": "B02207",
+      "price": 90,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-patlatmalik-misir-460-gr-1.jpg"
+      ],
+      "short_description": "Organik Patlatmalık Mısır 460 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Patlatmalık Mısır 460 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Patlatmalık Mısır 460 gr | Organik Express",
+      "meta_description": "Organik Patlatmalık Mısır 460 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-yuzey-temizleyici-5-l",
+      "name": "Ecos3 Organik Yüzey Temizleyici 5 L",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC32340",
+      "price": 1155.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-yuzey-temizleyici-5-l-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Yüzey Temizleyici 5 L, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Yüzey Temizleyici 5 L</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Yüzey Temizleyici 5 L | Organik Express",
+      "meta_description": "Ecos3 Organik Yüzey Temizleyici 5 L, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "himalaya-kaya-tuzu-ogutulmus-500-gr",
+      "name": "Himalaya Kaya Tuzu Öğütülmüş 500 gr",
+      "category": "baharat-aktar",
+      "sku": "B03167",
+      "price": 125,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/himalaya-kaya-tuzu-ogutulmus-500-gr-1.jpg"
+      ],
+      "short_description": "Himalaya Kaya Tuzu Öğütülmüş 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Himalaya Kaya Tuzu Öğütülmüş 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Himalaya Kaya Tuzu Öğütülmüş 500 gr | Organik Express",
+      "meta_description": "Himalaya Kaya Tuzu Öğütülmüş 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kavrulmus-findik-100-gr",
+      "name": "Organik Kavrulmuş Fındık 100 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09701",
+      "price": 210,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kavrulmus-findik-100-gr-1.jpg"
+      ],
+      "short_description": "Organik Kavrulmuş Fındık 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kavrulmuş Fındık 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kavrulmuş Fındık 100 gr | Organik Express",
+      "meta_description": "Organik Kavrulmuş Fındık 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organikkirmizi-pul-biber-100-gr",
+      "name": "OrganikKırmızı Pul Biber 100 gr",
+      "category": "baharat-aktar",
+      "sku": "B05543",
+      "price": 145,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organikkirmizi-pul-biber-100-gr-1.jpg"
+      ],
+      "short_description": "OrganikKırmızı Pul Biber 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>OrganikKırmızı Pul Biber 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "OrganikKırmızı Pul Biber 100 gr | Organik Express",
+      "meta_description": "OrganikKırmızı Pul Biber 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-dut-pekmezi-450-gr",
+      "name": "Organik Dut Pekmezi 450 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0411",
+      "price": 165,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-dut-pekmezi-450-gr-1.jpg"
+      ],
+      "short_description": "Organik Dut Pekmezi 450 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Dut Pekmezi 450 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Dut Pekmezi 450 gr | Organik Express",
+      "meta_description": "Organik Dut Pekmezi 450 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-lutenitsa-sos-290-gr",
+      "name": "Organik Lutenitsa Sos 290 gr",
+      "category": "sos-salca-sirke",
+      "sku": "SH0102",
+      "price": 297,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-lutenitsa-sos-290-gr-1.jpg"
+      ],
+      "short_description": "Organik Lutenitsa Sos 290 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Lutenitsa Sos 290 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Lutenitsa Sos 290 gr | Organik Express",
+      "meta_description": "Organik Lutenitsa Sos 290 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "himalaya-kaya-tuzu-pembe-granul-500-gr",
+      "name": "Himalaya Kaya Tuzu Pembe Granül 500 gr",
+      "category": "baharat-aktar",
+      "sku": "B03175",
+      "price": 125,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/himalaya-kaya-tuzu-pembe-granul-500-gr-1.jpg"
+      ],
+      "short_description": "Himalaya Kaya Tuzu Pembe Granül 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Himalaya Kaya Tuzu Pembe Granül 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Himalaya Kaya Tuzu Pembe Granül 500 gr | Organik Express",
+      "meta_description": "Himalaya Kaya Tuzu Pembe Granül 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-paprika-sos-320-gr",
+      "name": "Organik Paprika Sos 320 gr",
+      "category": "sos-salca-sirke",
+      "sku": "SH0103",
+      "price": 279,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-paprika-sos-320-gr-1.jpg"
+      ],
+      "short_description": "Organik Paprika Sos 320 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Paprika Sos 320 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Paprika Sos 320 gr | Organik Express",
+      "meta_description": "Organik Paprika Sos 320 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-cicek-bali-500-gr",
+      "name": "Organik Çiçek Balı 500 gr",
+      "category": "bal",
+      "sku": "IT0206",
+      "price": 620,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-cicek-bali-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Çiçek Balı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çiçek Balı 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çiçek Balı 500 gr | Organik Express",
+      "meta_description": "Organik Çiçek Balı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-yaslanma-karsiti-yuz-kremi-50-ml",
+      "name": "Organik Yaşlanma Karşıtı Yüz Kremi 50 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECD0247",
+      "price": 1329.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-yaslanma-karsiti-yuz-kremi-50-ml-1.jpg"
+      ],
+      "short_description": "Organik Yaşlanma Karşıtı Yüz Kremi 50 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Yaşlanma Karşıtı Yüz Kremi 50 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Yaşlanma Karşıtı Yüz Kremi 50 ml | Organik Express",
+      "meta_description": "Organik Yaşlanma Karşıtı Yüz Kremi 50 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-melisa-8-gr",
+      "name": "Organik Melisa 8 gr",
+      "category": "icecek-cay",
+      "sku": "B05741",
+      "price": 115,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-melisa-8-gr-1.jpg"
+      ],
+      "short_description": "Organik Melisa 8 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Melisa 8 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Melisa 8 gr | Organik Express",
+      "meta_description": "Organik Melisa 8 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kirmizi-toz-biber-100-gr",
+      "name": "Organik Kırmızı Toz Biber 100 gr",
+      "category": "baharat-aktar",
+      "sku": "B05567",
+      "price": 145,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kirmizi-toz-biber-100-gr-1.jpg"
+      ],
+      "short_description": "Organik Kırmızı Toz Biber 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kırmızı Toz Biber 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kırmızı Toz Biber 100 gr | Organik Express",
+      "meta_description": "Organik Kırmızı Toz Biber 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ic-ceviz-160-gr",
+      "name": "Organik İç Ceviz 160 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09299",
+      "price": 260,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ic-ceviz-160-gr-1.jpg"
+      ],
+      "short_description": "Organik İç Ceviz 160 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik İç Ceviz 160 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik İç Ceviz 160 gr | Organik Express",
+      "meta_description": "Organik İç Ceviz 160 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-barbeku-sos-290-gr",
+      "name": "Organik Barbekü Sos 290 gr",
+      "category": "sos-salca-sirke",
+      "sku": "SH0105",
+      "price": 295,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-barbeku-sos-290-gr-1.jpg"
+      ],
+      "short_description": "Organik Barbekü Sos 290 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Barbekü Sos 290 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Barbekü Sos 290 gr | Organik Express",
+      "meta_description": "Organik Barbekü Sos 290 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-sumak-50-gr",
+      "name": "Organik Sumak 50 gr",
+      "category": "baharat-aktar",
+      "sku": "B05635",
+      "price": 85,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-sumak-50-gr-1.jpg"
+      ],
+      "short_description": "Organik Sumak 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Sumak 50 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Sumak 50 gr | Organik Express",
+      "meta_description": "Organik Sumak 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "patatesli-koy-ekmegi-1250-gr",
+      "name": "Patatesli Köy Ekmeği 1250 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0101",
+      "price": 280,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/patatesli-koy-ekmegi-1250-gr-1.jpg"
+      ],
+      "short_description": "Patatesli Köy Ekmeği 1250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Patatesli Köy Ekmeği 1250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Patatesli Köy Ekmeği 1250 gr | Organik Express",
+      "meta_description": "Patatesli Köy Ekmeği 1250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-elde-bulasik-deterjani-500-ml",
+      "name": "Ecos3 Organik Elde Bulaşık Deterjanı 500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC31190",
+      "price": 288.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-elde-bulasik-deterjani-500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Elde Bulaşık Deterjanı 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Elde Bulaşık Deterjanı 500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Elde Bulaşık Deterjanı 500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Elde Bulaşık Deterjanı 500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-nohut-1-kg",
+      "name": "Organik Nohut 1 kg",
+      "category": "bakliyat-makarna",
+      "sku": "B02023",
+      "price": 195,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-nohut-1-kg-1.jpg"
+      ],
+      "short_description": "Organik Nohut 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Nohut 1 kg</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Nohut 1 kg | Organik Express",
+      "meta_description": "Organik Nohut 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-bilyali-kekik-10-gr",
+      "name": "Organik Bilyalı Kekik 10 gr",
+      "category": "baharat-aktar",
+      "sku": "B05758",
+      "price": 95,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-bilyali-kekik-10-gr-1.jpg"
+      ],
+      "short_description": "Organik Bilyalı Kekik 10 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Bilyalı Kekik 10 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Bilyalı Kekik 10 gr | Organik Express",
+      "meta_description": "Organik Bilyalı Kekik 10 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-adacayi-8-gr",
+      "name": "Organik Adaçayı 8 gr",
+      "category": "icecek-cay",
+      "sku": "B05727",
+      "price": 110,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-adacayi-8-gr-1.jpg"
+      ],
+      "short_description": "Organik Adaçayı 8 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Adaçayı 8 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Adaçayı 8 gr | Organik Express",
+      "meta_description": "Organik Adaçayı 8 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-hamburger-ekmegi-400-gr",
+      "name": "Organik Hamburger Ekmeği 400 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0107",
+      "price": 199,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-hamburger-ekmegi-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Hamburger Ekmeği 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Hamburger Ekmeği 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Hamburger Ekmeği 400 gr | Organik Express",
+      "meta_description": "Organik Hamburger Ekmeği 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-bebek-camasir-temizleyici-1050-ml-30-yikama",
+      "name": "Ecos3 Organik Bebek Çamaşır Temizleyici 1050 ml | 30 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC31749",
+      "price": 645.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-bebek-camasir-temizleyici-1050-ml-30-yikama-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Bebek Çamaşır Temizleyici 1050 ml | 30 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Bebek Çamaşır Temizleyici 1050 ml | 30 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Bebek Çamaşır Temizleyici 1050 ml | 30 Yıkama | Organik Express",
+      "meta_description": "Ecos3 Organik Bebek Çamaşır Temizleyici 1050 ml | 30 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-antep-fistigi-100-gr",
+      "name": "Organik Antep Fıstığı 100 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09749",
+      "price": 280,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-antep-fistigi-100-gr-1.jpg"
+      ],
+      "short_description": "Organik Antep Fıstığı 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Antep Fıstığı 100 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Antep Fıstığı 100 gr | Organik Express",
+      "meta_description": "Organik Antep Fıstığı 100 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-tahin-300-gr",
+      "name": "Organik Tahin 300 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0565",
+      "price": 230,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-tahin-300-gr-1.jpg"
+      ],
+      "short_description": "Organik Tahin 300 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tahin 300 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tahin 300 gr | Organik Express",
+      "meta_description": "Organik Tahin 300 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-keten-tohumu-250-gr",
+      "name": "Organik Keten Tohumu 250 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B09916",
+      "price": 90,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-keten-tohumu-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Keten Tohumu 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Keten Tohumu 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Keten Tohumu 250 gr | Organik Express",
+      "meta_description": "Organik Keten Tohumu 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-siyezli-ekmek-600-gr",
+      "name": "Organik Siyezli Ekmek 600 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0104",
+      "price": 210,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-siyezli-ekmek-600-gr-1.jpg"
+      ],
+      "short_description": "Organik Siyezli Ekmek 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Siyezli Ekmek 600 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Siyezli Ekmek 600 gr | Organik Express",
+      "meta_description": "Organik Siyezli Ekmek 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ormangulu-bali-600-gr",
+      "name": "Organik Ormangülü Balı 600 gr",
+      "category": "bal",
+      "sku": "IT0138",
+      "price": 2675,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ormangulu-bali-600-gr-1.jpg"
+      ],
+      "short_description": "Organik Ormangülü Balı 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Ormangülü Balı 600 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Ormangülü Balı 600 gr | Organik Express",
+      "meta_description": "Organik Ormangülü Balı 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "himalaya-kaya-tuzu-granul-500-gr",
+      "name": "Himalaya Kaya Tuzu Granül 500 gr",
+      "category": "baharat-aktar",
+      "sku": "B03174",
+      "price": 125,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/himalaya-kaya-tuzu-granul-500-gr-1.jpg"
+      ],
+      "short_description": "Himalaya Kaya Tuzu Granül 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Himalaya Kaya Tuzu Granül 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Himalaya Kaya Tuzu Granül 500 gr | Organik Express",
+      "meta_description": "Himalaya Kaya Tuzu Granül 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ispanakli-cubuk-makarna-400-gr",
+      "name": "Organik Ispanaklı Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0201",
+      "price": 275,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ispanakli-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Ispanaklı Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Ispanaklı Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Ispanaklı Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Ispanaklı Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kestane-bali-250-gr",
+      "name": "Organik Kestane Balı 250 gr",
+      "category": "bal",
+      "sku": "IT0121",
+      "price": 1400,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kestane-bali-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Kestane Balı 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kestane Balı 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kestane Balı 250 gr | Organik Express",
+      "meta_description": "Organik Kestane Balı 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-domates-sos-350-gr",
+      "name": "Organik Domates Sos 350 gr",
+      "category": "sos-salca-sirke",
+      "sku": "SH0101",
+      "price": 152.1,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-domates-sos-350-gr-1.jpg"
+      ],
+      "short_description": "Organik Domates Sos 350 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Domates Sos 350 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Domates Sos 350 gr | Organik Express",
+      "meta_description": "Organik Domates Sos 350 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kirmizi-mercimek-1-kg",
+      "name": "Organik Kırmızı Mercimek 1 kg",
+      "category": "bakliyat-makarna",
+      "sku": "B02085",
+      "price": 185,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kirmizi-mercimek-1-kg-1.jpg"
+      ],
+      "short_description": "Organik Kırmızı Mercimek 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kırmızı Mercimek 1 kg</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kırmızı Mercimek 1 kg | Organik Express",
+      "meta_description": "Organik Kırmızı Mercimek 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-tam-bugday-cubuk-makarna-400-gr",
+      "name": "Organik Tam Buğday Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0208",
+      "price": 275,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-tam-bugday-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Tam Buğday Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tam Buğday Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tam Buğday Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Tam Buğday Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ekinezya-cicegi-25-gr",
+      "name": "Organik Ekinezya Çiçeği 25 gr",
+      "category": "icecek-cay",
+      "sku": "B05710",
+      "price": 195,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ekinezya-cicegi-25-gr-1.jpg"
+      ],
+      "short_description": "Organik Ekinezya Çiçeği 25 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Ekinezya Çiçeği 25 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Ekinezya Çiçeği 25 gr | Organik Express",
+      "meta_description": "Organik Ekinezya Çiçeği 25 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-sandvic-ekmegi-400-gr",
+      "name": "Organik Sandviç Ekmeği 400 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0108",
+      "price": 199,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-sandvic-ekmegi-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Sandviç Ekmeği 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Sandviç Ekmeği 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Sandviç Ekmeği 400 gr | Organik Express",
+      "meta_description": "Organik Sandviç Ekmeği 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-nane-40-gr",
+      "name": "Organik Nane 40 gr",
+      "category": "baharat-aktar",
+      "sku": "B05581",
+      "price": 85,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-nane-40-gr-1.jpg"
+      ],
+      "short_description": "Organik Nane 40 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Nane 40 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Nane 40 gr | Organik Express",
+      "meta_description": "Organik Nane 40 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ingiliz-nanesi-8-gr",
+      "name": "Organik İngiliz Nanesi 8 gr",
+      "category": "baharat-aktar",
+      "sku": "B05765",
+      "price": 99,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ingiliz-nanesi-8-gr-1.jpg"
+      ],
+      "short_description": "Organik İngiliz Nanesi 8 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik İngiliz Nanesi 8 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik İngiliz Nanesi 8 gr | Organik Express",
+      "meta_description": "Organik İngiliz Nanesi 8 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-uzum-pekmezi-450-gr",
+      "name": "Organik Üzüm Pekmezi 450 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0428",
+      "price": 165,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-uzum-pekmezi-450-gr-1.jpg"
+      ],
+      "short_description": "Organik Üzüm Pekmezi 450 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Üzüm Pekmezi 450 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Üzüm Pekmezi 450 gr | Organik Express",
+      "meta_description": "Organik Üzüm Pekmezi 450 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kimyon-50-gr",
+      "name": "Organik Kimyon 50 gr",
+      "category": "baharat-aktar",
+      "sku": "B05611",
+      "price": 85,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kimyon-50-gr-1.jpg"
+      ],
+      "short_description": "Organik Kimyon 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kimyon 50 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kimyon 50 gr | Organik Express",
+      "meta_description": "Organik Kimyon 50 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-koftelik-bulgur-1-kg",
+      "name": "Organik Köftelik Bulgur 1 kg",
+      "category": "bakliyat-makarna",
+      "sku": "B05246",
+      "price": 115,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-koftelik-bulgur-1-kg-1.jpg"
+      ],
+      "short_description": "Organik Köftelik Bulgur 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Köftelik Bulgur 1 kg</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Köftelik Bulgur 1 kg | Organik Express",
+      "meta_description": "Organik Köftelik Bulgur 1 kg, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-camasir-deterjani-2500-ml-72-yikama",
+      "name": "Ecos3 Organik Çamaşır Deterjanı 2500 ml | 72 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC32319",
+      "price": 1274.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-camasir-deterjani-2500-ml-72-yikama-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Çamaşır Deterjanı 2500 ml | 72 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Çamaşır Deterjanı 2500 ml | 72 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Çamaşır Deterjanı 2500 ml | 72 Yıkama | Organik Express",
+      "meta_description": "Ecos3 Organik Çamaşır Deterjanı 2500 ml | 72 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-biber-salcasi-610-gr",
+      "name": "Organik Biber Salçası 610 gr",
+      "category": "sos-salca-sirke",
+      "sku": "B06175",
+      "price": 295,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-biber-salcasi-610-gr-1.jpg"
+      ],
+      "short_description": "Organik Biber Salçası 610 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Biber Salçası 610 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Biber Salçası 610 gr | Organik Express",
+      "meta_description": "Organik Biber Salçası 610 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-ormangulu-bali-500-gr",
+      "name": "Organik Ormangülü Balı 500 gr",
+      "category": "bal",
+      "sku": "IT0152",
+      "price": 2400,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-ormangulu-bali-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Ormangülü Balı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Ormangülü Balı 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Ormangülü Balı 500 gr | Organik Express",
+      "meta_description": "Organik Ormangülü Balı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-sac-bakim-kremi-300-ml",
+      "name": "Organik Saç Bakım Kremi 300 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO1534",
+      "price": 419.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-sac-bakim-kremi-300-ml-1.jpg"
+      ],
+      "short_description": "Organik Saç Bakım Kremi 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Saç Bakım Kremi 300 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Saç Bakım Kremi 300 ml | Organik Express",
+      "meta_description": "Organik Saç Bakım Kremi 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-antep-fistigi-500-gr",
+      "name": "Organik Antep Fıstığı 500 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03082",
+      "price": 1240,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-antep-fistigi-500-gr-1.jpg"
+      ],
+      "short_description": "Organik Antep Fıstığı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Antep Fıstığı 500 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Antep Fıstığı 500 gr | Organik Express",
+      "meta_description": "Organik Antep Fıstığı 500 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-sampuan-yagli-saclar-300-ml",
+      "name": "Organik Şampuan Yağlı Saçlar 300 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO1510",
+      "price": 419.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-sampuan-yagli-saclar-300-ml-1.jpg"
+      ],
+      "short_description": "Organik Şampuan Yağlı Saçlar 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Şampuan Yağlı Saçlar 300 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Şampuan Yağlı Saçlar 300 ml | Organik Express",
+      "meta_description": "Organik Şampuan Yağlı Saçlar 300 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kavrulmus-findik-250-gr",
+      "name": "Organik Kavrulmuş Fındık 250 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03037",
+      "price": 485,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kavrulmus-findik-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Kavrulmuş Fındık 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kavrulmuş Fındık 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kavrulmuş Fındık 250 gr | Organik Express",
+      "meta_description": "Organik Kavrulmuş Fındık 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-karakovan-petek-bal-350-gr",
+      "name": "Organik Karakovan Petek Bal 350 gr",
+      "category": "bal",
+      "sku": "IT0208",
+      "price": 800,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-karakovan-petek-bal-350-gr-1.jpg"
+      ],
+      "short_description": "Organik Karakovan Petek Bal 350 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Karakovan Petek Bal 350 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Karakovan Petek Bal 350 gr | Organik Express",
+      "meta_description": "Organik Karakovan Petek Bal 350 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-swet-chili-sos-300-gr",
+      "name": "Organik Swet Chili Sos 300 gr",
+      "category": "sos-salca-sirke",
+      "sku": "SH0104",
+      "price": 295,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-swet-chili-sos-300-gr-1.jpg"
+      ],
+      "short_description": "Organik Swet Chili Sos 300 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Swet Chili Sos 300 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Swet Chili Sos 300 gr | Organik Express",
+      "meta_description": "Organik Swet Chili Sos 300 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kekik-25-gr",
+      "name": "Organik Kekik 25 gr",
+      "category": "baharat-aktar",
+      "sku": "B05604",
+      "price": 85,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kekik-25-gr-1.jpg"
+      ],
+      "short_description": "Organik Kekik 25 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kekik 25 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kekik 25 gr | Organik Express",
+      "meta_description": "Organik Kekik 25 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-dut-pekmezi-800-gr",
+      "name": "Organik Dut Pekmezi 800 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0412",
+      "price": 290,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-dut-pekmezi-800-gr-1.jpg"
+      ],
+      "short_description": "Organik Dut Pekmezi 800 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Dut Pekmezi 800 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Dut Pekmezi 800 gr | Organik Express",
+      "meta_description": "Organik Dut Pekmezi 800 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-yuzey-temizleyici-1-l",
+      "name": "Ecos3 Organik Yüzey Temizleyici 1 L",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC30216",
+      "price": 330.65,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-yuzey-temizleyici-1-l-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Yüzey Temizleyici 1 L, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Yüzey Temizleyici 1 L</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Yüzey Temizleyici 1 L | Organik Express",
+      "meta_description": "Ecos3 Organik Yüzey Temizleyici 1 L, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-erkek-roll-on-75-ml",
+      "name": "Organik Erkek Roll On 75 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO3309",
+      "price": 461.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-erkek-roll-on-75-ml-1.jpg"
+      ],
+      "short_description": "Organik Erkek Roll On 75 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Erkek Roll On 75 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Erkek Roll On 75 ml | Organik Express",
+      "meta_description": "Organik Erkek Roll On 75 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-camasir-deterjani-750-ml-22-yikama",
+      "name": "Ecos3 Organik Çamaşır Deterjanı 750 ml | 22 Yıkama",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC30223",
+      "price": 560.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-camasir-deterjani-750-ml-22-yikama-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Çamaşır Deterjanı 750 ml | 22 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Çamaşır Deterjanı 750 ml | 22 Yıkama</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Çamaşır Deterjanı 750 ml | 22 Yıkama | Organik Express",
+      "meta_description": "Ecos3 Organik Çamaşır Deterjanı 750 ml | 22 Yıkama, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-antep-fistigi-250-gr",
+      "name": "Organik Antep Fıstığı 250 gr",
+      "category": "kuruyemis-kurutulmus",
+      "sku": "B03075",
+      "price": 640,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-antep-fistigi-250-gr-1.jpg"
+      ],
+      "short_description": "Organik Antep Fıstığı 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Antep Fıstığı 250 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Antep Fıstığı 250 gr | Organik Express",
+      "meta_description": "Organik Antep Fıstığı 250 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-tam-siyez-ekmegi-700-gr",
+      "name": "Organik Tam Siyez Ekmeği 700 gr",
+      "category": "firin-ekmek",
+      "sku": "LD0106",
+      "price": 280,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-tam-siyez-ekmegi-700-gr-1.jpg"
+      ],
+      "short_description": "Organik Tam Siyez Ekmeği 700 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tam Siyez Ekmeği 700 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tam Siyez Ekmeği 700 gr | Organik Express",
+      "meta_description": "Organik Tam Siyez Ekmeği 700 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-espresso-200-gr",
+      "name": "Organik Espresso 200 gr",
+      "category": "icecek-cay",
+      "sku": "EV0105",
+      "price": 552.5,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-espresso-200-gr-1.jpg"
+      ],
+      "short_description": "Organik Espresso 200 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Espresso 200 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Espresso 200 gr | Organik Express",
+      "meta_description": "Organik Espresso 200 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kekik-10-gr",
+      "name": "Organik Kekik 10 gr",
+      "category": "baharat-aktar",
+      "sku": "B05598",
+      "price": 45,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kekik-10-gr-1.jpg"
+      ],
+      "short_description": "Organik Kekik 10 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kekik 10 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kekik 10 gr | Organik Express",
+      "meta_description": "Organik Kekik 10 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-elde-bulasik-deterjani-2500-ml",
+      "name": "Ecos3 Organik Elde Bulaşık Deterjanı 2500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "DEC32333",
+      "price": 764.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-elde-bulasik-deterjani-2500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Elde Bulaşık Deterjanı 2500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Elde Bulaşık Deterjanı 2500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Elde Bulaşık Deterjanı 2500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Elde Bulaşık Deterjanı 2500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-corek-otu-150-gr",
+      "name": "Organik Çörek Otu 150 gr",
+      "category": "baharat-aktar",
+      "sku": "B09947",
+      "price": 70,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-corek-otu-150-gr-1.jpg"
+      ],
+      "short_description": "Organik Çörek Otu 150 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Çörek Otu 150 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Çörek Otu 150 gr | Organik Express",
+      "meta_description": "Organik Çörek Otu 150 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-yumurta-10",
+      "name": "Organik Yumurta 10",
+      "category": "yumurta",
+      "sku": "IT0169",
+      "price": 140,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-yumurta-10-1.jpg"
+      ],
+      "short_description": "Organik Yumurta 10, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Yumurta 10</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Yumurta 10 | Organik Express",
+      "meta_description": "Organik Yumurta 10, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-bebek-gunes-kremi-spf-50-110-gr",
+      "name": "Organik Bebek Güneş Kremi SPF 50-110 gr",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO3415",
+      "price": 1119.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-bebek-gunes-kremi-spf-50-110-gr-1.jpg"
+      ],
+      "short_description": "Organik Bebek Güneş Kremi SPF 50-110 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Bebek Güneş Kremi SPF 50-110 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Bebek Güneş Kremi SPF 50-110 gr | Organik Express",
+      "meta_description": "Organik Bebek Güneş Kremi SPF 50-110 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kestane-bali-600-gr",
+      "name": "Organik Kestane Balı 600 gr",
+      "category": "bal",
+      "sku": "IT0114",
+      "price": 2805,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kestane-bali-600-gr-1.jpg"
+      ],
+      "short_description": "Organik Kestane Balı 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kestane Balı 600 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kestane Balı 600 gr | Organik Express",
+      "meta_description": "Organik Kestane Balı 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-nohutlu-cubuk-makarna-400-gr",
+      "name": "Organik Nohutlu Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0205",
+      "price": 295,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-nohutlu-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Nohutlu Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Nohutlu Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Nohutlu Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Nohutlu Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-pancarli-cubuk-makarna-400-gr",
+      "name": "Organik Pancarlı Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0203",
+      "price": 275,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-pancarli-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Pancarlı Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Pancarlı Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Pancarlı Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Pancarlı Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-tahin-600-gr",
+      "name": "Organik Tahin 600 gr",
+      "category": "kahvaltilik-recel",
+      "sku": "IT0572",
+      "price": 430,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-tahin-600-gr-1.jpg"
+      ],
+      "short_description": "Organik Tahin 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Tahin 600 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Tahin 600 gr | Organik Express",
+      "meta_description": "Organik Tahin 600 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-yulaf-ezmesi-460-gr",
+      "name": "Organik Yulaf Ezmesi 460 gr",
+      "category": "bakliyat-makarna",
+      "sku": "B05338",
+      "price": 90,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-yulaf-ezmesi-460-gr-1.jpg"
+      ],
+      "short_description": "Organik Yulaf Ezmesi 460 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Yulaf Ezmesi 460 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Yulaf Ezmesi 460 gr | Organik Express",
+      "meta_description": "Organik Yulaf Ezmesi 460 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "ecos3-organik-sivi-sabun-aloe-vera-2500-ml",
+      "name": "Ecos3 Organik Sıvı Sabun Aloe Vera 2500 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KEC32302",
+      "price": 764.15,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/ecos3-organik-sivi-sabun-aloe-vera-2500-ml-1.jpg"
+      ],
+      "short_description": "Ecos3 Organik Sıvı Sabun Aloe Vera 2500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Ecos3 Organik Sıvı Sabun Aloe Vera 2500 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Ecos3 Organik Sıvı Sabun Aloe Vera 2500 ml | Organik Express",
+      "meta_description": "Ecos3 Organik Sıvı Sabun Aloe Vera 2500 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-bebek-yagi-100-ml",
+      "name": "Organik Bebek Yağı 100 ml",
+      "category": "dogal-yasam-temizlik",
+      "sku": "KECO1817",
+      "price": 601.3,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-bebek-yagi-100-ml-1.jpg"
+      ],
+      "short_description": "Organik Bebek Yağı 100 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Bebek Yağı 100 ml</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Bebek Yağı 100 ml | Organik Express",
+      "meta_description": "Organik Bebek Yağı 100 ml, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    },
+    {
+      "slug": "organik-kirmizi-mercimekli-cubuk-makarna-400-gr",
+      "name": "Organik Kırmızı Mercimekli Çubuk Makarna 400 gr",
+      "category": "bakliyat-makarna",
+      "sku": "SH0207",
+      "price": 295,
+      "unit": "adet",
+      "unit_amount": 1,
+      "is_weight_based": false,
+      "images": [
+        "products/organik-kirmizi-mercimekli-cubuk-makarna-400-gr-1.jpg"
+      ],
+      "short_description": "Organik Kırmızı Mercimekli Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir.",
+      "description": "<p><strong>Organik Kırmızı Mercimekli Çubuk Makarna 400 gr</strong>, wix güvencesiyle Organik Express rafında. Doğal ve katkısız içeriğiyle sağlıklı beslenmeye katkı sağlar.</p><ul><li>Organik içerik, katkısız üretim</li><li>Özenli paketleme ile taze teslim</li><li>Güvenle sipariş verin, kapınıza gelsin</li></ul>",
+      "meta_title": "Organik Kırmızı Mercimekli Çubuk Makarna 400 gr | Organik Express",
+      "meta_description": "Organik Kırmızı Mercimekli Çubuk Makarna 400 gr, özenle seçilmiş organik içeriğiyle sofranıza doğallık katar; katkısız ve güvenilir."
+    }
+  ]
+}
