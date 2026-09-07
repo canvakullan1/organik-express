@@ -248,6 +248,14 @@ if ($do === 'img_dupes') {
     echo @shell_exec("cd $repo && $php artisan images:find-duplicates$flags 2>&1");
     exit;
 }
+if ($do === 'dedupe_images') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(300);
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan images:deduplicate$flags 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }

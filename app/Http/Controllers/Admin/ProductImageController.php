@@ -124,29 +124,18 @@ class ProductImageController extends Controller
                 ->with('ok', 'Bu görsel bu ürüne ait değil, listeyi yeniledik.');
         }
 
-        // AYNI dosya yolu başka bir ürünün görseline de bağlı olabilir (kazıma
-        // sırasında farklı kaynaklardan aynı isimde/görselde ürünler türeyebiliyor —
-        // 2026-09-07 taramasında 74 örnek bulundu). Böyle bir durumda dosyayı SİLME:
-        // aksi halde bu ürünün görselini silerken FARKLI bir ürünün görseli de kırılır.
-        $sharedWithOther = ProductImage::withoutGlobalScopes()
-            ->where('path', $img->path)
-            ->where('id', '!=', $img->id)
-            ->exists();
-
-        $diskDeleted = false;
-        if (! $sharedWithOther) {
-            $diskDeleted = Storage::disk('public')->delete($img->path);
-            // Deploy'un `cp -R` MERGE kaynağı: Storage::disk('public') PUBLIC_DISK_ROOT'a
-            // (prod'da public_html/storage) işaret eder; storage_path('app/public') repo
-            // kopyasıdır. İkisi de silinmezse bir sonraki deploy dosyayı "diriltir".
-            @unlink(storage_path('app/public/' . $img->path));
-        }
+        // images:deduplicate ile her ürün artık KENDİ dosyasına sahip (2026-09-07);
+        // "Sil" düğmesi basitçe hem dosyayı hem kaydı siler — başka ürünü etkilemez.
+        // İki konumdan da silinir: Storage::disk('public') (canlı sunum) VE
+        // storage_path('app/public') (deploy'un `cp -R` MERGE kaynağı) — yoksa bir
+        // sonraki deploy dosyayı geri getirir.
+        $diskDeleted = Storage::disk('public')->delete($img->path);
+        @unlink(storage_path('app/public/' . $img->path));
         $rowDeleted = $img->delete();
 
         Log::error('product-image.destroy: silindi', [
             'product_id' => $p->id, 'image_id' => $image, 'path' => $img->path,
-            'disk_deleted' => $diskDeleted, 'row_deleted' => $rowDeleted,
-            'shared_with_other_skipped_file' => $sharedWithOther, 'user_id' => auth()->id(),
+            'disk_deleted' => $diskDeleted, 'row_deleted' => $rowDeleted, 'user_id' => auth()->id(),
         ]);
 
         return redirect()

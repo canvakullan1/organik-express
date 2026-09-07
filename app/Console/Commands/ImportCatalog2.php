@@ -243,9 +243,21 @@ class ImportCatalog2 extends Command
     private function registerLocalImages(int $productId, string $slug, string $name): int
     {
         $base = storage_path('app/public/products/');
-        // ÖNEMLİ: slug'dan sonra RAKAM zorunlu ({slug}-1.jpg). Aksi halde "organik-elma"
-        // glob'u "organik-elma-sirkesi-500-ml-1.jpg" (elma sirkesi!) ile yanlış eşleşir.
-        $files = glob($base . $slug . '-[0-9]*.{jpg,jpeg,png,webp}', GLOB_BRACE) ?: [];
+        // ÖNEMLİ: {slug}-[0-9]* deseni HÂLÂ yanlış eşleşebiliyordu: bir ürünün slug'ı
+        // başka bir ürünün slug'ının ÖNEKİYSE (ör. "...-300-gr" ve "...-300-gr-5li"),
+        // devamı bir RAKAMLA başladığında ("-5li-2.jpg") glob yine de eşleşiyordu.
+        // Görsel dosya adları HER ZAMAN {slug}-{tek haneli indeks}.{uzantı} biçiminde
+        // üretiliyor (bkz. scripts/*), o yüzden indeksten hemen sonra UZANTI gelmeli —
+        // aradaki her şeyi kabul eden joker (*) KULLANILMAZ.
+        $files = [];
+        foreach (['jpg', 'jpeg', 'png', 'webp'] as $ext) {
+            for ($i = 1; $i <= 9; $i++) {
+                $candidate = $base . $slug . '-' . $i . '.' . $ext;
+                if (is_file($candidate)) {
+                    $files[] = $candidate;
+                }
+            }
+        }
         sort($files);
         $n = 0;
         foreach ($files as $full) {
