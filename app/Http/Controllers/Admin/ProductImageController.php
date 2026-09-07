@@ -42,7 +42,14 @@ class ProductImageController extends Controller
         }
         $p->load(['images' => fn ($q) => $q->orderBy('sort_order')]);
 
-        return view('admin.product-images', ['product' => $p]);
+        // Bu sayfa hic ONBELLEKLENMEMELI: LiteSpeed/tarayici eski bir
+        // urunun/goruntunun HTML'ini gosterirse, admin farkli bir urunun sayfasinda
+        // oldugunu sanip yanlis gorseli silmeye calisabilir ("bu gorsel bu urune
+        // ait degil" hatasi boyle olusur).
+        return response()
+            ->view('admin.product-images', ['product' => $p])
+            ->header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
+            ->header('Pragma', 'no-cache');
     }
 
     public function store(Request $request, int $product)
@@ -117,16 +124,29 @@ class ProductImageController extends Controller
                 ->with('ok', 'Bu görsel bu ürüne ait değil, listeyi yeniledik.');
         }
 
-        $diskDeleted = Storage::disk('public')->delete($img->path);
-        // Deploy'un `cp -R` MERGE kaynağı: Storage::disk('public') PUBLIC_DISK_ROOT'a
-        // (prod'da public_html/storage) işaret eder; storage_path('app/public') repo
-        // kopyasıdır. İkisi de silinmezse bir sonraki deploy dosyayı "diriltir".
-        @unlink(storage_path('app/public/' . $img->path));
+        // AYNI dosya yolu başka bir ürünün görseline de bağlı olabilir (kazıma
+        // sırasında farklı kaynaklardan aynı isimde/görselde ürünler türeyebiliyor —
+        // 2026-09-07 taramasında 74 örnek bulundu). Böyle bir durumda dosyayı SİLME:
+        // aksi halde bu ürünün görselini silerken FARKLI bir ürünün görseli de kırılır.
+        $sharedWithOther = ProductImage::withoutGlobalScopes()
+            ->where('path', $img->path)
+            ->where('id', '!=', $img->id)
+            ->exists();
+
+        $diskDeleted = false;
+        if (! $sharedWithOther) {
+            $diskDeleted = Storage::disk('public')->delete($img->path);
+            // Deploy'un `cp -R` MERGE kaynağı: Storage::disk('public') PUBLIC_DISK_ROOT'a
+            // (prod'da public_html/storage) işaret eder; storage_path('app/public') repo
+            // kopyasıdır. İkisi de silinmezse bir sonraki deploy dosyayı "diriltir".
+            @unlink(storage_path('app/public/' . $img->path));
+        }
         $rowDeleted = $img->delete();
 
         Log::error('product-image.destroy: silindi', [
             'product_id' => $p->id, 'image_id' => $image, 'path' => $img->path,
-            'disk_deleted' => $diskDeleted, 'row_deleted' => $rowDeleted, 'user_id' => auth()->id(),
+            'disk_deleted' => $diskDeleted, 'row_deleted' => $rowDeleted,
+            'shared_with_other_skipped_file' => $sharedWithOther, 'user_id' => auth()->id(),
         ]);
 
         return redirect()
