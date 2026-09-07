@@ -177,6 +177,19 @@ if ($do === 'import_cat2') {
     echo @shell_exec("cd $repo && $php artisan import:catalog2$flags 2>&1");
     exit;
 }
+if ($do === 'purge_slugs') {
+    // Belirtilen slug'lari soft-delete eder (kaynak dosyasi kaldirilmis artiklar icin).
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(300);
+    $raw = (string) ($_GET['slugs'] ?? '');
+    $slugs = preg_replace('/[^a-z0-9,\-]/', '', strtolower($raw));
+    if ($slugs === '') { exit("slugs gerekli
+"); }
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan catalog:purge-slugs " . escapeshellarg($slugs) . "$flags 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
