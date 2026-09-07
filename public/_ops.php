@@ -213,6 +213,15 @@ if ($do === 'clean_orphan_images') {
     echo @shell_exec("cd $repo && $php artisan catalog:clean-orphan-images$flags 2>&1");
     exit;
 }
+if ($do === 'find_image_owner') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    $fn = preg_replace('/[^a-z0-9_.\-]/', '', strtolower($_GET['filename'] ?? ''));
+    if ($fn === '') { exit("filename gerekli
+"); }
+    echo @shell_exec("cd $repo && $php artisan images:find-owner " . escapeshellarg($fn) . " 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
