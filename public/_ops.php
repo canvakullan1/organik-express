@@ -232,6 +232,12 @@ if ($do === 'img_diag') {
     echo @shell_exec("cd $repo && $php artisan images:diagnose$flags 2>&1");
     exit;
 }
+if ($do === 'session_diag') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    echo @shell_exec("cd $repo && $php artisan session:diagnose 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
