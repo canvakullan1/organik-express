@@ -222,6 +222,16 @@ if ($do === 'find_image_owner') {
     echo @shell_exec("cd $repo && $php artisan images:find-owner " . escapeshellarg($fn) . " 2>&1");
     exit;
 }
+if ($do === 'img_diag') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(200);
+    $flags = '';
+    $pid = preg_replace('/[^0-9]/', '', (string) ($_GET['product'] ?? ''));
+    if ($pid !== '') { $flags .= ' --product=' . $pid; }
+    echo @shell_exec("cd $repo && $php artisan images:diagnose$flags 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
