@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Product;
 use App\Models\ProductImage;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Storage;
@@ -45,8 +46,12 @@ class PurgeImageFiles extends Command
             ->unique()
             ->values();
 
-        // Hâlâ kullanılan (herhangi bir ürüne ait, silinmiş dahil) dosya adları — dokunma.
-        $inUse = ProductImage::withoutGlobalScopes()->pluck('path')
+        // Hâlâ kullanılan dosya adları: yalnızca AKTİF (silinmemiş) ürünlere ait
+        // görseller korunur. Soft-delete edilen ürünün ProductImage kaydı DB'de
+        // kalmaya devam eder (Product silinince ilişkili görsel satırı silinmez) —
+        // o yüzden withTrashed() kullanılmaz; aksi halde hiçbir dosya silinemez.
+        $activeIds = Product::pluck('id');
+        $inUse = ProductImage::whereIn('product_id', $activeIds)->pluck('path')
             ->map(fn ($p) => basename((string) $p))
             ->flip()
             ->all();
