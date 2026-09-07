@@ -61,7 +61,13 @@ class CleanOrphanImages extends Command
             return self::SUCCESS;
         }
 
+        // Hem Storage::disk('public') kökünden (prod'da public_html/storage — canlı
+        // sunum) hem de storage_path('app/public') altından (deploy'un `cp -R` MERGE
+        // KAYNAĞI) sil — yoksa bir sonraki deploy dosyayı diriltir.
         Storage::disk('public')->delete($orphans);
+        foreach ($orphans as $o) {
+            @unlink(storage_path('app/public/' . $o));
+        }
         $this->info(count($orphans) . ' yetim görsel silindi.');
 
         return self::SUCCESS;

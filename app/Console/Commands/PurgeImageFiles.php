@@ -68,14 +68,29 @@ class PurgeImageFiles extends Command
 
                 continue;
             }
-            if (! Storage::disk('public')->exists($path)) {
+            // İKİ konum kontrol edilir: (a) Storage::disk('public') kökü — PUBLIC_DISK_ROOT
+            // ayarlıysa prod'da bu public_html/storage'dır (canlı sunum); (b) Laravel'in
+            // kendi storage_path('app/public') dizini — deploy'un `cp -R` MERGE kaynağı.
+            // Yalnızca (a)'yı silmek YETMEZ: bir sonraki deploy, (b)'de kalan dosyayı
+            // tekrar (a)'ya kopyalayıp "diriltir" (yaşanan tam olarak buydu).
+            $localPath = storage_path('app/public/' . $path);
+            $existsDisk = Storage::disk('public')->exists($path);
+            $existsLocal = is_file($localPath);
+
+            if (! $existsDisk && ! $existsLocal) {
                 $notFound++;
 
                 continue;
             }
-            $this->line(($this->option('dry-run') ? '[DRY] ' : '') . "sil: {$fname}");
+            $this->line(($this->option('dry-run') ? '[DRY] ' : '') . "sil: {$fname}"
+                . ($existsDisk && $existsLocal ? ' (disk+local)' : ($existsDisk ? ' (disk)' : ' (local)')));
             if (! $this->option('dry-run')) {
-                Storage::disk('public')->delete($path);
+                if ($existsDisk) {
+                    Storage::disk('public')->delete($path);
+                }
+                if ($existsLocal) {
+                    @unlink($localPath);
+                }
                 $deleted++;
             }
         }
