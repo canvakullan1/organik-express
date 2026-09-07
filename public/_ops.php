@@ -190,6 +190,29 @@ if ($do === 'purge_slugs') {
     echo @shell_exec("cd $repo && $php artisan catalog:purge-slugs " . escapeshellarg($slugs) . "$flags 2>&1");
     exit;
 }
+if ($do === 'purge_image_files') {
+    // Bir kaynagin gorsel dosyalarini PROD DISKINDEN gercekten siler (deploy
+    // storage'i asla silmez, sadece uzerine yazar - bu yuzden repo'dan kaldirilan
+    // gorseller sunucuda URL ile hala erisilebilir kalirdi).
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(300);
+    $list = preg_replace('/[^a-z0-9_-]/', '', strtolower($_GET['list'] ?? ''));
+    if ($list === '') { exit("list gerekli
+"); }
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan catalog:purge-image-files " . escapeshellarg($list) . "$flags 2>&1");
+    exit;
+}
+if ($do === 'clean_orphan_images') {
+    // Hicbir urune (silinmis dahil) ait olmayan gorsel dosyalarini siler.
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(300);
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan catalog:clean-orphan-images$flags 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
