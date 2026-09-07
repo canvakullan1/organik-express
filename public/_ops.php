@@ -238,6 +238,16 @@ if ($do === 'session_diag') {
     echo @shell_exec("cd $repo && $php artisan session:diagnose 2>&1");
     exit;
 }
+if ($do === 'img_dupes') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(200);
+    $flags = '';
+    $path = preg_replace('/[^a-z0-9_.\-]/', '', strtolower($_GET['path'] ?? ''));
+    if ($path !== '') { $flags .= ' --path=' . escapeshellarg($path); }
+    echo @shell_exec("cd $repo && $php artisan images:find-duplicates$flags 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }

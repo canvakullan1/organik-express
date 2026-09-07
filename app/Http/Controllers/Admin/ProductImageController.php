@@ -78,7 +78,7 @@ class ProductImageController extends Controller
             $count++;
         }
 
-        Log::info('product-image.store', ['product_id' => $p->id, 'count' => $count, 'user_id' => auth()->id()]);
+        Log::error('product-image.store', ['product_id' => $p->id, 'count' => $count, 'user_id' => auth()->id()]);
 
         return redirect()
             ->route('admin.product-images.index', $p)
@@ -91,7 +91,7 @@ class ProductImageController extends Controller
 
         $p = Product::withoutGlobalScopes()->find($product);
         if (! $p) {
-            Log::warning('product-image.destroy: ürün bulunamadı', ['product' => $product, 'image' => $image]);
+            Log::error('product-image.destroy: ürün bulunamadı', ['product' => $product, 'image' => $image]);
 
             // Filament panel route adı sabit degil (surum/panel id'ye bagli) - riske
             // girmeden panel ana sayfasina donuyoruz.
@@ -102,14 +102,14 @@ class ProductImageController extends Controller
         if (! $img) {
             // Görsel zaten yok — muhtemelen daha önce silinmiş (çift tıklama, eski sayfa).
             // Kullanıcıyı hâlâ mevcut sayfaya, anlaşılır bir mesajla geri gönder.
-            Log::warning('product-image.destroy: görsel zaten yok', ['product_id' => $p->id, 'image' => $image]);
+            Log::error('product-image.destroy: görsel zaten yok', ['product_id' => $p->id, 'image' => $image]);
 
             return redirect()->route('admin.product-images.index', $p)
                 ->with('ok', 'Bu görsel zaten silinmişti.');
         }
 
         if ($img->product_id !== $p->id) {
-            Log::warning('product-image.destroy: görsel başka ürüne ait', [
+            Log::error('product-image.destroy: görsel başka ürüne ait', [
                 'product_id' => $p->id, 'image_id' => $img->id, 'image_owner' => $img->product_id,
             ]);
 
@@ -124,7 +124,7 @@ class ProductImageController extends Controller
         @unlink(storage_path('app/public/' . $img->path));
         $rowDeleted = $img->delete();
 
-        Log::info('product-image.destroy: silindi', [
+        Log::error('product-image.destroy: silindi', [
             'product_id' => $p->id, 'image_id' => $image, 'path' => $img->path,
             'disk_deleted' => $diskDeleted, 'row_deleted' => $rowDeleted, 'user_id' => auth()->id(),
         ]);
