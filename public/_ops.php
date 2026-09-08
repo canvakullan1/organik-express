@@ -266,6 +266,25 @@ if ($do === 'find_product') {
     echo @shell_exec("cd $repo && $php artisan products:find " . escapeshellarg($q) . " 2>&1");
     exit;
 }
+if ($do === 'filehash') {
+    $rel = str_replace(array('..', " "), '', (string) ($_GET['f'] ?? ''));
+    if ($rel === '') { exit("f gerekli
+"); }
+    $full = $repo . '/' . ltrim($rel, '/');
+    if (! is_file($full)) { exit("dosya yok: $full
+"); }
+    echo 'md5: ' . md5_file($full) . "
+";
+    echo 'boyut: ' . filesize($full) . " byte
+";
+    echo 'degisim: ' . date('Y-m-d H:i:s', filemtime($full)) . "
+";
+    echo "--- ilk 300 karakter ---
+";
+    echo substr(file_get_contents($full), 0, 300) . "
+";
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
