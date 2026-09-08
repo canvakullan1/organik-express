@@ -256,6 +256,16 @@ if ($do === 'dedupe_images') {
     echo @shell_exec("cd $repo && $php artisan images:deduplicate$flags 2>&1");
     exit;
 }
+if ($do === 'find_product') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(120);
+    $q = (string) ($_GET['q'] ?? '');
+    if ($q === '') { exit("q gerekli
+"); }
+    echo @shell_exec("cd $repo && $php artisan products:find " . escapeshellarg($q) . " 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
