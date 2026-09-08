@@ -285,6 +285,16 @@ if ($do === 'filehash') {
 ";
     exit;
 }
+if ($do === 'test_delete_logic') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    $prod = preg_replace('/[^0-9]/', '', (string) ($_GET['product'] ?? ''));
+    $img = preg_replace('/[^0-9]/', '', (string) ($_GET['image'] ?? ''));
+    if ($prod === '' || $img === '') { exit("product ve image gerekli
+"); }
+    echo @shell_exec("cd $repo && $php artisan images:test-delete-logic $prod $img 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
