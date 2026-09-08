@@ -14,6 +14,7 @@ class Address extends Model
     ];
 
     protected $casts = [
+        'user_id' => 'integer',
         'is_corporate' => 'boolean',
         'is_default' => 'boolean',
     ];

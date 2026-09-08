@@ -9,7 +9,7 @@ class ProductImage extends Model
 {
     protected $fillable = ['product_id', 'path', 'alt', 'sort_order'];
 
-    protected $casts = ['sort_order' => 'integer'];
+    protected $casts = ['sort_order' => 'integer', 'product_id' => 'integer'];
 
     public function product(): BelongsTo
     {

@@ -115,7 +115,11 @@ class ProductImageController extends Controller
                 ->with('ok', 'Bu görsel zaten silinmişti.');
         }
 
-        if ($img->product_id !== $p->id) {
+        // (int) cast: bu sunucuda PDO, product_id (unsignedBigInteger FK) sutununu
+        // STRING donduruyor ('256'), $p->id ise Eloquent tarafindan int'e cevriliyor -
+        // katı (!==) karsilastirma bu yuzden HER ZAMAN esitsiz cikiyordu (kok neden,
+        // artik ProductImage::$casts'te de duzeltildi; burada ayrica savunma amacli).
+        if ((int) $img->product_id !== (int) $p->id) {
             Log::error('product-image.destroy: görsel başka ürüne ait', [
                 'product_id' => $p->id, 'image_id' => $img->id, 'image_owner' => $img->product_id,
             ]);

@@ -26,6 +26,7 @@ class Order extends Model
     ];
 
     protected $casts = [
+        'user_id' => 'integer',
         'status' => OrderStatus::class,
         'payment_status' => PaymentStatus::class,
         'payment_method' => PaymentMethod::class,
