@@ -20,6 +20,7 @@ class Product extends Model
         'storage_info', 'ingredients', 'tax_rate', 'status',
         'is_featured', 'is_seasonal', 'is_new', 'sort_order',
         'estimated_delivery', 'certificate_no', 'meta_title', 'meta_description',
+        'ships_nationwide_override',
     ];
 
     protected $casts = [
@@ -28,6 +29,7 @@ class Product extends Model
         'is_featured' => 'boolean',
         'is_seasonal' => 'boolean',
         'is_new' => 'boolean',
+        'ships_nationwide_override' => 'boolean',
         'sort_order' => 'integer',
     ];
 
@@ -43,9 +45,18 @@ class Product extends Model
      */
     private const ISTANBUL_ONLY_CATEGORY_SLUGS = ['sut-urunleri', 'et-sarkuteri', 'taze-meyve'];
 
-    /** Bu ürün Türkiye genelinde mi, yoksa yalnızca İstanbul içinde mi gönderiliyor? */
+    /**
+     * Bu ürün Türkiye genelinde mi, yoksa yalnızca İstanbul içinde mi gönderiliyor?
+     *
+     * `ships_nationwide_override` ADMİN tarafından elle ayarlandıysa (null değilse)
+     * o esas alınır; aksi halde kategoriye göre otomatik belirlenir.
+     */
     public function shipsNationwide(): bool
     {
+        if ($this->ships_nationwide_override !== null) {
+            return (bool) $this->ships_nationwide_override;
+        }
+
         return ! in_array($this->category?->slug, self::ISTANBUL_ONLY_CATEGORY_SLUGS, true);
     }
 

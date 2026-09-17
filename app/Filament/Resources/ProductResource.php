@@ -92,6 +92,15 @@ class ProductResource extends Resource
                     Forms\Components\Toggle::make('is_seasonal')->label('Mevsim ürünü'),
                     Forms\Components\Toggle::make('is_new')->label('Yeni ürün'),
                     Forms\Components\TextInput::make('sort_order')->label('Sıra')->numeric()->default(0),
+                    Forms\Components\Select::make('ships_nationwide_override')
+                        ->label('Teslimat Kapsamı')
+                        ->helperText('Boş bırakılırsa kategoriye göre otomatik belirlenir (süt/et/taze meyve = yalnızca İstanbul).')
+                        ->options([
+                            '1' => 'Türkiye geneline gönderilir',
+                            '0' => 'Yalnızca İstanbul içine gönderilir',
+                        ])
+                        ->placeholder('Otomatik (kategoriye göre)')
+                        ->native(false),
                 ]),
 
                 Forms\Components\Section::make('Sınıflandırma')->schema([
