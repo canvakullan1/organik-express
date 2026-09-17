@@ -36,6 +36,19 @@ class Product extends Model
         return $this->belongsTo(Category::class);
     }
 
+    /**
+     * Yalnızca İstanbul içine gönderilen kategoriler: süt ürünleri, et & şarküteri,
+     * taze meyve (narin/nazik ürünler — müşteri talimatı). Diğer her şey Türkiye
+     * geneline gönderiliyor.
+     */
+    private const ISTANBUL_ONLY_CATEGORY_SLUGS = ['sut-urunleri', 'et-sarkuteri', 'taze-meyve'];
+
+    /** Bu ürün Türkiye genelinde mi, yoksa yalnızca İstanbul içinde mi gönderiliyor? */
+    public function shipsNationwide(): bool
+    {
+        return ! in_array($this->category?->slug, self::ISTANBUL_ONLY_CATEGORY_SLUGS, true);
+    }
+
     public function brand(): BelongsTo
     {
         return $this->belongsTo(Brand::class);

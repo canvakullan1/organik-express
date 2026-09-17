@@ -35,7 +35,11 @@
         get total() { return Math.max(0, this.sub - this.couponDiscount - this.loyalty - this.earlyDiscount) + this.shipping },
         fmt(v) { return '₺' + Number(v).toLocaleString('tr-TR', {minimumFractionDigits:2, maximumFractionDigits:2}) }
      }">
-    <h1 class="font-display text-2xl sm:text-3xl font-700 text-bark mb-6">Ödeme</h1>
+    <h1 class="font-display text-2xl sm:text-3xl font-700 text-bark mb-4">Ödeme</h1>
+
+    <div class="mb-6">
+        @include('storefront.partials.shipping-notice')
+    </div>
 
     @if($errors->any())
         <div class="mb-5 rounded-lg bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700">

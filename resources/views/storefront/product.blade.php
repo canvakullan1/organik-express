@@ -158,6 +158,19 @@
                 @endif
             </p>
 
+            {{-- Teslimat kapsamı: süt/et/taze meyve yalnızca İstanbul, diğerleri Türkiye geneli --}}
+            @if($product->shipsNationwide())
+                <p class="mt-2 flex items-center gap-1.5 text-sm text-leaf-700">
+                    <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v11.177m0-11.177L12.75 4.5H8.25L4.5 9.75m9 8.25v-11.177m0 0-2.25 2.25M4.5 9.75v9c0 .621.504 1.125 1.125 1.125H8.25m-3.75-10.125h4.5"/></svg>
+                    Türkiye'nin her yerine gönderilir
+                </p>
+            @else
+                <p class="mt-2 flex items-center gap-1.5 text-sm text-clay-600">
+                    <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+                    Bu ürün yalnızca İstanbul içine gönderilir
+                </p>
+            @endif
+
             {{-- Adet + Sepete ekle --}}
             <div class="mt-6 flex items-stretch gap-3">
                 <div class="flex items-center rounded-full border border-leaf-200 bg-white">

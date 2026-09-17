@@ -295,6 +295,13 @@ if ($do === 'test_delete_logic') {
     echo @shell_exec("cd $repo && $php artisan images:test-delete-logic $prod $img 2>&1");
     exit;
 }
+if ($do === 'set_shipping_notice') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan site:set-shipping-notice$flags 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }

@@ -42,6 +42,8 @@
                     </div>
                 </div>
 
+                @include('storefront.partials.shipping-notice')
+
                 @foreach($lines as $item)
                     <div class="flex gap-4 rounded-2xl border border-paper bg-white p-4">
                         <a href="{{ $item['url'] }}" class="size-24 shrink-0 rounded-xl overflow-hidden bg-paper">
