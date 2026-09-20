@@ -7,6 +7,7 @@ use App\Models\Banner;
 use App\Models\Brand;
 use App\Models\Bundle;
 use App\Models\Category;
+use App\Models\HomeCategoryTile;
 use App\Models\Post;
 use App\Models\Producer;
 use Illuminate\Http\Request;
@@ -24,6 +25,7 @@ class ImageFieldController extends Controller
     {
         return [
             'category'      => [Category::class, 'image',        'categories', 'Kategori Görseli',           'filament.admin.resources.categories.edit'],
+            'home-category-tile' => [HomeCategoryTile::class, 'image', 'home-categories', 'Ana Sayfa Kategori Görseli', 'filament.admin.resources.home-category-tiles.edit'],
             'producer'      => [Producer::class, 'image',        'producers',  'Üretici Görseli',            'filament.admin.resources.producers.edit'],
             'brand'         => [Brand::class,    'logo',         'brands',     'Marka Logosu',               'filament.admin.resources.brands.edit'],
             'bundle'        => [Bundle::class,   'image',        'bundles',    'Kutu Görseli',               'filament.admin.resources.bundles.edit'],

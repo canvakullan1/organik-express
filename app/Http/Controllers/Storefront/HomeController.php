@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Storefront;
 use App\Http\Controllers\Controller;
 use App\Models\Banner;
 use App\Models\BlogCategory;
-use App\Models\Category;
+use App\Models\HomeCategoryTile;
 use App\Models\Post;
 use App\Models\Producer;
 use App\Models\Product;
@@ -48,7 +48,7 @@ class HomeController extends Controller
             'seasonal' => $seasonal,
             'newest' => $newest,
             'bestsellers' => $bestsellers,
-            'shortcutCategories' => Category::active()->roots()->where('show_in_menu', true)->orderBy('sort_order')->take(14)->get(),
+            'shortcutCategories' => HomeCategoryTile::active()->with('category')->orderBy('sort_order')->get(),
             'producers' => Producer::active()->orderBy('sort_order')->take(4)->get(),
             'recipes' => $recipes,
         ]);

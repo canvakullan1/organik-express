@@ -57,7 +57,7 @@
 
     </section>
 
-    {{-- Fotoğraflı kategori kartları (görseller admin → Kategoriler'den yönetilir) --}}
+    {{-- Fotoğraflı kategori kartları (görseller admin → Ana Sayfa Kategorileri'nden yönetilir) --}}
     <section class="mx-auto max-w-7xl px-4 py-10">
         <div class="mb-5 flex items-baseline justify-between gap-4 border-b border-paper pb-3">
             <h2 class="font-display text-xl sm:text-2xl font-700 tracking-tight text-bark">Kategoriler</h2>
@@ -69,11 +69,11 @@
             }">
             <div x-ref="track"
                  class="scrollbar-hide flex gap-3 sm:gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory -mx-4 px-4 pb-1 sm:mx-0 sm:px-0">
-                @foreach($shortcutCategories as $cat)
-                    <a href="{{ route('category.show', $cat->slug) }}"
+                @foreach($shortcutCategories as $tile)
+                    <a href="{{ route('category.show', $tile->category->slug) }}"
                        class="group relative block aspect-square w-[128px] sm:w-[160px] lg:w-[180px] shrink-0 snap-start overflow-hidden rounded-2xl bg-leaf-100 shadow-sm">
-                        @if($cat->image)
-                            <img src="{{ asset('storage/' . $cat->image) }}" alt="{{ $cat->name }}" loading="lazy"
+                        @if($tile->image)
+                            <img src="{{ asset('storage/' . $tile->image) }}" alt="{{ $tile->category->name }}" loading="lazy"
                                  class="size-full object-cover transition duration-500 group-hover:scale-110">
                         @else
                             <div class="size-full grid place-items-center bg-leaf-600 text-white/80">
@@ -82,7 +82,7 @@
                         @endif
                         {{-- İsim — alt gradient üstünde --}}
                         <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-3 pt-8">
-                            <span class="block text-sm font-700 text-white leading-tight">{{ $cat->name }}</span>
+                            <span class="block text-sm font-700 text-white leading-tight">{{ $tile->category->name }}</span>
                         </div>
                     </a>
                 @endforeach
