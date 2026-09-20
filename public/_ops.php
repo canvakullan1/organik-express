@@ -342,6 +342,12 @@ if ($do === 'fix_cats') {
     echo @shell_exec("cd $repo && $php artisan catalog:fix-category-visibility$flags 2>&1");
     exit;
 }
+if ($do === 'export_names') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(300);
+    echo @shell_exec("cd $repo && $php artisan catalog:export-names 2>&1");
+    exit;
+}
 if ($do === 'stats') {
     // Katalog teshis raporu (durum + kaynak bazli sayim).
     if (! $php) { exit("php bulunamadi
