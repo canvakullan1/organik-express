@@ -302,6 +302,18 @@ if ($do === 'set_shipping_notice') {
     echo @shell_exec("cd $repo && $php artisan site:set-shipping-notice$flags 2>&1");
     exit;
 }
+if ($do === 'merge_category') {
+    if (! $php) { exit("php bulunamadi
+"); }
+    set_time_limit(200);
+    $from = preg_replace('/[^a-z0-9-]/', '', strtolower($_GET['from'] ?? ''));
+    $to = preg_replace('/[^a-z0-9-]/', '', strtolower($_GET['to'] ?? ''));
+    if ($from === '' || $to === '') { exit("from ve to gerekli
+"); }
+    $flags = ($_GET['dry'] ?? '') === '1' ? ' --dry-run' : '';
+    echo @shell_exec("cd $repo && $php artisan catalog:merge-category " . escapeshellarg($from) . ' ' . escapeshellarg($to) . "$flags 2>&1");
+    exit;
+}
 if ($do === 'purge_source') {
     // Bir kaynağın (ör. organikgiller) ürünlerini kaldır (soft-delete, sabit komut).
     if (! $php) { exit("php bulunamadi\n"); }
