@@ -9,7 +9,7 @@
                  x-data="{ active: 0, count: {{ $heroBanners->count() }},
                            next() { this.active = (this.active + 1) % this.count },
                            prev() { this.active = (this.active - 1 + this.count) % this.count } }"
-                 x-init="if (count > 1) setInterval(() => next(), 5000)">
+                 x-init="if (count > 1) setInterval(() => next(), 6000)">
                 @foreach($heroBanners as $i => $banner)
                     <a @if($banner->link) href="{{ $banner->link }}" @endif
                        :class="active === {{ $i }} ? 'opacity-100 z-[1]' : 'opacity-0 z-0 pointer-events-none'"
