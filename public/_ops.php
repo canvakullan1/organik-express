@@ -174,7 +174,18 @@ if ($do === 'import_cat2') {
     $lim = (int) ($_GET['limit'] ?? 0);
     if ($lim > 0) { $flags .= ' --limit=' . $lim; }
     if (($_GET['reimages'] ?? '') === '1') { $flags .= ' --reimages'; }
+    if (($_GET['onlynew'] ?? '') === '1') { $flags .= ' --only-new'; }
     echo @shell_exec("cd $repo && $php artisan import:catalog2$flags 2>&1");
+    exit;
+}
+if ($do === 'backfill_producer') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    set_time_limit(120);
+    $src = preg_replace('/[^a-z0-9_-]/', '', strtolower($_GET['source'] ?? ''));
+    if ($src === '') { exit("source gerekli\n"); }
+    $flags = ' ' . escapeshellarg($src);
+    if (($_GET['dry'] ?? '') === '1') { $flags .= ' --dry-run'; }
+    echo @shell_exec("cd $repo && $php artisan catalog2:backfill-producer$flags 2>&1");
     exit;
 }
 if ($do === 'purge_slugs') {

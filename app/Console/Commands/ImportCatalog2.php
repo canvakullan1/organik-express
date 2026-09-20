@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Enums\ProductStatus;
 use App\Models\Category;
+use App\Models\Producer;
 use App\Models\Product;
 use App\Models\ProductImage;
 use App\Models\ProductVariant;
@@ -31,10 +32,14 @@ use Illuminate\Support\Str;
  *   php artisan import:catalog2 --status=draft
  *   php artisan import:catalog2 --limit=40        # bu çağrıda kaç ürünün görseli inecek
  *   php artisan import:catalog2 --reimages        # görsel kayıtlarını silip yeniden indir
+ *   php artisan import:catalog2 --source=beyorganik --only-new
+ *      # slug'ı ZATEN VAR olan ürünlere hiç dokunmaz (isim/açıklama/fiyat dahil) —
+ *      # aynı kaynağın dosyasına sonradan eklenen yeni ürünleri, elle güncellenmiş
+ *      # fiyatlı eski ürünleri ezmeden içe aktarmak için.
  */
 class ImportCatalog2 extends Command
 {
-    protected $signature = 'import:catalog2 {--source=} {--skip-images} {--status=active} {--limit=0} {--reimages}';
+    protected $signature = 'import:catalog2 {--source=} {--skip-images} {--status=active} {--limit=0} {--reimages} {--only-new}';
 
     protected $description = 'İkinci dalga harici kataloğu (çok kaynaklı) içe aktarır';
 
@@ -112,8 +117,23 @@ class ImportCatalog2 extends Command
             $source = $data['source'] ?? basename($file, '.json');
             $this->line("Kaynak: {$source} (" . count($data['products']) . ' ürün)');
 
+            // Kaynak dosyası "producer" belirtiyorsa (ör. üretici sitesinden çekilenler)
+            // tüm ürünlere o üreticiyi bağla — yoksa oluştur.
+            $producerId = null;
+            if (! empty($data['producer'])) {
+                $producerId = Producer::firstOrCreate(
+                    ['name' => $data['producer']],
+                    ['is_active' => true],
+                )->id;
+            }
+
             foreach ($data['products'] as $p) {
                 if (empty($p['slug']) || empty($p['name'])) {
+                    continue;
+                }
+
+                $existed = Product::withTrashed()->where('slug', $p['slug'])->exists();
+                if ($existed && $this->option('only-new')) {
                     continue;
                 }
 
@@ -121,8 +141,6 @@ class ImportCatalog2 extends Command
                 if (! $catId) {
                     $noCat++;
                 }
-
-                $existed = Product::withTrashed()->where('slug', $p['slug'])->exists();
 
                 // Ürün bazlı durum: kaynakta "status":"draft" varsa (ör. fiyatı sonra
                 // girilecek Elta-Ada ürünleri) yayına alma — admin fiyatı girip aktifler.
@@ -140,6 +158,7 @@ class ImportCatalog2 extends Command
                     ['slug' => $p['slug']],
                     [
                         'category_id' => $catId,
+                        'producer_id' => $producerId,
                         'name' => $p['name'],
                         'sku' => $sku,
                         'short_description' => $p['short_description'] ?? null,
