@@ -90,11 +90,11 @@
 
             {{-- Kaydırma okları (masaüstü) --}}
             <button type="button" @click="scrollBy(-320)" aria-label="Geri kaydır"
-                    class="absolute left-0 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 sm:grid size-10 place-items-center rounded-full border border-paper bg-white text-bark shadow-md transition hover:bg-leaf-50 hover:text-leaf-800">
+                    class="absolute left-1 top-1/2 hidden -translate-y-1/2 sm:grid size-10 place-items-center rounded-full border border-paper bg-white text-bark shadow-md transition hover:bg-leaf-50 hover:text-leaf-800">
                 <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
             </button>
             <button type="button" @click="scrollBy(320)" aria-label="İleri kaydır"
-                    class="absolute right-0 top-1/2 hidden translate-x-1/2 -translate-y-1/2 sm:grid size-10 place-items-center rounded-full border border-paper bg-white text-bark shadow-md transition hover:bg-leaf-50 hover:text-leaf-800">
+                    class="absolute right-1 top-1/2 hidden -translate-y-1/2 sm:grid size-10 place-items-center rounded-full border border-paper bg-white text-bark shadow-md transition hover:bg-leaf-50 hover:text-leaf-800">
                 <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
             </button>
         </div>
