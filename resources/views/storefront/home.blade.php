@@ -55,69 +55,6 @@
             </div>
         @endif
 
-        {{-- Promo şeridi (hero altı, 3'lü aksiyon kartları) --}}
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-            {{-- 1 · Haftalık Kutular (vurgulu koyu kart) --}}
-            <a href="{{ route('bundles.index') }}"
-               class="group relative overflow-hidden rounded-2xl bg-leaf-800 p-6 text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-10px_rgb(28_35_30/0.35)] sm:col-span-2 lg:col-span-1">
-                <svg class="absolute -right-5 -bottom-6 size-32 text-white/[0.07] transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"/></svg>
-                <p class="text-[11px] font-700 uppercase tracking-[0.1em] text-leaf-300">Her hafta taze</p>
-                <h3 class="mt-1.5 font-display text-xl font-700 leading-snug">Haftalık Hazır Kutular</h3>
-                <p class="mt-1 text-sm text-leaf-100/75">Tarladan kapına, özenle seçilip paketlenir.</p>
-                <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-700 text-white">
-                    Kutuları Keşfet
-                    <svg class="size-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
-                </span>
-            </a>
-
-            {{-- 2 · %10 erken sipariş --}}
-            <a href="{{ url('/sayfa/teslimat-dagitim') }}"
-               class="group relative overflow-hidden rounded-2xl bg-clay-100 p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-12px_rgb(28_35_30/0.18)]">
-                <span class="absolute -right-3 -top-5 font-display text-[88px] font-700 leading-none text-clay-500/15 select-none tnum transition-transform duration-500 group-hover:scale-105">%10</span>
-                <p class="text-[11px] font-700 uppercase tracking-[0.1em] text-clay-600">Erken sipariş avantajı</p>
-                <h3 class="mt-1.5 font-display text-xl font-700 leading-snug text-clay-900">%10 İndirim Kazan</h3>
-                <p class="mt-1 text-sm text-clay-800/65">Teslimat gününden 1 gün önce sipariş ver.</p>
-                <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-700 text-clay-700">
-                    Teslimat Günleri
-                    <svg class="size-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
-                </span>
-            </a>
-
-            {{-- 3 · Üreticiler --}}
-            <a href="{{ route('producers.index') }}"
-               class="group relative overflow-hidden rounded-2xl bg-leaf-100 p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-12px_rgb(28_35_30/0.18)]">
-                <svg class="absolute -right-4 -bottom-5 size-28 text-leaf-600/10 transition-transform duration-500 group-hover:scale-110" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 0 0 0-18m0 18a9 9 0 0 1 0-18m0 18c2.5-2 4-5.5 4-9s-1.5-7-4-9m0 18c-2.5-2-4-5.5-4-9s1.5-7 4-9"/></svg>
-                <p class="text-[11px] font-700 uppercase tracking-[0.1em] text-leaf-600">Sertifikalı &amp; izlenebilir</p>
-                <h3 class="mt-1.5 font-display text-xl font-700 leading-snug text-leaf-900">Üreticisinden Sofrana</h3>
-                <p class="mt-1 text-sm text-leaf-800/65">Her ürünün arkasında tanıdığımız bir çiftlik var.</p>
-                <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-700 text-leaf-700">
-                    Üreticilerimiz
-                    <svg class="size-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
-                </span>
-            </a>
-        </div>
-    </section>
-
-    {{-- Güven rozetleri şeridi --}}
-    <section class="mx-auto max-w-7xl px-4 mt-8">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
-            @foreach([
-                ['M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z', '%100 Doğal & Sertifikalı', 'Organik sertifika & analiz'],
-                ['M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6.75a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6.75a3 3 0 0 0-3-3v-3c0-2.9-2.35-5.25-5.25-5.25Z', 'Güvenli Ödeme', '3D Secure · iyzico/PayTR'],
-                ['M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25', 'Ücretsiz Kargo', number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold,0,",",".") . ' TL üzeri'],
-                ['m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9', 'Özenli Paketleme', 'Ürüne uygun güvenli paket'],
-            ] as [$icon, $title, $sub])
-                <div class="flex items-center gap-3 rounded-xl border border-paper bg-white px-4 py-3.5">
-                    <span class="grid size-10 place-items-center rounded-full bg-leaf-50 text-leaf-600 shrink-0">
-                        <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="{{ $icon }}"/></svg>
-                    </span>
-                    <div class="min-w-0">
-                        <p class="font-700 text-sm text-bark leading-tight">{{ $title }}</p>
-                        <p class="text-xs text-bark/50">{{ $sub }}</p>
-                    </div>
-                </div>
-            @endforeach
-        </div>
     </section>
 
     {{-- Fotoğraflı kategori kartları (görseller admin → Kategoriler'den yönetilir) --}}
