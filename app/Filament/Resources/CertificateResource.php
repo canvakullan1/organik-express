@@ -31,12 +31,21 @@ class CertificateResource extends Resource
         return $form->schema([
             Forms\Components\Section::make()->schema([
                 Forms\Components\TextInput::make('name')->label('Sertifika Adı')->required()->placeholder('ECOCERT Organik Sertifikası'),
-                Forms\Components\TextInput::make('label')->label('Etiket / Sahip')->placeholder('Organik, ISO 9001 — ya da belge sahibi firma'),
                 Forms\Components\Select::make('group')->label('Bölüm')->options([
                     'standart' => 'Standart (ürünlerimizin taşıdığı)',
                     'tedarikci' => 'Üretici / Tedarikçi Belgesi',
-                ])->default('standart')->required()
+                ])->default('standart')->required()->live()
                     ->helperText('Tedarikçi belgelerinde "Etiket / Sahip" alanına belge sahibi firmayı yazın (ör. Elta-Ada).'),
+                Forms\Components\TextInput::make('label')->label('Etiket / Sahip')
+                    ->placeholder('Organik, ISO 9001 — ya da belge sahibi firma')
+                    ->datalist(fn (Forms\Get $get) => Certificate::query()
+                        ->where('group', $get('group'))
+                        ->whereNotNull('label')
+                        ->distinct()
+                        ->orderBy('label')
+                        ->pluck('label')
+                        ->all())
+                    ->helperText('Bir firmanın birden fazla belgesi olabilir: her belge için ayrı sertifika kaydı oluşturun, "Etiket / Sahip" alanına firma adını BİREBİR aynı yazın (listeden seçebilirsiniz) — aynı isimdeki belgeler Sertifikalar sayfasında tek firma kartı altında birleşir.'),
                 Forms\Components\Textarea::make('description')->label('Açıklama')->rows(2)->columnSpanFull(),
                 Forms\Components\FileUpload::make('image')->label('Görsel / Logo')->image()->directory('certificates'),
                 Forms\Components\FileUpload::make('file')->label('Belge (PDF)')->directory('certificates')->acceptedFileTypes(['application/pdf', 'image/*']),
@@ -53,12 +62,21 @@ class CertificateResource extends Resource
             ->columns([
                 Tables\Columns\ImageColumn::make('image')->label('Görsel'),
                 Tables\Columns\TextColumn::make('name')->label('Ad')->searchable()->weight('medium'),
-                Tables\Columns\TextColumn::make('label')->label('Etiket')->badge()->placeholder('—'),
+                Tables\Columns\TextColumn::make('label')->label('Etiket / Sahip')->badge()->searchable()->placeholder('—'),
+                Tables\Columns\TextColumn::make('group')->label('Bölüm')->badge()
+                    ->formatStateUsing(fn (string $state) => $state === 'tedarikci' ? 'Tedarikçi' : 'Standart')
+                    ->color(fn (string $state) => $state === 'tedarikci' ? 'warning' : 'success'),
                 Tables\Columns\TextColumn::make('valid_until')->label('Geçerlilik')->date('d.m.Y')->placeholder('—'),
                 Tables\Columns\IconColumn::make('is_active')->label('Aktif')->boolean(),
             ])
             ->defaultSort('sort_order')
             ->reorderable('sort_order')
+            ->filters([
+                Tables\Filters\SelectFilter::make('group')->label('Bölüm')->options([
+                    'standart' => 'Standart',
+                    'tedarikci' => 'Üretici / Tedarikçi Belgesi',
+                ]),
+            ])
             ->actions([Tables\Actions\EditAction::make(), Tables\Actions\DeleteAction::make()])
             ->bulkActions([Tables\Actions\BulkActionGroup::make([Tables\Actions\DeleteBulkAction::make()])]);
     }
