@@ -64,24 +64,39 @@
             <a href="{{ route('search.index') }}" class="shrink-0 text-sm font-600 text-leaf-700 hover:text-leaf-800">Tümünü Gör <span aria-hidden="true">→</span></a>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-4">
-            @foreach($shortcutCategories as $cat)
-                <a href="{{ route('category.show', $cat->slug) }}"
-                   class="group relative block aspect-square overflow-hidden rounded-2xl bg-leaf-100 shadow-sm">
-                    @if($cat->image)
-                        <img src="{{ asset('storage/' . $cat->image) }}" alt="{{ $cat->name }}" loading="lazy"
-                             class="size-full object-cover transition duration-500 group-hover:scale-110">
-                    @else
-                        <div class="size-full grid place-items-center bg-leaf-600 text-white/80">
-                            <svg class="size-12" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12 11.204 2.04a1.125 1.125 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75"/></svg>
+        <div class="relative" x-data="{
+                scrollBy(dx) { this.$refs.track.scrollBy({ left: dx, behavior: 'smooth' }) }
+            }">
+            <div x-ref="track"
+                 class="scrollbar-hide flex gap-3 sm:gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory -mx-4 px-4 pb-1 sm:mx-0 sm:px-0">
+                @foreach($shortcutCategories as $cat)
+                    <a href="{{ route('category.show', $cat->slug) }}"
+                       class="group relative block aspect-square w-[128px] sm:w-[160px] lg:w-[180px] shrink-0 snap-start overflow-hidden rounded-2xl bg-leaf-100 shadow-sm">
+                        @if($cat->image)
+                            <img src="{{ asset('storage/' . $cat->image) }}" alt="{{ $cat->name }}" loading="lazy"
+                                 class="size-full object-cover transition duration-500 group-hover:scale-110">
+                        @else
+                            <div class="size-full grid place-items-center bg-leaf-600 text-white/80">
+                                <svg class="size-12" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12 11.204 2.04a1.125 1.125 0 0 1 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75"/></svg>
+                            </div>
+                        @endif
+                        {{-- İsim — alt gradient üstünde --}}
+                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-3 pt-8">
+                            <span class="block text-sm font-700 text-white leading-tight">{{ $cat->name }}</span>
                         </div>
-                    @endif
-                    {{-- İsim — alt gradient üstünde --}}
-                    <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-3 pt-8">
-                        <span class="block text-sm font-700 text-white leading-tight">{{ $cat->name }}</span>
-                    </div>
-                </a>
-            @endforeach
+                    </a>
+                @endforeach
+            </div>
+
+            {{-- Kaydırma okları (masaüstü) --}}
+            <button type="button" @click="scrollBy(-320)" aria-label="Geri kaydır"
+                    class="absolute left-0 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 sm:grid size-10 place-items-center rounded-full border border-paper bg-white text-bark shadow-md transition hover:bg-leaf-50 hover:text-leaf-800">
+                <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"/></svg>
+            </button>
+            <button type="button" @click="scrollBy(320)" aria-label="İleri kaydır"
+                    class="absolute right-0 top-1/2 hidden translate-x-1/2 -translate-y-1/2 sm:grid size-10 place-items-center rounded-full border border-paper bg-white text-bark shadow-md transition hover:bg-leaf-50 hover:text-leaf-800">
+                <svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+            </button>
         </div>
     </section>
 
