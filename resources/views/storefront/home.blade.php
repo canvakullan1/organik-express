@@ -105,14 +105,14 @@
         <div class="rounded-3xl bg-leaf-800 text-white overflow-hidden">
             <div class="grid lg:grid-cols-2">
                 <div class="p-8 sm:p-12">
-                    <span class="chip bg-white/15 text-white w-fit mb-4 backdrop-blur">Haftalık taze kutu</span>
+                    <span class="chip bg-white/15 text-white w-fit mb-4 backdrop-blur">Haftalık Taze Teslimat</span>
                     <h2 class="font-display text-2xl sm:text-3xl font-700 leading-tight">Nasıl Çalışır?</h2>
                     <div class="mt-6 space-y-6">
                         <div class="flex gap-4">
                             <span class="grid size-9 place-items-center rounded-full bg-white text-leaf-800 font-700 shrink-0">1</span>
                             <div>
-                                <h3 class="font-700">Haftalık lezzet dolu bir kutu seçin</h3>
-                                <p class="mt-1 text-sm text-leaf-100/80 leading-relaxed">İhtiyaçlarınıza uygun çeşitli hazır kutular sunuyoruz. Ürünlerimiz kendi tarlalarımızdan ve yetiştirici dostlarımızdan hasat edilir; her kutu her hafta özenle seçilip paketlenir.</p>
+                                <h3 class="font-700">İhtiyacınıza göre ürünlerinizi seçin</h3>
+                                <p class="mt-1 text-sm text-leaf-100/80 leading-relaxed">Yüzlerce organik ürün arasından dilediğinizi sepete ekleyin. Ürünlerimiz kendi tarlalarımızdan ve yetiştirici dostlarımızdan hasat edilir, özenle seçilip paketlenir.</p>
                             </div>
                         </div>
                         <div class="flex gap-4">
@@ -125,7 +125,7 @@
                     </div>
                     <p class="mt-6 inline-flex items-center gap-2 rounded-lg bg-clay-500/90 px-4 py-2.5 text-sm font-600">
                         <svg class="size-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
-                        Teslimat gününden 1 gün önce sipariş verin, %10 indirim kazanın.
+                        {{ number_format(app(\App\Settings\GeneralSettings::class)->free_shipping_threshold, 0, ',', '.') }} TL üzeri siparişlerde kargo ücretsiz.
                     </p>
                 </div>
 

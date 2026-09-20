@@ -296,6 +296,11 @@ if ($do === 'filehash') {
 ";
     exit;
 }
+if ($do === 'disable_early_discount') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    echo @shell_exec("cd $repo && $php artisan checkout:disable-early-discount 2>&1");
+    exit;
+}
 if ($do === 'test_delete_logic') {
     if (! $php) { exit("php bulunamadi
 "); }
