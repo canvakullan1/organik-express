@@ -127,6 +127,7 @@ class ImportCatalog2 extends Command
                 )->id;
             }
 
+            $producerCache = [];
             foreach ($data['products'] as $p) {
                 if (empty($p['slug']) || empty($p['name'])) {
                     continue;
@@ -140,6 +141,16 @@ class ImportCatalog2 extends Command
                 $catId = $this->resolveCategory($p['category'] ?? null);
                 if (! $catId) {
                     $noCat++;
+                }
+
+                // Ürün bazlı "producer" (ör. Nisa Organik gibi çoklu markalı kaynaklarda her
+                // ürünün kendi üreticisi farklı) dosya seviyesindeki tekli producer'ı geçersiz kılar.
+                $rowProducerId = $producerId;
+                if (! empty($p['producer'])) {
+                    $rowProducerId = $producerCache[$p['producer']] ??= Producer::firstOrCreate(
+                        ['name' => $p['producer']],
+                        ['is_active' => true],
+                    )->id;
                 }
 
                 // Ürün bazlı durum: kaynakta "status":"draft" varsa (ör. fiyatı sonra
@@ -158,7 +169,7 @@ class ImportCatalog2 extends Command
                     ['slug' => $p['slug']],
                     [
                         'category_id' => $catId,
-                        'producer_id' => $producerId,
+                        'producer_id' => $rowProducerId,
                         'name' => $p['name'],
                         'sku' => $sku,
                         'short_description' => $p['short_description'] ?? null,

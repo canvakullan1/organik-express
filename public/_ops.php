@@ -369,6 +369,11 @@ if ($do === 'list_categories') {
     echo @shell_exec("cd $repo && $php artisan catalog:list-categories 2>&1");
     exit;
 }
+if ($do === 'list_producers') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    echo @shell_exec("cd $repo && $php artisan catalog:list-producers 2>&1");
+    exit;
+}
 if ($do === 'stats') {
     // Katalog teshis raporu (durum + kaynak bazli sayim).
     if (! $php) { exit("php bulunamadi
