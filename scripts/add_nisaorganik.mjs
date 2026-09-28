@@ -239,13 +239,20 @@ const items = rows.filter(Boolean);
 console.error(`${items.length} üründe veri bulundu`);
 
 // ── 5) Dedup: mevcut katalogda aynı isim VEYA zaten ithal ettiğimiz bir markaysa
-//     VEYA bu dosyada zaten varsa atla.
+//     VEYA bu dosyada/bu ÇALIŞTIRMADA zaten varsa atla. ÖNEMLİ: Nisa'nın kendi
+//     sitesinde AYNI ürün birden çok URL'de (farklı SKU/kayıt) tekrarlanabiliyor
+//     — bu yüzden "bu çalıştırmada görüldü" kontrolü tek geçişte (aşağıdaki filter
+//     predicate'inin KENDİSİ İÇİNDE, ayrı bir enrichment loop'unda DEĞİL) yapılmalı;
+//     aksi halde aynı partideki yinelemeler birbirini yakalayamaz.
 const skipped = [];
+const batchSeenNames = new Set();
 const fresh = items.filter((it) => {
-  if (existingNames.has(norm(it.name))) { skipped.push(it.name + ' [mevcut katalogda var]'); return false; }
-  if (seenNames.has(norm(it.name))) { skipped.push(it.name + ' [bu kaynakta zaten var]'); return false; }
+  const n = norm(it.name);
+  if (existingNames.has(n)) { skipped.push(it.name + ' [mevcut katalogda var]'); return false; }
+  if (seenNames.has(n) || batchSeenNames.has(n)) { skipped.push(it.name + ' [bu kaynakta zaten var]'); return false; }
   if (it.price <= 0) { skipped.push(it.name + ' [fiyat yok]'); return false; }
   if (it.brand && knownProducers.has(normBrand(it.brand))) { skipped.push(`[${it.brand}] ${it.name} [marka zaten ithal edildi]`); return false; }
+  batchSeenNames.add(n);
   return true;
 });
 console.error(`${fresh.length} YENİ ürün, ${skipped.length} atlandı`);
