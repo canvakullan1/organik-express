@@ -374,6 +374,11 @@ if ($do === 'list_producers') {
     echo @shell_exec("cd $repo && $php artisan catalog:list-producers 2>&1");
     exit;
 }
+if ($do === 'fix_kvass') {
+    if (! $php) { exit("php bulunamadi\n"); }
+    echo @shell_exec("cd $repo && $php artisan catalog:fix-kvass-category 2>&1");
+    exit;
+}
 if ($do === 'stats') {
     // Katalog teshis raporu (durum + kaynak bazli sayim).
     if (! $php) { exit("php bulunamadi

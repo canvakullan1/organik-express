@@ -153,7 +153,7 @@ function mapCategory(name, brand) {
   if (has('kahve', 'çay', 'cayi', 'içecek', 'icecek', 'limonata', 'şurup', 'surup', 'konsantre',
     'espresso', 'melisa', 'ekinezya', 'ıhlamur', 'ihlamur', 'papatya', 'adaçay', 'adacay', 'çiçeği', 'cicegi',
     'shot', 'tonik', 'tonic', 'özü', 'ozu', 'meyve suyu', ' suyu', 'kozalak', 'kuzukulağı', 'kuzukulagi', 'kekre',
-    'kombucha', 'smoothie', 'fermente')) return 'icecek-cay';
+    'kombucha', 'smoothie', 'fermente', 'kvas')) return 'icecek-cay';
 
   // ── Taze sebze (kuru bakliyat çıkarıldıktan sonra) ──
   if (has('domates', 'salatalık', 'salatalik', 'biber taze', 'taze biber', 'patates', 'soğan', 'sogan',

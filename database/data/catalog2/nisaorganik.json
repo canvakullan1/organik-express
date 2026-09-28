@@ -113,7 +113,7 @@
     {
       "slug": "acili-pancar-kvass-990-ml",
       "name": "Acılı Pancar Kvass (990 ml)",
-      "category": "taze-sebze",
+      "category": "icecek-cay",
       "producer": "Kombucha 2200",
       "sku": "8682109052450",
       "price": 249,
@@ -9309,7 +9309,7 @@
     {
       "slug": "pancar-kvass-acili-330-ml",
       "name": "Pancar Kvass Acılı (330 ml)",
-      "category": "taze-sebze",
+      "category": "icecek-cay",
       "producer": "Kombucha 2200",
       "sku": "8682109052436",
       "price": 125,
@@ -10137,7 +10137,7 @@
     {
       "slug": "sade-pancar-kvass-330-ml",
       "name": "Sade Pancar Kvass (330 ml)",
-      "category": "taze-sebze",
+      "category": "icecek-cay",
       "producer": "Kombucha 2200",
       "sku": "8682109052429",
       "price": 125,
@@ -10155,7 +10155,7 @@
     {
       "slug": "sade-pancar-kvass-990-ml",
       "name": "Sade Pancar Kvass (990 ml)",
-      "category": "taze-sebze",
+      "category": "icecek-cay",
       "producer": "Kombucha 2200",
       "sku": "862109052443",
       "price": 249,
